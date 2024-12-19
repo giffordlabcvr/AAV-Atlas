@@ -1,0 +1,37 @@
+<!-- Parvoviridae reference sequences from NCBI -->
+<ncbiImporter>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- Dependoparvovirus Primate1 Reference Sequences-->
+		
+	<primaryAccession>NC_002077</primaryAccession> <!-- AAV-1 -->
+	<primaryAccession>NC_001401</primaryAccession> <!-- AAV-2 -->
+	<primaryAccession>NC_001729</primaryAccession> <!-- AAV-3 -->
+	<primaryAccession>NC_001829</primaryAccession> <!-- AAV-4 -->
+	<primaryAccession>AF028704</primaryAccession>  <!-- AAV-6 -->   
+	<primaryAccession>NC_006260</primaryAccession> <!-- AAV-7 -->
+	<primaryAccession>NC_006261</primaryAccession> <!-- AAV-8 -->
+	<primaryAccession>AX753250</primaryAccession>  <!-- AAV-9 -->
+	<primaryAccession>AY631965</primaryAccession>  <!-- AAV-10 -->
+	<primaryAccession>AY631966</primaryAccession>  <!-- AAV-11 -->
+	<primaryAccession>DQ813647</primaryAccession>  <!-- AAV-12 -->
+
+	<!-- Dependoparvovirus Ungulate1 Reference Sequences-->
+
+	<primaryAccession>NC_006152</primaryAccession> <!-- AAV-5 -->
+	<primaryAccession>DQ335246</primaryAccession>  <!-- CAAV -->
+	<primaryAccession>NC_005889</primaryAccession> <!-- BAAV -->
+	<primaryAccession>FJ688147</primaryAccession>  <!-- AAVpo1 -->
+
+	<!-- Other AAV Reference Sequences-->
+
+	<primaryAccession>MF416383</primaryAccession>  <!-- Murine AAV -->
+	<primaryAccession>NC_014468</primaryAccession> <!-- Bat AAV -->
+	<primaryAccession>NC_038539</primaryAccession> <!-- Sea lion AAV -->
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

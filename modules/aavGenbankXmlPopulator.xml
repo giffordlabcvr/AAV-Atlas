@@ -1,0 +1,177 @@
+<genbankXmlPopulator>
+
+	<gbOrganism>
+		<propertyPopulator property="full_name">
+		</propertyPopulator>
+	</gbOrganism>
+
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+	
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+		
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+
+
+	
+	<gbFeature key="source">
+	
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate"/>
+		</gbQualifier>
+		<gbQualifier name="country">
+			<propertyPopulator property="country"/>
+			<propertyPopulator property="place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="host">
+			<propertyPopulator property="sampled_host_sci_name">
+
+				<!-- #### HUMAN -->																																									
+				<valueConverter>
+					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+
+				<!-- #### NON-HUMAN PRIMATES-->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Rr]hesus monkey.*</matchPattern>
+					<matchPattern>.*[rR]hesus [mM]acaque.*</matchPattern>
+					<outputTemplate>Macaca mulatta</outputTemplate>
+				</valueConverter>
+
+
+				<!-- #### RODENTS -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[hH]imalayan [mM]armot.*</matchPattern>
+					<outputTemplate>Marmota himalayana</outputTemplate>
+				</valueConverter>
+ 				<valueConverter>
+					<matchPattern>.*[cC]oypu.*</matchPattern>
+					<outputTemplate>Myocastor coypus</outputTemplate>
+				</valueConverter>
+
+				<!-- #### MUSTELIDS -->
+				<valueConverter>
+					<matchPattern>.*[mM]ink.*</matchPattern>
+					<outputTemplate>Neovison vison</outputTemplate>
+				</valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[mM]ustela vison.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[nN]eovison vison.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[aA]merican mink.*</matchPattern>
+                    <outputTemplate>Neovison vison</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[rR]accoon dog.*</matchPattern>
+                    <outputTemplate>Nyctereutes procyonoides</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>[aA]rctic fox</matchPattern>
+                    <outputTemplate>Vulpes lagopus</outputTemplate>
+                </valueConverter>
+
+
+				<!-- #### Dromedary -->																																									
+                <valueConverter>
+                    <matchPattern>.*[dD]romedary camel.*</matchPattern>
+                    <outputTemplate>Camelus dromedarius</outputTemplate>
+                </valueConverter>
+
+				<!-- #### Porcine -->																																									
+ 				<valueConverter>
+					<matchPattern>.*[Pp]ig.*</matchPattern>
+					<matchPattern>.*[Pp]iglet.*</matchPattern>
+					<matchPattern>.*[Ss]wine.*</matchPattern>
+					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
+					<matchPattern>.*Sus scrofa*</matchPattern>
+					<matchPattern>.*[Pp]orcine.*</matchPattern>
+					<matchPattern>.*[Ww]ild boar.*</matchPattern>
+					<outputTemplate>Sus scrofa</outputTemplate>
+				</valueConverter>
+
+				<!-- #### Bovine -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Cc]ow.*</matchPattern>
+					<matchPattern>.*[Bb]ovine.*</matchPattern>
+					<matchPattern>.*[Cc]attle.*</matchPattern>
+					<matchPattern>.*[Cc]alf.*</matchPattern>
+					<matchPattern>.*Bos taurus.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>	
+
+
+				<!-- #### Avian -->																																									
+                <valueConverter>
+                    <matchPattern>.*[cC]hicken.*</matchPattern>
+                    <outputTemplate>Gallus gallus</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[mM]uscovy duck.*</matchPattern>
+                    <outputTemplate>Cairina moschata</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[pP]ekin duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[pP]eking duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+                 <valueConverter>
+                    <matchPattern>.*[cC]herry [vV]alley duck.*</matchPattern>
+                    <outputTemplate>Anas platyrhynchos</outputTemplate>
+                </valueConverter>
+               <valueConverter>
+                    <matchPattern>.*[gG]osling.*</matchPattern>
+                    <outputTemplate>Anser anser</outputTemplate>
+                </valueConverter>
+                <valueConverter>
+                    <matchPattern>.*[gG]oose.*</matchPattern>
+                    <outputTemplate>Anser anser</outputTemplate>
+                </valueConverter>
+                				
+			</propertyPopulator>
+		</gbQualifier>
+
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		
+		
+		
+	</gbFeature>
+	
+</genbankXmlPopulator>
