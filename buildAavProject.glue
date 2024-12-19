@@ -1,0 +1,86 @@
+delete project aav
+
+create project aav "A GLUE project for adeno-associated viruses (AAVs)" --minVersion 1.1.107
+
+run file glue/aavSchemaExtensions.glue
+ 
+project aav
+
+  run file glue/aavProjectSettings.glue
+  run file glue/aavModules.glue
+
+  # Define aav virus features
+  run file glue/aavFeatures.glue
+
+
+  #~# Base project build  
+
+  # Import sources
+  import source sources/ncbi-refseqs
+
+  # Import reference sequence data
+  run file glue/aavImportData.glue
+  
+  # Define references
+  run file glue/aavReferences.glue
+
+  # Define feature locations on master reference
+  run file glue/aavFeatureLocations.glue
+
+  # Import unconstrained alignments
+  run file glue/aavImportUnconstrainedAlignments.glue
+
+  # Define alignment tree
+  run file glue/aavAlignmentTree.glue
+
+  # Derive constrained MSAs from unconstrained
+  run file glue/aavDeriveConstrainedMsas.glue
+
+  # Compute reference phylogenies
+  #run file glue/aavComputeRefPhylogeny.glue
+
+  # Prepare reference phylogenies
+  run file glue/aavPrepareRefPhylogeny.glue
+
+  # Import reference phylogenies
+  run file glue/aavImportPhylogeny.glue
+
+
+  #~# Process NCBI nuccore 
+
+  # NCBI nuccore sequences
+  import source sources/ncbi-nuccore-aav
+
+  # Extract data from GenBank for NCBI nuccore set
+  module aavGenbankXmlPopulator populate -w "source.name = 'ncbi-nuccore-aav'"
+
+  # Do segment 4 classification
+  #run script glue/aavClassifyNuccore.js
+
+  # Load side data
+  module aavSideDataImporterSpecies populate -f tabular/aav-nuccore.tsv
+
+  # Load patent data
+  create module -f modules/aavSideDataImporterPatent.xml
+  module aavSideDataImporterPatent populate -f tabular/aav-patent.tsv
+
+  # Add genotyped nuccore sequences to alignment tree
+  run file glue/aavAlignmentTreeNuccore.glue
+
+  # Align nuccore sequences
+  run file glue/aavComputeAlignmentsNuccore.glue
+
+  # Align nuccore sequences
+  run file glue/aavComputeAlignmentsNuccore.glue
+
+  # Run script to calculate aa replacements
+  #run script glue/aavGenerateReplacements.js
+
+  # Count the number of sequences in which variants occur
+  #run script glue/aavSetVariantNumSeqs.js
+
+  # Validate
+  validate
+
+  exit
+

@@ -1,0 +1,39 @@
+	add feature-location Beta-B
+	feature-location Beta-B
+	  add segment 2914 2955
+	  exit
+		
+	add feature-location VL_I
+	feature-location VL_I
+	  add segment 2986 3006
+	  exit
+		
+	add feature-location Beta-C
+	feature-location Beta-C
+	  add segment 3028 3054
+	  exit
+		
+	add feature-location Beta-D
+	feature-location Beta-D
+	  add segment 3112 3171
+	  exit
+		
+	add feature-location VL_II
+	feature-location VL_II
+	  add segment 3178 3192
+	  exit
+		
+	add feature-location Beta-E
+	feature-location Beta-E
+	  add segment 3214 3240
+	  exit
+		
+	add feature-location VL_III
+	feature-location VL_III
+	  add segment 3343 3363
+	  exit
+		
+	add feature-location Beta-F
+	feature-location Beta-F
+	  add segment 3403 3414
+	  exit

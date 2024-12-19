@@ -1,0 +1,24 @@
+  
+  # Primate
+  create reference REF_MASTER_AAV2	ncbi-refseqs NC_001401
+  create reference REF_AAV1			ncbi-refseqs NC_002077
+  create reference REF_AAV3			ncbi-refseqs NC_001729
+  create reference REF_AAV4			ncbi-refseqs NC_001829
+  create reference REF_AAV6			ncbi-refseqs AF028704 
+  create reference REF_AAV7			ncbi-refseqs NC_006260 
+  create reference REF_AAV8			ncbi-refseqs NC_006261 
+  create reference REF_AAV9			ncbi-refseqs AX753250 
+  create reference REF_AAV10		ncbi-refseqs AY631965 
+  create reference REF_AAV11		ncbi-refseqs AY631966 
+  create reference REF_AAV12		ncbi-refseqs DQ813647 
+
+  # Ungulate
+  create reference REF_AAVpo1		ncbi-refseqs FJ688147 
+  create reference REF_CAAV			ncbi-refseqs DQ335246 
+  create reference REF_BAAV			ncbi-refseqs NC_005889
+  create reference REF_AAV5			ncbi-refseqs NC_006152 
+
+  # Other
+  create reference REF_MAAV			ncbi-refseqs MF416383
+  create reference REF_BatAAV		ncbi-refseqs NC_014468
+  create reference REF_PinAAV		ncbi-refseqs NC_038539

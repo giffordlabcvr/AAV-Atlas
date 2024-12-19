@@ -1,0 +1,21 @@
+  delete module aavPhyloUtility
+  delete module aavFigTreeAnnotationExporter
+  
+  create module -f modules/aavPhyloUtility.xml
+  
+  module aavPhyloUtility
+  
+	# midpoint rooting
+
+	reroot-phylogeny \
+      --inputFile trees/aavReferencePhylogeny.tree NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/aavReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+    
+  
+  # Export annotations
+  create module -f modules/aavFigTreeAnnotationExporter.xml
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_UNC_TREE_AAV -f trees/AL_UNC_AAV.annotations.tsv
+

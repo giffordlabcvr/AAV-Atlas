@@ -1,0 +1,48 @@
+
+  #~# Derive segments
+  
+  alignment AL_AAV3a
+    derive segments AL_UNC_AAV3a -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV3b
+    derive segments AL_UNC_AAV3b -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV4
+    derive segments AL_UNC_AAV4 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV5
+    derive segments AL_UNC_AAV5 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV6
+    derive segments AL_UNC_AAV6 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV7
+    derive segments AL_UNC_AAV7 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV8
+    derive segments AL_UNC_AAV8 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV9
+    derive segments AL_UNC_AAV9 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV10
+    derive segments AL_UNC_AAV10 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV11
+    derive segments AL_UNC_AAV11 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV12
+    derive segments AL_UNC_AAV12 -a --mergeStrategy OVERWRITE
+    exit
+
+

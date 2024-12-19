@@ -1,0 +1,55 @@
+  #~# Root (Genus)
+  
+  alignment AL_AAV_ROOT add member -w "source.name = 'ncbi-nuccore-aav'"
+
+  alignment AL_AAV_ROOT
+  
+    demote member AL_DependoA         --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.lineage = 'DependoA'" 
+    demote member AL_DependoB         --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.lineage = 'DependoB'" 
+    demote member AL_DependoRodent    --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.lineage = 'Rodent'" 
+    demote member AL_DependoBat       --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.lineage = 'Bat'" 
+    demote member AL_DependoCarnivore --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.lineage = 'Carnivore'" 
+    exit
+
+
+
+  #~# Tip alignments (virus species level)  
+  alignment AL_DependoA
+  
+    demote member AL_AAV1              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV1'" 
+    demote member AL_AAV2              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV2'" 
+    demote member AL_AAV3              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV3'" 
+    demote member AL_AAV4              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV4'" 
+    demote member AL_AAV6              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV6'" 
+    demote member AL_AAV7              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV7'" 
+    demote member AL_AAV8              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV8'" 
+    demote member AL_AAV9              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV9'" 
+    demote member AL_AAV10             --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV10'" 
+    demote member AL_AAV11             --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV11'" 
+    demote member AL_AAV12             --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV12'" 
+    exit
+
+  alignment AL_DependoB
+
+    demote member AL_AAV5              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAV5'" 
+    demote member AL_BAAV              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'BAAV'" 
+    demote member AL_AAVpo1            --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'AAVpo1'" 
+    demote member AL_CAAV              --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'CAAV'" 
+    exit
+
+  alignment AL_DependoRodent
+
+    demote member AL_MAAV        --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'MAAV'"  
+    exit
+
+  alignment AL_DependoBat
+
+    demote member AL_BatAAV    --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'BatAAV'"   
+    exit
+
+  alignment AL_DependoCarnivore
+
+    demote member AL_PinAAV     --whereClause "sequence.source.name = 'ncbi-nuccore-aav' and sequence.species = 'PinAAV'" 
+    exit
+
+

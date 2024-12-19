@@ -1,0 +1,12 @@
+  # Delete extension modules
+  
+  # Delete extension alignments
+  #multi-delete alignment -w "name like 'AL_UNC_EPV%'" 
+  #delete alignment AL_Sauria
+
+  # Delete extension reference sequences
+  #multi-delete reference -w "name like 'REF_EPV%'"
+
+  # Delete sources
+  delete source ncbi-curated-dependo
+

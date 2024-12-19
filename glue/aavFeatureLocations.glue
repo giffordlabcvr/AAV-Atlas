@@ -1,0 +1,451 @@
+
+	#~#~# Dependo Primate 1
+
+	reference REF_MASTER_AAV2
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4679
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 320
+	  exit
+
+ 	#add feature-location 5UTR_ITRA'
+	#feature-location 5UTR_ITRA'
+	#  add segment 1 41
+	#  exit
+
+ 	#add feature-location 5UTR_ITRB
+	#feature-location 5UTR_ITRB
+	#  add segment 42 50
+	#  exit
+
+ 	#add feature-location 5UTR_TerminalLoop
+	#feature-location 5UTR_TerminalLoop
+	#  add segment 51 53
+	#  exit
+
+ 	#add feature-location 5UTR_ITRB'
+	#feature-location 5UTR_ITRB'
+	#  add segment 54 53
+	#  exit
+
+ 	#add feature-location 5UTR_ITRA
+	#feature-location 5UTR_ITRA
+	#  add segment 85 145
+	#  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 321 2186
+	  exit
+
+	add feature-location Rep68
+	feature-location Rep68
+	  add segment 321 1906  --spliceIndex 1
+	  add segment 2228 2252 --spliceIndex 2
+	  exit
+
+	add feature-location Rep40
+	feature-location Rep40
+	  add segment 993 2252
+	  exit
+
+	add feature-location Rep52
+	feature-location Rep52
+	  add segment 993 2186
+	  exit
+		
+	add feature-location RCR
+	feature-location RCR
+	  add segment 585 608
+	  exit
+		
+	add feature-location ATPase-A
+	feature-location ATPase-A
+	  add segment 1308 1370
+	  exit
+		
+	add feature-location ATPase-B
+	feature-location ATPase-B
+	  add segment 1440 1469
+	  exit
+		
+	add feature-location ATPase-C
+	feature-location ATPase-C
+	  add segment 1440 1586
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2203 4410
+	  exit
+		
+	add feature-location VP2
+	feature-location VP2
+	  add segment 2614 4410
+	  exit
+		
+	add feature-location AAP
+	feature-location AAP
+	  add segment 2729 3343
+	  exit
+		
+	add feature-location VP3
+	feature-location VP3
+	  add segment 2809 4410
+	  exit
+		
+	add feature-location X
+	feature-location X
+	  add segment 3929 4396
+	  exit
+		
+	add feature-location PLA2
+	feature-location PLA2
+	  add segment 2332 2514
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4411 4679
+	  exit
+	
+	exit 
+
+
+	reference REF_AAV1
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4718
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 334
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 335 2206
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2223 4433
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4434 4718
+	  exit
+	
+	exit 
+
+
+
+	reference REF_AAV3
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4726
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 317
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 318	2192
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2209	4419
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4420 4726
+	  exit
+	
+	exit 
+	
+
+	reference REF_AAV4
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4767
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 371
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 372 2243
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2260 4464 
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4465 4767
+	  exit
+	
+	exit 
+
+
+
+	reference REF_AAV6
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4683
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 319
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 320 2191
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2208 4418
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4419 4683
+	  exit
+	
+	exit 
+
+
+
+	reference REF_AAV7
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4721
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 333
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 334 2205
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2222 4435
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4436 4721
+	  exit
+	
+	exit 
+
+
+
+
+	reference REF_AAV8
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4393
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 226
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 227 2104
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2121 4337
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4336 4393
+	  exit
+	
+	exit 
+
+
+
+	reference REF_AAV9
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4385
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 227
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 228 2099
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2116 4329
+	  exit
+		
+ 	add feature-location 3UTR
+	feature-location 3UTR
+	  add segment 4330 4385
+	  exit
+	
+	exit 
+
+
+	reference REF_AAV10
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4102
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 1 1869
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 1886 4102
+	  exit
+	
+	exit 
+
+
+	reference REF_AAV11
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4087
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 1 1869
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 1886 4087
+	  exit
+	
+	exit 
+
+
+	reference REF_AAV12
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4213
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 102
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 103 1968
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 1985 4213
+	  exit
+
+	exit 
+
+
+	#~#~# Dependo Mammal 1
+
+	reference REF_AAV5
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4642
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 358
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 359 2191
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2207 4381
+	  exit
+
+	exit 
+
+
+	reference REF_BAAV
+ 
+ 	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 4693
+	  exit
+
+ 	add feature-location 5UTR
+	feature-location 5UTR
+	  add segment 1 367
+	  exit
+
+ 	add feature-location Rep78
+	feature-location Rep78
+	  add segment 368 2200
+	  exit
+
+	add feature-location VP1
+	feature-location VP1
+	  add segment 2216 4426
+	  exit
+
+	exit 
+

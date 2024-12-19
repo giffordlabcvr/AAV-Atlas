@@ -1,0 +1,17 @@
+delete module aavCompoundAligner
+create module -f modules/aavCompoundAligner.xml
+
+compute alignment AL_AAV1 aavCompoundAligner
+compute alignment AL_AAV2 aavCompoundAligner
+compute alignment AL_AAV3 aavCompoundAligner
+compute alignment AL_AAV4 aavCompoundAligner
+compute alignment AL_AAV5 aavCompoundAligner
+compute alignment AL_AAV6 aavCompoundAligner
+compute alignment AL_AAV7 aavCompoundAligner
+compute alignment AL_AAV8 aavCompoundAligner
+compute alignment AL_AAV9 aavCompoundAligner
+compute alignment AL_AAV10 aavCompoundAligner
+compute alignment AL_AAV11 aavCompoundAligner
+compute alignment AL_AAV12 aavCompoundAligner
+
+compute alignment AL_DependoA aavCompoundAligner

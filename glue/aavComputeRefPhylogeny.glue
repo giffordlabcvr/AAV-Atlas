@@ -1,0 +1,14 @@
+  # Clean-up
+  
+  # Delete modules
+  delete module aavNucsRaxmlPhylogenyGenerator
+  
+  # Create all the modules we need
+  create module -f modules/aavNucsRaxmlPhylogenyGenerator.xml
+
+  # Create the phylogeny (without outgroup)
+  module aavNucsRaxmlPhylogenyGenerator
+    
+    generate nucleotide phylogeny AL_UNC_TREE_AAV -a -o trees/aavReferencePhylogeny.tree NEWICK_BOOTSTRAPS
+      
+    exit    

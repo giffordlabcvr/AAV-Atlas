@@ -1,0 +1,21 @@
+  delete module aavFeaturePresenceRecorder
+  create module -f modules/aavFeaturePresenceRecorder.xml
+
+  module aavFeaturePresenceRecorder 
+
+    record feature-presence AL_AAV1  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV2  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV3a --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV3b --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV4  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV6  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV7  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV8  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV9  --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV10 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV11 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_AAV12 --recursive --featureName whole_genome --descendentFeatures
+
+
+    exit
+

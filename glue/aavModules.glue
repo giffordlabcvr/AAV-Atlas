@@ -1,0 +1,22 @@
+
+	# Basic modules
+	create module -f modules/tabularUtilityCsv.xml
+	create module -f modules/tabularUtilityTab.xml
+	
+	# Alignment
+	create module -f modules/aavCompoundAligner.xml
+
+	# Import modules
+	create module --fileName modules/unconstrainedAlignmentImporter.xml
+	create module --fileName modules/aavGenbankXmlPopulator.xml
+	create module --fileName modules/aavSideDataImporterSpecies.xml
+
+	# Create genotyping modules
+	create module -f modules/aavMaxLikelihoodGenotyper.xml
+	create module -f modules/aavMaxLikelihoodPlacer.xml
+
+    # AA replacement analysis modules
+	create module -f modules/aavMiyata1979DistanceCalculator.xml
+	create module -f modules/aavHanada2006ReplacementClassifier.xml
+	create module -f modules/aavGrantham1974DistanceCalculator.xml
+	

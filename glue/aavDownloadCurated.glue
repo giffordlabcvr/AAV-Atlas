@@ -1,0 +1,5 @@
+# Download Dependoparvovirus sequences from NCBI GenBank  
+
+create module -f modules/build/dependoNcbiImporterGenBank.xml
+
+module dependoNcbiImporterGenBank import

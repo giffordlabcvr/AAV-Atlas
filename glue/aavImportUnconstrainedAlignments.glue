@@ -1,0 +1,30 @@
+  # Import unconstrained pre-built alignments
+
+  module unconstrainedAlignmentImporter
+
+    #~# Root-level
+    
+    import AL_UNC_ROOT_AAV  -f alignments/root/aav-mammal.aln.fna
+    import AL_UNC_TREE_AAV  -f alignments/root/aav-mammal-all.aln.fna
+    
+    #~# Internal
+ 
+    import AL_UNC_DependoA  -f alignments/internal/dependo-a.aln.fna
+    import AL_UNC_DependoB  -f alignments/internal/dependo-b.aln.fna
+         
+    #~# Tip
+ 
+    #import AL_UNC_AAV1  -f alignments/tip/aav1.aln.fna
+    #import AL_UNC_AAV2  -f alignments/tip/aav2.aln.fna 
+    #import AL_UNC_AAV3  -f alignments/tip/aav3.aln.fna
+    #import AL_UNC_AAV4  -f alignments/tip/aav4.aln.fna
+    #import AL_UNC_AAV5  -f alignments/tip/aav5.aln.fna
+    #import AL_UNC_AAV6  -f alignments/tip/aav6.aln.fna
+    #import AL_UNC_AAV7  -f alignments/tip/aav7.aln.fna
+    #import AL_UNC_AAV8  -f alignments/tip/aav8.aln.fna
+    #import AL_UNC_AAV9  -f alignments/tip/aav9.aln.fna
+    #import AL_UNC_AAV10 -f alignments/tip/aav10.aln.fna
+    #import AL_UNC_AAV11 -f alignments/tip/aav11.aln.fna
+    #import AL_UNC_AAV12 -f alignments/tip/aav12.aln.fna
+    
+    exit

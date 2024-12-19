@@ -1,0 +1,43 @@
+  # Clean up from any previous run of this file
+  delete module raxmlPhylogenyGenerator
+  delete module phyloUtility
+  delete module dependoFigTreeAnnotationExporter
+  delete module alignmentColumnsSelectorAavVp1
+ 
+  # Create all the modules we need  
+  create module -t raxmlPhylogenyGenerator
+  create module -t modules/phyloUtility  
+  create module -f modules/core/dependoFigTreeAnnotationExporter.xml
+  create module -f modules/core/alignmentColumnsSelectorAavVp1.xml
+
+
+    # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_AAV_All -s alignmentColumnsSelectorAavVp1 \
+      -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genbank-extension/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Re-root phylogeny 
+  module phyloUtility
+  
+	reroot-phylogeny \
+      --inputFile trees/genbank-extension/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genbank-extension/aav-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Export annotations
+  module dependoFigTreeAnnotationExporter 
+  
+    export figtree-annotation AL_AAV_All \
+    -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    -f trees/genbank-extension/vp1FigtreeAnnotations.tsv
+        
+  exit
+
