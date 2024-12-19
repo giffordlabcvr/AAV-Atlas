@@ -1,0 +1,5 @@
+# Download AAV sequences from NCBI GenBank  
+
+create module -f modules/download/ncbiImporterAavNuccoreShort.xml
+
+module ncbiImporterAavNuccoreShort import

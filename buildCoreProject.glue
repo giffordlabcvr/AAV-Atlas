@@ -3,6 +3,8 @@ delete project aav
 create project aav "A GLUE project for adeno-associated viruses (AAVs)" --minVersion 1.1.107
 
 run file glue/aavSchemaExtensions.glue
+
+#~# Base project build  
  
 project aav
 
@@ -11,9 +13,6 @@ project aav
 
   # Define aav virus features
   run file glue/aavFeatures.glue
-
-
-  #~# Base project build  
 
   # Import sources
   import source sources/ncbi-refseqs-aav

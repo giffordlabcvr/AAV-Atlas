@@ -1,5 +1,4 @@
-delete project aav
- 
+
 project aav
 
   #~# Process NCBI nuccore 
@@ -38,5 +37,5 @@ project aav
   # Validate
   validate
 
-  exit
+  exit 
 

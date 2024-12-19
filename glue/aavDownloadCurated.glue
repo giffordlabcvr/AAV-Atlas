@@ -1,5 +1,5 @@
-# Download Dependoparvovirus sequences from NCBI GenBank  
+# Download AAV sequences from NCBI GenBank  
 
-create module -f modules/build/dependoNcbiImporterGenBank.xml
+create module -f modules/download/ncbiImporterAavNuccore.xml
 
-module dependoNcbiImporterGenBank import
+module ncbiImporterAavNuccore import

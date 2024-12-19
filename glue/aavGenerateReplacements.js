@@ -13,6 +13,8 @@ var comparisonRefName = "REF_MASTER_AAV2";
 
 var tipAlignments = {};
 tipAlignments['AL_AAV2']= 1;
+tipAlignments['AL_AAV5']= 1;
+tipAlignments['AL_AAV6']= 1;
 
 // production
 var whereClause = "sequence.source.name = 'ncbi-nuccore-aav'";
