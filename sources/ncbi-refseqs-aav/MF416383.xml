@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF416383</GBSeq_locus>
+    <GBSeq_length>4339</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-APR-2018</GBSeq_update-date>
+    <GBSeq_create-date>25-APR-2018</GBSeq_create-date>
+    <GBSeq_definition>Murine adeno-associated virus 1 isolate MAAV1/NYC/Manhattan/poolF1, partial genome</GBSeq_definition>
+    <GBSeq_primary-accession>MF416383</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF416383.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF416383.1|</GBSeqid>
+      <GBSeqid>gi|1379071687</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Murine adeno-associated virus 1</GBSeq_source>
+    <GBSeq_organism>Murine adeno-associated virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus rodent1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4339</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Willams,S.H.</GBAuthor>
+          <GBAuthor>Che,X.</GBAuthor>
+          <GBAuthor>Garcia,J.A.</GBAuthor>
+          <GBAuthor>Klena,J.D.</GBAuthor>
+          <GBAuthor>Lee,B.</GBAuthor>
+          <GBAuthor>Muller,D.</GBAuthor>
+          <GBAuthor>Ulrich,W.</GBAuthor>
+          <GBAuthor>Corrigan,R.M.</GBAuthor>
+          <GBAuthor>Nichol,S.</GBAuthor>
+          <GBAuthor>Jain,K.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Viral Diversity of House Mice in New York City</GBReference_title>
+        <GBReference_journal>MBio 9 (2), e01354-17 (2018)</GBReference_journal>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4339</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Williams,S.H.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-JUN-2017) Center for Infection &amp; Immunity, Columbia University, 722 West 168th St, New York, NY 10034, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: MIRA v. 4 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4339</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4339</GBInterval_to>
+            <GBInterval_accession>MF416383.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Murine adeno-associated virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MAAV1/NYC/Manhattan/poolF1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>pooled fecal pellets</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mus musculus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2171377</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Aug-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>314..2032</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>2032</GBInterval_to>
+            <GBInterval_accession>MF416383.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWB14637.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MTSFYEVVVKLPSDFYDDLPGIDHVWIDNLCEENLHPPDTCDFDLSLVEPAYVNLAERIKQEIILEWSYRAGKHRYFIQLEKGEQFFHLHVLLDTVDVKGFVFARYASGFKQRIRERVYCGIEPLIPDWFEITKTKKVGGANAVRGEAYIYNYLLPKKQSELQWAWTNIPTFELAALNLNERQRLLEERRAEELAAREERQQSDSNSQNRVYGKAAERYMALVNWLVSNGITSEKEWIQADQVSYLTQNATSNGRAQIKTALDNASRIMQLTKTATDYLIGPSPPADVTTNRVYRIFEMNGYDPQLAGSILLGWANRRFGKRNAIWLYGPATTGKTNIAEAIAHAVPFYGCVNWTNENFPFNDCVNKMLIWWEEGKMTAKIVESAKSILGGSRVRVDQKCKASQQIDSTPVIITSNTDMTMVVDGNTTTFEHREALEDRMFQFYLGKRLDNDFGKIDKKEVREFFKWAELNQVPPPHVFRVPRVHDAGYKRPDSPAASSYATERPSGEEPAAKRPRYEHKPVDNGREEKSTLDLWFHGNPTPAPMVVHDLMDSSGSVFNMTIRECPDSNKEQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2049..4280</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2049</GBInterval_from>
+            <GBInterval_to>4280</GBInterval_to>
+            <GBInterval_accession>MF416383.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWB14638.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSFFDWIGKQYAQGAAEFWDLKSGPPAPKKARKDGSAGFNFPGHKYLGPGNSLDRGDPVDADDAAAQKHDQSYQEQLEAGDNPYLKYNHADREFQEALKGDTSFEGNLARGLFEAKKLVAEPLGLVEPELAPPSGRKRPVQSSQESGYSSSQDKRPNLDLDEEDRELAAAAAETETGSAPPTGNLGPGTMAGGGSAPIDDGSYGADGVGNASGDWHCDSIWMDDRVVTRTTRTWNLPTYNNHVYKRLNGNTEQTTGDGSYFGFSTPWGYFDFNRFHCHFSPRDWQRLINNNWGLRPKSLRFKIFNIQVKEVTVQDQTTIISNNLTSTVQVFADTDYQLPYVIGSAHEGCLPPFPADVFMLPQYAYCTRQDTNSSNPTPRSAFYCLEYFPSKMLRTGNNFEFTYNFEKVPFHSMWAHNQSLDRLMNPLIDQYLYYLNQTTNSALSSRSKTGYEPSHRSVFVLPQSNYNSALSYNKSTKSNLPEQERNWLPGPGIRNQTWFSSGTGNMAVDAMWNYSNKYVLENRASKIAPGPAMGIESTKVDGNGLIFSKEYITNSTTANADQVNVTRETEINSTNPLAGKSLGAHANNIQNQTTLPTLANTDIMPVLPGSVWQNRDIYLQGQIWAKIPHTDGHFHPSPLMGGFGLKNPPPQILIKNTPVPANPPVEFTAGKINSFITQYSTGQVTVEMEWELQKETSKRWNPEIQYSDDSSATNQSVLHFAPNETGEYKEFRSIGSRYLTRPL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tagtagccgccgaaggcggctactatcgtcggacgagactaggcgccttcggcgcctagtctcgcccggggggcgggcgcttggtgagcgagcgagcagataagataaaaacctacttcaacacgtgaagacttggagacggatgttgttttgtctgtttgctttcctgttggtaggctccgcctttctgctaatatggcggatatgcaaattatgttcgcaatgcctgctgggtaagtcaccgtatgtgtaaagtgtatgtgtgtgactaagcatctttgttcacttcgcgcgattctctcgctcgctcacgatgacgtcgttctacgaagtagtggtgaagctgcccagcgacttctacgatgacctgcctggaatcgaccacgtctggatcgacaacctctgcgaggagaatctacaccctccggatacgtgtgactttgacctgtctttggttgaacctgcctatgttaacctagctgaacgaatcaagcaagagatcatcttggagtggagttatcgcgctggaaaacacaggtactttattcagctcgaaaagggcgaacaattctttcatttgcacgtgctattggacacggtggacgtgaaaggattcgtctttgcccgctacgcttccggtttcaaacaacgaatcagagaacgcgtctactgcggaatcgagcctctaatacctgattggttcgaaattaccaagaccaagaaggtaggcggggctaacgctgtgcgtggagaagcctatatatataactacttgctacccaagaagcagtcggaactgcagtgggcttggacaaatatccccacttttgaactcgctgctttgaacttgaacgagcgacagcgtctactggaagaaaggcgtgcggaagaacttgctgctagagaggagagacaacagtcggactctaactctcagaatcgagtctacggcaaagccgctgaaaggtatatggccctggtgaactggctcgtgagcaacggcatcacttccgagaaggaatggatccaggccgaccaggtgtcgtaccttacccagaacgccacttccaatggtcgcgctcagatcaagaccgctctcgacaacgcttctcgaattatgcagctaacgaagacggctaccgattacctgattgggccatcaccgccggcagacgttaccacgaatcgtgtgtatcgcatattcgagatgaatggctacgatccccagctggctgggagtatactgttaggctgggccaaccgccgatttggaaagagaaacgccatctggctctatggtcccgccaccacgggcaaaacaaatattgcagaggctattgcacacgctgtgcctttctatggatgtgtgaactggaccaacgagaactttcccttcaacgactgcgtcaacaagatgctcatctggtgggaagaaggcaagatgaccgccaagatcgtcgagtctgccaagagcatcctcggtggcagtcgcgttcgcgtcgatcagaagtgcaaagcgagccaacagatcgacagcactcccgtcatcatcaccagcaatacagacatgacgatggtcgtcgacggcaacactaccactttcgaacaccgagaggcgctcgaggatcggatgttccagttctacctgggaaagagactcgacaatgattttgggaagatcgacaagaaagaagtgcgcgagttctttaaatgggcggagctgaatcaagttccgccccctcacgtgttcagagtgcctcgggtccatgacgctgggtataaaaggccagactctcctgctgcttcgtcatacgcgacggagagacccagcggagaggagcctgctgccaaacgcccgaggtacgaacacaaaccggtggacaatgggagggaggagaaaagtacgctggacttgtggtttcatgggaatcccacccctgcccccatggtcgtgcacgacctgatggattcgagcggttctgtgtttaatatgactattcgggagtgccccgattctaataaagagcaatgatttactcaaagtagtcatgtctttctttgattggataggtaaacagtacgctcaaggagctgctgaattctgggatttgaagtccggtcctcctgcaccaaaaaaggcgcgaaaggacggatccgccggattcaatttccctgggcacaagtacctgggtcctggcaattcattggatcgcggagatcccgtggacgccgacgacgctgctgctcaaaagcacgaccagtcgtatcaagaacagcttgaggcgggagacaatccctacctcaagtacaatcacgcggatcgcgagttccaggaggcgttgaaaggagacacctccttcgaaggaaatctcgcgagaggactctttgaggccaagaagctcgttgcagagcctctcggccttgttgaaccggaactggcgccacctagtggccgcaagcgaccggtgcaatcgagtcaagaatctggttactcgagtagccaagacaagcggcccaacctcgacttagacgaggaggatcgtgagctcgctgccgctgcagcggagaccgaaactggaagcgctccccccaccggcaatttgggacctggtacgatggctggaggcggtagcgcgccaatcgacgacggctcgtatggtgccgatggagtgggcaatgcctcgggagattggcattgcgattccatatggatggacgaccgtgtcgtcacccgcaccactcggacctggaacctgcccacctacaataaccacgtctacaaacgactcaacggaaacacggaacagaccaccggagatggaagctacttcggattcagcaccccgtggggatacttcgacttcaaccgcttccactgtcatttctcccccagagactggcaaagactcatcaataacaattggggactcagaccaaaaagtctacggttcaaaatctttaacattcaggttaaagaggtcacggtgcaagaccaaacgacgatcatctccaataaccttaccagcacggttcaagtgtttgcggacacggactatcaattgccgtacgtgattggttctgctcacgaaggttgtctgcctcctttcccagccgatgtgtttatgctgccgcagtatgcatactgcactcgacaagacacaaacagcagtaatcccactcccagaagcgctttctattgtttggaatactttcccagcaagatgttgagaactggtaacaactttgaatttacttacaattttgagaaggtgcccttccacagcatgtgggctcataaccagtctttagatcggctgatgaaccctctcatcgatcagtatttgtactacctcaatcaaactacaaatagtgctctatccagccgatctaagactggttatgaaccctctcatcgatcagtatttgtactacctcaatcaaactacaatagtgctctatcctacaacaaatcaacaaaatcaaatctacctgagcaagaacgcaactggctacctggacctggcatcagaaatcaaacgtggttcagcagtggaactggcaacatggctgtagacgccatgtggaactactcgaataagtatgtgctggagaacagagcttccaagattgctcctggtccagctatggggattgagtcaacaaaagtagatggcaatggactaatcttctctaaagagtatataactaattcaaccaccgcgaatgctgatcaagtgaacgtcactagagaaactgaaatcaactcaaccaatcccttggcgggcaaatcacttggagctcatgcgaacaatatacagaaccagacaacactgccaacacttgctaatactgacatcatgccggtactacctggcagcgtttggcagaatagagatatctaccttcaaggccaaatctgggcgaagattcctcacacagatggacactttcatccttcaccgctaatgggaggattcggtctaaagaatcctcctcctcaaatactgatcaagaacacaccagtgccagcaaatcctccggtagaatttacagctggcaagattaactctttcatcactcagtattcaactggtcaagtcacagtcgaaatggaatgggaacttcagaaagaaacatccaaaagatggaatccagagatccaatacagcgacgactcatcagccaccaaccaatcggtgctgcactttgctccaaacgaaacaggagagtacaaggaattccgttcaattggatcccgttatctcactcgtcctctgtaaatgtttcctcatgttatgtcaatttttctaataaaacgaaacccgcatgggtgattcgg</GBSeq_sequence>
+  </GBSeq>
