@@ -8,8 +8,8 @@ var featuresList = glue.tableToObjects(
 var comparisonRefName = "REF_MASTER_AAV2";
 
 // get alignment set to process
-//var tipAlignments = {};
-//getTipAlignments(tipAlignments);
+var tipAlignments = {};
+getTipAlignments(tipAlignments);
 
 var tipAlignments = {};
 tipAlignments['AL_AAV2']= 1;
@@ -21,6 +21,9 @@ var whereClause = "sequence.source.name = 'ncbi-nuccore-aav'";
 
 // Iterate through tip alignments
 _.each(_.keys(tipAlignments), function(alignmentName) {
+
+	// log output
+    glue.log("INFO", "Processing alignment: ", alignmentName);
 
 	// production
 	var replacementsSet = {};
@@ -271,7 +274,7 @@ function getTipAlignments (tipAlignments) {
 	});
 	//glue.log("INFO", "PARENT RESULT WAS ", parentAlignments);
 	
-	// Iterate through whole list, capture all those that are to parents
+	// Iterate through whole list, capture all those that are not parents
 	_.each(alignmentList, function(alignmentObj) {
 	
 		var alignmentName = alignmentObj["name"];
