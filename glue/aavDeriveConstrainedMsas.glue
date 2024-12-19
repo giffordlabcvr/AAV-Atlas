@@ -3,7 +3,7 @@
   # Derive constrained alignments from unconstrained alignments
 
   alignment AL_AAV_ROOT
-	derive segments AL_UNC_ROOT_AAV --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_AAV --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
 	exit
 
   alignment AL_DependoA

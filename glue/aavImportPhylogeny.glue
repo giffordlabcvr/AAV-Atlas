@@ -6,7 +6,7 @@ module aavPhyloImporter
   import phylogeny AL_AAV_ROOT \
   --recursive \
   --anyAlignment \
-  --whereClause "sequence.source.name = 'ncbi-refseqs' and referenceMember = false" \
+  --whereClause "sequence.source.name = 'ncbi-refseqs-aav' and referenceMember = false" \
   --inputFile trees/aavReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS \
   --fieldName phylogeny
 

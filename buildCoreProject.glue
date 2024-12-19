@@ -16,7 +16,7 @@ project aav
   #~# Base project build  
 
   # Import sources
-  import source sources/ncbi-refseqs
+  import source sources/ncbi-refseqs-aav
 
   # Import reference sequence data
   run file glue/aavImportData.glue
@@ -44,40 +44,6 @@ project aav
 
   # Import reference phylogenies
   run file glue/aavImportPhylogeny.glue
-
-
-  #~# Process NCBI nuccore 
-
-  # NCBI nuccore sequences
-  import source sources/ncbi-nuccore-aav
-
-  # Extract data from GenBank for NCBI nuccore set
-  module aavGenbankXmlPopulator populate -w "source.name = 'ncbi-nuccore-aav'"
-
-  # Do segment 4 classification
-  #run script glue/aavClassifyNuccore.js
-
-  # Load side data
-  module aavSideDataImporterSpecies populate -f tabular/aav-nuccore.tsv
-
-  # Load patent data
-  create module -f modules/aavSideDataImporterPatent.xml
-  module aavSideDataImporterPatent populate -f tabular/aav-patent.tsv
-
-  # Add genotyped nuccore sequences to alignment tree
-  run file glue/aavAlignmentTreeNuccore.glue
-
-  # Align nuccore sequences
-  run file glue/aavComputeAlignmentsNuccore.glue
-
-  # Align nuccore sequences
-  run file glue/aavComputeAlignmentsNuccore.glue
-
-  # Run script to calculate aa replacements
-  #run script glue/aavGenerateReplacements.js
-
-  # Count the number of sequences in which variants occur
-  #run script glue/aavSetVariantNumSeqs.js
 
   # Validate
   validate

@@ -1,0 +1,42 @@
+delete project aav
+ 
+project aav
+
+  #~# Process NCBI nuccore 
+
+  # NCBI nuccore sequences
+  import source sources/ncbi-nuccore-aav
+
+  # Extract data from GenBank for NCBI nuccore set
+  module aavGenbankXmlPopulator populate -w "source.name = 'ncbi-nuccore-aav'"
+
+  # Load side data
+  module aavSideDataImporterSpecies populate -f tabular/aav-nuccore.tsv
+
+  # Do segment 4 classification
+  run script glue/aavClassifyNuccore.js
+
+  # Load patent data
+  create module -f modules/aavSideDataImporterPatent.xml
+  module aavSideDataImporterPatent populate -f tabular/aav-patent.tsv
+
+  # Add genotyped nuccore sequences to alignment tree
+  run file glue/aavAlignmentTreeNuccore.glue
+
+  # Align nuccore sequences
+  run file glue/aavComputeAlignmentsNuccore.glue
+
+  # Align nuccore sequences
+  run file glue/aavComputeAlignmentsNuccore.glue
+
+  # Run script to calculate aa replacements
+  run script glue/aavGenerateReplacements.js
+
+  # Count the number of sequences in which variants occur
+  run script glue/aavSetVariantNumSeqs.js
+
+  # Validate
+  validate
+
+  exit
+
