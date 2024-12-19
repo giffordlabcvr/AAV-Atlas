@@ -13,7 +13,7 @@ project aav
   module aavSideDataImporterSpecies populate -f tabular/aav-nuccore.tsv
 
   # Do segment 4 classification
-  run script glue/aavClassifyNuccore.js
+  #run script glue/aavClassifyNuccore.js
 
   # Load patent data
   create module -f modules/aavSideDataImporterPatent.xml
