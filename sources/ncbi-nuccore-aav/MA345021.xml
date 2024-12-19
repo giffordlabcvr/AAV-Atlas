@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA345021</GBSeq_locus>
+    <GBSeq_length>4374</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>31-JUL-2018</GBSeq_update-date>
+    <GBSeq_create-date>31-JUL-2018</GBSeq_create-date>
+    <GBSeq_definition>JP 2018506261-A/1: AN IMPROVED EXPRESSION CASSETTE FOR PACKAGING AND EXPRESSION OF VARIANT FACTOR VIII FOR THE TREATMENT OF HEMOSTASIS DISORDERS</GBSeq_definition>
+    <GBSeq_primary-accession>MA345021</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA345021.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA345021.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018506261|1</GBSeqid>
+      <GBSeqid>gi|1436626889</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018506261-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4374</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Elkouby,L.</GBAuthor>
+          <GBAuthor>Sabatino,D.</GBAuthor>
+          <GBAuthor>High,K.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>AN IMPROVED EXPRESSION CASSETTE FOR PACKAGING AND EXPRESSION OF VARIANT FACTOR VIII FOR THE TREATMENT OF HEMOSTASIS DISORDERS</GBReference_title>
+        <GBReference_journal>JP2018506261-A 1 08-MAR-2018 THE CHILDREN'S HOSPITAL OF PHILADELPHIA,Denise SABATINO</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2018506261-A/1~PD 08-MAR-2018~PF 13-AUG-2015 JP 2017507431~PR 13-AUG-2014 US 62/036936~PA THE CHILDREN'S HOSPITAL OF PHILADELPHIA,Denise SABATINO~PI liron elkouby,denise sabatino,katherine a high~PT 'AN IMPROVED EXPRESSION CASSETTE FOR PACKAGING AND EXPRESSION~PT OF VARIANT~PT FACTOR VIII FOR THE TREATMENT OF HEMOSTASIS DISORDERS'~PS N1~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4374</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4374</GBInterval_to>
+            <GBInterval_accession>MA345021.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcagattgagctgtcaacttgctttttcctgtgcctgctgagattttgtttttccgctactagaagatactacctgggggctgtggaactgtcttgggattacatgcagagtgacctgggagagctgccagtggacgcacgatttccacctagagtccctaaatcattccccttcaacaccagcgtggtctataagaaaacactgttcgtggagtttactgatcacctgttcaacatcgctaagcctcggccaccctggatgggactgctgggaccaacaatccaggcagaggtgtacgacaccgtggtcattacactgaaaaacatggcctcacaccccgtgagcctgcatgctgtgggcgtcagctactggaaggcttccgaaggggcagagtatgacgatcagacttcccagagagaaaaagaggacgataaggtgtttcctggcgggtctcatacctatgtgtggcaggtcctgaaagagaatggccccatggcttccgaccctctgtgcctgacctactcttatctgagtcacgtggacctggtcaaggatctgaacagcggactgatcggagcactgctggtgtgtagggaagggagcctggctaaggagaaaacccagacactgcataagttcattctgctgttcgccgtgtttgacgaaggaaaatcatggcacagcgagacaaagaatagtctgatgcaggaccgggatgccgcttcagccagagcttggcccaaaatgcacactgtgaacggctacgtcaatcgctcactgcctggactgatcggctgccaccgaaagagcgtgtattggcatgtcatcggaatgggcaccacacctgaagtgcactccattttcctggaggggcatacctttctggtccgcaaccaccgacaggcctccctggagatctctccaattaccttcctgacagctcagactctgctgatggatctgggacagttcctgctgttttgccacatcagctcccaccagcatgatggcatggaggcctacgtgaaagtggacagctgtcccgaggaacctcagctgaggatgaagaacaatgaggaagctgaagactatgacgatgacctgaccgactccgagatggatgtggtccgattcgatgacgataacagcccctcctttatccagattagatctgtggccaagaaacaccctaagacatgggtccattacatcgcagccgaggaagaggactgggattatgcaccactggtgctggcaccagacgatcgatcctacaaatctcagtatctgaacaatggaccacagcggattggcagaaagtacaagaaagtgaggttcatggcttataccgatgaaaccttcaagactcgcgaagcaatccagcacgagagcgggattctgggaccactgctgtacggagaagtgggggacaccctgctgatcatttttaagaaccaggccagcaggccttacaatatctatccacatggaattacagatgtgcgccctctgtacagccggagactgccaaagggcgtcaaacacctgaaggacttcccaatcctgcccggggaaatttttaagtataaatggactgtcaccgtcgaggatggccccactaagagcgaccctaggtgcctgacccgctactattctagtttcgtgaatatggaaagggatctggccagcggactgatcggcccactgctgatttgttacaaagagagcgtggatcagagaggcaaccagatcatgtccgacaagaggaatgtgattctgttcagtgtctttgacgaaaaccggtcatggtatctgaccgagaacatccagagattcctgcctaatccagccggagtgcagctggaagatcctgagtttcaggcttctaacatcatgcatagtattaatggctacgtgttcgacagtctgcagctgtcagtgtgtctgcacgaggtcgcttactggtatatcctgagcattggagcacagacagatttcctgagcgtgttcttttccggctacacttttaagcataaaatggtgtatgaggacacactgactctgttccccttcagcggcgaaaccgtgtttatgtccatggagaatcccgggctgtggatcctgggatgccacaacagcgatttcaggaatcgcgggatgactgccctgctgaaagtgtcaagctgtgacaagaacaccggagactactatgaagattcatacgaggacatcagcgcatatctgctgtccaaaaacaatgccattgaacccaggtcttttagtcagaatcctccagtgctgaagaggcaccagcgcgagatcacccgcactaccctgcagagtgatcaggaagagatcgactacgacgatacaatttctgtggaaatgaagaaagaggacttcgatatctatgacgaagatgagaaccagagtcctcgatcattccagaagaaaacccggcattactttattgctgcagtggagcgcctgtgggattatggcatgtcctctagtcctcacgtgctgcgaaatcgggcccagtcagggagcgtcccacagttcaagaaagtggtcttccaggagtttacagacggatcctttactcagccactgtaccggggcgaactgaacgagcacctggggctgctgggaccctatatcagagctgaagtggaggataacattatggtcaccttcagaaatcaggcatctaggccttacagtttttattcaagcctgatctcttacgaagaggaccagaggcagggagcagaaccacgaaaaaacttcgtgaagcctaatgagaccaaaacatacttttggaaggtgcagcaccatatggccccaacaaaagacgaattcgattgcaaggcatgggcctatttttctgacgtggatctggagaaggacgtccacagtggcctgatcgggccactgctggtgtgtcatactaacaccctgaatcccgcacacggcaggcaggtcactgtccaggaattcgccctgttctttaccatctttgatgagacaaaaagctggtacttcaccgaaaacatggagcgaaattgccgggctccatgtaatattcagatggaagaccccacattcaaggagaactaccgctttcatgccatcaatgggtatattatggatactctgcccggactggtcatggctcaggaccagagaatcaggtggtacctgctgagcatggggtccaacgagaatatccactcaattcatttcagcggacacgtgtttactgtccggaagaaagaagagtataaaatggccctgtacaacctgtatcccggcgtgttcgaaaccgtcgagatgctgcctagcaaggcagggatctggagagtggaatgcctgattggggagcacctgcatgccggaatgtctaccctgtttctggtgtacagtaataagtgtcagacacccctggggatggcttccggacatatccgggatttccagattaccgcatctggacagtacggccagtgggcccctaagctggctagactgcactattccgggtctatcaacgcttggtccacaaaagagcctttctcttggattaaggtggacctgctggcaccaatgatcattcatggcatcaaaactcagggggccaggcagaagttctcctctctgtacatctcacagtttatcatcatgtacagcctggatggcaagaaatggcagacataccgcggcaatagcacagggactctgatggtgttctttggcaacgtggacagttcagggatcaagcacaacattttcaatccccctatcattgctagatacatcaggctgcacccaacccattattctattcgaagtacactgcggatggaactgatggggtgcgatctgaacagttgttcaatgcccctgggaatggagtccaaggcaatctctgacgcccagattaccgctagctcctacttcactaatatgtttgctacctggagcccctccaaagcacgactgcatctgcagggacgaagcaacgcatggcgaccacaggtgaacaatcccaaggagtggctgcaggtcgattttcagaaaactatgaaggtgaccggagtcacaactcagggcgtgaaaagtctgctgacctcaatgtacgtcaaggagttcctgatctctagttcacaggacggccaccagtggacactgttctttcagaacggaaaggtgaaagtcttccagggcaatcaggattcctttacacctgtggtcaactctctggacccacccctgctgactcgctacctgcgaatccacccacagtcctgggtgcatcagattgcactgagaatggaagtcctgggctgcgaggcccaggacctgtattga</GBSeq_sequence>
+  </GBSeq>

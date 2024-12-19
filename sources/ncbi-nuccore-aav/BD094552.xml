@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BD094552</GBSeq_locus>
+    <GBSeq_length>4675</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-AUG-2014</GBSeq_update-date>
+    <GBSeq_create-date>27-AUG-2002</GBSeq_create-date>
+    <GBSeq_definition>WO 2001032899-A/1: Method of transferring gene</GBSeq_definition>
+    <GBSeq_primary-accession>BD094552</GBSeq_primary-accession>
+    <GBSeq_accession-version>BD094552.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|BD094552.1|</GBSeqid>
+      <GBSeqid>pat|WO|2001032899|1</GBSeqid>
+      <GBSeqid>gi|22640140</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2001032899-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4675</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ueno,T.</GBAuthor>
+          <GBAuthor>Matsumura,H.</GBAuthor>
+          <GBAuthor>Tanaka,K.</GBAuthor>
+          <GBAuthor>Iwasaki,T.</GBAuthor>
+          <GBAuthor>Ueno,M.</GBAuthor>
+          <GBAuthor>Fujinaga,K.</GBAuthor>
+          <GBAuthor>Asada,K.</GBAuthor>
+          <GBAuthor>Kato,I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Method of transferring gene</GBReference_title>
+        <GBReference_journal>WO2001032899-A 1 10-MAY-2001 TAKARA SHUZO CO LTD,TAKASHI UENO,HAJIME MATSUMURA,KEIJI TANAKA, TOMOKO IWASAKI,MITSUHIRO UENO,KEI FUJINAGA,KIYOZO ASADA,IKUNOSHIN KATO</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN WO 2001032899-A/1~PD 10-MAY-2001~PF 23-OCT-2000 WO 2000JP007373~PR 29-OCT-1999 JP 99P 308839~PA TAKARA SHUZO CO LTD,TAKASHI UENO,HAJIME MATSUMURA,KEIJI TANAKA,~PA TOMOKO IWASAKI,MITSUHIRO UENO,KEI FUJINAGA,KIYOZO~PA ASADA,IKUNOSHIN KATO~PI TAKASHI UENO,HAJIME MATSUMURA,KEIJI TANAKA,TOMOKO~PI IWASAKI,MITSUHIRO UENO,~PI KEI FUJINAGA,KIYOZO ASADA,IKUNOSHIN KATO~PT 'Method of transferring gene'~PS~PC C12N15/861,A61K35/12,A61K35/76,A61K48/00,C12N5/10,C12N7/01~CC Method of transferring gene~FH Key Location/Qualifiers~FT source 1..4675~FT /organism='Adeno-associated virus'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4675</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4675</GBInterval_to>
+            <GBInterval_accession>BD094552.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtcacgctgggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacgcgcagccgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgggcatctgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgactttctgacggaatggcgccgtgtgagtaaggccccggaggcccttttctttgtgcaatttgagaagggagagagctacttccacatgcacgtgctcgtggaaaccaccggggtgaaatccatggttttgggacgtttcctgagtcagattcgcgaaaaactgattcagagaatttaccgcgggatcgagccgactttgccaaactggttcgcggtcacaaagaccagaaatggcgccggaggcgggaacaaggtggtggatgagtgctacatccccaattacttgctccccaaaacccagcctgagctccagtgggcgtggactaatatggaacagtatttaagcgcctgtttgaatctcacggagcgtaaacggttggtggcgcagcatctgacgcacgtgtcgcagacgcaggagcagaacaaagagaatcagaatcccaattctgatgcgccggtgatcagatcaaaaacttcagccaggtacatggagctggtcgggtggctcgtggacaaggggattacctcggagaagcagtggatccaggaggaccaggcctcatacatctccttcaatgcggcctccaactcgcggtcccaaatcaaggctgccttggacaatgcgggaaagattatgagcctgactaaaaccgcccccgactacctggtgggccagcagcccgtggaggacatttccagcaatcggatttataaaattttggaactaaacgggtacgatccccaatatgcggcttccgtctttctgggatgggccacgaaaaagttcggcaagaggaacaccatctggctgtttgggcctgcaactaccgggaagaccaacatcgcggaggccatagcccacactgtgcccttctacgggtgcgtaaactggaccaatgagaactttcccttcaacgactgtgtcgacaagatggtgatctggtgggaggaggggaagatgaccgccaaggtcgtggagtcggccaaagccattctcggaggaagcaaggtgcgcgtggaccagaaatgcaagtcctcggcccagatagacccgactcccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaactcaacgaccttcgaacaccagcagccgttgcaagaccggatgttcaaatttgaactcacccgccgtctggatcatgactttgggaaggtcaccaagcaggaagtcaaagactttttccggtgggcaaaggatcacgtggttgaggtggagcatgaattctacgtcaaaaagggtggagccaagaaaagacccgcccccagtgacgcagatataagtgagcccaaacgggtgcgcgagtcagttgcgcagccatcgacgtcagacgcggaagcttcgatcaactacgcagacaggtaccaaaacaaatgttctcgtcacgtgggcatgaatctgatgctgtttccctgcagacaatgcgagagaatgaatcagaattcaaatatctgcttcactcacggacagaaagactgtttagagtgctttcccgtgtcagaatctcaacccgtttctgtcgtcaaaaaggcgtatcagaaactgtgctacattcatcatatcatgggaaaggtgccagacgcttgcactgcctgcgatctggtcaatgtggatttggatgactgcatctttgaacaataaatgatttaaatcaggtatggctgccgatggttatcttccagattggctcgaggacactctctctgaaggaataagacagtggtggaagctcaaacctggcccaccaccaccaaagcccgcagagcggcataaggacgacagcaggggtcttgtgcttcctgggtacaagtacctcggacccttcaacggactcgacaagggagagccggtcaacgaggcagacgccgcggccctcgagcacgtacaaagcctacgaccggcagctcgacagcggagacaacccgtacctcaagtacaaccacgccgacgcggagtttcaggagcgccttaaagaagatacgtcttttgggggcaacctcggacgagcagtcttccaggcgaaaaagagggttcttgaacctctgggcctggttgaggaacctgttaagacggctccgggaaaaaagaggccggtagagcactctcctgtggagccagactcctcctcgggaaccggaaaggcgggccagcagcctgcaagaaaaagattgaattttggtcagactggagacgcagactcagtacctgacccccagcctctcggacagccaccagcagccccctctggtctgggaactaatacgatggctacaggcagtggcgcaccaatggcagacaataacgagggcgccgacggagtgggtaattcctccggaaattggcattgcgattccacatggatgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaaacaaatttccagccaatcaggagcctcgaacgacaatcactactttggctacagcaccccttgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcaaagactcatcaacaacaactggggattccgacccaagagactcaacttcaagctctttaacattcaagtcaaagaggtcacgcagaatgacggtacgacgacgattgccaataaccttaccagcacggttcaggtgtttactgactcggagtaccagctcccgtacgtcctcggctcggcgcatcaaggatgcctcccgccgttcccagcagacgtcttcatggtgccacagtatggatacctcaccctgaacaacgggagtcaggcagtaggacgctcttcattttactgcctggagtactttccttctcagatgctgcgtaccggaaacaactttaccttcagctacacttttgaggacgttcctttccacagcagctacgctcacagccagagtctggaccgtctcatgaatcctctcatcgaccagtacctgtattacttgagcagaacaaacactccaagtggaaccaccacgcagtcaaggcttcagttttctcaggccggagcgagtgacattcgggaccagtctaggaactggcttcctggaccctgttaccgccagcagcgagtatcaaagacatctgcggataacaacaacagtgaatactcgtggactggagctaccaagtaccacctcaatggcagagactctctggtgaatccggccatggcaagccacaaggacgatgaagaaaagttttttcctcagagcggggttctcatctttgggaagcaaggctcagagaaaacaaatgtgaacattgaaaaggtcatgattacagacgaagaggaaatcggaacaaccaatcccgtggctacggagcagtatggttctgtatctaccaacctccagagaggcaacagacaagcagctaccgcagatgtcaacacacaaggcgttcttccaggcatggtctggcaggacagagatgtgtaccttcaggggcccatctgggcaaagattccacacacggacggacattttcacccctctcccctcatgggtggattcggacttaaacaccctcctccacagattctcatcaagaacaccccggtacctgcgaatccttcgaccaccttcagtgcggcaaagtttgcttccttcatcacacagtactccacgggacacggtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaaacgctggaatcccgaaattcagtacacttccaactacaacaagtctgttaatcgtggacttaccgtggatactaatggcgtgtattcagagcctcgccccattggcaccagatacctgactcgtaatctgtaattgcttgttaatcaataaaccgtttaattcgtttcagttgaactttggtctctgcgtatttctttcttatctagtttccatggctacgtagataagtagcatggcgggttaatcattaactacaaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

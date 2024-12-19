@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY408696</GBSeq_locus>
+    <GBSeq_length>4385</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>14-OCT-2017</GBSeq_update-date>
+    <GBSeq_create-date>14-OCT-2017</GBSeq_create-date>
+    <GBSeq_definition>KR 1020160131032-A/29: FURTHER IMPROVED AAV VECTORS PRODUCED IN INSECT CELLS</GBSeq_definition>
+    <GBSeq_primary-accession>LY408696</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY408696.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY408696.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020160131032|29</GBSeqid>
+      <GBSeqid>gi|1257715792</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020160131032-A/29</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 9</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 9</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4385</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lubelski,J.</GBAuthor>
+          <GBAuthor>Bosma,S.M.</GBAuthor>
+          <GBAuthor>Petry,H.P.A.</GBAuthor>
+          <GBAuthor>Hermens,W.T.J.M.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>FURTHER IMPROVED AAV VECTORS PRODUCED IN INSECT CELLS</GBReference_title>
+        <GBReference_journal>KR1020160131032-A 29 15-NOV-2016 UNIQURE IP B.V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020167026098-A/29~AN KR 1020167026098~AD 2016-09-22~PN KR 1020160131032~PD 2016-11-15~AT FURTHER IMPROVED AAV VECTORS PRODUCED IN INSECT CELLS~AI Lubelski, Jacek|Bosma, Sebastiaan Menno|Petry, Harald Peter~AI Albert|Hermens, Wilhelmus Theodorus Johannes Maria Christiaan~AA UNIQURE IP B.V.~PR EP 14158610.7=2014-03-10~OS adeno-associated virus 9~TY DNA~FH Key Location/Qualifiers~FT CDS (2116)..(4329)~FT AAV9 VP1~FT misc_feature (2527)..(4329)~FT AAV9 VP2~FT misc_feature (2725)..(4329)~FT AAV9 VP3.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4385</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4385</GBInterval_to>
+            <GBInterval_accession>LY408696.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:235455</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagagagggagtggccaactccatcactaggggtaatcgcgaagcgcctcccacgctgccgcgtcagcgctgacgtagattacgtcataggggagtggtcctgtattagctgtcacgtgagtgcttttgcgacattttgcgacaccacatggccatttgaggtatatatggccgagtgagcgagcaggatctccattttgaccgcgaaatttgaacgagcagcagccatgccgggcttctacgagattgtgatcaaggtgccgagcgacctggacgagcacctgccgggcatttctgactcttttgtgaactgggtggccgagaaggaatgggagctgcccccggattctgacatggatcggaatctgatcgagcaggcacccctgaccgtggccgagaagctgcagcgcgacttcctggtccaatggcgccgcgtgagtaaggccccggaggccctcttctttgttcagttcgagaagggcgagagctactttcacctgcacgttctggtcgagaccacgggggtcaagtccatggtgctaggccgcttcctgagtcagattcgggagaagctggtccagaccatctaccgcgggatcgagccgaccctgcccaactggttcgcggtgaccaagacgcgtaatggcgccggcggggggaacaaggtggtggacgagtgctacatccccaactacctcctgcccaagactcagcccgagctgcagtgggcgtggactaacatggaggagtatataagcgcgtgcttgaacctggccgagcgcaaacggctcgtggcgcagcacctgacccacgtcagccagacgcaggagcagaacaaggagaatctgaaccccaattctgacgcgcccgtgatcaggtcaaaaacctccgcgcgctacatggagctggtcgggtggctggtggaccggggcatcacctccgagaagcagtggatccaggaggaccaggcctcgtacatctccttcaacgccgcctccaactcgcggtcccagatcaaggccgcgctggacaatgccggcaagatcatggcgctgaccaaatccgcgcccgactacctggtaggcccttcacttccggtggacattacgcagaaccgcatctaccgcatcctgcagctcaacggctacgaccctgcctacgccggctccgtctttctcggctgggcacaaaagaagttcgggaaacgcaacaccatctggctgtttgggccggccaccacgggaaagaccaacatcgcagaagccattgcccacgccgtgcccttctacggctgcgtcaactggaccaatgagaactttcccttcaacgattgcgtcgacaagatggtgatctggtgggaggagggcaagatgacggccaaggtcgtggagtccgccaaggccattctcggcggcagcaaggtgcgcgtggaccaaaagtgcaagtcgtccgcccagatcgaccccactcccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaacagcaccaccttcgagcaccagcagcctctccaggaccggatgtttaagttcgaactcacccgccgtctggagcacgactttggcaaggtgacaaagcaggaagtcaaagagttcttccgctgggccagtgatcacgtgaccgaggtggcgcatgagttttacgtcagaaagggcggagccagcaaaagacccgcccccgatgacgcggataaaagcgagcccaagcgggcctgcccctcagtcgcggatccatcgacgtcagacgcggaaggagctccggtggactttgccgacaggtaccaaaacaaatgttctcgtcacgcgggcatgcttcagatgctgcttccctgcaaaacgtgcgagagaatgaatcagaatttcaacatttgcttcacacacggggtcagagactgctcagagtgtttccccggcgtgtcagaatctcaaccggtcgtcagaaagaggacgtatcggaaactctgtgcgattcatcatctgctggggcgggctcccgagattgcttgctcggcctgcgatctggtcaacgtggacctggatgactgtgtttctgagcaataaatgacttaaaccaggtatggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggcgctgaaacctggagccccgaagcccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacggcaaggcctacgaccagcagctgcaggcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagccatcaccccagcgttctccagactcctctacgggcatcggcaagaaaggccaacagcccgccagaaaaagactcaattttggtcagactggcgactcagagtcagttccagaccctcaacctctcggagaacctccagcagcgccctctggtgtgggacctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggctgggggacagagtcatcaccaccagcacccgaacctgggcattgcccacctacaacaaccacctctacaagcaaatctccaatggaacatcgggaggaagcaccaacgacaacacctactttggctacagcaccccctgggggtattttgacttcaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggccaaagagactcaacttcaagctgttcaacatccaggtcaaggaggttacgacgaacgaaggcaccaagaccatcgccaataaccttaccagcaccgtccaggtctttacggactcggagtaccagctaccgtacgtcctaggctctgcccaccaaggatgcctgccaccgtttcctgcagacgtcttcatggttcctcagtacggctacctgacgctcaacaatggaagtcaagcgttaggacgttcttctttctactgtctggaatacttcccttctcagatgctgagaaccggcaacaactttcagttcagctacactttcgaggacgtgcctttccacagcagctacgcacacagccagagtctagatcgactgatgaaccccctcatcgaccagtacctatactacctggtcagaacacagacaactggaactgggggaactcaaactttggcattcagccaagcaggccctagctcaatggccaatcaggctagaaactgggtacccgggccttgctaccgtcagcagcgcgtctccacaaccaccaaccaaaataacaacagcaactttgcgtggacgggagctgctaaattcaagctgaacgggagagactcgctaatgaatcctggcgtggctatggcatcgcacaaagacgacgaggaccgcttctttccatcaagtggcgttctcatatttggcaagcaaggagccgggaacgatggagtcgactacagccaggtgctgattacagatgaggaagaaattaaagccaccaaccctgtagccacagaggaatacggagcagtggccatcaacaaccaggccgctaacacgcaggcgcaaactggacttgtgcataaccagggagttattcctggtatggtctggcagaaccgggacgtgtacctgcagggccctatttgggctaaaatacctcacacagatggcaactttcacccgtctcctctgatgggtggatttggactgaaacacccacctccacagattctaattaaaaatacaccagtgccggcagatcctcctcttaccttcaatcaagccaagctgaactctttcatcacgcagtacagcacgggacaagtcagcgtggaaatcgagtgggagctgcagaaagaaaacagcaagcgctggaatccagagatccagtatacttcaaactactacaaatctacaaatgtggactttgctgtcaataccaaaggtgtttactctgagcctcgccccattggtactcgttacctcacccgtaatttgtaattgcctgttaatcaataaaccggttaattcgtttcagttgaactttggtctctgcg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PA517220</GBSeq_locus>
+    <GBSeq_length>4404</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-JUN-2022</GBSeq_update-date>
+    <GBSeq_create-date>24-JUN-2022</GBSeq_create-date>
+    <GBSeq_definition>JP 2022502046-A/2: ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE THERAPY</GBSeq_definition>
+    <GBSeq_primary-accession>PA517220</GBSeq_primary-accession>
+    <GBSeq_accession-version>PA517220.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PA517220.1|</GBSeqid>
+      <GBSeqid>pat|JP|2022502046|2</GBSeqid>
+      <GBSeqid>gi|2258963721</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2022502046-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 5</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus mammalian1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4404</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gradinaru,V.</GBAuthor>
+          <GBAuthor>Flytzanis,N.C.</GBAuthor>
+          <GBAuthor>Goeden,N.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE THERAPY</GBReference_title>
+        <GBReference_journal>JP2022502046-A 2 11-JAN-2022 CALIFORNIA INSTITUTE OF TECHNOLOGY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus - 5~PN JP 2022502046-A/2~PD 11-JAN-2022~PF 25-SEP-2019 JP 2021517037~PR 26-SEP-2018 US 62/736904 ,11-APR-2019 US 62/832812~PA CALIFORNIA INSTITUTE OF TECHNOLOGY~PI viviana gradinaru,nicholas c flytzanis,nicholas s goeden~PT 'ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE~PT THERAPY'~PS N7~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4404</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4404</GBInterval_to>
+            <GBInterval_accession>PA517220.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:82300</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgcgacaggggggagagtgccacactctcaagcaagggggttttgtaagcagtgatgtcataatgatgtaatgcttattgtcacgcgatagttaatgattaacagtcatgtgatgtgttttatccaataggaagaaagcgcgcgtatgagttctcgcgagacttccggggtataaaagaccgagtgaacgagcccgccgccattctttgctctggactgctagaggaccctcgctgccatggctaccttctatgaagtcattgttcgcgtcccatttgacgtggaggaacatctgcctggaatttctgacagctttgtggactgggtaactggtcaaatttgggagctgcctccagagtcagatttaaatttgactctggttgaacagcctcagttgacggtggctgatagaattcgccgcgtgttcctgtacgagtggaacaaattttccaagcaggagtccaaattctttgtgcagtttgaaaagggatctgaatattttcatctgcacacgcttgtggagacctccggcatctcttccatggtcctcggccgctacgtgagtcagattcgcgcccagctggtgaaagtggtcttccagggaattgaaccccagatcaacgactgggtcgccatcaccaaggtaaagaagggcggagccaataaggtggtggattctgggtatattcccgcctacctgctgccgaaggtccaaccggagcttcagtgggcgtggacaaacctggacgagtataaattggccgccctgaatctggaggagcgcaaacggctcgtcgcgcagtttctggcagaatcctcgcagcgctcgcaggaggcggcttcgcagcgtgagttctcggctgacccggtcatcaaaagcaagacttcccagaaatacatggcgctcgtcaactggctcgtggagcacggcatcacttccgagaagcagtggatccaggaaaatcaggagagctacctctccttcaactccaccggcaactctcggagccagatcaaggccgcgctcgacaacgcgaccaaaattatgagtctgacaaaaagcgcggtggactacctcgtggggagctccgttcccgaggacatttcaaaaaacagaatctggcaaatttttgagatgaatggctacgacccggcctacgcgggatccatcctctacggctggtgtcagcgctccttcaacaagaggaacaccgtctggctctacggacccgccacgaccggcaagaccaacatcgcggaggccatcgcccacactgtgcccttttacggctgcgtgaactggaccaatgaaaactttccctttaatgactgtgtggacaaaatgctcatttggtgggaggagggaaagatgaccaacaaggtggttgaatccgccaaggccatcctggggggctcaaaggtgcgggtcgatcagaaatgtaaatcctctgttcaaattgattctacccctgtcattgtaacttccaatacaaacatgtgtgtggtggtggatgggaattccacgacctttgaacaccagcagccgctggaggaccgcatgttcaaatttgaactgactaagcggctcccgccagattttggcaagattactaagcaggaagtcaaggacttttttgcttgggcaaaggtcaatcaggtgccggtgactcacgagtttaaagttcccagggaattggcgggaactaaaggggcggagaaatctctaaaacgcccactgggtgacgtcaccaatactagctataaaagtctggagaagcgggccaggctctcatttgttcccgagacgcctcgcagttcagacgtgactgttgatcccgctcctctgcgaccgctcaattggaattcaaggtatgattgcaaatgtgactatcatgctcaatttgacaacatttctaacaaatgtgatgaatgtgaatatttgaatcggggcaaaaatggatgtatctgtcacaatgtaactcactgtcaaatttgtcatgggattcccccctgggaaaaggaaaacttgtcagattttggggattttgacgatgccaataaagaacagtaaataaagcgagtagtcatgtcttttgttgatcaccctccagattggttggaagaagttggtgaaggtcttcgcgagtttttgggccttgaagcgggcccaccgaaaccaaaacccaatcagcagcatcaagatcaagcccgtggtcttgtgctgcctggttataactatctcggacccggaaacggtctcgatcgaggagagcctgtcaacagggcagacgaggtcgcgcgagagcacgacatctcgtacaacgagcagcttgaggcgggagacaacccctacctcaagtacaaccacgcggacgccgagtttcaggagaagctcgccgacgacacatccttcgggggaaacctcggaaaggcagtctttcaggccaagaaaagggttctcgaaccttttggcctggttgaagagggtgctaagacggcccctaccggaaagcggatagacgaccactttccaaaaagaaagaaggctcggaccgaagaggactccaagccttccacctcgtcagacgccgaagctggacccagcggatcccagcagctgcaaatcccagcccaaccagcctcaagtttgggagctgatacaatgtctgcgggaggtggcggcccattgggcgacaataaccaaggtgccgatggagtgggcaatgcctcgggagattggcattgcgattccacgtggatgggggacagagtcgtcaccaagtccacccgaacctgggtgctgcccagctacaacaaccaccagtaccgagagatcaaaagcggctccgtcgacggaagcaacgccaacgcctactttggatacagcaccccctgggggtactttgactttaaccgcttccacagccactggagcccccgagactggcaaagactcatcaacaactactggggcttcagaccccggtccctcagagtcaaaatcttcaacattcaagtcaaagaggtcacggtgcaggactccaccaccaccatcgccaacaacctcacctccaccgtccaagtgtttacggacgacgactaccagctgccctacgtcgtcggcaacgggaccgagggatgcctgccggccttccctccgcaggtctttacgctgccgcagtacggttacgcgacgctgaaccgcgacaacacagaaaatcccaccgagaggagcagcttcttctgcctagagtactttcccagcaagatgctgagaacgggcaacaactttgagtttacctacaactttgaggaggtgcccttccactccagcttcgctcccagtcagaacctcttcaagctggccaacccgctggtggaccagtacttgtaccgcttcgtgagcacaaataacactggcggagtccagttcaacaagaacctggccgggagatacgccaacacctacaaaaactggttcccggggcccatgggccgaacccagggctggaacctgggctccggggtcaaccgcgccagtgtcagcgccttcgccacgaccaataggatggagctcgagggcgcgagttaccaggtgcccccgcagccgaacggcatgaccaacaacctccagggcagcaacacctatgccctggagaacactatgatcttcaacagccagccggcgaacccgggcaccaccgccacgtacctcgagggcaacatgctcatcaccagcgagagcgagacgcagccggtgaaccgcgtggcgtacaacgtcggcgggcagatggccaccaacaaccagagctccaccactgcccccgcgaccggcacgtacaacctccaggaaatcgtgcccggcagcgtgtggatggagagggacgtgtacctccaaggacccatctgggccaagatcccagagacgggggcgcactttcacccctctccggccatgggcggattcggactcaaacacccaccgcccatgatgctcatcaagaacacgcctgtgcccggaaatatcaccagcttctcggacgtgcccgtcagcagcttcatcacccagtacagcaccgggcaggtcaccgtggagatggagtgggagctcaagaaggaaaactccaagaggtggaacccagagatccagtacacaaacaactacaacgacccccagtttgtggactttgccccggacagcaccggggaatacagaaccaccagacctatcggaacccgataccttacccgacccctttaacccattcatgtcgcataccctcaataaaccgtgtattcgtgtcagtaaaatactgcctcttgtggtcattcaatgaataacagcttacaacatctacaaaacctccttgcttgagagtgtggcactctcccccctgtcgcgcg</GBSeq_sequence>
+  </GBSeq>

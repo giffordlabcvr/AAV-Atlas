@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PA836308</GBSeq_locus>
+    <GBSeq_length>5920</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2024</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-2024</GBSeq_create-date>
+    <GBSeq_definition>JP 2019513389-A/11: ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MICRORNA-29 TO TREAT MUSCULAR DYSTROPHY</GBSeq_definition>
+    <GBSeq_primary-accession>PA836308</GBSeq_primary-accession>
+    <GBSeq_accession-version>PA836308.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PA836308.1|</GBSeqid>
+      <GBSeqid>pat|JP|2019513389|11</GBSeqid>
+      <GBSeqid>gi|2778555838</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2019513389-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5920</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rodino-klapac,L.</GBAuthor>
+          <GBAuthor>Mendell,J.R.</GBAuthor>
+          <GBAuthor>Heller,K.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MICRORNA-29 TO TREAT MUSCULAR DYSTROPHY</GBReference_title>
+        <GBReference_journal>JP2019513389-A 11 30-MAY-2019 RESEARCH INSTITUTE AT NATIONWIDE CHILDREN'S HOSPITAL</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2019513389-A/11~PD 30-MAY-2019~PF 14-APR-2017 JP 2018553882~PR 15-APR-2016 US 62/323163 ,17-MAR-2017 US 62/473253~PA RESEARCH INSTITUTE AT NATIONWIDE CHILDREN'S HOSPITAL~PI louise rodino-klapac,jerry r mendell,kristin n heller~PT 'ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MICRORNA-29 TO~PT TREAT MUSCULAR~PT DYSTROPHY'~PS N12~CC This description about &lt;220&gt; can't be interpreted~CC &lt;220&gt;~CC &lt;221&gt; misc_feature~CC &lt;223&gt; pAAV.MCK.miR26C Sequence~FH Key Location/Qualifiers~FT misc_feature (4)..(9)~FT /note='n is a, c, g, t or u'~FT enhancer (190)..(395)~FT /note='MCK enhancer'~FT promoter (396)..(753)~FT /note='MCK promoter'~FT misc_feature (1316)..(1608)~FT /note='shRNA-miR29-c with primary seed~FT sequence'~FT misc_feature (1487)..(1512)~FT /note='miR-29c'~FT misc_feature (2094)..(2146)~FT /note='SV40 PolyA'~FT misc_feature (2326)..(2331)~FT /note='n is a, c, g, t or u'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5920</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5920</GBInterval_to>
+            <GBInterval_accession>PA836308.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgnnnnnngcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttccttgtagttaatgattaacccgccatgctaattatctacgtagccatgtctagacagccactatgggtctaggctgcccatgtaaggaggcaaggcctggggacacccgagatgcctggttataattaacccagacatgtggctgctccccccccccaacacctgctgcctgagcctcacccccaccccggtgcctgggtcttaggctctgtacaccatggaggagaagctcgctctaaaaataaccctgtccctggtgggctgtgggggactgagggcaggctgtaacaggcttgggggccagggcttatacgtgcctgggactcccaaagtattactgttccatgttcccggcgaagggccagctgtcccccgccagctagactcagcacttagtttaggaaccagtgagcaagtcagcccttggggcagcccatacaaggccatggggctgggcaagctgcacgcctgggtccggggtgggcacggtgcccgggcaacgagctgaaagctcatctgctctcaggggcccctccctggggacagcccctcctggctagtcacaccctgtaggctcctctatataacccaggggcacaggggctgcccccgggtcaccaccacctccacagcacagacagacactcaggagccagccagccaggtaagtttagtctttttgtcttttatttcaggtcccggatccggtggtggtgcaaatcaaagaactgctcctcagtggatgttgcctttacttctaggcctgtacggaagtgttacttctgctctaaaagctgcggaattgtacccgcctagaggatccggtactcgaggaactgaaaaaccagaaagttaactggtaagtttagtctttttgtcttttatttcaggtcccggatccggtggtggtgcaaatcaaagaactgctcctcagtggatgttgcctttacttctaggcctgtacggaagtgttacttctgctctaaaagctgcggaattgtacccggggccgatccaccggtctttttcgcaacgggtttgccgccagaacacaggtaagtgccgtgtgtggttcccgcgggcggcgacggggcccgtgcgtcccagcgcacatgttcggcgaggcggggcctgcgagcgcggccaccgagaatcggacgggggtagtctcaagctggccggcctgtttgaatgaggcttcagtactttacagaatcgttgcctgcacatcttggaaacacttgctgggattacttcttcaggttaacccaacagaaggctcgagaaggtatattgctgttgacagtgagcgcaaccgatttcaaatggtgctagagtgaagccacagatgtctagcaccatttgaaatcggttatgcctactgcctcggaattcaaggggctactttaggagcaattatcttgtttactaaaactgaataccttgctatctctttgatacattggccggcctgctctggtgcctggcctcgcgccgccgtgtatcgccccgccctgggcggcaaggctggcccggtcggcaccagttgcgtgagcggaaagatggccgcttcccggccctgctgcagggagctcaaaatggaggacgcggcgctcgggagagcgggcgggtgagtcacccacacaaaggaaaagggcctttccgtcctcagccgtcgcttcatgtgactccacggagtaccgggcgccgtccaggcacctcgattagttctcgagcttttggagtacgtcgtctttaggttggggggaggggttttatgcgatggagtttccccacactgagtgggtggagactgaagttaggccagcttggcacttgatgtaattctccttggaatttgccctttttgagtttggatcttggttcattctcaagcctcagacagtggttcaaagtttttttcttccatttcaggtgtcgtgaaaagctagtgcggccgcaataaaagatctttattttcattagatctgtgtgttggttttttgtgtgtctagacatggctacgtagataattagcatggcgggttaatcattaactacaaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcnnnnnncagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggaagttccagacgattgagcgtcaaaatgtaggtatttccatgagcgtttttcctgttgcaatggctggcggtaatattgttctggatattaccagcaaggccgatagtttgagttcttctactcaggcaagtgatgttattactaatcaaagaagtattgcgacaacggttaatttgcgtgatggacagactcttttactcggtggcctcactgattataaaaacacttctcaggattctggcgtaccgttcctgtctaaaatccctttaatcggcctcctgtttagctcccgctctgattctaacgaggaaagcacgttatacgtgctcgtcaaagcaaccatagtacgcgccctgtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcgctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagctctaaatcgggggctccctttagggttccgatttagtgatttacggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgggccatcgccctgatagacggtttttcgccctttgacgttggagtccacgttctttaatagtggactcttgttccaaactggaacaacactcaaccctatctcggtctattcttttgatttataagggattttgccgatttcggcctattggttaaaaaatgagctgatttaacaaaaatttaacgcgaattttaacaaaatattaacgtttacaatttaaatatttgcttatacaatcttcctgtttttggggcttttctgattatcaaccggggtacatatgattgacatgctagttttacgattaccgttcatcgattctcttgtttgctccagactctcaggcaatgacctgatagcctttgtagagacctctcaaaaatagctaccctctccggcatgaatttatcagctagaacggttgaatatcatattgatggtgatttgactgtctccggcctttctcacccgtttgaatctttacctacacattactcaggcattgcatttaaaatatatgagggttctaaaaatttttatccttgcgttgaaataaaggcttctcccgcaaaagtattacagggtcataatgtttttggtacaaccgatttagctttatgctctgaggctttattgcttaattttgctaattctttgccttgcctgtatgatttattggatgttggaagttcctgatgcggtattttctccttacgcatctgtgcggtatttcacaccgcatatggtgcactctcagtacaatctgctctgatgccgcatagttaagccagccccgacacccgccaacacccgctgacgcgccctgacgggcttgtctgctcccggcatccgcttacagacaagctgtgaccgtctccgggagctgcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctatttttataggttaatgtcatgataataatggtttcttagacgtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgtccttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcgtacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgggtttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaccaagcggaagagc</GBSeq_sequence>
+  </GBSeq>

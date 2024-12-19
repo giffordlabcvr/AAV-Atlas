@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HW917028</GBSeq_locus>
+    <GBSeq_length>4404</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-JUN-2015</GBSeq_update-date>
+    <GBSeq_create-date>24-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>JP 2015503924-A/24: Methods and Compositions for Gene Delivery</GBSeq_definition>
+    <GBSeq_primary-accession>HW917028</GBSeq_primary-accession>
+    <GBSeq_accession-version>HW917028.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HW917028.1|</GBSeqid>
+      <GBSeqid>pat|JP|2015503924|24</GBSeqid>
+      <GBSeqid>gi|931327095</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2015503924-A/24</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 5</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus mammalian1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4404</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Argov,A.</GBAuthor>
+          <GBAuthor>Mitrani-rosenbaum,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods and Compositions for Gene Delivery</GBReference_title>
+        <GBReference_journal>JP2015503924-A 24 05-FEB-2015 Hadasit Medical Research Services and Development Ltd</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus - 5~PN JP 2015503924-A/24~PD 05-FEB-2015~PF 03-JAN-2013 JP 2014550799~PR 05-JAN-2012 US 61/631456~PA Hadasit Medical Research Services and Development Ltd~PI avizohar argov,stella mitrani-rosenbaum~PT 'Methods and Compositions for Gene Delivery'~PS N24~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4404</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4404</GBInterval_to>
+            <GBInterval_accession>HW917028.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:82300</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgcgacaggggggagagtgccacactctcaagcaagggggttttgtaagcagtgatgtcataatgatgtaatgcttattgtcacgcgatagttaatgattaacagtcatgtgatgtgttttatccaataggaagaaagcgcgcgtatgagttctcgcgagacttccggggtataaaagaccgagtgaacgagcccgccgccattctttgctctggactgctagaggaccctcgctgccatggctaccttctatgaagtcattgttcgcgtcccatttgacgtggaggaacatctgcctggaatttctgacagctttgtggactgggtaactggtcaaatttgggagctgcctccagagtcagatttaaatttgactctggttgaacagcctcagttgacggtggctgatagaattcgccgcgtgttcctgtacgagtggaacaaattttccaagcaggagtccaaattctttgtgcagtttgaaaagggatctgaatattttcatctgcacacgcttgtggagacctccggcatctcttccatggtcctcggccgctacgtgagtcagattcgcgcccagctggtgaaagtggtcttccagggaattgaaccccagatcaacgactgggtcgccatcaccaaggtaaagaagggcggagccaataaggtggtggattctgggtatattcccgcctacctgctgccgaaggtccaaccggagcttcagtgggcgtggacaaacctggacgagtataaattggccgccctgaatctggaggagcgcaaacggctcgtcgcgcagtttctggcagaatcctcgcagcgctcgcaggaggcggcttcgcagcgtgagttctcggctgacccggtcatcaaaagcaagacttcccagaaatacatggcgctcgtcaactggctcgtggagcacggcatcacttccgagaagcagtggatccaggaaaatcaggagagctacctctccttcaactccaccggcaactctcggagccagatcaaggccgcgctcgacaacgcgaccaaaattatgagtctgacaaaaagcgcggtggactacctcgtggggagctccgttcccgaggacatttcaaaaaacagaatctggcaaatttttgagatgaatggctacgacccggcctacgcgggatccatcctctacggctggtgtcagcgctccttcaacaagaggaacaccgtctggctctacggacccgccacgaccggcaagaccaacatcgcggaggccatcgcccacactgtgcccttttacggctgcgtgaactggaccaatgaaaactttccctttaatgactgtgtggacaaaatgctcatttggtgggaggagggaaagatgaccaacaaggtggttgaatccgccaaggccatcctggggggctcaaaggtgcgggtcgatcagaaatgtaaatcctctgttcaaattgattctacccctgtcattgtaacttccaatacaaacatgtgtgtggtggtggatgggaattccacgacctttgaacaccagcagccgctggaggaccgcatgttcaaatttgaactgactaagcggctcccgccagattttggcaagattactaagcaggaagtcaaggacttttttgcttgggcaaaggtcaatcaggtgccggtgactcacgagtttaaagttcccagggaattggcgggaactaaaggggcggagaaatctctaaaacgcccactgggtgacgtcaccaatactagctataaaagtctggagaagcgggccaggctctcatttgttcccgagacgcctcgcagttcagacgtgactgttgatcccgctcctctgcgaccgctcaattggaattcaaggtatgattgcaaatgtgactatcatgctcaatttgacaacatttctaacaaatgtgatgaatgtgaatatttgaatcggggcaaaaatggatgtatctgtcacaatgtaactcactgtcaaatttgtcatgggattcccccctgggaaaaggaaaacttgtcagattttggggattttgacgatgccaataaagaacagtaaataaagcgagtagtcatgtcttttgttgatcaccctccagattggttggaagaagttggtgaaggtcttcgcgagtttttgggccttgaagcgggcccaccgaaaccaaaacccaatcagcagcatcaagatcaagcccgtggtcttgtgctgcctggttataactatctcggacccggaaacggtctcgatcgaggagagcctgtcaacagggcagacgaggtcgcgcgagagcacgacatctcgtacaacgagcagcttgaggcgggagacaacccctacctcaagtacaaccacgcggacgccgagtttcaggagaagctcgccgacgacacatccttcgggggaaacctcggaaaggcagtctttcaggccaagaaaagggttctcgaaccttttggcctggttgaagagggtgctaagacggcccctaccggaaagcggatagacgaccactttccaaaaagaaagaaggctcggaccgaagaggactccaagccttccacctcgtcagacgccgaagctggacccagcggatcccagcagctgcaaatcccagcccaaccagcctcaagtttgggagctgatacaatgtctgcgggaggtggcggcccattgggcgacaataaccaaggtgccgatggagtgggcaatgcctcgggagattggcattgcgattccacgtggatgggggacagagtcgtcaccaagtccacccgaacctgggtgctgcccagctacaacaaccaccagtaccgagagatcaaaagcggctccgtcgacggaagcaacgccaacgcctactttggatacagcaccccctgggggtactttgactttaaccgcttccacagccactggagcccccgagactggcaaagactcatcaacaactactggggcttcagaccccggtccctcagagtcaaaatcttcaacattcaagtcaaagaggtcacggtgcaggactccaccaccaccatcgccaacaacctcacctccaccgtccaagtgtttacggacgacgactaccagctgccctacgtcgtcggcaacgggaccgagggatgcctgccggccttccctccgcaggtctttacgctgccgcagtacggttacgcgacgctgaaccgcgacaacacagaaaatcccaccgagaggagcagcttcttctgcctagagtactttcccagcaagatgctgagaacgggcaacaactttgagtttacctacaactttgaggaggtgcccttccactccagcttcgctcccagtcagaacctcttcaagctggccaacccgctggtggaccagtacttgtaccgcttcgtgagcacaaataacactggcggagtccagttcaacaagaacctggccgggagatacgccaacacctacaaaaactggttcccggggcccatgggccgaacccagggctggaacctgggctccggggtcaaccgcgccagtgtcagcgccttcgccacgaccaataggatggagctcgagggcgcgagttaccaggtgcccccgcagccgaacggcatgaccaacaacctccagggcagcaacacctatgccctggagaacactatgatcttcaacagccagccggcgaacccgggcaccaccgccacgtacctcgagggcaacatgctcatcaccagcgagagcgagacgcagccggtgaaccgcgtggcgtacaacgtcggcgggcagatggccaccaacaaccagagctccaccactgcccccgcgaccggcacgtacaacctccaggaaatcgtgcccggcagcgtgtggatggagagggacgtgtacctccaaggacccatctgggccaagatcccagagacgggggcgcactttcacccctctccggccatgggcggattcggactcaaacacccaccgcccatgatgctcatcaagaacacgcctgtgcccggaaatatcaccagcttctcggacgtgcccgtcagcagcttcatcacccagtacagcaccgggcaggtcaccgtggagatggagtgggagctcaagaaggaaaactccaagaggtggaacccagagatccagtacacaaacaactacaacgacccccagtttgtggactttgccccggacagcaccggggaatacagaaccaccagacctatcggaacccgataccttacccgacccctttaacccattcatgtcgcataccctcaataaaccgtgtattcgtgtcagtaaaatactgcctcttgtggtcattcaatgaataacagcttacaacatctacaaaacctccttgcttgagagtgtggcactctcccccctgtcgcgcg</GBSeq_sequence>
+  </GBSeq>

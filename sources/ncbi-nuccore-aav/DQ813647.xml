@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ813647</GBSeq_locus>
+    <GBSeq_length>4213</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-FEB-2008</GBSeq_update-date>
+    <GBSeq_create-date>11-DEC-2007</GBSeq_create-date>
+    <GBSeq_definition>Adeno-associated virus 12 Rep78 and VP1 genes, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ813647</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ813647.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ813647.1|</GBSeqid>
+      <GBSeqid>gi|112379654</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus 12 (AAV12)</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 12</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4213</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Schmidt,M.</GBAuthor>
+          <GBAuthor>Voutetakis,A.</GBAuthor>
+          <GBAuthor>Afione,S.</GBAuthor>
+          <GBAuthor>Zheng,C.</GBAuthor>
+          <GBAuthor>Mandikian,D.</GBAuthor>
+          <GBAuthor>Chiorini,J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adeno-associated virus type 12 (AAV12): a novel AAV serotype with sialic acid- and heparan sulfate proteoglycan-independent transduction activity</GBReference_title>
+        <GBReference_journal>J. Virol. 82 (3), 1399-1406 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.02012-07</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18045941</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4213</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Schmidt,M.</GBAuthor>
+          <GBAuthor>Chiorini,J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUN-2006) NIDCR, NIH, 9000 Rockville Pike, Bethesda, MD 20892, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4213</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4213</GBInterval_to>
+            <GBInterval_accession>DQ813647.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Simian Adenovirus 18 stock in ATCC VR-943</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>ATCC:VR-943</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:235458</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Michael Schmidt</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>acronym: AAV12</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>103..1968</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>103</GBInterval_from>
+            <GBInterval_to>1968</GBInterval_to>
+            <GBInterval_accession>DQ813647.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Rep78</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABI16638.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPGFYEVVIKVPSDLDEHLPGISDSFVNWVAEKEWELPPDSDMDQNLIEQAPLTVAEKLQREFLVEWRRVSKFLEAKFFVQFEKGDSYFHLHILIEITGVKSMVVGRYVSQIRDKLIQRIYRGVEPQLPNWFAVTKTRNGAGGGNKVVDECYIPNYLLPKVQPELQWAWTNMEEYISACLNLAERKRLVAQHLTHVSQTQEGDKENLNPNSDAPVIRSKTSARYMELVGWLVDKGITSEKQWIQEDQASYISFNAASNSRSQIKAALDNASKIMSLTKTAPDYLIGQQPVGDITTNRIYKILELNGYDPQYAASVFLGWAQKKFGKRNTIWLFGPATTGKTNIAEAIAHAVPFYGCVNWTNENFPFNDCVDKMVIWWEEGKMTAKVVESAKAILGGSKVRVDQKCKASAQIDPTPVIVTSNTNMCAVIDGNSTTFEHQQPLQDRMFKFELTRRLDHDFGKVTKQEVKDFFRWAADHVTDVAHEFYVTKGGAKKRPAPSDEDISEPKRPRVSFAQPETSDAEAPGDFADRYQNKCSRHAGMLQMLFPCKTCERMNQNSNVCFTHGQKDCGECFPGSESQPVSVVRKTYQKLCILHQLRGAPEIACSACDQLNPDLDDCQFEQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1985..4213</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1985</GBInterval_from>
+            <GBInterval_to>4213</GBInterval_to>
+            <GBInterval_accession>DQ813647.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABI16639.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAADGYLPDWLEDNLSEGIREWWALKPGAPQPKANQQHQDNGRGLVLPGYKYLGPFNGLDKGEPVNEADAAALEHDKAYDKQLEQGDNPYLKYNHADAEFQQRLATDTSFGGNLGRAVFQAKKRILEPLGLVEEGVKTAPGKKRPLEKTPNRPTNPDSGKAPAKKKQKDGEPADSARRTLDFEDSGAGDGPPEGSSSGEMSHDAEMRAAPGGNAVEAGQGADGVGNASGDWHCDSTWSEGRVTTTSTRTWVLPTYNNHLYLRIGTTANSNTYNGFSTPWGYFDFNRFHCHFSPRDWQRLINNNWGLRPKSMRVKIFNIQVKEVTTSNGETTVANNLTSTVQIFADSTYELPYVMDAGQEGSFPPFPNDVFMVPQYGYCGVVTGKNQNQTDRNAFYCLEYFPSQMLRTGNNFEVSYQFEKVPFHSMYAHSQSLDRMMNPLLDQYLWHLQSTTTGNSLNQGTATTTYGKITTGDFAYYRKNWLPGACIKQQKFSKNANQNYKIPASGGDALLKYDTHTTLNGRWSNMAPGPPMATAGAGDSDFSNSQLIFAGPNPSGNTTTSSNNLLFTSEEEIATTNPRDTDMFGQIADNNQNATTAPHIANLDAMGIVPGMVWQNRDIYYQGPIWAKVPHTDGHFHPSPLMGGFGLKHPPPQIFIKNTPVPANPNTTFSAARINSFLTQYSTGQVAVQIDWEIQKEHSKRWNPEVQFTSNYGTQNSMLWAPDNAGNYHELRAIGSRFLTHHL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttgcgacagtttgcgacaccatgtggtcacaagaggtatataaccgcgagtgagccagcgaggagctccattttgcccgcgaagtttgaacgagcagcagccatgccggggttctacgaggtggtgatcaaggtgcccagcgacctggacgagcacctgcccggcatttctgactcctttgtgaactgggtggccgagaaggaatgggagttgcccccggattctgacatggatcagaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgagttcctggtggaatggcgccgagtgagtaaatttctggaggccaagttttttgtgcagtttgaaaagggggactcgtactttcatttgcatattctgattgaaattaccggcgtgaaatccatggtggtgggccgctacgtgagtcagattagggataaactgatccagcgcatctaccgcggggtcgagccccagctgcccaactggttcgcggtcacaaagacccgaaatggcgccggaggcgggaacaaggtggtggacgagtgctacatccccaactacctgctccccaaggtccagcccgagcttcagtgggcgtggactaacatggaggagtatataagcgcctgtttgaacctcgcggagcgtaaacggctcgtggcgcagcacctgacgcacgtctcccagacccaggagggcgacaaggagaatctgaacccgaattctgacgcgccggtgatccggtcaaaaacctccgccaggtacatggagctggtcgggtggctggtggacaagggcatcacgtccgagaagcagtggatccaggaggaccaggcctcgtacatctccttcaacgcggcctccaactcccggtcgcagatcaaggcggccctggacaatgcctccaaaatcatgagcctcaccaaaacggctccggactatctcatcgggcagcagcccgtgggggacattaccaccaaccggatctacaaaatcctggaactgaacgggtacgacccccagtacgccgcctccgtctttctcggctgggcccagaaaaagtttggaaagcgcaacaccatctggctgtttgggcccgccaccaccggcaagaccaacatcgcggaagccatcgcccacgcggtccccttctacggctgcgtcaactggaccaatgagaactttcccttcaacgactgcgtcgacaaaatggtgatttggtgggaggagggcaagatgaccgccaaggtcgtagagtccgccaaggccattctgggcggcagcaaggtgcgcgtggaccaaaaatgcaaggcctctgcgcagatcgaccccacccccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaacagcaccaccttcgagcaccagcagcccctgcaggaccggatgttcaagtttgaactcacccgccgcctcgaccacgactttggcaaggtcaccaagcaggaagtcaaggactttttccggtgggcggctgatcacgtgactgacgtggctcatgagttttacgtcacaaagggtggagctaagaaaaggcccgccccctctgacgaggatataagcgagcccaagcggccgcgcgtgtcatttgcgcagccggagacgtcagacgcggaagctcccggagacttcgccgacaggtaccaaaacaaatgttctcgtcacgcgggtatgctgcagatgctctttccctgcaagacgtgcgagagaatgaatcagaattccaacgtctgcttcacgcacggtcagaaagattgcggggagtgctttcccgggtcagaatctcaaccggtttctgtcgtcagaaaaacgtatcagaaactgtgcatccttcatcagctccggggggcacccgagatcgcctgctctgcttgcgaccaactcaaccccgatttggacgattgccaatttgagcaataaatgactgaaatcaggtatggctgctgacggttatcttccagattggctcgaggacaacctctctgaaggcattcgcgagtggtgggcgctgaaacctggagctccacaacccaaggccaaccaacagcatcaggacaacggcaggggtcttgtgcttcctgggtacaagtacctcggacccttcaacggactcgacaagggagagccggtcaacgaggcagacgccgcggccctcgagcacgacaaggcctacgacaagcagctcgagcagggggacaacccgtatctcaagtacaaccacgccgacgccgagttccagcagcgcttggcgaccgacacctcttttgggggcaacctcgggcgagcagtcttccaggccaaaaagaggattctcgagcctctgggtctggttgaagagggcgttaaaacggctcctggaaagaaacgcccattagaaaagactccaaatcggccgaccaacccggactctgggaaggccccggccaagaaaaagcaaaaagacggcgaaccagccgactctgctagaaggacactcgactttgaagactctggagcaggagacggaccccctgagggatcatcttccggagaaatgtctcatgatgctgagatgcgtgcggcgccaggcggaaatgctgtcgaggcgggacaaggtgccgatggagtgggtaatgcctccggtgattggcattgcgattccacctggtcagagggccgagtcaccaccaccagcacccgaacctgggtcctacccacgtacaacaaccacctgtacctgcgaatcggaacaacggccaacagcaacacctacaacggattctccaccccctggggatactttgactttaaccgcttccactgccacttttccccacgcgactggcagcgactcatcaacaacaactggggactcaggccgaaatcgatgcgtgttaaaatcttcaacatacaggtcaaggaggtcacgacgtcaaacggcgagactacggtcgctaataaccttaccagcacggttcagatctttgcggattcgacgtatgaactcccatacgtgatggacgccggtcaggaggggagctttcctccgtttcccaacgacgtctttatggttccccaatacggatactgcggagttgtcactggaaaaaaccagaaccagacagacagaaatgccttttactgcctggaatactttccatcccaaatgctaagaactggcaacaattttgaagtcagttaccaatttgaaaaagttcctttccattcaatgtacgcgcacagccagagcctggacagaatgatgaatcctttactggatcagtacctgtggcatctgcaatcgaccactaccggaaattcccttaatcaaggaacagctaccaccacgtacgggaaaattaccactggagactttgcctactacaggaaaaactggttgcctggagcctgcattaaacaacaaaaattttcaaagaatgccaatcaaaactacaagattcccgccagcgggggagacgcccttttaaagtatgacacgcataccactctaaatgggcgatggagtaacatggctcctggacctccaatggcaaccgcaggtgccggggactcggattttagcaacagccagctgatctttgccggacccaatccgagcggtaacacgaccacatcttcaaacaatttgttgtttacctcagaagaggagattgccacaacaaacccacgagacacggacatgtttggacagattgcagataataatcaaaatgccaccaccgcccctcacatcgctaacctggacgctatgggaattgttcccggaatggtctggcaaaacagagacatctactaccagggccctatttgggccaaggtccctcacacggacggacactttcacccttcgccgctgatgggaggatttggactgaaacacccgcctccacagattttcatcaaaaacacccccgtacccgccaatcccaatactacctttagcgctgcaaggattaattcttttctgacgcagtacagcaccggacaagttgccgttcagatcgactgggaaattcagaaggagcattccaaacgctggaatcccgaagttcaatttacttcaaactacggcactcaaaattctatgctgtgggctcccgacaatgctggcaactaccacgaactccgggctattgggtcccgtttcctcacccaccacttgtaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN242367</GBSeq_locus>
+    <GBSeq_length>4516</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-JAN-2020</GBSeq_update-date>
+    <GBSeq_create-date>15-JAN-2020</GBSeq_create-date>
+    <GBSeq_definition>Adeno-associated virus isolate MgAAV2, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>MN242367</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN242367.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN242367.1|</GBSeqid>
+      <GBSeqid>gi|1793628893</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kesaniemi,J.</GBAuthor>
+          <GBAuthor>Lavrinienko,A.</GBAuthor>
+          <GBAuthor>Tukalenko,E.</GBAuthor>
+          <GBAuthor>Mappes,T.</GBAuthor>
+          <GBAuthor>Watts,P.C.</GBAuthor>
+          <GBAuthor>Jurvansuu,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Infection Load and Prevalence of Novel Viruses Identified from the Bank Vole Do Not Associate with Exposure to Environmental Radioactivity</GBReference_title>
+        <GBReference_journal>Viruses 12 (1), E44 (2019)</GBReference_journal>
+        <GBReference_pubmed>31905955</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4516</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jurvansuu,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-JUL-2019) Ecology and Genetics, University of Oulu, Pentti Kaiteran katu 1, Oulu 90570, Finland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Trinity v. 2.3.2; CAP v. 1999; Novoplasty v. 2.6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4516</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4516</GBInterval_to>
+            <GBInterval_accession>MN242367.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MgAAV2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Myodes glareolus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Ukraine: Kiev</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..60</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>60</GBInterval_to>
+            <GBInterval_accession>MN242367.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>inverted</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>178..1848</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>178</GBInterval_from>
+            <GBInterval_to>1848</GBInterval_to>
+            <GBInterval_accession>MN242367.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>replication protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QHD57625.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MELFSVTVKLPSDLDNDVPGISENLRDELYSAHVPLPDYSDMNPAEIDSPSVEMGSRIVQSMINFWREKMREEFQYFFQLELSNDNFHLHCLFETLGTKGFVLGRYVPQFKERIESDVFGGNEIQLPMWFKARKTKQQGGANVPVNEGYILNYLMPKRQSELQWAWSNIERYERALLNIEQRKRIEDEFKAESQRRKDLGLEPEFKAPRSGSSAADRYMELVNWLVEHGITSEKEWIREDQDSYIRHHTNSNGRAQIKAALDNAAKIMSLTKSAEDYLIGPSAPSSPEENRVYQIFQRNGYDPALAGSILLGWCRRGFGKRNAVWLYGPATTGKTNIAEAIAHAVPFYGCVNWTNENFPFNDCVEKMIIWWEEGKMSAKIVESAKAILGGSKVRVDQKCKSSQQIDSTPVIITSNTDMTVVVDGNTTTMEHQEALEDRMFQFYLSERLPDDFGKISKREIREFFKWAEQNKVEVEPMFRVPAHKQGDKRKRETDEQPFVTLNSESADAVSEAPELPAKKKVKTLNADFQKARDAYDKIVAGXFVLLLPMWCMIITM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1974..4163</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1974</GBInterval_from>
+            <GBInterval_to>4163</GBInterval_to>
+            <GBInterval_accession>MN242367.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QHD57627.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSFVDHPPDWLEDVLDGFNEFLGLKSGPPQPKAGQYDKPKDNTRGLVLPGYKYLGPGNGLDKGEPVNEADAAALEHDKAYDEQLKAGDNPYVKYNHADAEFQERLQGDTSFGGNLARGVFQAKKRVLEPLGLVEGDETGPIKRPHTQESPESSSGIGKKGHQPARKRLNFDQAGESSSGAAGQSNGSMSADGTERAAAGGAAVDAAQGADGVGNSSGNWHCDSTWGDNHVTTTSTRTWVLPNYNNHLYRRLGVSNTSNTYNGFSTPWGYFDFNRFHCHFSPRDWQRLINNHWGIRPKRISVKIFNIQVKEVTVQDGTTTVANNLTSTIQVFADKAYDLPYVMDAGQEGSLPPFPNDVFMIPQYGYMGLVTGGSSQNQTDRNAFYCLEYFPSQMLRTGNNFEMSFDFEDVPFHSMFAHSQSLDRLMNPLLDQYLWSLHSTTGGAYGTGTKLNTFIKNQTTDFSSYRRNWLPGPFIKQQRWNKGNTNYSVPVSGNDSMLHHESHTTLNGRWSKLAPGPAMATPENTATSFTQGQLMFAGPGQTTTSTTNSNNIIFTSEDELIATNPTDYDYWGAVTDGQQTSTVAPSERDVDAMPTMPGMVWQDRDIYYQGPIWAKIPHTDGRFHPSPLIGGFGLHKPPPQIFIKNTPVPANPATTFSATRINTFLNQYSTGQVAVQIEWELRKEKSKRWNPEIQFTSNYGTQNSMLWAPDAAGNYEEPRAIGTRYLTHCL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>2584..2997</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2584</GBInterval_from>
+            <GBInterval_to>2997</GBInterval_to>
+            <GBInterval_accession>MN242367.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>assembly activating protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QHD57626.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MQLKVPMEWVIPPVIGIAIPRGEIITSPPPAPEPGCCPTTTTTCTEDSASATPPTPTTDSAPPGGTLTLTDSTATSLHETGSDSSITIGESDPNASASKSSTFKSRRSRCRTAPRPSPTISPAPYRSLRTRRTTCRT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctttaggacaagcaattctgtctgtgtcatcgttatgtaagagtgacgatgcgtgttaatggttaacccgagtatcgatacgtcagagaccgaaaccaattcccattggttgagctctgtataaaaggaggtcgttttgagcgaccgagcacattcgacttccggacgtcgtgcgagatggagctctttagcgtgaccgtgaagctgccttccgacctggacaacgatgtgcccggcatctcggagaatctgcgcgacgagctgtattctgcgcacgttccgctgccggactactctgacatgaaccccgcagaaattgactctccgtctgtagagatgggttctcgcatcgtgcagtctatgatcaacttttggcgcgaaaagatgcgagaagagttccagtattttttccagctcgaactatctaatgacaactttcacctgcactgtctgtttgagactctgggcacgaagggcttcgttctcggccgttacgtgccccagtttaaggagcggatcgagtccgacgtttttggcgggaacgagatccagctccccatgtggttcaaggcccgcaagaccaagcagcagggcggagccaacgttccagtcaacgaaggctatatattgaactacctgatgcccaagcgtcagtctgagctgcagtgggcttggagtaacatcgagcggtacgagcgagctctgctgaatatcgagcagagaaagcgcatcgaggacgaatttaaggccgagagtcagcgcagaaaagatctcggtctcgagccagaatttaaggccccgagatccggcagttccgcggcagatcggtacatggagctggtcaactggctggtggagcacggcatcacctctgaaaaggaatggatccgagaagatcaggattcctatatccgccatcacacgaattccaacggccgggctcagatcaaggcggctttggacaacgccgccaagattatgagcttaacgaaatctgccgaggactatttgattgggccgtcagcgccttcctcgccggaagagaatcgtgtctaccagattttccagaggaacggctacgaccccgctctcgccggcagcattctgctcggctggtgcagaagaggcttcggcaagagaaacgccgtctggctgtacggtccggccaccaccggcaagaccaacattgccgaggctattgcgcatgctgtgcctttctacggctgcgtcaattggaccaacgagaactttcctttcaacgactgcgtcgagaagatgatcatctggtgggaggagggcaagatgagcgccaagatcgtcgagagcgcgaaggccatcctcgggggcagcaaagtgcgcgtcgaccagaaatgcaagtcgtcgcagcagatcgacagcactcccgtcatcatcacttcgaacaccgacatgacggttgtcgtcgacggcaacacgaccaccatggaacaccaggaggcgctcgaagatagaatgttccagttttatctatccgagagactgcccgatgactttgggaaaatttccaagcgggagattagagagtttttcaaatgggcggagcagaataaggttgaggttgaacccatgtttagagtccccgcccataaacaaggggataaaaggaagcgggagaccgacgaacagccatttgtcactctgaactcggagagtgcggacgctgtttcggaggctcccgaacttcctgccaagaaaaaggtaaaaactctaaacgcagattttcagaaagcgagggacgcttatgataagattgtggctgggtnttttgtactccttctcccgatgtggtgcatgataatcacgatgtaacttgtaagcacgggaaacatttgttttgcgcagattgtgaatttgtaaaacaaaagcgtgtagataataaatatttggaatgccccgattctaataaagaacaataaattttactcaacctagtcatgtcttttgtcgatcaccctccagattggttggaagacgttctcgacggcttcaacgaatttctgggtctcaaatcgggaccacctcagccaaaggccgggcagtacgataagcccaaagacaacaccagaggcctagtccttcctggctacaaatacttgggtccgggcaacggactcgataaaggagagcccgtcaacgaggctgacgccgctgctctcgagcacgacaaggcctacgacgagcagcttaaagcgggagacaacccgtacgtcaaatacaatcacgcagacgccgaattccaagagcgtctgcagggagatacgtcttttggcgggaaccttgctcgtggtgtattccaggccaagaagcgggtcctagagccgctcggtctggtcgaaggagacgagacgggtcccatcaagagaccccatacgcaagagagtcccgagtccagttccgggatcggaaagaagggccatcagcctgcccgcaagaggctcaactttgatcaagctggagaatcgagctctggtgccgcaggacagtctaacggaagcatgtctgcagacggtactgagcgtgcagcagctggcggagctgcggtcgatgcagctcaaggtgccgatggagtgggtaattcctccggtaattggcattgcgattccacgtggggagataatcacgtcaccaccaccagcaccagaacctgggtgctgcccaactacaacaaccacctgtaccgaagactcggcgtcagcaacacctccaacacctacaacggattcagcaccccctgggggtactttgactttaaccgattccactgccacttctctccacgagactggcagcgactcatcaataaccattggggaatcagacccaaacgcatcagcgtcaaaatcttcaacattcaagtcaaggaggtcacggtgcaggacggcaccacgaccgtcgccaacaatctcaccagcaccatacaggtctttgcggacaaggcgtacgacctgccgtacgtgatggacgccggacaggagggcagtctgcctccgttccccaacgacgtctttatgataccgcagtacggctacatgggactggtgacaggcggcagcagccagaaccagacggacagaaacgccttctactgtctagagtactttccctctcagatgctgagaacgggaaacaactttgaaatgagcttcgactttgaagacgtgcccttccactccatgttcgctcacagccagagtttggacagactgatgaatcctctgctggatcagtacctgtggagtctgcactcgaccacagggggagcctatggcaccggcaccaagctcaatacgttcatcaagaaccagaccacagacttttcgtcttatagacgcaactggctgcctggtcctttcatcaaacagcagagatggaacaagggcaataccaactactcggtgcccgtctctggaaacgactcgatgctccaccacgagtctcacacgactctgaacggtcgatggagcaaactggctcccggaccggccatggcaactccagaaaacacggctaccagctttacacaaggccagctcatgtttgccgggcccgggcagaccactaccagtaccaccaactccaacaacatcatcttcacctcggaggacgagctgattgccactaatcccaccgactacgattactggggagccgtcacagacggacagcagacctctaccgtggcacccagcgaacgagacgtggacgcgatgccgactatgcccggcatggtctggcaagacagagacatttactaccagggccccatctgggccaagattcctcataccgacggacgcttccatccgtctcctttgattggaggcttcggtctgcacaagcctcctcctcaaatcttcatcaaaaacacgccggtacctgccaatccagcaaccaccttctcggctactcgcatcaacaccttcctgaaccagtacagcaccggacaagtcgccgtccagatcgaatgggagctgcgcaaagaaaagtccaagcgatggaacccggaaatccagttcacttccaactacggtacccagaattccatgctctgggcgccagatgccgctggaaactacgaagagcccagagccatcggtacccgctacctcacccattgcctgtaaattgttcaataaaccgaatcgcgcatgcgcgagatgcgaaaacaaacacaacgaccactgcgtggtcattctcacaacaacacgacaaaaacttcccttgtcctaaagctagactctatacactcgctcgctcagaccccgtgactgagcagccgtcttgtgacgtcacttcctgtacgtcacttccccttcctgttacctcacttcctgttcattcactcagactatatgcagcgcaattaattgcgctgcatatagtctgagtgaatgaacaggaagtgaggtaacaggaaggggaagtgacgtacaggaagtgacgtcacaagacggctgctcagtcacggggtctgagc</GBSeq_sequence>
+  </GBSeq>

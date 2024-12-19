@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA845195</GBSeq_locus>
+    <GBSeq_length>5355</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-APR-2019</GBSeq_update-date>
+    <GBSeq_create-date>26-APR-2019</GBSeq_create-date>
+    <GBSeq_definition>JP 2018535929-A/40: ADENO-ASSOCIATED VIRUS FACTOR VIII VECTORS, ASSOCIATED VIRAL PARTICLES AND THERAPEUTIC FORMULATIONS COMPRISING THE SAME</GBSeq_definition>
+    <GBSeq_primary-accession>MA845195</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA845195.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA845195.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018535929|40</GBSeqid>
+      <GBSeqid>gi|1624798339</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018535929-A/40</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..5355</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bunting,S.</GBAuthor>
+          <GBAuthor>Colosi,P.C.</GBAuthor>
+          <GBAuthor>Pungor,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS FACTOR VIII VECTORS, ASSOCIATED VIRAL PARTICLES AND THERAPEUTIC FORMULATIONS COMPRISING THE SAME</GBReference_title>
+        <GBReference_journal>JP2018535929-A 40 06-DEC-2018 BIOMARIN PHARMACEUTICAL INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-Associated Virus 2~PN JP 2018535929-A/40~PD 06-DEC-2018~PF 23-SEP-2016 JP 2018515603~PR 15-APR-2016 US 62/323182 ,24-SEP-2015 US 62/232242~PR ,~PR 22-JUL-2016 US 62/365544~PA BIOMARIN PHARMACEUTICAL INC~PI stuart bunting,peter cameron colosi,erno pungor~PT 'ADENO-ASSOCIATED VIRUS FACTOR VIII VECTORS, ASSOCIATED VIRAL~PT PARTICLES AND~PT THERAPEUTIC FORMULATIONS COMPRISING THE SAME'~PS N40~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..5355</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>5355</GBInterval_to>
+            <GBInterval_accession>MA845195.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctgcggccgcacgcgtgttttcgactgtttgctgtttgctgcttgcaatgtttgcccattttagggacatgtttgctgtttgctgcttgcaatgtttgcccattttagggacatgtttgctgtttgctgcttgcaatgtttgcccattttagggacatgtttgctgtttgctgcttgcaatgtttgcccattttagggacaacgcgaaacgtcgactggacacaggacgctgtggtttctgagccagggggcgactcagatcccagccagtggacttagcccctgtttgctcctccgataactggggtgaccttggttaatattcaccagcagcctcccccgttgcccctctggatccactgcttaaatacggacgaggacagggccctgtctcctcagcttcaggcaccaccactgacctgggacagtgaatcgcgatcgccaccatgcagattgagctgagcacctgcttcttcctgtgcctgctgaggttctgcttctctgccaccaggagatactacctgggggctgtggagctgagctgggactacatgcagtctgacctgggggagctgcctgtggatgccaggttcccccccagagtgcccaagagcttccccttcaacacctctgtggtgtacaagaagaccctgtttgtggagttcactgaccacctgttcaacattgccaagcccaggcccccctggatgggcctgctgggccccaccatccaggctgaggtgtatgacactgtggtgatcaccctgaagaacatggccagccaccctgtgagcctgcatgctgtgggggtgagctactggaaggcctctgagggggctgagtatgatgaccagaccagccagagggagaaggaggatgacaaggtgttccctgggggcagccacacctatgtgtggcaggtgctgaaggagaatggccccatggcctctgaccccctgtgcctgacctacagctacctgagccatgtggacctggtgaaggacctgaactctggcctgattggggccctgctggtgtgcagggagggcagcctggccaaggagaagacccagaccctgcacaagttcatcctgctgtttgctgtgtttgatgagggcaagagctggcactctgaaaccaagaacagcctgatgcaggacagggatgctgcctctgccagggcctggcccaagatgcacactgtgaatggctatgtgaacaggagcctgcctggcctgattggctgccacaggaagtctgtgtactggcatgtgattggcatgggcaccacccctgaggtgcacagcatcttcctggagggccacaccttcctggtcaggaaccacaggcaggccagcctggagatcagccccatcaccttcctgactgcccagaccctgctgatggacctgggccagttcctgctgttctgccacatcagcagccaccagcatgatggcatggaggcctatgtgaaggtggacagctgccctgaggagccccagctgaggatgaagaacaatgaggaggctgaggactatgatgatgacctgactgactctgagatggatgtggtgaggtttgatgatgacaacagccccagcttcatccagatcaggtctgtggccaagaagcaccccaagacctgggtgcactacattgctgctgaggaggaggactgggactatgcccccctggtgctggcccctgatgacaggagctacaagagccagtacctgaacaatggcccccagaggattggcaggaagtacaagaaggtcaggttcatggcctacactgatgaaaccttcaagaccagggaggccatccagcatgagtctggcatcctgggccccctgctgtatggggaggtgggggacaccctgctgatcatcttcaagaaccaggccagcaggccctacaacatctacccccatggcatcactgatgtgaggcccctgtacagcaggaggctgcccaagggggtgaagcacctgaaggacttccccatcctgcctggggagatcttcaagtacaagtggactgtgactgtggaggatggccccaccaagtctgaccccaggtgcctgaccagatactacagcagctttgtgaacatggagagggacctggcctctggcctgattggccccctgctgatctgctacaaggagtctgtggaccagaggggcaaccagatcatgtctgacaagaggaatgtgatcctgttctctgtgtttgatgagaacaggagctggtacctgactgagaacatccagaggttcctgcccaaccctgctggggtgcagctggaggaccctgagttccaggccagcaacatcatgcacagcatcaatggctatgtgtttgacagcctgcagctgtctgtgtgcctgcatgaggtggcctactggtacatcctgagcattggggcccagactgacttcctgtctgtgttcttctctggctacaccttcaagcacaagatggtgtatgaggacaccctgaccctgttccccttctctggggagactgtgttcatgagcatggagaaccctggcctgtggattctgggctgccacaactctgacttcaggaacaggggcatgactgccctgctgaaagtctccagctgtgacaagaacactggggactactatgaggacagctatgaggacatctctgcctacctgctgagcaagaacaatgccattgagcccaggagcttcagccagaaccccccagtgctgaagaggcaccagagggagatcaccaggaccaccctgcagtctgaccaggaggagattgactatgatgacaccatctctgtggagatgaagaaggaggactttgacatctacgacgaggacgagaaccagagccccaggagcttccagaagaagaccaggcactacttcattgctgctgtggagaggctgtgggactatggcatgagcagcagcccccatgtgctgaggaacagggcccagtctggctctgtgccccagttcaagaaggtggtgttccaggagttcactgatggcagcttcacccagcccctgtacagaggggagctgaatgagcacctgggcctgctgggcccctacatcagggctgaggtggaggacaacatcatggtgaccttcaggaaccaggccagcaggccctacagcttctacagcagcctgatcagctatgaggaggaccagaggcagggggctgagcccaggaagaactttgtgaagcccaatgaaaccaagacctacttctggaaggtgcagcaccacatggcccccaccaaggatgagtttgactgcaaggcctgggcctacttctctgatgtggacctggagaaggatgtgcactctggcctgattggccccctgctggtgtgccacaccaacaccctgaaccctgcccatggcaggcaggtgactgtgcaggagtttgccctgttcttcaccatctttgatgaaaccaagagctggtacttcactgagaacatggagaggaactgcagggccccctgcaacatccagatggaggaccccaccttcaaggagaactacaggttccatgccatcaatggctacatcatggacaccctgcctggcctggtgatggcccaggaccagaggatcaggtggtacctgctgagcatgggcagcaatgagaacatccacagcatccacttctctggccatgtgttcactgtgaggaagaaggaggagtacaagatggccctgtacaacctgtaccctggggtgtttgagactgtggagatgctgcccagcaaggctggcatctggagggtggagtgcctgattggggagcacctgcatgctggcatgagcaccctgttcctggtgtacagcaacaagtgccagacccccctgggcatggcctctggccacatcagggacttccagatcactgcctctggccagtatggccagtgggcccccaagctggccaggctgcactactctggcagcatcaatgcctggagcaccaaggagcccttcagctggatcaaggtggacctgctggcccccatgatcatccatggcatcaagacccagggggccaggcagaagttcagcagcctgtacatcagccagttcatcatcatgtacagcctggatggcaagaagtggcagacctacaggggcaacagcactggcaccctgatggtgttctttggcaatgtggacagctctggcatcaagcacaacatcttcaacccccccatcattgccagatacatcaggctgcaccccacccactacagcatcaggagcaccctgaggatggagctgatgggctgtgacctgaacagctgcagcatgcccctgggcatggagagcaaggccatctctgatgcccagatcactgccagcagctacttcaccaacatgtttgccacctggagccccagcaaggccaggctgcacctgcagggcaggagcaatgcctggaggccccaggtcaacaaccccaaggagtggctgcaggtggacttccagaagaccatgaaggtgactggggtgaccacccagggggtgaagagcctgctgaccagcatgtatgtgaaggagttcctgatcagcagcagccaggatggccaccagtggaccctgttcttccagaatggcaaggtgaaggtgttccagggcaaccaggacagcttcacccctgtggtgaacagcctggacccccccctgctgaccagatacctgaggattcacccccagagctgggtgcaccagattgccctgaggatggaggtgctgggctgtgaggcccaggacctgtactgacctcgaggtgtgccttctagttgccagccatctgttgtttgcccctcccccgtgccttccttgaccctggaaggtgccactcccactgtcctttcctaataaaatgaggaaattgcatcgcattgtctgagtaggtgtcattctattctggggggtggggtggggcaggacagcaagggggaggattgggaagacaatagcaggcatgctggggatgcggtgggctctatgggcacgtggcggccgcaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

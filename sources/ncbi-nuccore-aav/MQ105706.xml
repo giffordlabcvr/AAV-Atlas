@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MQ105706</GBSeq_locus>
+    <GBSeq_length>4683</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>20-JUL-2021</GBSeq_update-date>
+    <GBSeq_create-date>20-JUL-2021</GBSeq_create-date>
+    <GBSeq_definition>Sequence 143 from Patent EP3844290</GBSeq_definition>
+    <GBSeq_primary-accession>MQ105706</GBSeq_primary-accession>
+    <GBSeq_accession-version>MQ105706.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|MQ105706.1|</GBSeqid>
+      <GBSeqid>pat|EP|3844290|143</GBSeqid>
+      <GBSeqid>gi|2070440924</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus - 6</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 6</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4683</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>BARZEL,A.</GBAuthor>
+          <GBAuthor>NAHMAD,A.D.</GBAuthor>
+          <GBAuthor>AKRIV,T.</GBAuthor>
+          <GBAuthor>FRIED,M.</GBAuthor>
+          <GBAuthor>DOTAN,I.</GBAuthor>
+          <GBAuthor>NATAF,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GENETIC ENGNEERING OF B CELL RECEPTORS AND USES THEREOF IN ANTIGEN-INDUCED ANTIBODY SECRETION</GBReference_title>
+        <GBReference_journal>EP3844290-A1 143 07-JUL-2021 UNIV RAMOT [IL]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4683</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4683</GBInterval_to>
+            <GBInterval_accession>MQ105706.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:68558</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>complete genome, GenBank: AF028704.1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtcacgctgggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacgcgcagcgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgagcatctgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgacttcctggtccagtggcgccgcgtgagtaaggccccggaggccctcttctttgttcagttcgagaagggcgagtcctacttccacctccatattctggtggagaccacgggggtcaaatccatggtgctgggccgcttcctgagtcagattagggacaagctggtgcagaccatctaccgcgggatcgagccgaccctgcccaactggttcgcggtgaccaagacgcgtaatggcgccggaggggggaacaaggtggtggacgagtgctacatccccaactacctcctgcccaagactcagcccgagctgcagtgggcgtggactaacatggaggagtatataagcgcgtgtttaaacctggccgagcgcaaacggctcgtggcgcacgacctgacccacgtcagccagacccaggagcagaacaaggagaatctgaaccccaattctgacgcgcctgtcatccggtcaaaaacctccgcacgctacatggagctggtcgggtggctggtggaccggggcatcacctccgagaagcagtggatccaggaggaccaggcctcgtacatctccttcaacgccgcctccaactcgcggtcccagatcaaggccgctctggacaatgccggcaagatcatggcgctgaccaaatccgcgcccgactacctggtaggccccgctccgcccgccgacattaaaaccaaccgcatttaccgcatcctggagctgaacggctacgaccctgcctacgccggctccgtctttctcggctgggcccagaaaaggttcggaaaacgcaacaccatctggctgtttgggccggccaccacgggcaagaccaacatcgcggaagccatcgcccacgccgtgcccttctacggctgcgtcaactggaccaatgagaactttcccttcaacgattgcgtcgacaagatggtgatctggtgggaggagggcaagatgacggccaaggtcgtggagtccgccaaggccattctcggcggcagcaaggtgcgcgtggaccaaaagtgcaagtcgtccgcccagatcgatcccacccccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaacagcaccaccttcgagcaccagcagccgttgcaggaccggatgttcaaatttgaactcacccgccgtctggagcatgactttggcaaggtgacaaagcaggaagtcaaagagttcttccgctgggcgcaggatcacgtgaccgaggtggcgcatgagttctacgtcagaaagggtggagccaacaagagacccgcccccgatgacgcggataaaagcgagcccaagcgggcctgcccctcagtcgcggatccatcgacgtcagacgcggaaggagctccggtggactttgccgacaggtaccaaaacaaatgttctcgtcacgcgggcatgcttcagatgctgtttccctgcaaaacatgcgagagaatgaatcagaatttcaacatttgcttcacgcacgggaccagagactgttcagaatgtttccccggcgtgtcagaatctcaaccggtcgtcagaaagaggacgtatcggaaactctgtgccattcatcatctgctggggcgggctcccgagattgcttgctcggcctgcgatctggtcaacgtggatctggatgactgtgtttctgagcaataaatgacttaaaccaggtatggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggatgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagagggttctcgaaccttttggtctggttgaggaaggtgctaagacggctcctggaaagaaacgtccggtagagcagtcgccacaagagccagactcctcctcgggcattggcaagacaggccagcagcccgctaaaaagagactcaattttggtcagactggcgactcagagtcagtccccgacccacaacctctcggagaacctccagcaacccccgctgctgtgggacctactacaatggcttcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacatgggccttgcccacctataacaaccacctctacaagcaaatctccagtgcttcaacgggggccagcaacgacaaccactacttcggctacagcaccccctgggggtattttgatttcaacagattccactgccatttctcaccacgtgactggcagcgactcatcaacaacaattggggattccggcccaagagactcaacttcaagctcttcaacatccaagtcaaggaggtcacgacgaatgatggcgtcacgaccatcgctaataaccttaccagcacggttcaagtcttctcggactcggagtaccagttgccgtacgtcctcggctctgcgcaccagggctgcctccctccgttcccggcggacgtgttcatgattccgcagtacggctacctaacgctcaacaatggcagccaggcagtgggacggtcatccttttactgcctggaatatttcccatcgcagatgctgagaacgggcaataactttaccttcagctacaccttcgaggacgtgcctttccacagcagctacgcgcacagccagagcctggaccggctgatgaatcctctcatcgaccagtacctgtattacctgaacagaactcagaatcagtccggaagtgcccaaaacaaggacttgctgtttagccgggggtctccagctggcatgtctgttcagcccaaaaactggctacctggaccctgttaccggcagcagcgcgtttctaaaacaaaaacagacaacaacaacagcaactttacctggactggtgcttcaaaatataaccttaatgggcgtgaatctataatcaaccctggcactgctatggcctcacacaaagacgacaaagacaagttctttcccatgagcggtgtcatgatttttggaaaggagagcgccggagcttcaaacactgcattggacaatgtcatgatcacagacgaagaggaaatcaaagccactaaccccgtggccaccgaaagatttgggactgtggcagtcaatctccagagcagcagcacagaccctgcgaccggagatgtgcatgttatgggagccttacctggaatggtgtggcaagacagagacgtatacctgcagggtcctatttgggccaaaattcctcacacggatggacactttcacccgtctcctctcatgggcggctttggacttaagcacccgcctcctcagatcctcatcaaaaacacgcctgttcctgcgaatcctccggcagagttttcggctacaaagtttgcttcattcatcacccagtattccacaggacaagtgagcgtggagattgaatgggagctgcagaaagaaaacagcaaacgctggaatcccgaagtgcagtatacatctaactatgcaaaatctgccaacgttgatttcactgtggacaacaatggactttatactgagcctcgccccattggcacccgttacctcacccgtcccctgtaattgtgtgttaatcaataaaccggttaattcgtgtcagttgaactttggtctcatgtcgttattatcttatctggtcaccatagcaaccggttacacattaactgcttagttgcgcttcgcgaatacccctagtgatggagttgcccactccctctatgcgcgctcgctcgctcggtggggccggcagagcagagctctgccgtctgcggacctttggtccgcaggccccaccgagcgagcgagcgcgcatagagggagtgggcaa</GBSeq_sequence>
+  </GBSeq>

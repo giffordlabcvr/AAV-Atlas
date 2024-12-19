@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OF283718</GBSeq_locus>
+    <GBSeq_length>4623</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>16-DEC-2021</GBSeq_update-date>
+    <GBSeq_create-date>16-DEC-2021</GBSeq_create-date>
+    <GBSeq_definition>KR 1020210068068-A/107: FRATAXIN EXPRESSION CONSTRUCTS HAVING ENGINEERED PROMOTERS AND METHODS OF USE THEREOF</GBSeq_definition>
+    <GBSeq_primary-accession>OF283718</GBSeq_primary-accession>
+    <GBSeq_accession-version>OF283718.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|OF283718.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020210068068|107</GBSeqid>
+      <GBSeqid>gi|2166111957</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020210068068-A/107</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 6</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 6</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4623</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Patzke,H.</GBAuthor>
+          <GBAuthor>Hou,J.</GBAuthor>
+          <GBAuthor>Wang,H.</GBAuthor>
+          <GBAuthor>Shu,Y.</GBAuthor>
+          <GBAuthor>Goulet,M.</GBAuthor>
+          <GBAuthor>Sah,D.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>FRATAXIN EXPRESSION CONSTRUCTS HAVING ENGINEERED PROMOTERS AND METHODS OF USE THEREOF</GBReference_title>
+        <GBReference_journal>KR1020210068068-A 107 08-JUN-2021 VOYAGER THERAPEUTICS, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020217012184-A/107~AN KR 1020217012184~AD 2021-04-23~PN KR 1020210068068~PD 2021-06-08~AT FRATAXIN EXPRESSION CONSTRUCTS HAVING ENGINEERED PROMOTERS AND~AT METHODS OF USE THEREOF~AI Patzke, Holger|Hou, Jinzhao|Wang, Hongxing|Shu, Yanqun|Goulet,~AI Martin|Sah, Dinah Wen-Yee~AA VOYAGER THERAPEUTICS, INC.~PR US 62/901,769=2019-09-17|US 62/738,519=2018-09-28~OS Adeno-associated virus 6~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4623</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4623</GBInterval_to>
+            <GBInterval_accession>OF283718.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:68558</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtcacgctgggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacgcgcagcgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgagcatctgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgacttcctggtccagtggcgccgcgtgagtaaggccccggaggccctcttctttgttcagttcgagaagggcgagtcctacttccacctccatattctggtggagaccacgggggtcaaatccatggtgctgggccgcttcctgagtcagattagggacaagctggtgcagaccatctaccgcgggatcgagccgaccctgcccaactggttcgcggtgaccaagacgcgtaatggcgccggaggggggaacaaggtggtggacgagtgctacatccccaactacctcctgcccaagactcagcccgagctgcagtgggcgtggactaacatggaggagtatataagcgcgtgtttaaacctggccgagcgcaaacggctcgtggcgcacgacctgacccacgtcagccagacccaggagcagaacaaggagaatctgaaccccaattctgacgcgcctgtcatccggtcaaaaacctccgcacgctacatggagctggtcgggtggctggtggaccggggcatcacctccgagaagcagtggatccaggaggaccaggcctcgtacatctccttcaacgccgcctccaactcgcggtcccagatcaaggccgctctggacaatgccggcaagatcatggcgctgaccaaatccgcgcccgactacctggtaggccccgctccgcccgccgacattaaaaccaaccgcatttaccgcatcctggagctgaacggctacgaccctgcctacgccggctccgtctttctcggctgggcccagaaaaggttcggaaaacgcaacaccatctggctgtttgggccggccaccacgggcaagaccaacatcgcggaagccatcgcccacgccgtgcccttctacggctgcgtcaactggaccaatgagaactttcccttcaacgattgcgtcgacaagatggtgatctggtgggaggagggcaagatgacggccaaggtcgtggagtccgccaaggccattctcggcggcagcaaggtgcgcgtggaccaaaagtgcaagtcgtccgcccagatcgatcccacccccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaacagcaccaccttcgagcaccagcagccgttgcaggaccggatgttcaaatttgaactcacccgccgtctggagcatgactttggcaaggtgacaaagcaggaagtcaaagagttcttccgctgggcgcaggatcacgtgaccgaggtggcgcatgagttctacgtcagaaagggtggagccaacaagagacccgcccccgatgacgcggataaaagcgagcccaagcgggcctgcccctcagtcgcggatccatcgacgtcagacgcggaaggagctccggtggactttgccgacaggtaccaaaacaaatgttctcgtcacgcgggcatgcttcagatgctgtttccctgcaaaacatgcgagagaatgaatcagaatttcaacatttgcttcacgcacgggaccagagactgttcagaatgtttccccggcgtgtcagaatctcaaccggtcgtcagaaagaggacgtatcggaaactctgtgccattcatcatctgctggggcgggctcccgagattgcttgctcggcctgcgatctggtcaacgtggatctggatgactgtgtttctgagcaataaatgacttaaaccaggtatggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggatgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagagggttctcgaaccttttggtctggttgaggaaggtgctaagacggctcctggaaagaaacgtccggtagagcagtcgccacaagagccagactcctcctcgggcattggcaagacaggccagcagcccgctaaaaagagactcaattttggtcagactggcgactcagagtcagtccccgacccacaacctctcggagaacctccagcaacccccgctgctgtgggacctactacaatggcttcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcaccccgggggccagcaacgacaaccactacttcggctacagcaccccctgggggtattttgatttcaacagattccactgccatttctcaccacgtgactggcagcgactcatcaacaacaattggggattccggcccaagagactcaacttcaagctcttcaacatccaagtcaaggaggtcacgacgaatgatggcgtcacgaccatcgctaataaccttaccagcacggttcaagtcttctcggactcggagtaccagttgccgtacgtcctcggctctgcgcaccagggctgcctccctccgttcccggcggacgtgttcatgattccgcagtacggctacctaacgctcaacaatggcagccaggcagtgggacggtcatccttttactgcctggaatatttcccatcgcagatgctgagaacgggcaataactttaccttcagctacaccttcgaggacgtgcctttccacagcagctacgcgcacagccagagcctggaccggctgatgaatcctctcatcgaccagtacctgtattacctgaacagaactcagaatcagtccggaagtgcccaaaacaaggacttgctgtttagccgggggtctccagctggcatgtctgttcagcccaaaaactggctacctggaccctgttaccggcagcagcgcgtttctaaaacaaaaacagacaacaacaacagcaactttacctggactggtgcttcaaaatataaccttaatgggcgtgaatctataatcaaccctggcactgctatggcctcacacaaagacgacaaagacaagttctttcccatgagcggtgtcatgatttttggaaaggagagcgccggagcttcaaacactgcattggacaatgtcatgatcacagacgaagaggaaatcaaagccactaaccccgtggccaccgaaagatttgggactgtggcagtcaatctccagagcagcagcacagaccctgcgaccggagatgtgcatgttatgggagccttacctggaatggtgtggcaagacagagacgtatacctgcagggtcctatttgggccaaaattcctcacacggatggacactttcacccgtctcctctcatgggcggctttggacttaagcacccgcctcctcagatcctcatcaaaaacacgcctgttcctgcgaatcctccggcagagttttcggctacaaagtttgcttcattcatcacccagtattccacaggacaagtgagcgtggagattgaatgggagctgcagaaagaaaacagcaaacgctggaatcccgaagtgcagtatacatctaactatgcaaaatctgccaacgttgatttcactgtggacaacaatggactttatactgagcctcgccccattggcacccgttacctcacccgtcccctgtaattgtgtgttaatcaataaaccggttaattcgtgtcagttgaactttggtctcatgtcgttattatcttatctggtcaccatagcaaccggttacacattaactgcttagttgcgcttcgcgaatacccctagtgatggagttgcccactccctctatgcgcgctcgctcgctcggtggggccggcagagcagagctctgccgtctgcggacctttggtccgcaggccccaccgagcgagcgagcgcgcatagagggagtgggcaa</GBSeq_sequence>
+  </GBSeq>

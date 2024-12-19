@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CQ972063</GBSeq_locus>
+    <GBSeq_length>4393</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-JAN-2005</GBSeq_update-date>
+    <GBSeq_create-date>05-JAN-2005</GBSeq_create-date>
+    <GBSeq_definition>Sequence 8 from Patent WO2004108922</GBSeq_definition>
+    <GBSeq_primary-accession>CQ972063</GBSeq_primary-accession>
+    <GBSeq_accession-version>CQ972063.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CQ972063.1|</GBSeqid>
+      <GBSeqid>pat|WO|2004108922|8</GBSeqid>
+      <GBSeqid>gi|57163376</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4393</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rader,D.J.</GBAuthor>
+          <GBAuthor>Wilson,J.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods and compositions for lowering total cholesterol levels and treatment of heart disease</GBReference_title>
+        <GBReference_journal>WO2004108922-A2 8 16-DEC-2004 The Trustees of The University of Pennsylvania (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4393</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4393</GBInterval_to>
+            <GBInterval_accession>CQ972063.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagagagggagtggccaactccatcactaggggtagcgcgaagcgcctcccacgctgccgcgtcagcgctgacgtaaattacgtcataggggagtggtcctgtattagctgtcacgtgagtgcttttgcggcattttgcgacaccacgtggccatttgaggtatatatggccgagtgagcgagcaggatctccattttgaccgcgaaatttgaacgagcagcagccatgccgggcttctacgagatcgtgatcaaggtgccgagcgacctggacgagcacctgccgggcatttctgactcgtttgtgaactgggtggccgagaaggaatgggagctgcccccggattctgacatggatcggaatctgatcgagcaggcacccctgaccgtggccgagaagctgcagcgcgacttcctggtccaatggcgccgcgtgagtaaggccccggaggccctcttctttgttcagttcgagaagggcgagagctactttcacctgcacgttctggtcgagaccacgggggtcaagtccatggtgctaggccgcttcctgagtcagattcgggaaaagcttggtccagaccatctacccgcggggtcgagccccaccttgcccaactggttcgcggtgaccaaagacgcggtaatggcgccggcgggggggaacaaggtggtggacgagtgctacatccccaactacctcctgcccaagactcagcccgagctgcagtgggcgtggactaacatggaggagtatataagcgcgtgcttgaacctggccgagcgcaaacggctcgtggcgcagcacctgacccacgtcagccagacgcaggagcagaacaaggagaatctgaaccccaattctgacgcgcccgtgatcaggtcaaaaacctccgcgcgctatatggagctggtcgggtggctggtggaccggggcatcacctccgagaagcagtggatccaggaggaccaggcctcgtacatctccttcaacgccgcctccaactcgcggtcccagatcaaggccgcgctggacaatgccggcaagatcatggcgctgaccaaatccgcgcccgactacctggtggggccctcgctgcccgcggacattacccagaaccgcatctaccgcatcctcgctctcaacggctacgaccctgcctacgccggctccgtctttctcggctgggctcagaaaaagttcgggaaacgcaacaccatctggctgtttggacccgccaccaccggcaagaccaacattgcggaagccatcgcccacgccgtgcccttctacggctgcgtcaactggaccaatgagaactttcccttcaatgattgcgtcgacaagatggtgatctggtgggaggagggcaagatgacggccaaggtcgtggagtccgccaaggccattctcggcggcagcaaggtgcgcgtggaccaaaagtgcaagtcgtccgcccagatcgaccccacccccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaacagcaccaccttcgagcaccagcagcctctccaggaccggatgtttaagttcgaactcacccgccgtctggagcacgactttggcaaggtgacaaagcaggaagtcaaagagttcttccgctgggccagtgatcacgtgaccgaggtggcgcatgagttttacgtcagaaagggcggagccagcaaaagacccgcccccgatgacgcggataaaagcgagcccaagcgggcctgcccctcagtcgcggatccatcgacgtcagacgcggaaggagctccggtggactttgccgacaggtaccaaaacaaatgttctcgtcacgcgggcatgcttcagatgctgtttccctgcaaaacgtgcgagagaatgaatcagaatttcaacatttgcttcacacacggggtcagagactgctcagagtgtttccccggcgtgtcagaatctcaaccggtcgtcagaaagaggacgtatcggaaactctgtgcgattcatcatctgctggggcgggctcccgagattgcttgctcggcctgcgatctggtcaacgtggacctggatgactgtgtttctgagcaataaatgacttaaaccaggtatggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggcgctgaaacctggagccccgaagcccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctgcaggcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagccatcaccccagcgttctccagactcctctacgggcatcggcaagaaaggccaacagcccgccagaaaaagactcaattttggtcagactggcgactcagagtcagttccagaccctcaacctctcggagaacctccagcagcgccctctggtgtgggacctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtagttcctcgggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacatcgggaggagccaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttttcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcagcttcaagctcttcaacatccaggtcaaggaggtcacgcagaatgaaggcaccaagaccatcgccaataacctcaccagcaccatccaggtgtttacggactcggagtaccagctgccgtacgttctcggctctgcccaccagggctgcctgcctccgttcccggcggacgtgttcatgattccccagtacggctacctaacactcaacaacggtagtcaggccgtgggacgctcctccttctactgcctggaatactttccttcgcagatgctgagaaccggcaacaacttccagtttacttacaccttcgaggacgtgcctttccacagcagctacgcccacagccagagcttggaccggctgatgaatcctctgattgaccagtacctgtactacttgtctcggactcaaacaacaggaggcacggcaaatacgcagactctgggcttcagccaaggtgggcctaatacaatggccaatcaggcaaagaactggctgccaggaccctgttaccgccaacaacgcgtctcaacgacaaccgggcaaaacaacaatagcaactttgcctggactgctgggaccaaataccatctgaatggaagaaattcattggctaatcctggcatcgctatggcaacacacaaagacgacgaggagcgtttttttcccagtaacgggatcctgatttttggcaaacaaaatgctgccagagacaatgcggattacagcgatgtcatgctcaccagcgaggaagaaatcaaaaccactaaccctgtggctacagaggaatacggtatcgtggcagataacttgcagcagcaaaacacggctcctcaaattggaactgtcaacagccagggggccttacccggtatggtctggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcacacggacggcaacttccacccgtctccgctgatgggcggctttggcctgaaacatcctccgcctcagatcctgatcaagaacacgcctgtacctgcggatcctccgaccaccttcaaccagtcaaagctgaactctttcatcacgcaatacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaggaaaacagcaagcgctggaaccccgagatccagtacacctccaactactacaaatctacaagtgtggactttgctgttaatacagaaggcgtgtactctgaaccccgccccattggcacccgttacctcacccgtaatctgtaattgcctgttaatcaataaaccggttgattcgtttcagttgaactttggtctctgcg</GBSeq_sequence>
+  </GBSeq>

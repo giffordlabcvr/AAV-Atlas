@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OP019744</GBSeq_locus>
+    <GBSeq_length>4677</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-AUG-2022</GBSeq_update-date>
+    <GBSeq_create-date>09-AUG-2022</GBSeq_create-date>
+    <GBSeq_definition>UNVERIFIED: Adeno-associated virus 2 isolate CVR_4 sequence</GBSeq_definition>
+    <GBSeq_primary-accession>OP019744</GBSeq_primary-accession>
+    <GBSeq_accession-version>OP019744.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OP019744.1|</GBSeqid>
+      <GBSeqid>gi|2281975811</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>UNVERIFIED</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4677</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ho,A.</GBAuthor>
+          <GBAuthor>Orton,R.</GBAuthor>
+          <GBAuthor>Tayler,R.</GBAuthor>
+          <GBAuthor>Asamaphan,P.</GBAuthor>
+          <GBAuthor>Tong,L.</GBAuthor>
+          <GBAuthor>Smollett,K.</GBAuthor>
+          <GBAuthor>Davis,C.</GBAuthor>
+          <GBAuthor>Manali,M.</GBAuthor>
+          <GBAuthor>McDonald,S.E.</GBAuthor>
+          <GBAuthor>Pollock,L.</GBAuthor>
+          <GBAuthor>Evans,C.</GBAuthor>
+          <GBAuthor>McMenamin,J.</GBAuthor>
+          <GBAuthor>Roy,K.</GBAuthor>
+          <GBAuthor>Marsh,K.</GBAuthor>
+          <GBAuthor>Divala,T.</GBAuthor>
+          <GBAuthor>Holden,M.</GBAuthor>
+          <GBAuthor>Lockhart,M.</GBAuthor>
+          <GBAuthor>Yirrell,D.</GBAuthor>
+          <GBAuthor>Currie,S.</GBAuthor>
+          <GBAuthor>Shepherd,S.J.</GBAuthor>
+          <GBAuthor>Jackson,C.</GBAuthor>
+          <GBAuthor>Gunson,R.</GBAuthor>
+          <GBAuthor>MacLean,A.</GBAuthor>
+          <GBAuthor>McInnes,N.</GBAuthor>
+          <GBAuthor>Battle,R.</GBAuthor>
+          <GBAuthor>Hollenbach,J.</GBAuthor>
+          <GBAuthor>Henderson,P.</GBAuthor>
+          <GBAuthor>Chand,M.</GBAuthor>
+          <GBAuthor>Hamilton,M.S.</GBAuthor>
+          <GBAuthor>Estrada-Rivadeneyra,D.</GBAuthor>
+          <GBAuthor>Levin,M.</GBAuthor>
+          <GBAuthor>Robertson,D.L.</GBAuthor>
+          <GBAuthor>Filipe,A.</GBAuthor>
+          <GBAuthor>Willett,B.</GBAuthor>
+          <GBAuthor>Breuer,J.</GBAuthor>
+          <GBAuthor>Semple,M.G. VI</GBAuthor>
+          <GBAuthor>Turner,D.</GBAuthor>
+          <GBAuthor>Baillie,J.K.</GBAuthor>
+          <GBAuthor>Thomson,E.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adeno-associated virus 2 infection in children with non-A-E hepatitis</GBReference_title>
+        <GBReference_journal>medRxiv (2022) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>https://doi.org/10.1101/2022.07.19.22277425</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4677</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ho,A.</GBAuthor>
+          <GBAuthor>Orton,R.J.</GBAuthor>
+          <GBAuthor>Tayler,R.</GBAuthor>
+          <GBAuthor>Asamaphan,P.</GBAuthor>
+          <GBAuthor>Tong,L.</GBAuthor>
+          <GBAuthor>Smollett,K.</GBAuthor>
+          <GBAuthor>Davis,C.</GBAuthor>
+          <GBAuthor>Manali,M.</GBAuthor>
+          <GBAuthor>McDonald,S.E.</GBAuthor>
+          <GBAuthor>Pollock,L.</GBAuthor>
+          <GBAuthor>Evans,C.</GBAuthor>
+          <GBAuthor>McMenamin,J.</GBAuthor>
+          <GBAuthor>Roy,K.</GBAuthor>
+          <GBAuthor>Marsh,K.</GBAuthor>
+          <GBAuthor>Divala,T.</GBAuthor>
+          <GBAuthor>Holden,M.</GBAuthor>
+          <GBAuthor>Lockhart,M.</GBAuthor>
+          <GBAuthor>Yirrell,D.</GBAuthor>
+          <GBAuthor>Currie,S.</GBAuthor>
+          <GBAuthor>Shepherd,S.</GBAuthor>
+          <GBAuthor>Jackson,C.</GBAuthor>
+          <GBAuthor>Gunson,R.</GBAuthor>
+          <GBAuthor>MacLean,A.</GBAuthor>
+          <GBAuthor>McInnes,N.</GBAuthor>
+          <GBAuthor>Battle,R.</GBAuthor>
+          <GBAuthor>Hollenbach,J.</GBAuthor>
+          <GBAuthor>Henderson,P.</GBAuthor>
+          <GBAuthor>Chand,M.</GBAuthor>
+          <GBAuthor>Hamilton,M.S.</GBAuthor>
+          <GBAuthor>Estrada-Rivadeneyra,D.</GBAuthor>
+          <GBAuthor>Levin,M.</GBAuthor>
+          <GBAuthor>Robertson,D.L.</GBAuthor>
+          <GBAuthor>Filipe,A.</GBAuthor>
+          <GBAuthor>Willett,B.</GBAuthor>
+          <GBAuthor>Breuer,J.</GBAuthor>
+          <GBAuthor>Semple,M.G.</GBAuthor>
+          <GBAuthor>Turner,D.</GBAuthor>
+          <GBAuthor>Baillie,J.K.</GBAuthor>
+          <GBAuthor>Thomson,E.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_consortium>DIAMONDS; ISARIC4C</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUL-2022) MRC-University of Glasgow Centre for Virus Research, University of Glasgow, Sir Michael Stoker Building, Glasgow, Scotland G61 1QH, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>GenBank staff is unable to verify sequence and/or annotation provided by the submitter.; ##Assembly-Data-START## ; Assembly Method :: bwa mem v. 0.7.17 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4677</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4677</GBInterval_to>
+            <GBInterval_accession>OP019744.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CVR_4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens; age = &lt;20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>United Kingdom: Scotland</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Mar-2022</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>enrichment protocol = SeqCap using VirCap probe; library protocol = NEBNext Microbiome enrichment, sonication, KAPA LTP library prep; sequencing protocol = Illumina NextSeq503; bioinformatics protocol = BWA mapping against reference</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctggaggggtggagtcgtgacgtgaagtacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggatacgcagggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacgcgcagccgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgagcatttgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgactttctgacagagtggcgccgcgtgagtaaggccccggaggccctcttctttgtgcaatttgagaagggagagagctatttccacatgcacgtgcttgtggagaccaccggggtgaagtccatggttttgggacgtttcctgagtcagattcgcgaaaaactgattcagagaatttaccgcgggattgagccgactttgccaaactggttcgcggtcacaaagacccgaaatggcgccggaggcgggaacaaggtggtggatgagtgctacatccccaattacctgctccccaaaacccagcctgagctccagtgggcgtggactaatatggaacagtacttaagcgcctgtttgaatctcgcggagcgtaaacggttggtggcgcagcatctgacgcacgtgtcgcagacgcaggagcagaacaaagaaaatcagaatcccaattctgacgcgccggtgattagatcaaaaacctcagccaggtacatggagctggtcgggtggctcgtggacaaggggattacctcggagaagcagtggatccaggaggaccaggcttcatacatctccttcaatgcggcctccaactcgcggtcccaaatcaaggctgctctggacaatgcgggaaagatcatgagcctgactaaaaccgcccccgactacctggtgggccagcagcccgtggaggacatttccagcaatcggatttataaaatattggaactgaacgggtacgatccccaatacgcggcttccgtctttctgggatgggcaacgaaaaagttcggaaagaggaacaccatctggctgtttgggcctgcaactaccgggaagaccaacatcgcggaggccatagcccacacggtgcccttctacgggtgcgtaaactggaccaatgagaactttcccttcaacgactgtgttgacaagatggtgatctggtgggaggaggggaagatgaccgccaaggtcgtggagtcggccaaagccattctcggaggaagcaaggtgcgcgtggaccagaaatgcaagtcctcggcccagatagacccgactcccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaactcaacgaccttcgaacaccagcagccgttgcaagaccggatgttcaaatttgaactcacccgccgtctggatcatgactttgggaaggtcaccaagcaggaagtcaaagactttttccggtgggcacaggatcacgtggttgaggtggagcatgaattctacgtcaaaaagggtggagccaagaaaagacccgcccccagtgacgcagatataagtgagcccaaacgggcgcgcgagtcagttgcgcagccatcgacgtcagacgcggaagcttcgatcaactacgcggacaggtaccaaaacaaatgttctcgtcacgtgggcatgaatttgatgctgtttccctgcagacaatgcgagagaatgaatcagaattcaaatatctgcttcactcacggacagaaagactgtttagagtgctttcccgtgtcagaatctcaacccgtttctgtcgtcaaaaaggcgtatcagaaactttgctacattcatcatatcatgggaaaggtgccagacgcttgcactgcctgcgatgtggtcaatgtggatttggatgactgcatctctgaacaataaatgatttaaatcaggtatggctgccgatggttatcttccagattggctcgaggacactctctctgaaggaataagacagtggtggaagctcaaacctggcccaccaccaccaaagcccgcagagcggcataaggacgacagcaggggtcttgtgcttcctgggtacaagtacctcggacccttcaacggactcgacaagggggagccggtcaacgaggcagacgccgcggccctcgagcacgacaaggcctacgaccggcagctcgacagcggagacaacccgtacctcaagtacaaccacgccgacgcggagttccaggagcgtcttaaagaagatacgtcttttgggggcaacctcggacgagcagtcttccaggcaaaaaagagggttcttgaacctctgggcctggttgaggagcctgttaaaacggctccgggaaaaaagaggccggtagagcactctcctgcggagccagattcctcctccggaactggaaagtcaggcaaccagcctgcaagaaagagattgaatttcggtcagactggagacgcagactccgtacctgacccccagcctctcggacagccaccagcagccccctctggtctgggaactaatacgatggctacaggcagtggcgcaccaatggcagacaataacgagggcgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggatgggcgacagagtcatcaccaccagcacccgcacctgggctctgcccacctacaacaaccatctgtacaagcagatttccagccaatcaggagcctcaaacgacaaccactactttggctacagcaccccttgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcaaagactcatcaacaacaactggggattccgacccaagagactcaacttcaagctctttaacattcaagtcaaagaggtcacgcagaatgacggtacgacgacgattgccaataaccttaccagcacggttcaggtgtttactgactcggagtaccagctcccgtacgtcctcggctcggcgcatcaaggatgcctcccgccgttcccagcagacgtcttcatggtgccacagtatggatacctcaccctgaacaacgggagtcaggcagtaggacgctcttcattttactgcctggagtactttccttctcagatgctgcgtactggaaacaactttaccttcagctacatctttgaggacgtgcctttccacagcagctacgctcacagccagagtttggaccgtctcatgaatcctctcatcgaccagtacctgtattacttgagcaaaacaaacgctccaagcggaaccaccacgatgtccaggcttcagttttctcaggccggagcaagtgacattcgggaccagtctagaaactggcttcctggaccctgttaccgccagcagcgagtatcaaagacagctgcggacaacaacaacagtgattactcgtggactggagctaccaagtaccacctcaatggaagagactctctggtgaatccgggcacagccatggccagccacaaggacgatgaagaaaagtattttcctcagagcggggttctcatctttgggaagcaaggctcagagaaaacaaatgtggacattgaaaaggtcatgattacagacgaagaggaaatcaggaccaccaatcccgtggctacggagcagtatggttctgtatctaccaacctccagagcggcaacacacaagcagctaccgcagatgtcaacacacaaggcgttcttccaggcatggtctggcaggacagagacgtgtacctgcagggacccatctgggcaaagattccacacacggacggacattttcacccctctcccctcatgggcggattcggactgaaacaccctcctccacagattctcatcaagaacaccccggtacctgcgaatccttcgaccacctttagtgcggcaaagtttgcttccttcatcacacaatattccacggggcaggtcagcgtggagatcgagtgggagctgcagaaggagaacagcaaacgctggaatcccgagatccagtacacttccaactataacaagtctgttaatgtggactttactgtggacactaatggtgtgtattcagagcctcgccccattggcaccagatacctgactcgtaatctgtaattacttgttaatcaataaaccgtttaattcgtttcagttgaactttggtctctgcgtacttctttcttatctagtttccatggctacgtagataagtaccatggcgggttaatcattaactacaaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

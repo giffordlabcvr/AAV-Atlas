@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MP471880</GBSeq_locus>
+    <GBSeq_length>4977</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-MAY-2020</GBSeq_update-date>
+    <GBSeq_create-date>15-MAY-2020</GBSeq_create-date>
+    <GBSeq_definition>Sequence 9 from Patent WO2019245973</GBSeq_definition>
+    <GBSeq_primary-accession>MP471880</GBSeq_primary-accession>
+    <GBSeq_accession-version>MP471880.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|MP471880.1|</GBSeqid>
+      <GBSeqid>pat|WO|2019245973|9</GBSeqid>
+      <GBSeqid>gi|1863062747</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4977</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>RODINO-KLAPAC,L.</GBAuthor>
+          <GBAuthor>MENDELL,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MUSCLE SPECIFIC MICRO-DYSTROPHIN TO TREAT MUSCULAR DYSTROPHY</GBReference_title>
+        <GBReference_journal>WO2019245973-A1 9 26-DEC-2019 RES INSTITUTE AT NATIONWIDE CHILDRENS HOSPITAL [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4977</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4977</GBInterval_to>
+            <GBInterval_accession>MP471880.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..4977</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4977</GBInterval_to>
+            <GBInterval_accession>MP471880.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Sequence in description</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttccttgtagttaatgattaacccgccatgctacttatctacgtagccatgctctagagtttaaacaagcttgcatgtctaagctagacccttcagattaaaaataactgaggtaagggcctgggtaggggaggtggtgtgagacgctcctgtctctcctctatctgcccatcggccctttggggaggaggaatgtgcccaaggactaaaaaaaggccatggagccagaggggcgagggcaacagacctttcatgggcaaaccttggggccctgctgtctagcatgccccactacgggtctaggctgcccatgtaaggaggcaaggcctggggacacccgagatgcctggttataattaacccagacatgtggctgcccccccccccccaacacctgctgcctctaaaaataaccctgtccctggtggatcccctgcatgcgaagatcttcgaacaaggctgtgggggactgagggcaggctgtaacaggcttgggggccagggcttatacgtgcctgggactcccaaagtattactgttccatgttcccggcgaagggccagctgtcccccgccagctagactcagcacttagtttaggaaccagtgagcaagtcagcccttggggcagcccatacaaggccatggggctgggcaagctgcacgcctgggtccggggtgggcacggtgcccgggcaacgagctgaaagctcatctgctctcaggggcccctccctggggacagcccctcctggctagtcacaccctgtaggctcctctatataacccaggggcacaggggctgccctcattctaccaccacctccacagcacagacagacactcaggagcagccagcggcgcgcccaggtaagtttagtctttttgtcttttatttcaggtcccggatccggtggtggtgcaaatcaaagaactgctcctcagtggatgttgcctttacttctaggcctgtacggaagtgttacttctgctctaaaagctgcggaattgtacccgcggccgccaccatgctgtggtgggaggaggtggaggattgttatgaaagggaggacgtgcagaagaagacttttaccaagtgggtgaacgctcagttcagcaaatttgggaagcagcacatcgagaatctgttttccgacctgcaggatgggagacggctgctggatctgctggaaggactgactggccagaagctgcccaaagagaaggggagcactagggtgcacgccctgaacaacgtgaacaaagctctgagagtgctgcagaacaacaacgtggatctggtgaatattggcagtactgatatcgtggacgggaaccacaaactgacactgggcctgatctggaacattattctgcactggcaggtgaaaaatgtgatgaagaacatcatggccgggctgcagcagaccaattccgagaagatcctgctgtcttgggtgcggcagagcacccgcaactatccccaggtgaacgtgattaacttcactacatcctggagcgacgggctggccctgaatgctctgattcacagccacaggcctgatctgttcgactggaatagcgtggtgtgccagcagtctgccacacagcgcctggaacatgccttcaatatcgctcggtaccagctggggatcgaaaaactgctggacccagaggatgtggacactacatacccagataaaaagtctattctgatgtacattactagcctgttccaggtgctgccacagcaggtgtctattgaagccattcaggaggtggaaatgctgccccgcccccccaaagtgactaaagaggagcattttcagctgcatcatcagatgcattacagccagcagattaccgtgagcctggctcagggatatgagcgcaccagtagtccaaaaccacggttcaagtcctacgcttatacccaggctgcctacgtgacaactagcgaccctactagatccccctttccatcccagcacctggaggccccagaggacaagagctttgggtccagcctgatggaaagcgaggtgaatctggatcggtaccagacagccctggaggaggtgctgagctggctgctgagtgctgaagacacactgcaggcccagggcgaaatttccaatgacgtggaagtggtgaaggatcagttccacacacacgagggctatatgatggacctgacagctcaccaggggcgcgtgggcaatatcctgcagctgggctctaaactgatcggcaccgggaaactgagtgaggacgaggaaacagaagtgcaggagcagatgaacctgctgaacagccgctgggagtgtctgagagtggctagtatggagaagcagtccaacctgcaccgggtgctgatggacctgcagaaccagaaactgaaagagctgaacgactggctgacaaagactgaggaacgcacaaggaagatggaggaggagccactgggacccgacctggaggatctgaagagacaggtgcagcagcataaggtgctgcaggaggatctggaacaggagcaggtgcgggtgaactccctgacacatatggtggtggtggtggacgaatctagtggagatcacgccaccgccgccctggaggaacagctgaaggtgctgggggaccggtgggccaacatttgccggtggaccgaggacaggtgggtgctgctgcaggacatcctgctgaaatggcagaggctgaccgaggagcagtgtctgtttagtgcttggctgagcgagaaagaggacgccgtgaacaagatccacacaaccggctttaaggatcagaacgaaatgctgtctagcctgcagaaactggctgtgctgaaggccgatctggagaaaaagaagcagagcatgggcaaactgtatagcctgaaacaggacctgctgagcaccctgaagaacaagagcgtgacccagaagacagaagcctggctggataactttgcccgctgctgggacaacctggtgcagaaactggagaaaagtacagctcagatctctcaggctgtgaccacaacccagcctagcctgacccagacaaccgtgatggaaaccgtgaccaccgtgacaacccgcgaacagatcctggtgaaacatgcccaggaagagctgccacctccacctccccagaagaagagaaccctggagcggctgcaggagctgcaggaagccactgacgaactggacctgaagctgaggcaggccgaagtgattaaggggtcttggcagcctgtgggcgatctgctgattgattccctgcaggaccacctggaaaaggtgaaggctctgagaggcgaaattgctccactgaaggagaacgtgagtcatgtgaacgatctggctagacagctgacaacactgggcatccagctgagcccatacaatctgagcacactggaggacctgaataccaggtggaagctgctgcaggtggctgtggaagaccgggtgcggcagctgcatgaggcccatcgcgacttcggaccagccagccagcactttctgagcacatccgtgcaggggccctgggagagggccatttctcccaacaaggtgccctactatattaatcacgagacccagaccacttgttgggaccatcccaagatgacagaactgtaccagtccctggccgatctgaacaacgtgaggtttagcgcttacagaaccgctatgaagctgagacggctgcagaaggccctgtgcctggatctgctgtccctgtccgccgcctgcgatgccctggatcagcataatctgaagcagaacgatcagccaatggatatcctgcagatcatcaactgcctgaccactatctacgacaggctggagcaggagcacaacaacctggtgaacgtgcctctgtgcgtggatatgtgcctgaactggctgctgaacgtgtatgacactgggcgcaccggccggatcagagtgctgagttttaaaactgggattatctccctgtgtaaggcccacctggaggacaagtacaggtacctgttcaagcaggtggctagtagcactggattttgtgaccagcgccgcctgggactgctgctgcatgatagtatccagattcctagacagctgggagaggtggctagtttcggaggatctaacatcgaacccagcgtgcgcagctgtttccagtttgccaataacaaacctgaaatcgaggctgctctgttcctggattggatgcgcctggaaccacagagcatggtgtggctgcctgtgctgcacagagtggctgccgccgaaactgccaagcaccaggctaaatgcaacatctgcaaggaatgtcccattatcggctttcgctacaggagtctgaaacattttaactacgatatttgccagagctgcttcttttccggaagagtggccaaaggacacaagatgcactaccctatggtggaatattgcaccccaactacatctggcgaagatgtgcgcgattttgccaaggtgctgaagaataagtttcggactaagaggtacttcgccaagcacccccgcatggggtatctgccagtgcagacagtgctggaaggagacaatatggagaccgatacaatgtgagcggccgcaataaaagatctttattttcattagatctgtgtgttggttttttgtgtgtctagagtcgaccagagcatggctacgtagataagtagcatggcgggttaatcattaactacaaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgc</GBSeq_sequence>
+  </GBSeq>
