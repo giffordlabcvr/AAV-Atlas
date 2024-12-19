@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH002785</GBSeq_locus>
+    <GBSeq_length>1554</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-AUG-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-DEC-1994</GBSeq_create-date>
+    <GBSeq_definition>Adeno-associated virus 2 sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AH002785</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH002785.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH002785.2|</GBSeqid>
+      <GBSeqid>gi|1059791654</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>M27085</GBSecondary-accn>
+      <GBSecondary-accn>M27086</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>provirus</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1554</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kotin,R.M.</GBAuthor>
+          <GBAuthor>Berns,K.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Organization of adeno-associated virus DNA in latently infected Detroit 6 cells</GBReference_title>
+        <GBReference_journal>Virology 170 (2), 460-467 (1989)</GBReference_journal>
+        <GBReference_pubmed>2543124</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Aug 25, 2016 this sequence version replaced M27085.1, M27086.1, AH002785.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>136..1086</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>136</GBInterval_from>
+            <GBInterval_to>1086</GBInterval_to>
+            <GBInterval_accession>AH002785.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>focus</GBQualifier_name>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..135</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>135</GBInterval_to>
+            <GBInterval_accession>AH002785.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>Detroit 6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1087..1554</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1087</GBInterval_from>
+            <GBInterval_to>1554</GBInterval_to>
+            <GBInterval_accession>AH002785.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>Detroit 6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..1554</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1554</GBInterval_to>
+            <GBInterval_accession>AH002785.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Original segmented set titles: Homo sapiens DNA fragment containing the 5' cellular/adeno-associated viral junction.; Homo sapiens DNA fragment containing the 3' adeno-associated virus/cellular junction.</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>580..679</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>580</GBInterval_from>
+            <GBInterval_to>679</GBInterval_to>
+            <GBInterval_accession>AH002785.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcttatgctgtttgcccaggacaaagtccaggaccggctccggagggctcacgatccggaagaggggaagtcgagggagggatggtaaggaggactgcatgggtcagcacaggctgccaaaggccagggccagttaaagcccgggctcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtcacgctgggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacgcgcagccgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgggcatctgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagcnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnttccaactacaactacaacaagtctgttaatgtggactttactgtggacactaatggcgtgtattcagagcctcgccccattggcaccagatacctgactcgtaatctgtaattgcttgttaatcaataaaccgtttaattcgtttcagttgaactttggtctctgcgtatttctttcttatctagtttccatggctacgtagataagtagcatggcgggttaatcattaactacaaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactcgggcttaaatacccagcgtgaccacatggtgtcgcaaaatgtcgtcaaaacactcacgtgacctctaatacaggacctccctaatccctatgacgtaattcacgtcacgactccttccctgccctgccctctcctgaacctgagccagctcccatagctcagtctggtctatctgcctggccctggcattgtcactttgcgctgccctcctctcgccccgagtgcccttgctgtgccgccggaactctgccctctaacgctgccgtctctctcctgagtccggaccactttgagctctactggcttctgcgcgcctctggcccactgtttccccttcccaggcaggtcctgctttctctgaccagcattctctcccctgggcctgtgccgctttctgtctgcagcttgtggcctgggtcacctctacggctggcccaagatccttgggtgccgcctccttcaggttccgtcttcctccactccctcttccccttgctctctgctgtgttgctgcccaaggatgctctttncggagcacttccttctcggcgctgcaccacgtgatgtcctctgagcggatcc</GBSeq_sequence>
+  </GBSeq>

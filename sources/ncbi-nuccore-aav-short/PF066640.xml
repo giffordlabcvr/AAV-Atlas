@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PF066640</GBSeq_locus>
+    <GBSeq_length>140</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230066615-A/53: CLOSED-ENDED DNA VECTORS AND USES THEREOF FOR EXPRESSING PHENYLALANINE HYDROXYLASE (PAH)</GBSeq_definition>
+    <GBSeq_primary-accession>PF066640</GBSeq_primary-accession>
+    <GBSeq_accession-version>PF066640.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PF066640.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230066615|53</GBSeqid>
+      <GBSeqid>gi|2679033638</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230066615-A/53</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..140</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,L.Y.</GBAuthor>
+          <GBAuthor>Monds,R.</GBAuthor>
+          <GBAuthor>Chiocco,M.J.</GBAuthor>
+          <GBAuthor>Silver,N.</GBAuthor>
+          <GBAuthor>Samayoa,P.</GBAuthor>
+          <GBAuthor>Kerr,D.A.</GBAuthor>
+          <GBAuthor>Keenan,J.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>CLOSED-ENDED DNA VECTORS AND USES THEREOF FOR EXPRESSING PHENYLALANINE HYDROXYLASE (PAH)</GBReference_title>
+        <GBReference_journal>KR1020230066615-A 53 16-MAY-2023 GENERATION BIO CO</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237012572-A/53~AN KR 1020237012572~AD 2023-04-13~PN KR 1020230066615~PD 2023-05-16~AT CLOSED-ENDED DNA VECTORS AND USES THEREOF FOR EXPRESSING~AT PHENYLALANINE HYDROXYLASE (PAH)~AI Liu, Leah Yu|Monds, Russell|Chiocco, Matthew James|Silver,~AI Nathaniel|Samayoa, Phillip|Kerr, Douglas Anthony|Keenan,~AI Jessica Lynn~AA GENERATION BIO CO.~PR US 63/078,954=2020-09-16~OS Adeno-associated virus 2~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..140</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>140</GBInterval_to>
+            <GBInterval_accession>PF066640.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagatcactagggg</GBSeq_sequence>
+  </GBSeq>

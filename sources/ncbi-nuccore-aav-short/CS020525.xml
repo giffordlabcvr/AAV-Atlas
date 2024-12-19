@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>CS020525</GBSeq_locus>
+    <GBSeq_length>166</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-FEB-2005</GBSeq_update-date>
+    <GBSeq_create-date>23-FEB-2005</GBSeq_create-date>
+    <GBSeq_definition>Sequence 11 from Patent WO2005012537</GBSeq_definition>
+    <GBSeq_primary-accession>CS020525</GBSeq_primary-accession>
+    <GBSeq_accession-version>CS020525.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|CS020525.1|</GBSeqid>
+      <GBSeqid>pat|WO|2005012537|11</GBSeqid>
+      <GBSeqid>gi|60221093</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..166</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gall,J.G.</GBAuthor>
+          <GBAuthor>Wickham,T.J.</GBAuthor>
+          <GBAuthor>Enright,W.J.</GBAuthor>
+          <GBAuthor>Brough,D.E.</GBAuthor>
+          <GBAuthor>Zuber,M.</GBAuthor>
+          <GBAuthor>King,C.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adenoviral vector-based vaccines</GBReference_title>
+        <GBReference_journal>WO2005012537-A2 11 10-FEB-2005 Genvec, Inc. (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..166</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>166</GBInterval_to>
+            <GBInterval_accession>CS020525.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtcacgctgggtatttaagcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaac</GBSeq_sequence>
+  </GBSeq>

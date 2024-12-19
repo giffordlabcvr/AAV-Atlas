@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DJ352920</GBSeq_locus>
+    <GBSeq_length>2225</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-APR-2008</GBSeq_update-date>
+    <GBSeq_create-date>24-APR-2008</GBSeq_create-date>
+    <GBSeq_definition>MUTANT ADENO-ASSOCIATED VIRUS VIRIONS AND METHODS OF USE THEREOF</GBSeq_definition>
+    <GBSeq_primary-accession>DJ352920</GBSeq_primary-accession>
+    <GBSeq_accession-version>DJ352920.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DJ352920.1|</GBSeqid>
+      <GBSeqid>pat|JP|2007527219|1</GBSeqid>
+      <GBSeqid>gi|186949969</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2007527219-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2225</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Narendora,M.</GBAuthor>
+          <GBAuthor>Brian,K.</GBAuthor>
+          <GBAuthor>V,S.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>MUTANT ADENO-ASSOCIATED VIRUS VIRIONS AND METHODS OF USE THEREOF</GBReference_title>
+        <GBReference_journal>JP2007527219-A 1 27-SEP-2007 THE REGENTS OF THE UNIVERSITY OF CALIFORNIA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus~PN JP 2007527219-A/1~PD 27-SEP-2007~PF 29-JUN-2004 JP 2006518750~PR 30-JUN-2003 US 60/484111~PI maheshuri narendora,kasper brian,schaefer david v CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2225</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2225</GBInterval_to>
+            <GBInterval_accession>DJ352920.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacactctctctgaaggaataagacagtggtggaagctcaaacctggcccaccaccaccaaagcccgcagagcggcataaggacgacagcaggggtcttgtgcttcctgggtacaagtacctcggacccttcaacggactcgacaagggagagccggtcaacgaggcagacgccgcggccctcgagcacgacaaagcctacgaccggcagctcgacagcggagacaacccgtacctcaagtacaaccacgccgacgcggagtttcaggagcgccttaaagaagatacgtcttttgggggcaacctcggacgagcagtcttccaggcgaaaaagagggttcttgaacctctgggcctggttgaggaacctgttaagacggctccgggaaaaaagaggccggtagagcactctcctgtggagccagactcctcctcgggaaccggaaaggcgggccagcagcctgcaagaaaaagattgaattttggtcagactggagacgcagactcagtacctgacccccagcctctcggacagccaccagcagccccctctggtctgggaactaatacgatggctacaggcagtggcgcaccaatggcagacaataacgagggcgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggatgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaaacaaatttccagccaatcaggagcctcgaacgacaatcactactttggctacagcaccccttgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcaaagactcatcaacaacaactggggattccgacccaagagactcaacttcaagctctttaacattcaagtcaaagaggtcacgcagaatgacggtacgacgacgattgccaataaccttaccagcacggttcaggtgtttactgactcggagtaccagctcccgtacgtcctcggctcggcgcatcaaggatgcctcccgccgttcccagcagacgtcttcatggtgccacagtatggatacctcaccctgaacaacgggagtcaggcagtaggacgctcttcattttactgcctggagtactttccttctcagatgctgcgtaccggaaacaactttaccttcagctacacttttgaggacgttcctttccacagcagctacgctcacagccagagtctggaccgtctcatgaatcctctcatcgaccagtacctgtattacttgagcagaacaaacactccaagtggaaccaccacgcagtcaaggcttcagttttctcaggccggagcgagtgacattcgggaccagtctaggaactggcttcctggaccctgttaccgccagcagcgagtatcaaagacatctgcggataacaacaacagtgaatactcgtggactggagctaccaagtaccacctcaatggcagagactctctggtgaatccgggcccggccatggcaagccacaaggacgatgaagaaaagttttttcctcagagcggggttctcatctttgggaagcaaggctcagagaaaacaaatgtggacattgaaaaggtcatgattacagacgaagaggaaatcaggacaaccaatcccgtggctacggagcagtatggttctgtatctaccaacctccagagaggcaacagacaagcagctaccgcagatgtcaacacacaaggcgttcttccaggcatggtctggcaggacagagatgtgtaccttcaggggcccatctgggcaaagattccacacacggacggacattttcacccctctcccctcatgggtggattcggacttaaacaccctcctccacagattctcatcaagaacaccccggtacctgcgaatccttcgaccaccttcagtgcggcaaagtttgcttccttcatcacacagtactccacgggacaggtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaaacgctggaatcccgaaattcagtacacttccaactacaacaagtctgttaatgtggactttactgtggacactaatggcgtgtattcagagcctcgccccattggcaccagatacctgactcgtaatctgtaattgcttgcggccgcccc</GBSeq_sequence>
+  </GBSeq>

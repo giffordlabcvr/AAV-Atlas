@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DI228341</GBSeq_locus>
+    <GBSeq_length>145</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>23-OCT-2013</GBSeq_update-date>
+    <GBSeq_create-date>23-OCT-2013</GBSeq_create-date>
+    <GBSeq_definition>KR 1020110086553-A/11: PORPHOBILINOGEN DEAMINASE GENE THERAPY</GBSeq_definition>
+    <GBSeq_primary-accession>DI228341</GBSeq_primary-accession>
+    <GBSeq_accession-version>DI228341.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DI228341.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020110086553|11</GBSeqid>
+      <GBSeqid>gi|551454599</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020110086553-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Petry,H.</GBAuthor>
+          <GBAuthor>Van Deventer,S.J.H.</GBAuthor>
+          <GBAuthor>Rodriguez Pena,M.S.</GBAuthor>
+          <GBAuthor>Twisk,J.</GBAuthor>
+          <GBAuthor>Prieto Valtuena,J.M.</GBAuthor>
+          <GBAuthor>Fontanellas Roma,A.</GBAuthor>
+          <GBAuthor>Gonzalez Aseguinolaza,G.</GBAuthor>
+          <GBAuthor>Paneda Rodriguez,M.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PORPHOBILINOGEN DEAMINASE GENE THERAPY</GBReference_title>
+        <GBReference_journal>KR1020110086553-A 11 28-JUL-2011 AMSTERDAM MOLECULAR THERAPEUTICS B.V.|Proyecto de Biomedicina CIMA S.L</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020117009883-A/11~AN KR 1020117009883~AD 2011-04-29~PN KR 1020110086553~PD 2011-07-28~AT PORPHOBILINOGEN DEAMINASE GENE THERAPY~AI Petry, Harald|Van Deventer, Sander Jan Hendrik|Rodriguez Pena, AI Maria Sol|Twisk, Jaap|Prieto Valtuena, Jesus Maria|Fontanellas AI Roma, Antonio|Gonzalez Aseguinolaza, Gloria|Paneda Rodriguez, AI Maria Astrid~AA AMSTERDAM MOLECULAR THERAPEUTICS B.V.|Proyecto de Biomedicina AA CIMA S.L.~PR EP 08165393.3=2008-09-29|US 61/100,881=2008-09-29 OS Adeno-associated virus 2~TY DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..145</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>145</GBInterval_to>
+            <GBInterval_accession>DI228341.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcct</GBSeq_sequence>
+  </GBSeq>

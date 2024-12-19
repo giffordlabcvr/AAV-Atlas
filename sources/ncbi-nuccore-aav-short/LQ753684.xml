@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LQ753684</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-JUN-2018</GBSeq_update-date>
+    <GBSeq_create-date>15-JUN-2018</GBSeq_create-date>
+    <GBSeq_definition>Sequence 14 from Patent EP3329017</GBSeq_definition>
+    <GBSeq_primary-accession>LQ753684</GBSeq_primary-accession>
+    <GBSeq_accession-version>LQ753684.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LQ753684.1|</GBSeqid>
+      <GBSeqid>pat|EP|3329017|14</GBSeqid>
+      <GBSeqid>gi|1402575917</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>VANDENBERGHE,L.H.</GBAuthor>
+          <GBAuthor>ZINN,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ANCESTRAL VIRUS SEQUENCES AND USES THEREOF</GBReference_title>
+        <GBReference_journal>EP3329017-A2 14 06-JUN-2018 MASSACHUSETTS EYE &amp; EAR INFIRMARY [US], SCHEPENS EYE RES INSTITUTE [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>442..444</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>442</GBInterval_from>
+            <GBInterval_to>444</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'ccg' or 'cag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>505..507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>505</GBInterval_from>
+            <GBInterval_to>507</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'aaa' or 'aga</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>940..942</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>940</GBInterval_from>
+            <GBInterval_to>942</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'cgg' or 'aac</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1396..1398</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1396</GBInterval_from>
+            <GBInterval_to>1398</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'tac' or 'cac</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1687..1689</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1687</GBInterval_from>
+            <GBInterval_to>1689</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'aat' or 'agt</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1738..1740</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1738</GBInterval_from>
+            <GBInterval_to>1740</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'gta' or 'ata</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1762..1764</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1762</GBInterval_from>
+            <GBInterval_to>1764</GBInterval_to>
+            <GBInterval_accession>LQ753684.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>This region may encompass 'gct' or 'tct</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcatttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagnnntcacctcagcgttcccccgactcctccacgggcatcggcaagaaaggccagcagcccgccnnnaagagactcaatttcggtcagactggcgactcagagtcagtccccgaccctcaacctctcggagaacctccagcagcgccctctggtgtgggatctggtacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggtgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcattaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccagtcaaagtgcaggtagtaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagaagctgnnnttcaagctcttcaacatccaggtcaaggaggtcacgacgaatgacggcgttacgaccatcgctaataaccttaccagcacggttcaggtattctcggactcggaataccagctgccgtacgtcctcggctctgcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacggctacctgactctcaacaatggcagtcagtctgtgggacgttcctccttctactgcctggagtacttcccctctcagatgctgagaacgggcaacaactttgagttcagctacaccttcgaggacgtgcctttccacagcagctacgcacacagccagagcctggaccggctgatgaatcccctcatcgaccagtacttgtactacctggccagaacacagagtaccacaggaggcacagctggcaatcgggaactgcagtttnnncaggccgggccttcaactatggccgaacaagccaagaattggttacctggaccttgctaccggcaacaaagagtctccaaaacgctggatcaaaacaacaacagcaactttgcttggactggtgccaccaaatatcacctgaacggcagaaactcgttggttaatcccggcgtcgccatggcaactcacaaggacgacgaggaccgctttttcccatccagcggagtcctgatttttggaaaaactggagcagctaacaaaactacattggaaaatgtgttaatgacannngaagaagaaattaaaactactaatcctgtagccacggaagaatacgggnnngtcagcagcaacttacaatcgnnnaatactgcaccccagacacaaactgtcaacagccagggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcacacggatggcaactttcacccgtctcctttgatgggcggctttggacttaaacatccgcctcctcagatcctgatcaagaacactcccgttcccgctaatcctccggaggtgtttactcctgccaagtttgcttcgttcatcacacagtacagcaccggacaagtcagcgtggaaatcgagtgggagctgcagaaggaaaacagcaagcgctggaacccggagattcagtacacctccaactatgataagtcgactaatgtggactttgccgttgacagcgagggtgtttactctgagcctcgccctattggcactcgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

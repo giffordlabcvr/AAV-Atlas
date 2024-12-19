@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DI347740</GBSeq_locus>
+    <GBSeq_length>168</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>08-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>08-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>KR 1020130040844-A/26: PHARMACOLOGICALLY INDUCED TRANSGENE ABLATION SYSTEM</GBSeq_definition>
+    <GBSeq_primary-accession>DI347740</GBSeq_primary-accession>
+    <GBSeq_accession-version>DI347740.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DI347740.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020130040844|26</GBSeqid>
+      <GBSeqid>gi|662638592</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020130040844-A/26</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..168</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wilson,J.M.</GBAuthor>
+          <GBAuthor>Chen,S.</GBAuthor>
+          <GBAuthor>Tretiakova,A.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PHARMACOLOGICALLY INDUCED TRANSGENE ABLATION SYSTEM</GBReference_title>
+        <GBReference_journal>KR1020130040844-A 26 24-APR-2013 THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020127028151-A/26~AN KR 1020127028151~AD 2012-10-26~PN KR 1020130040844~PD 2013-04-24~AT PHARMACOLOGICALLY INDUCED TRANSGENE ABLATION SYSTEM~AI Wilson, James M.|Chen, Shu-Jen|Tretiakova, Anna P.~AA THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA~PR US 61/318,752=2010-03-29~OS adeno-associated virus 2~TY DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..168</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>168</GBInterval_to>
+            <GBInterval_accession>DI347740.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttccttgtagttaatgattaacccgccatgctacttatctacg</GBSeq_sequence>
+  </GBSeq>

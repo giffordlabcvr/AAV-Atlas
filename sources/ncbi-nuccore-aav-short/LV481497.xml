@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LV481497</GBSeq_locus>
+    <GBSeq_length>2214</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>30-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>JP 2016536011-A/3: METHODS OF PREDICTING ANCESTRAL VIRUS SEQUENCES AND USES THEREOF</GBSeq_definition>
+    <GBSeq_primary-accession>LV481497</GBSeq_primary-accession>
+    <GBSeq_accession-version>LV481497.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LV481497.1|</GBSeqid>
+      <GBSeqid>pat|JP|2016536011|3</GBSeqid>
+      <GBSeqid>gi|1171574618</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2016536011-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vandenberghe,L.H.</GBAuthor>
+          <GBAuthor>Zinn,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS OF PREDICTING ANCESTRAL VIRUS SEQUENCES AND USES THEREOF</GBReference_title>
+        <GBReference_journal>JP2016536011-A 3 24-NOV-2016 MASSACHUSETTS EYE AND EAR INFIRMARY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2016536011-A/3~PD 24-NOV-2016~PF 10-OCT-2014 JP 2016547984~PR 11-OCT-2013 US 61/889827~PA MASSACHUSETTS EYE AND EAR INFIRMARY~PI luk h vandenberghe,eric zinn~PT 'METHODS OF PREDICTING ANCESTRAL VIRUS SEQUENCES AND USES~PT THEREOF'~PS N6~CC~FH Key Location/Qualifiers~FT variation (472)..(474)~FT /replace='agc'~FT variation (505)..(507)~FT /replace='aga'~FT variation (1690)..(1692)~FT /replace='aac'~FT misc_feature (1)..(2214)~FT /note='Variation nucleotides given in the~FT sequence have no~FT preference with respect to those in the~FT annotations for~FT variation positions'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>LV481497.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataatcacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagcagtcaccacagcgtgagcccgactcctccacgggcatcggcaagaaaggccagcagcccgccaaaaagagactcaatttcggtcagactggcgactcagagtcagtccccgaccctcaacctctcggagaacctccagcagcgccctctggtgtgggatctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggtgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacctcgggaggcagcaccaacgacaacacctactttggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcaacttcaagctcttcaacatccaggtcaaagaggtcacgacgaatgaaggcaccaagaccatcgccaataacctcaccagcaccgtccaggtgtttacggactcggaataccagctgccgtacgtcctcggctctgcccaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacggctacctgactctcaacaacggtagtcaggccgtgggacgttcctccttctactgcctggagtacttcccctctcagatgctgagaacgggcaacaactttcaattcagctacactttcgaggacgtgcctttccacagcagctacgcgcacagccagagtttggacaggctgatgaatcctctcatcgaccagtacctgtactacctgtcaagaacccagactacgggaggcacagcgggaacccagacgttgcagttttctcaggccgggcctagcagcatggcgaatcaggccaaaaactggctgcctggaccctgctacagacagcagcgcgtctccacgacaacgaatcaaaacaacaacagcaactttgcctggactggtgccaccaagtatcatctgaacggcagagactctctggtgaatccgggcgtcgccatggcaacccacaaggacgacgaggaccgcttcttcccatccagcggcgtcctcatatttggcaagcagggagctggaaatgacaacgtggactatagcaacgtgatgataaccagcgaggaagaaatcaagaccaccaaccccgtggccacagaagagtatggcgtggtggctactaacctacagtcggcaaacaccgctcctcaaacggggaccgtcaacagccagggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcctatttgggccaagattcctcacacagatggcaactttcacccgtctcctttaatgggcggctttggacttaaacatccgcctcctcagatcctcatcaaaaacactcctgttcctgcggatcctccaacaacgttcaaccaggccaagctgaattctttcatcacgcagtacagcaccggacaagtcagcgtggagatcgagtgggagctgcagaaggagaacagcaagcgctggaacccagagattcagtatacttccaactactacaaatctacaaatgtggactttgctgttaatactgagggtgtttactctgagcctcgccccattggcactcgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

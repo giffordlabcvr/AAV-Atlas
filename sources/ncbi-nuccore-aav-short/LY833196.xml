@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY833196</GBSeq_locus>
+    <GBSeq_length>1800</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>18-NOV-2020</GBSeq_update-date>
+    <GBSeq_create-date>18-NOV-2020</GBSeq_create-date>
+    <GBSeq_definition>KR 1020200018455-A/47: AADC POLYNUCLEOTIDES FOR THE TREATMENT OF PARKINSON'S DISEASE</GBSeq_definition>
+    <GBSeq_primary-accession>LY833196</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY833196.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY833196.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020200018455|47</GBSeqid>
+      <GBSeqid>gi|1933463798</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020200018455-A/47</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 4</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1800</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Scheel,M.</GBAuthor>
+          <GBAuthor>Ravina,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>AADC POLYNUCLEOTIDES FOR THE TREATMENT OF PARKINSON'S DISEASE</GBReference_title>
+        <GBReference_journal>KR1020200018455-A 47 19-FEB-2020 VOYAGER THERAPEUTICS, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020197036981-A/47~AN KR 1020197036981~AD 2019-12-13~PN KR 1020200018455~PD 2020-02-19~AT AADC POLYNUCLEOTIDES FOR THE TREATMENT OF PARKINSON'S DISEASE~AI Scheel, Maria|Ravina, Bernard~AA VOYAGER THERAPEUTICS, INC.~PR US 62/554,155=2017-09-05|US 62/520,084=2017-06-15~OS adeno-associated virus 4~TY DNA~FH Key Location/Qualifiers~FT misc_feature (342)..(342)~FT n is a, c, t, or g.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1800</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1800</GBInterval_to>
+            <GBInterval_accession>LY833196.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:57579</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acggctcctggaaagaagagaccgttgattgaatccccccagcagcccgactcctccacgggtatcggcaaaaaaggcaagcagccggctaaaaagaagctcgttttcgaagacgaaactggagcaggcgacggaccccctgagggatcaacttccggagccatgtctgatgacagtgagatgcgtgcagcagctggcggagctgcagtcgagggsggacaaggtgccgatggagtgggtaatgcctcgggtgattggcattgcgattccacctggtctgagggccacgtcacgaccaccagcaccagaacctgggtcttgcccacctacaacaaccacctntacaagcgactcggagagagcctgcagtccaacacctacaacggattctccaccccctggggatactttgacttcaaccgcttccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggcatgcgacccaaagccatgcgggtcaaaatcttcaacatccaggtcaaggaggtcacgacgtcgaacggcgagacaacggtggctaataaccttaccagcacggttcagatctttgcggactcgtcgtacgaactgccgtacgtgatggatgcgggtcaagagggcagcctgcctccttttcccaacgacgtctttatggtgccccagtacggctactgtggactggtgaccggcaacacttcgcagcaacagactgacagaaatgccttctactgcctggagtactttccttcgcagatgctgcggactggcaacaactttgaaattacgtacagttttgagaaggtgcctttccactcgatgtacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacctgtggggactgcaatcgaccaccaccggaaccaccctgaatgccgggactgccaccaccaactttaccaagctgcggcctaccaacttttccaactttaaaaagaactggctgcccgggccttcaatcaagcagcagggcttctcaaagactgccaatcaaaactacaagatccctgccaccgggtcagacagtctcatcaaatacgagacgcacagcactctggacggaagatggagtgccctgacccccggacctccaatggccacggctggacctgcggacagcaagttcagcaacagccagctcatctttgcggggcctaaacagaacggcaacacggccaccgtacccgggactctgatcttcacctctgaggaggagctggcagccaccaacgccaccgatacggacatgtggggcaacctacctggcggtgaccagagcaacagcaacctgccgaccgtggacagactgacagccttgggagccgtgcctggaatggtctggcaaaacagagacatttactaccagggtcccatttgggccaagattcctcataccgatggacactttcacccctcaccgctgattggtgggtttgggctgaaacacccgcctcctcaaatttttatcaagaacaccccggtacctgcgaatcctgcaacgaccttcagctctactccggtaaactccttcattactcagtacagcactggccaggtgtcggtgcagattgactgggagatccagaaggagcggtccaaacgctggaaccccgaggtccagtttacctccaactacggacagcaaaactctctgttgtgggctcccgatgcggctgggaaatacactgagcctagggctatcggtacccgctacctcacccaccacctgtaataa</GBSeq_sequence>
+  </GBSeq>

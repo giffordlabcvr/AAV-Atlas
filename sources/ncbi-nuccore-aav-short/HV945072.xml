@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HV945072</GBSeq_locus>
+    <GBSeq_length>145</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>13-NOV-2013</GBSeq_update-date>
+    <GBSeq_create-date>04-DEC-2012</GBSeq_create-date>
+    <GBSeq_definition>JP 2012516325-A/6: Alanine-glyoxylate aminotransferase therapeutics</GBSeq_definition>
+    <GBSeq_primary-accession>HV945072</GBSeq_primary-accession>
+    <GBSeq_accession-version>HV945072.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HV945072.1|</GBSeqid>
+      <GBSeqid>pat|JP|2012516325|6</GBSeqid>
+      <GBSeqid>gi|427194433</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2012516325-A/6</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ruiz,E.C.S.</GBAuthor>
+          <GBAuthor>Deventer,S.J.H.V.</GBAuthor>
+          <GBAuthor>Twisk,J.</GBAuthor>
+          <GBAuthor>Petry,H.</GBAuthor>
+          <GBAuthor>Pena,M.S.R.</GBAuthor>
+          <GBAuthor>Ramirez,A.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Alanine-glyoxylate aminotransferase therapeutics</GBReference_title>
+        <GBReference_journal>JP2012516325-A 6 19-JUL-2012 Amsterdam Molecular Therapeutics (AMT) IP B V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 2~PN JP 2012516325-A/6~PD 19-JUL-2012~PF 01-FEB-2010 JP 2011547843~PR 30-JAN-2009 EP 09151795.3~PA Amsterdam Molecular Therapeutics (AMT) IP B V PI eduardo carlos salido ruiz,sander jan hendrik van PI deventer,jaap twisk,~PI harald petry,maria sol rodriguez pena,armando torres ramirez PT 'Alanine-glyoxylate aminotransferase therapeutics' PS N7~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..145</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>145</GBInterval_to>
+            <GBInterval_accession>HV945072.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcct</GBSeq_sequence>
+  </GBSeq>

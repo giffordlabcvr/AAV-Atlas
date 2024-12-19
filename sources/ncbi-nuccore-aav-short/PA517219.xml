@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PA517219</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-JUN-2022</GBSeq_update-date>
+    <GBSeq_create-date>24-JUN-2022</GBSeq_create-date>
+    <GBSeq_definition>JP 2022502046-A/1: ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE THERAPY</GBSeq_definition>
+    <GBSeq_primary-accession>PA517219</GBSeq_primary-accession>
+    <GBSeq_accession-version>PA517219.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PA517219.1|</GBSeqid>
+      <GBSeqid>pat|JP|2022502046|1</GBSeqid>
+      <GBSeqid>gi|2258963719</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2022502046-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 9</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 9</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gradinaru,V.</GBAuthor>
+          <GBAuthor>Flytzanis,N.C.</GBAuthor>
+          <GBAuthor>Goeden,N.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE THERAPY</GBReference_title>
+        <GBReference_journal>JP2022502046-A 1 11-JAN-2022 CALIFORNIA INSTITUTE OF TECHNOLOGY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus 9~PN JP 2022502046-A/1~PD 11-JAN-2022~PF 25-SEP-2019 JP 2021517037~PR 26-SEP-2018 US 62/736904 ,11-APR-2019 US 62/832812~PA CALIFORNIA INSTITUTE OF TECHNOLOGY~PI viviana gradinaru,nicholas c flytzanis,nicholas s goeden~PT 'ADENO-ASSOCIATED VIRUS COMPOSITIONS FOR TARGETED GENE~PT THERAPY'~PS N6~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>PA517219.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:235455</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaaccttagtgaaggaattcgcgagtggtgggctttgaaacctggagcccctcaacccaaggcaaatcaacaacatcaagacaacgctcgaggtcttgtgcttccgggttacaaataccttggacccggcaacggactcgacaagggggagccggtcaacgcagcagacgcggcggccctcgagcacgacaaggcctacgaccagcagctcaaggccggagacaacccgtacctcaagtacaaccacgccgacgccgagttccaggagcggctcaaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaaaaagaggcttcttgaacctcttggtctggttgaggaagcggctaagacggctcctggaaagaagaggcctgtagagcagtctcctcaggaaccggactcctccgcgggtattggcaaatcgggtgcacagcccgctaaaaagagactcaatttcggtcagactggcgacacagagtcagtcccagaccctcaaccaatcggagaacctcccgcagccccctcaggtgtgggatctcttacaatggcttcaggtggtggcgcaccagtggcagacaataacgaaggtgccgatggagtgggtagttcctcgggaaattggcattgcgattcccaatggctgggggacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaatcacctctacaagcaaatctccaacagcacatctggaggatcttcaaatgacaacgcctacttcggctacagcaccccctgggggtattttgacttcaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcctaagcgactcaacttcaagctcttcaacattcaggtcaaagaggttacggacaacaatggagtcaagaccatcgccaataaccttaccagcacggtccaggtcttcacggactcagactatcagctcccgtacgtgctcgggtcggctcacgagggctgcctcccgccgttcccagcggacgttttcatgattcctcagtacgggtatctgacgcttaatgatggaagccaggccgtgggtcgttcgtccttttactgcctggaatatttcccgtcgcaaatgctaagaacgggtaacaacttccagttcagctacgagtttgagaacgtacctttccatagcagctacgctcacagccaaagcctggaccgactaatgaatccactcatcgaccaatacttgtactatctctcaaagactattaacggttctggacagaatcaacaaacgctaaaattcagtgtggccggacccagcaacatggctgtccagggaagaaactacatacctggacccagctaccgacaacaacgtgtctcaaccactgtgactcaaaacaacaacagcgaatttgcttggcctggagcttcttcttgggctctcaatggacgtaatagcttgatgaatcctggacctgctatggccagccacaaagaaggagaggaccgtttctttcctttgtctggatctttaatttttggcaaacaaggaactggaagagacaacgtggatgcggacaaagtcatgataaccaacgaagaagaaattaaaactactaacccggtagcaacggagtcctatggacaagtggccacaaaccaccagagtgcccaagcacaggcgcagaccggctgggttcaaaaccaaggaatacttccgggtatggtttggcaggacagagatgtgtacctgcaaggacccatttgggccaaaattcctcacacggacggcaactttcacccttctccgctgatgggagggtttggaatgaagcacccgcctcctcagatcctcatcaaaaacacacctgtacctgcggatcctccaacggccttcaacaaggacaagctgaactctttcatcacccagtattctactggccaagtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaagcgctggaacccggagatccagtacacttccaactattacaagtctaataatgttgaatttgctgttaatactgaaggtgtatatagtgaaccccgccccattggcaccagatacctgactcgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

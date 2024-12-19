@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH107867</GBSeq_locus>
+    <GBSeq_length>142</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JUN-2018</GBSeq_update-date>
+    <GBSeq_create-date>11-JUN-2018</GBSeq_create-date>
+    <GBSeq_definition>Adeno-associated virus clone CP/3037-3178/G001/AU/2016 capsid protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH107867</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH107867.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH107867.1|</GBSeqid>
+      <GBSeqid>gi|1395912040</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..142</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vibin,J.</GBAuthor>
+          <GBAuthor>Chamings,A.</GBAuthor>
+          <GBAuthor>Collier,F.</GBAuthor>
+          <GBAuthor>Klaassen,M.</GBAuthor>
+          <GBAuthor>Nelson,T.M.</GBAuthor>
+          <GBAuthor>Alexandersen,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Metagenomics detection and characterisation of viruses in faecal samples from Australian wild birds</GBReference_title>
+        <GBReference_journal>Sci Rep 8 (1), 8686 (2018)</GBReference_journal>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..142</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vibin,J.</GBAuthor>
+          <GBAuthor>Chamings,A.</GBAuthor>
+          <GBAuthor>Collier,F.</GBAuthor>
+          <GBAuthor>Klaassen,M.</GBAuthor>
+          <GBAuthor>Nelson,T.M.</GBAuthor>
+          <GBAuthor>Alexandersen,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-MAR-2018) School of Medicine, Geelong Centre for Emerging Infectious Diseases, 285 Ryrie Street, Geelong, Victoria 3220, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Torrent Suite v. 5.6.0; Integrative Genomics Viewer v. 2.3.93; MEGA v. 7.0.26 ; Assembly Name :: MAD/MUD-Aug2017-AAV/EPP ; Coverage :: 3-27 ; Sequencing Technology :: IonTorrent ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..142</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>142</GBInterval_to>
+            <GBInterval_accession>MH107867.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>feces</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Anas superciliosa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>CP/3037-3178/G001/AU/2016</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Dec-2016</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;142</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>142</GBInterval_to>
+            <GBInterval_accession>MH107867.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AWR88347.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GDDHQGADGVGNASGDWHCDSQWMGDHVVTRTTRTWVLPSYNNHLYK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcgacgatcaccaaggtgccgatggagtgggtaatgcctcaggagattggcattgcgattcccaatggatgggagaccacgtcgtcacccgaaccacccgaacctgggtcctgcccagctacaacaaccacctctacaagc</GBSeq_sequence>
+  </GBSeq>

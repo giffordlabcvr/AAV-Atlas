@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GN116628</GBSeq_locus>
+    <GBSeq_length>146</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-APR-2009</GBSeq_update-date>
+    <GBSeq_create-date>24-APR-2009</GBSeq_create-date>
+    <GBSeq_definition>Sequence 1 from Patent WO2009038462</GBSeq_definition>
+    <GBSeq_primary-accession>GN116628</GBSeq_primary-accession>
+    <GBSeq_accession-version>GN116628.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|GN116628.1|</GBSeqid>
+      <GBSeqid>pat|WO|2009038462|1</GBSeqid>
+      <GBSeqid>gi|227470257</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..146</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hermens,W.</GBAuthor>
+          <GBAuthor>Noordman,Y.</GBAuthor>
+          <GBAuthor>Bakker,A.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Use of aav replication machinery for improved protein production</GBReference_title>
+        <GBReference_journal>WO2009038462-A1 1 26-MAR-2009 Amsterdam Molecular Therapeutics B.V. (NL)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..146</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>146</GBInterval_to>
+            <GBInterval_accession>GN116628.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggggccactccctctctgcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctc</GBSeq_sequence>
+  </GBSeq>

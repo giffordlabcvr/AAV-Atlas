@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH002306</GBSeq_locus>
+    <GBSeq_length>390</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-AUG-2016</GBSeq_update-date>
+    <GBSeq_create-date>27-APR-1993</GBSeq_create-date>
+    <GBSeq_definition>Adeno-associated virus 2H Adeno-associated virus 2 left terminal sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AH002306</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH002306.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH002306.2|</GBSeqid>
+      <GBSeqid>gi|1059793887</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>K01624</GBSecondary-accn>
+      <GBSecondary-accn>K01625</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>replication</GBKeyword>
+      <GBKeyword>terminal repeat</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 2H</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 2H</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..390</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lusby,E.</GBAuthor>
+          <GBAuthor>Fife,K.H.</GBAuthor>
+          <GBAuthor>Berns,K.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence of the inverted terminal repetition in adeno-associated virus DNA</GBReference_title>
+        <GBReference_journal>J. Virol. 34 (2), 402-409 (1980)</GBReference_journal>
+        <GBReference_pubmed>6246271</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..390</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lefebvre,R.B.</GBAuthor>
+          <GBAuthor>Riva,S.</GBAuthor>
+          <GBAuthor>Berns,K.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Conformation takes precedence over sequence in adeno-associated virus DNA replication</GBReference_title>
+        <GBReference_journal>Mol. Cell. Biol. 4 (7), 1416-1419 (1984)</GBReference_journal>
+        <GBReference_pubmed>6504049</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Aug 25, 2016 this sequence version replaced K01624.1, K01625.1, AH002306.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..390</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>390</GBInterval_to>
+            <GBInterval_accession>AH002306.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 2H</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10805</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..390</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>390</GBInterval_to>
+            <GBInterval_accession>AH002306.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Original segmented set titles: Adeno-associated virus 2 left terminal sequence.; Adeno-associated virus 2 right terminal sequence.</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>146..245</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>146</GBInterval_from>
+            <GBInterval_to>245</GBInterval_to>
+            <GBInterval_accession>AH002306.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcctnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnaggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

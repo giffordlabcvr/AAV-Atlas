@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JA062776</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>06-APR-2011</GBSeq_update-date>
+    <GBSeq_create-date>06-APR-2011</GBSeq_create-date>
+    <GBSeq_definition>Sequence 203 from Patent EP2298926</GBSeq_definition>
+    <GBSeq_primary-accession>JA062776</GBSeq_primary-accession>
+    <GBSeq_accession-version>JA062776.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JA062776.1|</GBSeqid>
+      <GBSeqid>pat|EP|2298926|203</GBSeqid>
+      <GBSeqid>gi|328346771</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>GAO,G.</GBAuthor>
+          <GBAuthor>WILSON,J.</GBAuthor>
+          <GBAuthor>VANDENBERGHE,L.</GBAuthor>
+          <GBAuthor>ALVIRA,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adeno-associated virus (AAV) clades, sequences, vectors containing same, and uses thereof</GBReference_title>
+        <GBReference_journal>EP2298926-A1 203 23-MAR-2011 TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>JA062776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>JA062776.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus, serotype 6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggatgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagagggttctcgaaccttttggtctggttgaggaaggtgctaagacggctcctggaaagaaacgtccggtagagcagtcgccacaagagccagactcctcctcgggcattggcaagacaggccagcagcccgctaaaaagagactcaattttggtcagactggcgactcagagtcagtccccgacccacaacctctcggagaacctccagcaacccccgctgctgtgggacctactacaatggcttcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacatgggccttgcccacctataacaaccacctctacaagcaaatctccagtgcttcaacgggggccagcaacgacaaccactacttcggctacagcaccccctgggggtattttgatttcaacagattccactgccatttctcaccacgtgactggcagcgactcatcaacaacaattggggattccggcccaagagactcaacttcaagctcttcaacatccaagtcaaggaggtcacgacgaatgatggcgtcacgaccatcgctaataaccttaccagcacggttcaagtcttctcggactcggagtaccagttgccgtacgtcctcggctctgcgcaccagggctgcctccctccgttcccggcggacgtgttcatgattccgcagtacggctacctaacgctcaacaatggcagccaggcagtgggacggtcatccttttactgcctggaatatttcccatcgcagatgctgagaacgggcaataactttaccttcagctacaccttcgaggacgtgcctttccacagcagctacgcgcacagccagagcctggaccggctgatgaatcctctcatcgaccagtacctgtattacctgaacagaactcagaatcagtccggaagtgcccaaaacaaggacttgctgtttagccgggggtctccagctggcatgtctgttcagcccaaaaactggctacctggaccctgttaccggcagcagcgcgtttctaaaacaaaaacagacaacaacaacagcaactttacctggactggtgcttcaaaatataaccttaatgggcgtgaatctataatcaaccctggcactgctatggcctcacacaaagacgacaaagacaagttctttcccatgagcggtgtcatgatttttggaaaggagagcgccggagcttcaaacactgcattggacaatgtcatgatcacagacgaagaggaaatcaaagccactaaccccgtggccaccgaaagatttgggactgtggcagtcaatctccagagcagcagcacagaccctgcgaccggagatgtgcatgttatgggagccttacctggaatggtgtggcaagacagagacgtatacctgcagggtcctatttgggccaaaattcctcacacggatggacactttcacccgtctcctctcatgggcggctttggacttaagcacccgcctcctcagatcctcatcaaaaacacgcctgttcctgcgaatcctccggcagagttttcggctacaaagtttgcttcattcatcacccagtattccacaggacaagtgagcgtggagattgaatgggagctgcagaaagaaaacagcaaacgctggaatcccgaagtgcagtatacatctaactatgcaaaatctgccaacgttgatttcactgtggacaacaatggactttatactgagcctcgccccattggcacccgttacctcacccgtcccctgtaa</GBSeq_sequence>
+  </GBSeq>

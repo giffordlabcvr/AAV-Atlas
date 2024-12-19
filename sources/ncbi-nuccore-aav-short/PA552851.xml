@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PA552851</GBSeq_locus>
+    <GBSeq_length>165</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-OCT-2022</GBSeq_update-date>
+    <GBSeq_create-date>28-OCT-2022</GBSeq_create-date>
+    <GBSeq_definition>WO 2022153957-A/14: A nucleic acid molecule containing a gene encoding a fusion protein of an antibody and a physiologically active protein</GBSeq_definition>
+    <GBSeq_primary-accession>PA552851</GBSeq_primary-accession>
+    <GBSeq_accession-version>PA552851.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PA552851.1|</GBSeqid>
+      <GBSeqid>pat|WO|2022153957|14</GBSeqid>
+      <GBSeqid>gi|2322827483</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2022153957-A/14</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..165</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sonoda,H.</GBAuthor>
+          <GBAuthor>Takagi,H.</GBAuthor>
+          <GBAuthor>Kinoshita,M.</GBAuthor>
+          <GBAuthor>Imakiire,A.</GBAuthor>
+          <GBAuthor>Iizuka,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A nucleic acid molecule containing a gene encoding a fusion protein of an antibody and a physiologically active protein</GBReference_title>
+        <GBReference_journal>WO2022153957-A 14 21-JUL-2022 JCR Pharmaceuticals Co Ltd</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 2~PN WO 2022153957-A/14~PD 21-JUL-2022~PF 11-JAN-2022 WO 2022JP000466~PR 12-JAN-2021 JP 2021-002567~PA JCR Pharmaceuticals Co Ltd~PI hiroyuki sonoda,haruna takagi,masafumi kinoshita,atsushi~PI imakiire,~PI shunsuke iizuka~PT 'A nucleic acid molecule containing a gene encoding a fusion~PT protein of an~PT antibody and a physiologically active protein'~PS N23~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..165</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>165</GBInterval_to>
+            <GBInterval_accession>PA552851.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggaggggtggagtcgtgacgtgaattacgtcatagggttagggaggtcctgtattagaggtcacgtgagtgttttgcgacattttgcgacaccatgtggtctcgctgggggggggggcccgagtgagcacgcagggtctccattttgaagcgggaggtttgaacg</GBSeq_sequence>
+  </GBSeq>

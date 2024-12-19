@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HW413256</GBSeq_locus>
+    <GBSeq_length>1876</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>22-APR-2014</GBSeq_update-date>
+    <GBSeq_create-date>22-APR-2014</GBSeq_create-date>
+    <GBSeq_definition>JP 2014012013-A/10: VECTORS WITH MODIFIED INITIATION CODON FOR THE TRANSLATION OF AAV-REP78 USEFUL FOR PRODUCTION OF AAV IN INSECT CELLS</GBSeq_definition>
+    <GBSeq_primary-accession>HW413256</GBSeq_primary-accession>
+    <GBSeq_accession-version>HW413256.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HW413256.1|</GBSeqid>
+      <GBSeqid>pat|JP|2014012013|10</GBSeqid>
+      <GBSeqid>gi|618742572</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2014012013-A/10</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1876</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bakker,A.C.</GBAuthor>
+          <GBAuthor>Biesmans,D.J.</GBAuthor>
+          <GBAuthor>Haast,S.J.P.</GBAuthor>
+          <GBAuthor>Hermens,W.T.J.M.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>VECTORS WITH MODIFIED INITIATION CODON FOR THE TRANSLATION OF AAV-REP78 USEFUL FOR PRODUCTION OF AAV IN INSECT CELLS</GBReference_title>
+        <GBReference_journal>JP2014012013-A 10 23-JAN-2014 Amsterdam Molecular Therapeutics B V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 2~PN JP 2014012013-A/10~PD 23-JAN-2014~PF 19-AUG-2013 JP 2013169373~PR 21-JUN-2006 US 60/815262 ,21-JUN-2006 EP 06115804.4~PA Amsterdam Molecular Therapeutics B V~PI andrew christian bakker,dennis johan biesmans,~PI saskia jacoba petronella haast,~PI wilhelmus theodorus johannes maria christiaan hermens~PT 'VECTORS WITH MODIFIED INITIATION CODON FOR THE TRANSLATION OF~PT AAV-REP78~PT USEFUL FOR PRODUCTION OF AAV IN INSECT CELLS'~PS N10~CC~FH Key Location/Qualifiers~FT CDS (11)..(1876)~FT /note='Rep 78'~FT misc_feature (683)..(1876)~FT /note='coding sequence Rep52'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1876</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1876</GBInterval_to>
+            <GBInterval_accession>HW413256.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgcagccgccatgccggggttttacgagattgtgattaaggtccccagcgaccttgacgagcatctgcccggcatttctgacagctttgtgaactgggtggccgagaaggaatgggagttgccgccagattctgacatggatctgaatctgattgagcaggcacccctgaccgtggccgagaagctgcagcgcgactttctgacggaatggcgccgtgtgagtaaggccccggaggcccttttctttgtgcaatttgagaagggagagagctacttccacatgcacgtgctcgtggaaaccaccggggtgaaatccatggttttgggacgtttcctgagtcagattcgcgaaaaactgattcagagaatttaccgcgggatcgagccgactttgccaaactggttcgcggtcacaaagaccagaaatggcgccggaggcgggaacaaggtggtggatgagtgctacatccccaattacttgctccccaaaacccagcctgagctccagtgggcgtggactaatatggaacagtatttaagcgcctgtttgaatctcacggagcgtaaacggttggtggcgcagcatctgacgcacgtgtcgcagacgcaggagcagaacaaagagaatcagaatcccaattctgatgcgccggtgatcagatcaaaaacttcagccaggtacatggagctggtcgggtggctcgtggacaaggggattacctcggagaagcagtggatccaggaggaccaggcctcatacatctccttcaatgcggcctccaactcgcggtcccaaatcaaggctgccttggacaatgcgggaaagattatgagcctgactaaaaccgcccccgactacctggtgggccagcagcccgtggaggacatttccagcaatcggatttataaaattttggaactaaacgggtacgatccccaatatgcggcttccgtctttctgggatgggccacgaaaaagttcggcaagaggaacaccatctggctgtttgggcctgcaactaccgggaagaccaacatcgcggaggccatagcccacactgtgcccttctacgggtgcgtaaactggaccaatgagaactttcccttcaacgactgtgtcgacaagatggtgatctggtgggaggaggggaagatgaccgccaaggtcgtggagtcggccaaagccattctcggaggaagcaaggtgcgcgtggaccagaaatgcaagtcctcggcccagatagacccgactcccgtgatcgtcacctccaacaccaacatgtgcgccgtgattgacgggaactcaacgaccttcgaacaccagcagccgttgcaagaccggatgttcaaatttgaactcacccgccgtctggatcatgactttgggaaggtcaccaagcaggaagtcaaagactttttccggtgggcaaaggatcacgtggttgaggtggagcatgaattctacgtcaaaaagggtggagccaagaaaagacccgcccccagtgacgcagatataagtgagcccaaacgggtgcgcgagtcagttgcgcagccatcgacgtcagacgcggaagcttcgatcaactacgcagacaggtaccaaaacaaatgttctcgtcacgtgggcatgaatctgatgctgtttccctgcagacaatgcgagagaatgaatcagaattcaaatatctgcttcactcacggacagaaagactgtttagagtgctttcccgtgtcagaatctcaacccgtttctgtcgtcaaaaaggcgtatcagaaactgtgctacattcatcatatcatgggaaaggtgccagacgcttgcactgcctgcgatctggtcaatgtggatttggatgactgcatctttgaacaataa</GBSeq_sequence>
+  </GBSeq>

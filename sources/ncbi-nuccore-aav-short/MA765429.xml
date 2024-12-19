@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA765429</GBSeq_locus>
+    <GBSeq_length>2052</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>31-JAN-2019</GBSeq_update-date>
+    <GBSeq_create-date>31-JAN-2019</GBSeq_create-date>
+    <GBSeq_definition>JP 2017524722-A/16: METHODS AND MATERIALS FOR ACTIVATING AN INTERNAL RIBOSOMAL ENTRY SITE IN EXON 5 OF THE DMD GENE</GBSeq_definition>
+    <GBSeq_primary-accession>MA765429</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA765429.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA765429.1|</GBSeqid>
+      <GBSeqid>pat|JP|2017524722|16</GBSeqid>
+      <GBSeqid>gi|1565633134</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2017524722-A/16</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2052</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Flanigan,K.</GBAuthor>
+          <GBAuthor>Wein,N.</GBAuthor>
+          <GBAuthor>Wilton,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS AND MATERIALS FOR ACTIVATING AN INTERNAL RIBOSOMAL ENTRY SITE IN EXON 5 OF THE DMD GENE</GBReference_title>
+        <GBReference_journal>JP2017524722-A 16 31-AUG-2017 Research Institute at Nationwide Children's Hospital, UNIVERSITY OF WESTERN AUSTRALIA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2017524722-A/16~PD 31-AUG-2017~PF 07-AUG-2015 JP 2017508104~PR 09-AUG-2014 US 62/035395~PA Research Institute at Nationwide Children's Hospital,~PA UNIVERSITY OF WESTERN AUSTRALIA~PI kevin flanigan,nicolas wein,steven wilton~PT 'METHODS AND MATERIALS FOR ACTIVATING AN INTERNAL RIBOSOMAL~PT ENTRY SITE IN~PT EXON 5 OF THE DMD GENE'~PS N26~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2052</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2052</GBInterval_to>
+            <GBInterval_accession>MA765429.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctggcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttccttgtagttaatgattaacccgccatgctacttatctacgtagccatgctctagataacaacataggagctgtgattggctgttttcagccaatcagcactgactcatttgcatagcctttacaagcggtcacaaactcaagaaacgagcggttttaatagtcttttagaatattgtttatcgaaccgaataaggaactgtgctttgtgattcacatatcagtggaggggtgtggaaatggcaccttgatctcaccctcatcgaaagtggagttgatgtccttccctggctcgctacagacgcacttccgcaagttttcttttgaagatcttctctttcatctaaatttttggagcaggttttctgacttcggtcggaaaacccctcccaatttcactggtctacaatgaaagcaaaacagttctcttccccgctccccggtgtgtgagaggggctttgatccttctctggtttcctaggaaacgcgtatgtggctagataacaacataggagctgtgattggctgttttcagccaatcagcactgactcatttgcatagcctttacaagcggtcacaaactcaagaaacgagcggttttaatagtcttttagaatattgtttatcgaaccgaataaggaactgtgctttgtgattcacatatcagtggaggggtgtggaaatggcaccttgatctcaccctcatcgaaagtggagttgatgtccttccctggctcgctacagacgcacttccgcaaattcttaccttagaaaattgtgcaatttttggagcaggttttctgacttcggtcggaaaacccctcccaatttcactggtctacaatgaaagcaaaacagttctcttccccgctccccggtgtgtgagaggggctttgatccttctctggtttcctaggaaacgcgtatgtggctagataacaacataggagctgtgattggctgttttcagccaatcagcactgactcatttgcatagcctttacaagcggtcacaaactcaagaaacgagcggttttaatagtcttttagaatattgtttatcgaaccgaataaggaactgtgctttgtgattcacatatcagtggaggggtgtggaaatggcaccttgatctcaccctcatcgaaagtggagttgatgtccttccctggctcgctacagacgcacttccgcaaattcttaccttagaaaattgtgcaatttttggagcaggttttctgacttcggtcggaaaacccctcccaatttcactggtctacaatgaaagcaaaacagttctcttccccgctccccggtgtgtgagaggggctttgatccttctctggtttcctaggaaacgcgtatgtggctagataacaacataggagctgtgattggctgttttcagccaatcagcactgactcatttgcatagcctttacaagcggtcacaaactcaagaaacgagcggttttaatagtcttttagaatattgtttatcgaaccgaataaggaactgtgctttgtgattcacatatcagtggaggggtgtggaaatggcaccttgatctcaccctcatcgaaagtggagttgatgtccttccctggctcgctacagacgcacttccgcaagttttcttttgaagatcttctctttcatctaaatttttggagcaggttttctgacttcggtcggaaaacccctcccaatttcactggtctacaatgaaagcaaaacagttctcttccccgctccccggtgtgtgagaggggctttgatccttctctggtttcctaggaaacgcgtatgtgtacaaccccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcag</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LZ950378</GBSeq_locus>
+    <GBSeq_length>2217</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-FEB-2018</GBSeq_update-date>
+    <GBSeq_create-date>28-FEB-2018</GBSeq_create-date>
+    <GBSeq_definition>JP 2016525356-A/4: Variant AAV and Compositions, Methods and Uses for Gene Transfer to Cells, Organs and Tissues</GBSeq_definition>
+    <GBSeq_primary-accession>LZ950378</GBSeq_primary-accession>
+    <GBSeq_accession-version>LZ950378.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LZ950378.1|</GBSeqid>
+      <GBSeqid>pat|JP|2016525356|4</GBSeqid>
+      <GBSeqid>gi|1352420820</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2016525356-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2217</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>High,K.A.</GBAuthor>
+          <GBAuthor>Yazicioglu,M.N.</GBAuthor>
+          <GBAuthor>Anguela,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Variant AAV and Compositions, Methods and Uses for Gene Transfer to Cells, Organs and Tissues</GBReference_title>
+        <GBReference_journal>JP2016525356-A 4 25-AUG-2016 The Children's Hospital of Philadelphia,MUSTAFA YAZICIOGLU,KATHERINE HIGH, XAVIER ANGUELA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2016525356-A/4~PD 25-AUG-2016~PF 22-JUL-2014 JP 2016529835~PR 22-JUL-2013 US 61/857161 ,28-APR-2014 US 61/985365~PA The Children's Hospital of Philadelphia,MUSTAFA~PA YAZICIOGLU,KATHERINE HIGH,~PA XAVIER ANGUELA~PI katherine a high,mustafa n yazicioglu,xavier anguela~PT 'Variant AAV and Compositions, Methods and Uses for Gene~PT Transfer to Cells,~PT Organs and Tissues'~PS N13~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2217</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2217</GBInterval_to>
+            <GBInterval_accession>LZ950378.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaggcaggacaacggccggggtctggtgcttcctggctacaggtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacagggcctacgaccagcagctccaagcgggtgacaatccgtacctgcggtataatcacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgcgcagtcttccaggccaaaaagcgggttctcgaacctctgggcctggttgaatcgccggttaggacggctcctggaaagaagagaccggtagagccatcaccccagcgctctccagactcctctacgggcatcggcaagagaggccagcagcccgcaagaaagagactcaattttgggcagactggcgactcagagtcagtccccgaccctcaaccaatcggagaaccaccagcagccccctctggtgtgggacctaatacaatggctgcaggcggtggcgctccaatggcagacaataacgaaggcgccgacggagtgggtagttcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgcacctgggccctgcccacctacaacaaccacctctacaggcaaatctccaacgggacctcgggaggaagcaccaacgacaacacctacttcggctacagcaccccctgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagaggctcaacttcaagctcttcaacatccaagtcaaggaggtcacgcagaatgaaggcaccaggaccatcgccaataaccttaccagcacgattcaggtctttacggactcggaataccagctcccgtacgtgctcggctcggcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacgggtacctgactctgaacaatggcagtcaggctgtgggccggtcgtccttctactgcctggagtactttccttctcaaatgctgagaacgggcaacaactttgaattcagctacaacttcgaggacgtgcccttccacagcagctacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacttgtactacctgtcccggactcaaagcacgggcggtactgcaggaactcagcagttgctattttctcaggccgggcctaacaacatgtcggctcaggccaagaactggctacccggtccctgctaccggcagcaacgcgtctccacgacactgtcgcagaacaacaacagcaactttgcctggacgggtgccaccaagtatcatctgaatggcagagactctctggtgaatcctggcgttgccatggctacccacagggacgacgaagagcgattttttccatccagcggagtcttaatgtttgggaaacagggagctggaagagacaacgtggactatagcagcgtgatgctaaccagcgaggaagaaataaggaccaccaacccagtggccacagaacagtacggcgtggtggccgataacctgcaacagcaaaacgccgctcctattgtaggggccgtcaatagtcaaggagccttacctggcatggtgtggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcatacggacggcaactttcatccctcgccgctgatgggaggctttggactgaagcatccgcctcctcagatcctgattaaaaacacacctgttcccgcggatcctccgaccaccttcaatcaggccaagctggcttctttcatcacgcagtacagtaccggccaggtcagcgtggagatcgagtgggagctgcagaaggagaacagcaaacgctggaacccagagattcagtacacttccaactactacaaatctacaaatgtggactttgctgtcaatactgagggtacttattccgagcctcgccccattggcacccgttacctcacccgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

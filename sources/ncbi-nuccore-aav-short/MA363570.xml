@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA363570</GBSeq_locus>
+    <GBSeq_length>2208</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>31-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>31-AUG-2018</GBSeq_create-date>
+    <GBSeq_definition>JP 2018511652-A/1: GENE AUGMENTATION THERAPIES FOR INHERITED RETINAL DEGENERATION CAUSED BY MUTATIONS IN THE PRPF31 GENE</GBSeq_definition>
+    <GBSeq_primary-accession>MA363570</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA363570.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA363570.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018511652|1</GBSeqid>
+      <GBSeqid>gi|1467550193</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018511652-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2208</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sousa,M.E.</GBAuthor>
+          <GBAuthor>Pierce,E.A.</GBAuthor>
+          <GBAuthor>Farkas,M.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GENE AUGMENTATION THERAPIES FOR INHERITED RETINAL DEGENERATION CAUSED BY MUTATIONS IN THE PRPF31 GENE</GBReference_title>
+        <GBReference_journal>JP2018511652-A 1 26-APR-2018 Massachusetts Eye and Ear Infirmary</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2018511652-A/1~PD 26-APR-2018~PF 07-MAR-2016 JP 2017564778~PR 06-MAR-2015 US 62/129638 ,14-APR-2015 US 62/147307~PA Massachusetts Eye and Ear Infirmary~PI maria e sousa,eric a pierce,michael h farkas~PT 'GENE AUGMENTATION THERAPIES FOR INHERITED RETINAL~PT DEGENERATION CAUSED BY~PT MUTATIONS IN THE PRPF31 GENE'~PS N2~CC~FH Key Location/Qualifiers~FT variation (502)..(504)~FT /replace='aaa'~FT variation (610)..(612)~FT /replace='agc'~FT variation (796)..(798)~FT /replace='ggc'~FT variation (931)..(933)~FT /replace='aag'~FT variation (1231)..(1233)~FT /replace='cag'~FT variation (1378)..(1380)~FT /replace='gag'~FT variation (1477)..(1479)~FT /replace='acc'~FT variation (1684)..(1686)~FT /replace='aac'~FT variation (1726)..(1728)~FT /replace='gag'~FT variation (1759)..(1761)~FT /replace='gcc'~FT variation (1825)..(1827)~FT /replace='gac'~FT misc_feature (1)..(2208)~FT /note='Variation nucleotides given in the~FT sequence have no~FT preference with respect to those in the~FT annotations for~FT variation positions'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2208</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2208</GBInterval_to>
+            <GBInterval_accession>MA363570.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagcaatcaccccaggaaccagactcctcttcgggcatcggcaagaaaggccagcagcccgcgaagaagagactcaactttgggcagacaggcgactcagagtcagtgcccgaccctcaaccactcggagaaccccccgcagccccctctggtgtgggatctaatacaatggcagcaggcggtggcgctccaatggcagacaataacgaaggcgccgacggagtgggtaacgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctccccacctacaacaaccacctctacaagcaaatctccagccaatcgggagcaagcaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcaacttcaagctcttcaacatccaggtcaaggaggtcacgacgaatgatggcaccacgaccatcgccaataaccttaccagcacggttcaggtctttacggactcggaataccagctcccgtacgtcctcggctctgcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacgggtacctgactctgaacaatggcagtcaggccgtgggccgttcctccttctactgcctggagtactttccttctcaaatgctgagaacgggcaacaactttgagttcagctacacgtttgaggacgtgccttttcacagcagctacgcgcacagccaaagcctggaccggctgatgaaccccctcatcgaccagtacctgtactacctgtctcggactcagaccacgagtggtaccgcaggaaatcggacgttgcaattttctcaggccgggcctagtagcatggcgaatcaggccaaaaactggctacccgggccctgctaccggcagcaacgcgtctccaagacagcgaatcaaaataacaacagcaactttgcctggaccggtgccaccaagtatcatctgaatggcagagactctctggtaaatcccggtcccgctatggcaacccacaaggacgacgaagacaaattttttccgatgagcggagtcttaatatttgggaaacagggagctggaaatagcaacgtggaccttgacaacgttatgataaccagtgaggaagaaattaaaaccaccaacccagtggccacagaacagtacggcacggtggccactaacctgcaatcgtcaaacaccgctcctgctacagggaccgtcaacagtcaaggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcctatctgggccaagattcctcacacggacggacactttcatccctcgccgctgatgggaggctttggactgaaacacccgcctcctcagatcctgattaagaatacacctgttcccgcgaatcctccaactaccttcagtccagctaagtttgcgtcgttcatcacgcagtacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaagaaaacagcaaacgctggaacccagagattcaatacacttccaactacaacaaatctacaaatgtggactttgctgttgacacaaatggcgtttattctgagcctcgccccatcggcacccgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

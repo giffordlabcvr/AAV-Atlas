@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PE365690</GBSeq_locus>
+    <GBSeq_length>810</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230035043-A/2: ADENO-ASSOCIATED VIRUS VECTOR DELIVERY FOR MUSCULAR DYSTROPHIES</GBSeq_definition>
+    <GBSeq_primary-accession>PE365690</GBSeq_primary-accession>
+    <GBSeq_accession-version>PE365690.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PE365690.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230035043|2</GBSeqid>
+      <GBSeqid>gi|2677381578</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230035043-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..810</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rodino-Klapac,L.</GBAuthor>
+          <GBAuthor>Mendell,J.R.</GBAuthor>
+          <GBAuthor>Peterson,E.</GBAuthor>
+          <GBAuthor>Potter,R.</GBAuthor>
+          <GBAuthor>Griffin,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS VECTOR DELIVERY FOR MUSCULAR DYSTROPHIES</GBReference_title>
+        <GBReference_journal>KR1020230035043-A 2 10-MAR-2023 THE RESEARCH INSTITUTE AT NATIONWIDE CHILDREN' S HOSPITAL|SAREPTA THERAPEUTICS, Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237001636-A/2~AN KR 1020237001636~AD 2023-01-13~PN KR 1020230035043~PD 2023-03-10~AT ADENO-ASSOCIATED VIRUS VECTOR DELIVERY FOR MUSCULAR~AT DYSTROPHIES~AI Rodino-Klapac, Louise|Mendell, Jerry R.|Peterson,~AI ellyn|Potter, Rachael|Griffin, Danielle~AA THE RESEARCH INSTITUTE AT NATIONWIDE CHILDREN' S~AA HOSPITAL|SAREPTA THERAPEUTICS, Inc.~PR US 63/039,252=2020-06-15|US 63/083,953=2020-09-27|US~PR 63/160,376=2021-03-12|US 63/188,266=2021-05-13~OS Adeno-associated virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..810</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>810</GBInterval_to>
+            <GBInterval_accession>PE365690.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtttaaacaagcttgcatgtctaagctagacccttcagattaaaaataactgaggtaagggcctgggtaggggaggtggtgtgagacgctcctgtctctcctctatctgcccatcggccctttggggaggaggaatgtgcccaaggactaaaaaaaggccatggagccagaggggcgagggcaacagacctttcatgggcaaaccttggggccctgctgtctagcatgccccactacgggtctaggctgcccatgtaaggaggcaaggcctggggacacccgagatgcctggttataattaacccagacatgtggctgcccccccccccccaacacctgctgcctctaaaaataaccctgtccctggtggatcccctgcatgcgaagatcttcgaacaaggctgtgggggactgagggcaggctgtaacaggcttgggggccagggcttatacgtgcctgggactcccaaagtattactgttccatgttcccggcgaagggccagctgtcccccgccagctagactcagcacttagtttaggaaccagtgagcaagtcagcccttggggcagcccatacaaggccatggggctgggcaagctgcacgcctgggtccggggtgggcacggtgcccgggcaacgagctgaaagctcatctgctctcaggggcccctccctggggacagcccctcctggctagtcacaccctgtaggctcctctatataacccaggggcacaggggctgccctcattctaccaccacctccacagcacagacagacactcaggagccagccagcggcgcgccc</GBSeq_sequence>
+  </GBSeq>

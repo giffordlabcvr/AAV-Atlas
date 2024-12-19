@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OF265695</GBSeq_locus>
+    <GBSeq_length>130</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>16-DEC-2021</GBSeq_update-date>
+    <GBSeq_create-date>16-DEC-2021</GBSeq_create-date>
+    <GBSeq_definition>KR 1020210039428-A/12: IMPROVED CLINICAL PARAMETERS BY EXPRESSION OF FACTOR VIII</GBSeq_definition>
+    <GBSeq_primary-accession>OF265695</GBSeq_primary-accession>
+    <GBSeq_accession-version>OF265695.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|OF265695.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020210039428|12</GBSeqid>
+      <GBSeqid>gi|2166288687</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020210039428-A/12</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..130</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Conner,E.R.</GBAuthor>
+          <GBAuthor>Riley,B.E.</GBAuthor>
+          <GBAuthor>Rouy,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>IMPROVED CLINICAL PARAMETERS BY EXPRESSION OF FACTOR VIII</GBReference_title>
+        <GBReference_journal>KR1020210039428-A 12 09-APR-2021 SANGAMO THERAPEUTICS, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020217006266-A/12~AN KR 1020217006266~AD 2021-03-02~PN KR 1020210039428~PD 2021-04-09~AT IMPROVED CLINICAL PARAMETERS BY EXPRESSION OF FACTOR VIII~AI Conner, Edward R.|Riley, Brigit E.|Rouy, Didier~AA SANGAMO THERAPEUTICS, INC.~PR US 62/869,445=2019-07-01|US 62/826,887=2019-03-29|US~PR 62/714,553=2018-08-03~OS Adeno-associated virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..130</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>130</GBInterval_to>
+            <GBInterval_accession>OF265695.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgcgcgctcgctcgctcactgaggccgcccgggcaaagcccgggcgtcgggcgacctttggtcgcccggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcct</GBSeq_sequence>
+  </GBSeq>

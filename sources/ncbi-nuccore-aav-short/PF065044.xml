@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PF065044</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230083287-A/7: GENE THERAPY FOR OCULAR MANIFESTATIONS OF CLN2 DISEASE</GBSeq_definition>
+    <GBSeq_primary-accession>PF065044</GBSeq_primary-accession>
+    <GBSeq_accession-version>PF065044.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PF065044.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230083287|7</GBSeqid>
+      <GBSeqid>gi|2679028783</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230083287-A/7</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 9</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 9</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ohnsman,C.M.</GBAuthor>
+          <GBAuthor>Pakola,S.J.</GBAuthor>
+          <GBAuthor>Van everen,S.</GBAuthor>
+          <GBAuthor>Falabella,P.</GBAuthor>
+          <GBAuthor>Bailey,A.M.</GBAuthor>
+          <GBAuthor>Buss,N.A.P.S.</GBAuthor>
+          <GBAuthor>Kim,K.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GENE THERAPY FOR OCULAR MANIFESTATIONS OF CLN2 DISEASE</GBReference_title>
+        <GBReference_journal>KR1020230083287-A 7 09-JUN-2023 REGENXBIO Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237012074-A/7~AN KR 1020237012074~AD 2023-04-07~PN KR 1020230083287~PD 2023-06-09~AT GENE THERAPY FOR OCULAR MANIFESTATIONS OF CLN2 DISEASE~AI Ohnsman, Christina Maria|Pakola, Stephen Joseph|Van everen,~AI Sherri|Falabella, Paulo|Bailey, Alexander Marston|Buss,~AI Nicholas Alexander Piers Sascha|Kim, Kwi Hye~AA REGENXBIO Inc.~PR US 63/088,911=2020-10-07|US 63/146,134=2021-02-05~OS adeno-associated virus 9~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>PF065044.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:235455</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaaccttagtgaaggaattcgcgagtggtgggctttgaaacctggagcccctcaacccaaggcaaatcaacaacatcaagacaacgctcgaggtcttgtgcttccgggttacaaataccttggacccggcaacggactcgacaagggggagccggtcaacgcagcagacgcggcggccctcgagcacgacaaggcctacgaccagcagctcaaggccggagacaacccgtacctcaagtacaaccacgccgacgccgagttccaggagcggctcaaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaaaaagaggcttcttgaacctcttggtctggttgaggaagcggctaagacggctcctggaaagaagaggcctgtagagcagtctcctcaggaaccggactcctccgcgggtattggcaaatcgggtgcacagcccgctaaaaagagactcaatttcggtcagactggcgacacagagtcagtcccagaccctcaaccaatcggagaacctcccgcagccccctcaggtgtgggatctcttacaatggcttcaggtggtggcgcaccagtggcagacaataacgaaggtgccgatggagtgggtagttcctcgggaaattggcattgcgattcccaatggctgggggacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaatcacctctacaagcaaatctccaacagcacatctggaggatcttcaaatgacaacgcctacttcggctacagcaccccctgggggtattttgacttcaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcctaagcgactcaacttcaagctcttcaacattcaggtcaaagaggttacggacaacaatggagtcaagaccatcgccaataaccttaccagcacggtccaggtcttcacggactcagactatcagctcccgtacgtgctcgggtcggctcacgagggctgcctcccgccgttcccagcggacgttttcatgattcctcagtacgggtatctgacgcttaatgatggaagccaggccgtgggtcgttcgtccttttactgcctggaatatttcccgtcgcaaatgctaagaacgggtaacaacttccagttcagctacgagtttgagaacgtacctttccatagcagctacgctcacagccaaagcctggaccgactaatgaatccactcatcgaccaatacttgtactatctctcaaagactattaacggttctggacagaatcaacaaacgctaaaattcagtgtggccggacccagcaacatggctgtccagggaagaaactacatacctggacccagctaccgacaacaacgtgtctcaaccactgtgactcaaaacaacaacagcgaatttgcttggcctggagcttcttcttgggctctcaatggacgtaatagcttgatgaatcctggacctgctatggccagccacaaagaaggagaggaccgtttctttcctttgtctggatctttaatttttggcaaacaaggaactggaagagacaacgtggatgcggacaaagtcatgataaccaacgaagaagaaattaaaactactaacccggtagcaacggagtcctatggacaagtggccacaaaccaccagagtgcccaagcacaggcgcagaccggctgggttcaaaaccaaggaatacttccgggtatggtttggcaggacagagatgtgtacctgcaaggacccatttgggccaaaattcctcacacggacggcaactttcacccttctccgctgatgggagggtttggaatgaagcacccgcctcctcagatcctcatcaaaaacacacctgtacctgcggatcctccaacggccttcaacaaggacaagctgaactctttcatcacccagtattctactggccaagtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaagcgctggaacccggagatccagtacacttccaactattacaagtctaataatgttgaatttgctgttaatactgaaggtgtatatagtgaaccccgccccattggcaccagatacctgactcgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

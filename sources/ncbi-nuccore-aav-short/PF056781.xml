@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PF056781</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230074485-A/5: METHOD OF MAKING RECOMBINANT AAVS</GBSeq_definition>
+    <GBSeq_primary-accession>PF056781</GBSeq_primary-accession>
+    <GBSeq_accession-version>PF056781.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PF056781.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230074485|5</GBSeqid>
+      <GBSeqid>gi|2679004549</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230074485-A/5</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 3</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cawood,R.</GBAuthor>
+          <GBAuthor>Su,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHOD OF MAKING RECOMBINANT AAVS</GBReference_title>
+        <GBReference_journal>KR1020230074485-A 5 30-MAY-2023 OXFORD GENETICS LIMITED|Oxford University Innovation Limited</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237009622-A/5~AN KR 1020237009622~AD 2023-03-20~PN KR 1020230074485~PD 2023-05-30~AT METHOD OF MAKING RECOMBINANT AAVS~AI Cawood, Ryan|Su, Weiheng~AA OXFORD GENETICS LIMITED|Oxford University Innovation Limited~PR GB 2013057.1=2020-08-21|PCT/GB PCT/GB2021/052162=2021-08-20~OS adeno-associated virus 3~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>PF056781.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:46350</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgctgacggttatcttccagattggctcgaggacaacctttctgaaggcattcgtgagtggtgggctctgaaacctggagtccctcaacccaaagcgaaccaacaacaccaggacaaccgtcggggtcttgtgcttccgggttacaaatacctcggacccggtaacggactcgacaaaggagagccggtcaacgaggcggacgcggcagccctcgaacacgacaaagcttacgaccagcagctcaaggccggtgacaacccgtacctcaagtacaaccacgccgacgccgagtttcaggagcgtcttcaagaagatacgtcttttgggggcaaccttggcagagcagtcttccaggccaaaaagaggatccttgagcctcttggtctggttgaggaagcagctaaaacggctcctggaaagaagggggctgtagatcagtctcctcaggaaccggactcatcatctggtgttggcaaatcgggcaaacagcctgccagaaaaagactaaatttcggtcagactggagactcagagtcagtcccagaccctcaacctctcggagaaccaccagcagcccccacaagtttgggatctaatacaatggcttcaggcggtggcgcaccaatggcagacaataacgagggtgccgatggagtgggtaattcctcaggaaattggcattgcgattcccaatggctgggcgacagagtcatcaccaccagcaccagaacctgggccctgcccacttacaacaaccatctctacaagcaaatctccagccaatcaggagcttcaaacgacaaccactactttggctacagcaccccttgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcattaacaacaactggggattccggcccaagaaactcagcttcaagctcttcaacatccaagttagaggggtcacgcagaacgatggcacgacgactattgccaataaccttaccagcacggttcaagtgtttacggactcggagtatcagctcccgtacgtgctcgggtcggcgcaccaaggctgtctcccgccgtttccagcggacgtcttcatggtccctcagtatggatacctcaccctgaacaacggaagtcaagcggtgggacgctcatccttttactgcctggagtacttcccttcgcagatgctaaggactggaaataacttccaattcagctataccttcgaggatgtaccttttcacagcagctacgctcacagccagagtttggatcgcttgatgaatcctcttattgatcagtatctgtactacctgaacagaacgcaaggaacaacctctggaacaaccaaccaatcacggctgctttttagccaggctgggcctcagtctatgtctttgcaggccagaaattggctacctgggccctgctaccggcaacagagactttcaaagactgctaacgacaacaacaacagtaactttccttggacagcggccagcaaatatcatctcaatggccgcgactcgctggtgaatccaggaccagctatggccagtcacaaggacgatgaagaaaaatttttccctatgcacggcaatctaatatttggcaaagaagggacaacggcaagtaacgcagaattagataatgtaatgattacggatgaagaagagattcgtaccaccaatcctgtggcaacagagcagtatggaactgtggcaaataacttgcagagctcaaatacagctcccacgactggaactgtcaatcatcagggggccttacctggcatggtgtggcaagatcgtgacgtgtaccttcaaggacctatctgggcaaagattcctcacacggatggacactttcatccttctcctctgatgggaggctttggactgaaacatccgcctcctcaaatcatgatcaaaaatactccggtaccggcaaatcctccgacgactttcagcccggccaagtttgcttcatttatcactcagtactccactggacaggtcagcgtggaaattgagtgggagctacagaaagaaaacagcaaacgttggaatccagagattcagtacacttccaactacaacaagtctgttaatgtggactttactgtagacactaatggtgtttatagtgaacctcgccctattggaacccggtatctcacacgaaacttgtga</GBSeq_sequence>
+  </GBSeq>

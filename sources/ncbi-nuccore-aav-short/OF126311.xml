@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OF126311</GBSeq_locus>
+    <GBSeq_length>108</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-AUG-2021</GBSeq_update-date>
+    <GBSeq_create-date>04-AUG-2021</GBSeq_create-date>
+    <GBSeq_definition>KR 1020200128215-A/20: MODIFIED FACTOR IX, AND COMPOSITIONS, METHODS AND USES FOR GENE TRANSFER TO CELLS, ORGANS AND TISSUES</GBSeq_definition>
+    <GBSeq_primary-accession>OF126311</GBSeq_primary-accession>
+    <GBSeq_accession-version>OF126311.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|OF126311.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020200128215|20</GBSeqid>
+      <GBSeqid>gi|2077210344</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020200128215-A/20</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..108</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>High,K.A.</GBAuthor>
+          <GBAuthor>Anguela,X.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>MODIFIED FACTOR IX, AND COMPOSITIONS, METHODS AND USES FOR GENE TRANSFER TO CELLS, ORGANS AND TISSUES</GBReference_title>
+        <GBReference_journal>KR1020200128215-A 20 11-NOV-2020 THE CHILDREN'S HOSPITAL OF PHILADELPHIA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020207032060-A/20~AN KR 1020207032060~AD 2020-11-05~PN KR 1020200128215~PD 2020-11-11~AT MODIFIED FACTOR IX, AND COMPOSITIONS, METHODS AND USES FOR~AT GENE TRANSFER TO CELLS, ORGANS AND TISSUES~AI High, Katherine A.|Anguela, Xavier~AA THE CHILDREN'S HOSPITAL OF PHILADELPHIA~PR US 62/183,599=2015-06-23|US 62/315,453=2016-03-30|US~PR 62/338,315=2016-05-18|US 62/348,781=2016-06-10|US~PR 62/349,572=2016-06-13~OS Adeno-associated Virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..108</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>108</GBInterval_to>
+            <GBInterval_accession>OF126311.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcag</GBSeq_sequence>
+  </GBSeq>

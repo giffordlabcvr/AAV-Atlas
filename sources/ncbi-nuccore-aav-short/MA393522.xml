@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MA393522</GBSeq_locus>
+    <GBSeq_length>145</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-OCT-2018</GBSeq_update-date>
+    <GBSeq_create-date>30-OCT-2018</GBSeq_create-date>
+    <GBSeq_definition>JP 2018108083-A/16: VIRAL VECTORS FOR THE TREATMENT OF RETINAL DYSTROPHY</GBSeq_definition>
+    <GBSeq_primary-accession>MA393522</GBSeq_primary-accession>
+    <GBSeq_accession-version>MA393522.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MA393522.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018108083|16</GBSeqid>
+      <GBSeqid>gi|1500123012</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018108083-A/16</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Police,S.R.</GBAuthor>
+          <GBAuthor>Choi,V.</GBAuthor>
+          <GBAuthor>Dryja,T.P.</GBAuthor>
+          <GBAuthor>Bigelow,C.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>VIRAL VECTORS FOR THE TREATMENT OF RETINAL DYSTROPHY</GBReference_title>
+        <GBReference_journal>JP2018108083-A 16 12-JUL-2018 VIVIAN CHOI,CHAD ERIC BIGELOW,THADDEUS PETER DRYJA,SESHIDHAR REDDY POLICE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2018108083-A/16~PD 12-JUL-2018~PF 07-FEB-2018 JP 2018020063~PR 04-MAY-2012 US 61/642630 ,11-MAR-2013 US 61/776167~PA VIVIAN CHOI,CHAD ERIC BIGELOW,THADDEUS PETER DRYJA,SESHIDHAR~PA REDDY POLICE~PI seshidhar reddy police,vivian choi,thaddeus peter dryja,chad~PI eric bigelow~PT 'VIRAL VECTORS FOR THE TREATMENT OF RETINAL DYSTROPHY'~PS N17~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..145</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>145</GBInterval_to>
+            <GBInterval_accession>MA393522.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttcct</GBSeq_sequence>
+  </GBSeq>

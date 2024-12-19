@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY762064</GBSeq_locus>
+    <GBSeq_length>564</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>08-OCT-2020</GBSeq_update-date>
+    <GBSeq_create-date>08-OCT-2020</GBSeq_create-date>
+    <GBSeq_definition>KR 1020190130591-A/4: ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MUSCLE SPECIFIC MICRO-DYSTROPHIN TO TREAT MUSCULAR DYSTROPHY</GBSeq_definition>
+    <GBSeq_primary-accession>LY762064</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY762064.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY762064.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020190130591|4</GBSeqid>
+      <GBSeqid>gi|1914756279</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020190130591-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..564</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rodino-Klapac,L.</GBAuthor>
+          <GBAuthor>Mendell,J.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MUSCLE SPECIFIC MICRO-DYSTROPHIN TO TREAT MUSCULAR DYSTROPHY</GBReference_title>
+        <GBReference_journal>KR1020190130591-A 4 22-NOV-2019 RESEARCH INSTITUTE AT NATIONWIDE CHILDREN'S HOSPITAL</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020197029367-A/4~AN KR 1020197029367~AD 2019-10-07~PN KR 1020190130591~PD 2019-11-22~AT ADENO-ASSOCIATED VIRUS VECTOR DELIVERY OF MUSCLE SPECIFIC~AT MICRO-DYSTROPHIN TO TREAT MUSCULAR DYSTROPHY~AI Rodino-Klapac, Louise|Mendell, Jerry R.~AA RESEARCH INSTITUTE AT NATIONWIDE CHILDREN'S HOSPITAL~PR US 62/473,148=2017-03-17~OS Adeno-associated virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..564</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>564</GBInterval_to>
+            <GBInterval_accession>LY762064.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagccactatgggtctaggctgcccatgtaaggaggcaaggcctggggacacccgagatgcctggttataattaacccagacatgtggctgctccccccccccaacacctgctgcctgagcctcacccccaccccggtgcctgggtcttaggctctgtacaccatggaggagaagctcgctctaaaaataaccctgtccctggtgggctgtgggggactgagggcaggctgtaacaggcttgggggccagggcttatacgtgcctgggactcccaaagtattactgttccatgttcccggcgaagggccagctgtcccccgccagctagactcagcacttagtttaggaaccagtgagcaagtcagcccttggggcagcccatacaaggccatggggctgggcaagctgcacgcctgggtccggggtgggcacggtgcccgggcaacgagctgaaagctcatctgctctcaggggcccctccctggggacagcccctcctggctagtcacaccctgtaggctcctctatataacccaggggcacaggggctgcccccgggtcac</GBSeq_sequence>
+  </GBSeq>

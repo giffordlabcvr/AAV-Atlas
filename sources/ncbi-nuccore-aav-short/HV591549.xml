@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HV591549</GBSeq_locus>
+    <GBSeq_length>2172</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>16-JUN-2012</GBSeq_update-date>
+    <GBSeq_create-date>16-JUN-2012</GBSeq_create-date>
+    <GBSeq_definition>JP 2010273690-A/11: AAV VIRIONS WITH DECREASED IMMUNOREACTIVITY AND USES THEREFOR</GBSeq_definition>
+    <GBSeq_primary-accession>HV591549</GBSeq_primary-accession>
+    <GBSeq_accession-version>HV591549.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HV591549.1|</GBSeqid>
+      <GBSeqid>pat|JP|2010273690|11</GBSeqid>
+      <GBSeqid>gi|391751385</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2010273690-A/11</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 5</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus mammalian1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2172</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Colosi,P.</GBAuthor>
+          <GBAuthor>Arbetman,A.E.</GBAuthor>
+          <GBAuthor>Lochrie,M.A.</GBAuthor>
+          <GBAuthor>Surosky,R.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>AAV VIRIONS WITH DECREASED IMMUNOREACTIVITY AND USES THEREFOR</GBReference_title>
+        <GBReference_journal>JP2010273690-A 11 09-DEC-2010 Avigen Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 5~PN JP 2010273690-A/11~PD 09-DEC-2010~PF 01-SEP-2010 JP 2010196261~PR 19-JUN-2003 US 60/480395,30-APR-2004 US 60/567310, PR 03-JUN-2004 US 60/576501~PI peter colosi,alejandra elena arbetman,michael a PI lochrie,richard t surosky~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2172</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2172</GBInterval_to>
+            <GBInterval_accession>HV591549.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:82300</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgtcttttgttgatcaccctccagattggttggaagaagttggtgaaggtcttcgcgagtttttgggccttgaagcgggcccaccgaaaccaaaacccaatcagcagcatcaagatcaagcccgtggtcttgtgctgcctggttataactatctcggacccggaaacggtctcgatcgaggagagcctgtcaacagggcagacgaggtcgcgcgagagcacgacatctcgtacaacgagcagcttgaggcgggagacaacccctacctcaagtacaaccacgcggacgccgagtttcaggagaagctcgccgacgacacatccttcgggggaaacctcggaaaggcagtctttcaggccaagaaaagggttctcgaaccttttggcctggttgaagagggtgctaagacggcccctaccggaaagcggatagacgaccactttccaaaaagaaagaaggctcggaccgaagaggactccaagccttccacctcgtcagacgccgaagctggacccagcggatcccagcagctgcaaatcccagcccaaccagcctcaagtttgggagctgatacaatgtctgcgggaggtggcggcccattgggcgacaataaccaaggtgccgatggagtgggcaatgcctcgggagattggcattgcgattccacgtggatgggggacagagtcgtcaccaagtccacccgaacctgggtgctgcccagctacaacaaccaccagtaccgagagatcaaaagcggctccgtcgacggaagcaacgccaacgcctactttggatacagcaccccctgggggtactttgactttaaccgcttccacagccactggagcccccgagactggcaaagactcatcaacaactactggggcttcagaccccggtccctcagagtcaaaatcttcaacattcaagtcaaagaggtcacggtgcaggactccaccaccaccatcgccaacaacctcacctccaccgtccaagtgtttacggacgacgactaccagctgccctacgtcgtcggcaacgggaccgagggatgcctgccggccttccctccgcaggtctttacgctgccgcagtacggttacgcgacgctgaaccgcgacaacacagaaaatcccaccgagaggagcagcttcttctgcctagagtactttcccagcaagatgctgagaacgggcaacaactttgagtttacctacaactttgaggaggtgcccttccactccagcttcgctcccagtcagaacctgttcaagctggccaacccgctggtggaccagtacttgtaccgcttcgtgagcacaaataacactggcggagtccagttcaacaagaacctggccgggagatacgccaacacctacaaaaactggttcccggggcccatgggccgaacccagggctggaacctgggctccggggtcaaccgcgccagtgtcagcgccttcgccacgaccaataggatggagctcgagggcgcgagttaccaggtgcccccgcagccgaacggcatgaccaacaacctccagggcagcaacacctatgccctggagaacactatgatcttcaacagccagccggcgaacccgggcaccaccgccacgtacctcgagggcaacatgctcatcaccagcgagagcgagacgcagccggtgaaccgcgtggcgtacaacgtcggcgggcagatggccaccaacaaccagagctccaccactgcccccgcgaccggcacgtacaacctccaggaaatcgtgcccggcagcgtgtggatggagagggacgtgtacctccaaggacccatctgggccaagatcccagagacgggggcgcactttcacccctctccggccatgggcggattcggactcaaacacccaccgcccatgatgctcatcaagaacacgcctgtgcccggaaatatcaccagcttctcggacgtgcccgtcagcagcttcatcacccagtacagcaccgggcaggtcaccgtggagatggagtgggagctcaagaaggaaaactccaagaggtggaacccagagatccagtacacaaacaactacaacgacccccagtttgtggactttgccccggacagcaccggggaatacagaaccaccagacctatcggaacccgataccttacccgacccctt</GBSeq_sequence>
+  </GBSeq>

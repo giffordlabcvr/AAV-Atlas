@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OF144391</GBSeq_locus>
+    <GBSeq_length>2214</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>16-DEC-2021</GBSeq_update-date>
+    <GBSeq_create-date>16-DEC-2021</GBSeq_create-date>
+    <GBSeq_definition>KR 1020210006327-A/19: NOVEL ADENO-ASSOCIATED VIRUS (AAV) VECTORS, AAV VECTORS HAVING REDUCED CAPSID DEAMIDATION AND USES THEREFOR</GBSeq_definition>
+    <GBSeq_primary-accession>OF144391</GBSeq_primary-accession>
+    <GBSeq_accession-version>OF144391.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|OF144391.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020210006327|19</GBSeqid>
+      <GBSeqid>gi|2166294401</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020210006327-A/19</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 8</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 8</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wilson,J.M.</GBAuthor>
+          <GBAuthor>Tepe,A.</GBAuthor>
+          <GBAuthor>Turner,K.</GBAuthor>
+          <GBAuthor>Sims,J.J.</GBAuthor>
+          <GBAuthor>Wang,Q.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>NOVEL ADENO-ASSOCIATED VIRUS (AAV) VECTORS, AAV VECTORS HAVING REDUCED CAPSID DEAMIDATION AND USES THEREFOR</GBReference_title>
+        <GBReference_journal>KR1020210006327-A 19 18-JAN-2021 The Trustees of the University of Pennsylvania</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020207027462-A/19~AN KR 1020207027462~AD 2020-09-23~PN KR 1020210006327~PD 2021-01-18~AT NOVEL ADENO-ASSOCIATED VIRUS (AAV) VECTORS, AAV VECTORS HAVING~AT REDUCED CAPSID DEAMIDATION AND USES THEREFOR~AI Wilson, James M.|Tepe, April|Turner, Kevin|Sims, Joshua~AI Joyner|Wang, Qiang~AA The Trustees of the University of Pennsylvania~PR US 62/722,382=2018-08-24|US 62/703,670=2018-07-26|US~PR 62/677,471=2018-05-29|US 62/667,585=2018-05-29|US~PR 62/635,964=2018-02-27|US 62/722,388=2018-08-24|US~PR 62/703,673=2018-07-26|US 62/677,474=2018-05-29|US~PR 62/667,587=2018-05-06|US 62/635,968=2018-02-27|US~PR 62/667,881=2018-05-07|US 62/663,797=2018-04-27|US~PR 62/667,888=2018-05-07|US 62/633,788=2018-04-27~OS AAV8~TY DNA~FH Key Location/Qualifiers~FT CDS (1)..(2214).</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>OF144391.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:202813</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggcgctgaaacctggagccccgaagcccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctgcaggcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagccatcaccccagcgttctccagactcctctacgggcatcggcaagaaaggccaacagcccgccagaaaaagactcaattttggtcagactggcgactcagagtcagttccagaccctcaacctctcggagaacctccagcagcgccctctggtgtgggacctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtagttcctcgggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacatcgggaggagccaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttttcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcagcttcaagctcttcaacatccaggtcaaggaggtcacgcagaatgaaggcaccaagaccatcgccaataacctcaccagcaccatccaggtgtttacggactcggagtaccagctgccgtacgttctcggctctgcccaccagggctgcctgcctccgttcccggcggacgtgttcatgattccccagtacggctacctaacactcaacaacggtagtcaggccgtgggacgctcctccttctactgcctggaatactttccttcgcagatgctgagaaccggcaacaacttccagtttacttacaccttcgaggacgtgcctttccacagcagctacgcccacagccagagcttggaccggctgatgaatcctctgattgaccagtacctgtactacttgtctcggactcaaacaacaggaggcacggcaaatacgcagactctgggcttcagccaaggtgggcctaatacaatggccaatcaggcaaagaactggctgccaggaccctgttaccgccaacaacgcgtctcaacgacaaccgggcaaaacaacaatagcaactttgcctggactgctgggaccaaataccatctgaatggaagaaattcattggctaatcctggcatcgctatggcaacacacaaagacgacgaggagcgtttttttcccagtaacgggatcctgatttttggcaaacaaaatgctgccagagacaatgcggattacagcgatgtcatgctcaccagcgaggaagaaatcaaaaccactaaccctgtggctacagaggaatacggtatcgtggcagataacttgcagcagcaaaacacggctcctcaaattggaactgtcaacagccagggggccttacccggtatggtctggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcacacggacggcaacttccacccgtctccgctgatgggcggctttggcctgaaacatcctccgcctcagatcctgatcaagaacacgcctgtacctgcggatcctccgaccaccttcaaccagtcaaagctgaactctttcatcacgcaatacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaggaaaacagcaagcgctggaaccccgagatccagtacacctccaactactacaaatctacaagtgtggactttgctgttaatacagaaggcgtgtactctgaaccccgccccattggcacccgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

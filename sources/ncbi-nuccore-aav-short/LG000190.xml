@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LG000190</GBSeq_locus>
+    <GBSeq_length>2217</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>07-JAN-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-JAN-2016</GBSeq_create-date>
+    <GBSeq_definition>KR 1020150005521-A/2: AAV VECTOR COMPOSITIONS AND METHODS FOR GENE TRANSFER TO CELLS, ORGANS AND TISSUES</GBSeq_definition>
+    <GBSeq_primary-accession>LG000190</GBSeq_primary-accession>
+    <GBSeq_accession-version>LG000190.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LG000190.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020150005521|2</GBSeqid>
+      <GBSeqid>gi|972801126</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020150005521-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2217</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>High,K.A.</GBAuthor>
+          <GBAuthor>Mingozzi,F.</GBAuthor>
+          <GBAuthor>Sun,J.</GBAuthor>
+          <GBAuthor>Johnson,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>AAV VECTOR COMPOSITIONS AND METHODS FOR GENE TRANSFER TO CELLS, ORGANS AND TISSUES</GBReference_title>
+        <GBReference_journal>KR1020150005521-A 2 14-JAN-2015 THE CHILDREN'S HOSPITAL OF PHILADELPHIA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020147025988-A/2~AN KR 1020147025988~AD 2014-09-17~PN KR 1020150005521~PD 2015-01-14~AT AAV VECTOR COMPOSITIONS AND METHODS FOR GENE TRANSFER TO~AT CELLS, ORGANS AND TISSUES~AI High, Katherine A.|Mingozzi, Federico|Sun, Junwei|Johnson,~AI Philip~AA THE CHILDREN'S HOSPITAL OF PHILADELPHIA~PR US 61/600,415=2012-02-17~OS Adeno-associated virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2217</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2217</GBInterval_to>
+            <GBInterval_accession>LG000190.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacaacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctccaagcgggtgacaatccgtacctgcggtataatcacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgcgcagtcttccaggccaaaaagcgggttctcgaacctctgggcctggttgaatcgccggttaagacggctcctggaaagaagagaccggtagagccatcaccccagcgctctccagactcctctacgggcatcggcaagaaaggccagcagcccgcaaaaaagagactcaattttgggcagactggcgactcagagtcagtccccgaccctcaaccaatcggagaaccaccagcaggcccctctggtctgggatctggtacaatggctgcaggcggtggcgctccaatggcagacaataacgaaggcgccgacggagtgggtagttcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgcacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacctcgggaggaagcaccaacgacaacacctacttcggctacagcaccccctgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagaggctcaacttcaagctcttcaacatccaagtcaaggaggtcacgcagaatgaaggcaccaagaccatcgccaataaccttaccagcacgattcaggtctttacggactcggaataccagctcccgtacgtgctcggctcggcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacgggtacctgactctgaacaatggcagtcaggctgtgggccggtcgtccttctactgcctggagtactttccttctcaaatgctgagaacgggcaacaactttgaattcagctacaacttcgaggacgtgcccttccacagcagctacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacttgtactacctgtcccggactcaaagcacgggcggtactgcaggaactcagcagttgctattttctcaggccgggcctaacaacatgtcggctcaggccaagaactggctacccggtccctgctaccggcagcaacgcgtctccacgacactgtcgcagaacaacaacagcaactttgcctggacgggtgccaccaagtatcatctgaatggcagagactctctggtgaatcctggcgttgccatggctacccacaaggacgacgaagagcgattttttccatccagcggagtcttaatgtttgggaaacagggagctggaaaagacaacgtggactatagcagcgtgatgctaaccagcgaggaagaaataaagaccaccaacccagtggccacagaacagtacggcgtggtggccgataacctgcaacagcaaaacgccgctcctattgtaggggccgtcaatagtcaaggagccttacctggcatggtgtggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcatacggacggcaactttcatccctcgccgctgatgggaggctttggactgaagcatccgcctcctcagatcctgattaaaaacacacctgttcccgcggatcctccgaccaccttcaatcaggccaagctggcttctttcatcacgcagtacagtaccggccaggtcagcgtggagatcgagtgggagctgcagaaggagaacagcaaacgctggaacccagagattcagtacacttccaactactacaaatctacaaatgtggactttgctgtcaatactgagggtacttattccgagcctcgccccattggcacccgttacctcacccgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

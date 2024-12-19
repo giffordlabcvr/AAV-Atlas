@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LV470170</GBSeq_locus>
+    <GBSeq_length>284</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>30-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>JP 2016533709-A/80: SYNTHETIC COMBINATORIAL AAV CAPSID LIBRARY FOR TARGETED GENE THERAPY</GBSeq_definition>
+    <GBSeq_primary-accession>LV470170</GBSeq_primary-accession>
+    <GBSeq_accession-version>LV470170.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LV470170.1|</GBSeqid>
+      <GBSeqid>pat|JP|2016533709|80</GBSeqid>
+      <GBSeqid>gi|1171383457</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2016533709-A/80</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..284</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Marsic,D.</GBAuthor>
+          <GBAuthor>Zolotukhin,S.</GBAuthor>
+          <GBAuthor>Agbandje-mckenna,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>SYNTHETIC COMBINATORIAL AAV CAPSID LIBRARY FOR TARGETED GENE THERAPY</GBReference_title>
+        <GBReference_journal>JP2016533709-A 80 04-NOV-2016 University of Florida Research Foundation Inc</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 2~PN JP 2016533709-A/80~PD 04-NOV-2016~PF 26-SEP-2014 JP 2016517431~PR 26-SEP-2013 US 61/883063~PA University of Florida Research Foundation Inc~PI damien marsic,sergei zolotukhin,mavis agbandje-mckenna~PT 'SYNTHETIC COMBINATORIAL AAV CAPSID LIBRARY FOR TARGETED GENE~PT THERAPY'~PS N266~CC~FH Key Location/Qualifiers~FT misc_feature (59)..(59)~FT /note='n is a, c, g, or t'~FT misc_feature (244)..(244)~FT /note='n is a, c, g, or t'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..284</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>284</GBInterval_to>
+            <GBInterval_accession>LV470170.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cagcctaggaactggcttcctggaccctgttaccgccagcagagagtctcaamammavnsrvcsrsaacaacaacagtrasttctcctggmmaggagctaccaagtaccacctcaatggcagagactctctggtgaatcccggaccagctatggcaagccacrrggacrrcrmsrrsarsttttttcctcagagcggggttctcatctttgggaagsaarrcrscrvsrvarvcratrycgmsnhcrvmvrsgtcatgattacagacgaagaggagatctggac</GBSeq_sequence>
+  </GBSeq>

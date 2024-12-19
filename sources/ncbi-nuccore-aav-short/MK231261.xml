@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK231261</GBSeq_locus>
+    <GBSeq_length>520</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PRI</GBSeq_division>
+    <GBSeq_update-date>07-JUL-2019</GBSeq_update-date>
+    <GBSeq_create-date>07-JUL-2019</GBSeq_create-date>
+    <GBSeq_definition>Homo sapiens isolate CHC2141T disrupted NKAIN3 gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MK231261</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK231261.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK231261.1|</GBSeqid>
+      <GBSeqid>gi|1696834815</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Homo sapiens (human)</GBSeq_source>
+    <GBSeq_organism>Homo sapiens</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..520</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>La Bella,T.</GBAuthor>
+          <GBAuthor>Imbeaud,S.</GBAuthor>
+          <GBAuthor>Peneau,C.</GBAuthor>
+          <GBAuthor>Mami,I.</GBAuthor>
+          <GBAuthor>Datta,S.</GBAuthor>
+          <GBAuthor>Bayard,Q.</GBAuthor>
+          <GBAuthor>Caruso,S.</GBAuthor>
+          <GBAuthor>Hirsch,T.Z.</GBAuthor>
+          <GBAuthor>Calderaro,J.</GBAuthor>
+          <GBAuthor>Morcrette,G.</GBAuthor>
+          <GBAuthor>Guettier,C.</GBAuthor>
+          <GBAuthor>Paradis,V.</GBAuthor>
+          <GBAuthor>Amaddeo,G.</GBAuthor>
+          <GBAuthor>Laurent,A.</GBAuthor>
+          <GBAuthor>Possenti,L.</GBAuthor>
+          <GBAuthor>Chiche,L.</GBAuthor>
+          <GBAuthor>Bouliac-Sage,P.</GBAuthor>
+          <GBAuthor>Blanc,J.-F.</GBAuthor>
+          <GBAuthor>Letouze,E.</GBAuthor>
+          <GBAuthor>Nault,J.-C.</GBAuthor>
+          <GBAuthor>Zucman-Rossi,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adeno-associated virus in the liver: natural history and consequences in tumor development</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..520</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>La Bella,T.</GBAuthor>
+          <GBAuthor>Imbeaud,S.</GBAuthor>
+          <GBAuthor>Peneau,C.</GBAuthor>
+          <GBAuthor>Mami,I.</GBAuthor>
+          <GBAuthor>Bayard,Q.</GBAuthor>
+          <GBAuthor>Caruso,S.</GBAuthor>
+          <GBAuthor>Hirsch,T.Z.</GBAuthor>
+          <GBAuthor>Letouze,E.</GBAuthor>
+          <GBAuthor>Nault,J.-C.</GBAuthor>
+          <GBAuthor>Zucman-Rossi,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-NOV-2018) Functional Genomics of Solid Tumors, INSERM U 1162, 27 Rue Juliette Dodu, Paris 75010, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Genious v. 11.1.5 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>order(1..274,314..520)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>274</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>520</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>order</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CHC2141T</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>liver</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>hepatocellular carcinoma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>France</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>focus</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>08-Dec-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>275..313</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>275</GBInterval_from>
+            <GBInterval_to>313</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: AAV2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;274</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>274</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>disrupted NKAIN3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>disrupted by viral insertion</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>intron</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;274</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>274</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>disrupted NKAIN3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>number</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;314..&gt;520</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>520</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>disrupted NKAIN3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>disrupted by viral insertion</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>intron</GBFeature_key>
+        <GBFeature_location>&lt;314..&gt;520</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>520</GBInterval_to>
+            <GBInterval_accession>MK231261.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>disrupted NKAIN3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>number</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcagctctgagttcattttcagcagacaacagtctgttccaacataacctactccaacctaagcttcatggagacagactggggctgacaaaaggtaaatggttttcatgtcactagtgtctttaaagaaataccaataaatttaatttccttcttaaatttaacaatccaaacaagtaaggtggaatgcagcagactgttatttaagtatgtcatgaagatttcaagttttagatcttgatgcctattttcatgattaaacaaaattaaaatctttggtcgcccggcctcagtgagcgagcgagcgcgcagttatggttccaaagactgttgtctgtgattatgatatattcaaagtattttcattgcaatgttgtggacatccatgataaattatgccttcttaattgggattatttttatttcaggcaattggcactcttgaaaataaaaacccatctgtccaaaaccattttttcatttcctgtcatttcagcttagattgcaccactaatctct</GBSeq_sequence>
+  </GBSeq>

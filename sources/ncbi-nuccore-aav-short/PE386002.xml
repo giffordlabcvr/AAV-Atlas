@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PE386002</GBSeq_locus>
+    <GBSeq_length>133</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230043869-A/26: PLAKOPHILIN-2 (PKP2) GENE THERAPY USING AAV VECTOR</GBSeq_definition>
+    <GBSeq_primary-accession>PE386002</GBSeq_primary-accession>
+    <GBSeq_accession-version>PE386002.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PE386002.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230043869|26</GBSeqid>
+      <GBSeqid>gi|2677217568</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230043869-A/26</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..133</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Herzog,C.D.</GBAuthor>
+          <GBAuthor>Sacramento,C.B.</GBAuthor>
+          <GBAuthor>Prabhakar,R.</GBAuthor>
+          <GBAuthor>Ricks,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PLAKOPHILIN-2 (PKP2) GENE THERAPY USING AAV VECTOR</GBReference_title>
+        <GBReference_journal>KR1020230043869-A 26 31-MAR-2023 SPACECRAFT SEVEN, LLC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237003609-A/26~AN KR 1020237003609~AD 2023-01-31~PN KR 1020230043869~PD 2023-03-31~AT PLAKOPHILIN-2 (PKP2) GENE THERAPY USING AAV VECTOR~AI Herzog, Christopher Dean|Sacramento, Chester~AI Bittencort|Prabhakar, Raj|Ricks, David~AA SPACECRAFT SEVEN, LLC~PR US 63/063,032=2020-08-07~OS Adeno-associated virus 2~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..133</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>133</GBInterval_to>
+            <GBInterval_accession>PE386002.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggaacccctagtgatggagactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagt</GBSeq_sequence>
+  </GBSeq>

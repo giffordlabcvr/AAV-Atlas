@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PE383179</GBSeq_locus>
+    <GBSeq_length>145</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-FEB-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230026504-A/54: POLYNUCLEOTIDE</GBSeq_definition>
+    <GBSeq_primary-accession>PE383179</GBSeq_primary-accession>
+    <GBSeq_accession-version>PE383179.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PE383179.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230026504|54</GBSeqid>
+      <GBSeqid>gi|2677200043</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230026504-A/54</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..145</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kia,A.</GBAuthor>
+          <GBAuthor>Foley,J.</GBAuthor>
+          <GBAuthor>Canavese,M.</GBAuthor>
+          <GBAuthor>Corbau,R.</GBAuthor>
+          <GBAuthor>Correia,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>POLYNUCLEOTIDE</GBReference_title>
+        <GBReference_journal>KR1020230026504-A 54 24-FEB-2023 FREELINE THERAPEUTICS LIMITED</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237002890-A/54~AN KR 1020237002890~AD 2023-01-25~PN KR 1020230026504~PD 2023-02-24~AT POLYNUCLEOTIDE~AI Kia, Azadeh|Foley, Jonathan|Canavese, Miriam|Corbau,~AI Romuald|Correia, Samantha~AA FREELINE THERAPEUTICS LIMITED~PR GB 2009741.6=2020-06-25~OS adeno-associated virus 2~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..145</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>145</GBInterval_to>
+            <GBInterval_accession>PE383179.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

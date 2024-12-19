@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OG162530</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-MAR-2021</GBSeq_update-date>
+    <GBSeq_create-date>30-MAR-2021</GBSeq_create-date>
+    <GBSeq_definition>WO 2020235543-A/3: Nucleic acid molecule for production of recombinant AAV virion</GBSeq_definition>
+    <GBSeq_primary-accession>OG162530</GBSeq_primary-accession>
+    <GBSeq_accession-version>OG162530.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|OG162530.1|</GBSeqid>
+      <GBSeqid>pat|WO|2020235543|3</GBSeqid>
+      <GBSeqid>gi|2019440846</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2020235543-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 6</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 6</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sonoda,H.</GBAuthor>
+          <GBAuthor>Takagi,H.</GBAuthor>
+          <GBAuthor>Golovina,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleic acid molecule for production of recombinant AAV virion</GBReference_title>
+        <GBReference_journal>WO2020235543-A 3 26-NOV-2020 JCR Pharmaceuticals Co Ltd</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 6~PN WO 2020235543-A/3~PD 26-NOV-2020~PF 19-MAY-2020 WO 2020JP019724~PR 20-MAY-2019 JP 2019-094498~PA JCR Pharmaceuticals Co Ltd~PI hiroyuki sonoda,haruna takagi,galina golovina~PT 'Nucleic acid molecule for production of recombinant AAV~PT virion'~PS N5~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>OG162530.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:68558</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggatgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagagggttctcgaaccttttggtctggttgaggaaggtgctaagacggctcctggaaagaaacgtccggtagagcagtcgccacaagagccagactcctcctcgggcattggcaagacaggccagcagcccgctaaaaagagactcaattttggtcagactggcgactcagagtcagtccccgacccacaacctctcggagaacctccagcaacccccgctgctgtgggacctactacaatggcttcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtaatgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacatgggccttgcccacctataacaaccacctctacaagcaaatctccagtgcttcaacgggggccagcaacgacaaccactacttcggctacagcaccccctgggggtattttgatttcaacagattccactgccatttctcaccacgtgactggcagcgactcatcaacaacaattggggattccggcccaagagactcaacttcaagctcttcaacatccaagtcaaggaggtcacgacgaatgatggcgtcacgaccatcgctaataaccttaccagcacggttcaagtcttctcggactcggagtaccagttgccgtacgtcctcggctctgcgcaccagggctgcctccctccgttcccggcggacgtgttcatgattccgcagtacggctacctaacgctcaacaatggcagccaggcagtgggacggtcatccttttactgcctggaatatttcccatcgcagatgctgagaacgggcaataactttaccttcagctacaccttcgaggacgtgcctttccacagcagctacgcgcacagccagagcctggaccggctgatgaatcctctcatcgaccagtacctgtattacctgaacagaactcagaatcagtccggaagtgcccaaaacaaggacttgctgtttagccgggggtctccagctggcatgtctgttcagcccaaaaactggctacctggaccctgttaccggcagcagcgcgtttctaaaacaaaaacagacaacaacaacagcaactttacctggactggtgcttcaaaatataaccttaatgggcgtgaatctataatcaaccctggcactgctatggcctcacacaaagacgacaaagacaagttctttcccatgagcggtgtcatgatttttggaaaggagagcgccggagcttcaaacactgcattggacaatgtcatgatcacagacgaagaggaaatcaaagccactaaccccgtggccaccgaaagatttgggactgtggcagtcaatctccagagcagcagcacagaccctgcgaccggagatgtgcatgttatgggagccttacctggaatggtgtggcaagacagagacgtatacctgcagggtcctatttgggccaaaattcctcacacggatggacactttcacccgtctcctctcatgggcggctttggacttaagcacccgcctcctcagatcctcatcaaaaacacgcctgttcctgcgaatcctccggcagagttttcggctacaaagtttgcttcattcatcacccagtattccacaggacaagtgagcgtggagattgaatgggagctgcagaaagaaaacagcaaacgctggaatcccgaagtgcagtatacatctaactatgcaaaatctgccaacgttgatttcactgtggacaacaatggactttatactgagcctcgccccattggcacccgttacctcacccgtcccctgtaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LP808300</GBSeq_locus>
+    <GBSeq_length>2214</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-APR-2018</GBSeq_update-date>
+    <GBSeq_create-date>29-APR-2018</GBSeq_create-date>
+    <GBSeq_definition>Sequence 6 from Patent EP3265568</GBSeq_definition>
+    <GBSeq_primary-accession>LP808300</GBSeq_primary-accession>
+    <GBSeq_accession-version>LP808300.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LP808300.1|</GBSeqid>
+      <GBSeqid>pat|EP|3265568|6</GBSeqid>
+      <GBSeqid>gi|1384663882</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>PIERCE,E.A.</GBAuthor>
+          <GBAuthor>FARKAS,M.H.</GBAuthor>
+          <GBAuthor>SOUSA,M.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GENE AUGMENTATION THERAPIES FOR INHERITED RETINAL DEGENERATION CAUSED BY MUTATIONS IN THE PRPF31 GENE</GBReference_title>
+        <GBReference_journal>EP3265568-A1 6 10-JAN-2018 MASSACHUSETTS EYE &amp; EAR INFIRMARY [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>LP808300.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..2214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2214</GBInterval_to>
+            <GBInterval_accession>LP808300.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Variation nucleotides given in the sequence have no preference with respect to those in the annotations for variation positions</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>variation</GBFeature_key>
+        <GBFeature_location>472..474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>472</GBInterval_from>
+            <GBInterval_to>474</GBInterval_to>
+            <GBInterval_accession>LP808300.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>replace</GBQualifier_name>
+            <GBQualifier_value>agc</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>variation</GBFeature_key>
+        <GBFeature_location>505..507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>505</GBInterval_from>
+            <GBInterval_to>507</GBInterval_to>
+            <GBInterval_accession>LP808300.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>replace</GBQualifier_name>
+            <GBQualifier_value>aga</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>variation</GBFeature_key>
+        <GBFeature_location>1690..1692</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1690</GBInterval_from>
+            <GBInterval_to>1692</GBInterval_to>
+            <GBInterval_accession>LP808300.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>replace</GBQualifier_name>
+            <GBQualifier_value>aac</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacctgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataatcacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagcagtcaccacagcgtgagcccgactcctccacgggcatcggcaagaaaggccagcagcccgccaaaaagagactcaatttcggtcagactggcgactcagagtcagtccccgaccctcaacctctcggagaacctccagcagcgccctctggtgtgggatctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggtgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacctcgggaggcagcaccaacgacaacacctactttggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcaacttcaagctcttcaacatccaggtcaaagaggtcacgacgaatgaaggcaccaagaccatcgccaataacctcaccagcaccgtccaggtgtttacggactcggaataccagctgccgtacgtcctcggctctgcccaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacggctacctgactctcaacaacggtagtcaggccgtgggacgttcctccttctactgcctggagtacttcccctctcagatgctgagaacgggcaacaactttcaattcagctacactttcgaggacgtgcctttccacagcagctacgcgcacagccagagtttggacaggctgatgaatcctctcatcgaccagtacctgtactacctgtcaagaacccagactacgggaggcacagcgggaacccagacgttgcagttttctcaggccgggcctagcagcatggcgaatcaggccaaaaactggctgcctggaccctgctacagacagcagcgcgtctccacgacaacgaatcaaaacaacaacagcaactttgcctggactggtgccaccaagtatcatctgaacggcagagactctctggtgaatccgggcgtcgccatggcaacccacaaggacgacgaggaccgcttcttcccatccagcggcgtcctcatatttggcaagcagggagctggaaatgacaacgtggactatagcaacgtgatgataaccagcgaggaagaaatcaagaccaccaaccccgtggccacagaagagtatggcgtggtggctactaacctacagtcggcaaacaccgctcctcaaacggggaccgtcaacagccagggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcctatttgggccaagattcctcacacagatggcaactttcacccgtctcctttaatgggcggctttggacttaaacatccgcctcctcagatcctcatcaaaaacactcctgttcctgcggatcctccaacaacgttcaaccaggccaagctgaattctttcatcacgcagtacagcaccggacaagtcagcgtggagatcgagtgggagctgcagaaggagaacagcaagcgctggaacccagagattcagtatacttccaactactacaaatctacaaatgtggactttgctgttaatactgagggtgtttactctgagcctcgccccattggcactcgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

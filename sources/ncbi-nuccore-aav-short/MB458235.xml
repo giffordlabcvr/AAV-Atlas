@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MB458235</GBSeq_locus>
+    <GBSeq_length>2208</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>31-JAN-2020</GBSeq_update-date>
+    <GBSeq_create-date>31-JAN-2020</GBSeq_create-date>
+    <GBSeq_definition>JP 2018521670-A/1: ANCESTRAL VIRUS SEQUENCES AND USES THEREOF</GBSeq_definition>
+    <GBSeq_primary-accession>MB458235</GBSeq_primary-accession>
+    <GBSeq_accession-version>MB458235.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MB458235.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018521670|1</GBSeqid>
+      <GBSeqid>gi|1803075142</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018521670-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2208</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vandenberghe,L.H.</GBAuthor>
+          <GBAuthor>Zinn,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ANCESTRAL VIRUS SEQUENCES AND USES THEREOF</GBReference_title>
+        <GBReference_journal>JP2018521670-A 1 09-AUG-2018 MASSACHUSETTS EYE AND EAR INFIRMARY,SCHEPENS EYE RESEARCH INSTITUTE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2018521670-A/1~PD 09-AUG-2018~PF 29-JUL-2016 JP 2018504699~PR 30-JUL-2015 US 62/199059 ,10-AUG-2015 US 62/203002~PA MASSACHUSETTS EYE AND EAR INFIRMARY,SCHEPENS EYE RESEARCH~PA INSTITUTE~PI luk h vandenberghe,eric zinn~PT 'ANCESTRAL VIRUS SEQUENCES AND USES THEREOF'~PS N2~CC~FH Key Location/Qualifiers~FT misc_feature (502)..(504)~FT /note='This region may encompass ''aag'' or~FT ''aaa'''~FT misc_feature (610)..(612)~FT /note='This region may encompass ''gca'' or~FT ''agc'''~FT misc_feature (796)..(798)~FT /note='This region may encompass ''gca'' or~FT ''ggc'''~FT misc_feature (931)..(933)~FT /note='This region may encompass ''aga'' or~FT ''aag'''~FT misc_feature (1231)..(1233)~FT /note='This region may encompass ''gag'' or~FT ''cag'''~FT misc_feature (1378)..(1380)~FT /note='This region may encompass ''acg'' or~FT ''gag'''~FT misc_feature (1477)..(1479)~FT /note='This region may encompass ''gcg'' or~FT ''acc'''~FT misc_feature (1684)..(1686)~FT /note='This region may encompass ''agt'' or~FT ''aac'''~FT misc_feature (1726)..(1728)~FT /note='This region may encompass ''cag'' or~FT ''gag'''~FT misc_feature (1759)..(1761)~FT /note='This region may encompass ''tca'' or~FT ''gcc'''~FT misc_feature (1825)..(1827)~FT /note='This region may encompass ''aac'' or~FT ''gac'''.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2208</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2208</GBInterval_to>
+            <GBInterval_accession>MB458235.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctcaaagcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagcaatcaccccaggaaccagactcctcttcgggcatcggcaagaaaggccagcagcccgcgnnnaagagactcaactttgggcagacaggcgactcagagtcagtgcccgaccctcaaccactcggagaaccccccgcagccccctctggtgtgggatctaatacaatgnnngcaggcggtggcgctccaatggcagacaataacgaaggcgccgacggagtgggtaacgcctcaggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctccccacctacaacaaccacctctacaagcaaatctccagccaatcgggannnagcaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagnnnctcaacttcaagctcttcaacatccaggtcaaggaggtcacgacgaatgatggcaccacgaccatcgccaataaccttaccagcacggttcaggtctttacggactcggaataccagctcccgtacgtcctcggctctgcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacgggtacctgactctgaacaatggcagtcaggccgtgggccgttcctccttctactgcctggagtactttccttctcaaatgctgagaacgggcaacaactttnnnttcagctacacgtttgaggacgtgccttttcacagcagctacgcgcacagccaaagcctggaccggctgatgaaccccctcatcgaccagtacctgtactacctgtctcggactcagaccacgagtggtaccgcaggaaatcggnnnttgcaattttctcaggccgggcctagtagcatggcgaatcaggccaaaaactggctacccgggccctgctaccggcagcaacgcgtctccaagacannnaatcaaaataacaacagcaactttgcctggaccggtgccaccaagtatcatctgaatggcagagactctctggtaaatcccggtcccgctatggcaacccacaaggacgacgaagacaaattttttccgatgagcggagtcttaatatttgggaaacagggagctggaaatagcaacgtggaccttgacaacgttatgataaccnnngaggaagaaattaaaaccaccaacccagtggccacagaannntacggcacggtggccactaacctgcaatcgnnnaacaccgctcctgctacagggaccgtcaacagtcaaggagccttacctggcatggtctggcagnnncgggacgtgtacctgcagggtcctatctgggccaagattcctcacacggacggacactttcatccctcgccgctgatgggaggctttggactgaaacacccgcctcctcagatcctgattaagaatacacctgttcccgcgaatcctccaactaccttcagtccagctaagtttgcgtcgttcatcacgcagtacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaagaaaacagcaaacgctggaacccagagattcaatacacttccaactacaacaaatctacaaatgtggactttgctgttgacacaaatggcgtttattctgagcctcgccccatcggcacccgttacctcacccgtaatctg</GBSeq_sequence>
+  </GBSeq>

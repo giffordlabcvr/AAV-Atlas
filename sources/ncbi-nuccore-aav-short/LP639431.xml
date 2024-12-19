@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LP639431</GBSeq_locus>
+    <GBSeq_length>2205</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>19-FEB-2016</GBSeq_update-date>
+    <GBSeq_create-date>19-FEB-2016</GBSeq_create-date>
+    <GBSeq_definition>Sequence 4 from Patent EP2850195</GBSeq_definition>
+    <GBSeq_primary-accession>LP639431</GBSeq_primary-accession>
+    <GBSeq_accession-version>LP639431.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LP639431.1|</GBSeqid>
+      <GBSeqid>pat|EP|2850195|4</GBSeqid>
+      <GBSeqid>gi|1010476155</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus - 4</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2205</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>DAVIDSON,B.L.</GBAuthor>
+          <GBAuthor>HYMAN,B.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS AND COMPOSITIONS FOR TREATING AMYLOID DEPOSITS</GBReference_title>
+        <GBReference_journal>EP2850195-A1 4 25-MAR-2015 UNIV IOWA RES FOUND [US], GEN HOSPITAL CORP [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2205</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2205</GBInterval_to>
+            <GBInterval_accession>LP639431.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:57579</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgactgacggttaccttccagattggctagaggacaacctctctgaaggcgttcgagagtggtgggcgctgcaacctggagcccctaaacccaaggcaaatcaacaacatcaggacaacgctcggggtcttgtgcttccgggttacaaatacctcggacccggcaacggactcgacaagggggaacccgtcaacgcagcggacgcggcagccctcgagcacgacaaggcctacgaccagcagctcaaggccggtgacaacccctacctcaagtacaaccacgccgacgcggagttccagcagcggcttcagggcgacacatcgtttgggggcaacctcggcagagcagtcttccaggccaaaaagagggttcttgaacctcttggtctggttgagcaagcgggtgagacggctcctggaaagaagagaccgttgattgaatccccccagcagcccgactcctccacgggtatcggcaaaaaaggcaagcagccggctaaaaagaagctcgttttcgaagacgaaactggagcaggcgacggaccccctgagggatcaacttccggagccatgtctgatgacagtgagatgcgtgcagcagctggcggagctgcagtcgagggcggacaaggtgccgatggagtgggtaatgcctcgggtgattggcattgcgattccacctggtctgagggccacgtcacgaccaccagcaccagaacctgggtcttgcccacctacaacaaccacctctacaagcgactcggagagagcctgcagtccaacacctacaacggattctccaccccctggggatactttgacttcaaccgcttccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggcatgcgacccaaagccatgcgggtcaaaatcttcaacatccaggtcaaggaggtcacgacgtcgaacggcgagacaacggtggctaataaccttaccagcacggttcagatctttgcggactcgtcgtacgaactgccgtacgtgatggatgcgggtcaagagggcagcctgcctccttttcccaacgacgtctttatggtgccccagtacggctactgtggactggtgaccggcaacacttcgcagcaacagactgacagaaatgccttctactgcctggagtactttccttcgcagatgctgcggactggcaacaactttgaaattacgtacagttttgagaaggtgcctttccactcgatgtacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacctgtggggactgcaatcgaccaccaccggaaccaccctgaatgccgggactgccaccaccaactttaccaagctgcggcctaccaacttttccaactttaaaaagaactggctgcccgggccttcaatcaagcagcagggcttctcaaagactgccaatcaaaactacaagatccctgccaccgggtcagacagtctcatcaaatacgagacgcacagcactctggacggaagatggagtgccctgacccccggacctccaatggccacggctggacctgcggacagcaagttcagcaacagccagctcatctttgcggggcctaaacagaacggcaacacggccaccgtacccgggactctgatcttcacctctgaggaggagctggcagccaccaacgccaccgatacggacatgtggggcaacctacctggcggtgaccagagcaacagcaacctgccgaccgtggacagactgacagccttgggagccgtgcctggaatggtctggcaaaacagagacatttactaccagggtcccatttgggccaagattcctcataccgatggacactttcacccctcaccgctgattggtgggtttgggctgaaacacccgcctcctcaaatttttatcaagaacaccccggtacctgcgaatcctgcaacgaccttcagctctactccggtaaactccttcattactcagtacagcactggccaggtgtcggtgcagattgactgggagatccagaaggagcggtccaaacgctggaaccccgaggtccagtttacctccaactacggacagcaaaactctctgttgtgggctcccgatgcggctgggaaatacactgagcctagggctatcggtacccgctacctcacccaccacctgtaa</GBSeq_sequence>
+  </GBSeq>

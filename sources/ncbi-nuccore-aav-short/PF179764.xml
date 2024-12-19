@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PF179764</GBSeq_locus>
+    <GBSeq_length>2208</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>15-NOV-2024</GBSeq_update-date>
+    <GBSeq_create-date>15-NOV-2024</GBSeq_create-date>
+    <GBSeq_definition>KR 1020230117731-A/18: VARIANT ADENO-ASSOCIATED VIRUS (AAV)CAPSID POLYPEPTIDES AND GENE THERAPEUTICS THEREOF FOR TREATMENT OF HEARING LOSS</GBSeq_definition>
+    <GBSeq_primary-accession>PF179764</GBSeq_primary-accession>
+    <GBSeq_accession-version>PF179764.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PF179764.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020230117731|18</GBSeqid>
+      <GBSeqid>gi|2852817319</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020230117731-A/18</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Dependoparvovirus primate1</GBSeq_source>
+    <GBSeq_organism>Dependoparvovirus primate1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2208</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pennock,S.</GBAuthor>
+          <GBAuthor>Timmers,A.M.</GBAuthor>
+          <GBAuthor>Shearman,M.</GBAuthor>
+          <GBAuthor>Bartolome,C.</GBAuthor>
+          <GBAuthor>Wang,X.</GBAuthor>
+          <GBAuthor>Mathur,P.D.</GBAuthor>
+          <GBAuthor>Uribe,P.M.</GBAuthor>
+          <GBAuthor>Szobota,S.</GBAuthor>
+          <GBAuthor>Jacques,B.E.</GBAuthor>
+          <GBAuthor>Foster,A.C.</GBAuthor>
+          <GBAuthor>Piu,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>VARIANT ADENO-ASSOCIATED VIRUS (AAV)CAPSID POLYPEPTIDES AND GENE THERAPEUTICS THEREOF FOR TREATMENT OF HEARING LOSS</GBReference_title>
+        <GBReference_journal>KR1020230117731-A 18 09-AUG-2023 Eli Lilly and Company</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020237018930-A/18~AN KR 1020237018930~AD 2023-06-22~PN KR 1020230117731~PD 2023-08-09~AT VARIANT ADENO-ASSOCIATED VIRUS (AAV)CAPSID POLYPEPTIDES AND~AT GENE THERAPEUTICS THEREOF FOR TREATMENT OF HEARING LOSS~AI Pennock, Steven|Timmers, Adrian M.|Shearman, Mark|Bartolome,~AI Christopher|Wang, Xiaobo|Mathur, Pranav Dinesh|Uribe, Phillip~AI M.|Szobota, Stephanie|Jacques, Bonnie E.|Foster, Alan C.|Piu,~AI Fabrice~AA Eli Lilly and Company~PR US 63/146,269=2021-02-05|US 63/110,697=2020-11-06~OS Adeno-associated dependoparvovirus A~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2208</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2208</GBInterval_to>
+            <GBInterval_accession>PF179764.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Dependoparvovirus primate1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1511891</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacactctctctgaaggaataagacagtggtggaagctcaaacctggcccaccaccaccaaagcccgcagagcggcataaggacgacagcaggggtcttgtgcttcctgggtacaagtacctcggacccttcaacggactcgacaagggagagccggtcaacgaggcagacgccgcggccctcgagcacgacaaagcctacgaccggcagctcgacagcggagacaacccgtacctcaagtacaaccacgccgacgcggagtttcaggagcgccttaaagaagatacgtcttttgggggcaacctcggacgagcagtcttccaggcgaaaaagagggttcttgaacctctgggcctggttgaggaacctgttaagacggctccgggaaaaaagaggccggtagagcactctcctgtggagccagactcctcctcgggaaccggaaaggcgggccagcagcctgcaagaaaaagattgaattttggtcagactggagacgcagactcagtacctgacccccagcctctcggacagccaccagcagccccctctggtctgggaactaatacgatggctacaggcagtggcgcaccaatggcagacaataacgagggcgccgacggagtgggtaattcctcgggaaattggcattgcgattccacatggatgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaaacaaatttccagccaatcaggagcctcgaacgacaatcactactttggctacagcaccccttgggggtattttgacttcaacagattccactgccacttttcaccacgtgactggcaaagactcatcaacaacaactggggattccgacccaagagactcaacttcaagctctttaacattcaagtcaaagaggtcacgcagaatgacggtacgacgacgattgccaataaccttaccagcacggttcaggtgtttactgactcggagtaccagctcccgtacgtcctcggctcggcgcatcaaggatgcctcccgccgttcccagcagacgtcttcatggtgccacagtatggatacctcaccctgaacaacgggagtcaggcagtaggacgctcttcattttactgcctggagtactttccttctcagatgctgcgtaccggaaacaactttaccttcagctacacttttgaggacgttcctttccacagcagctacgctcacagccagagtctggaccgtctcatgaatcctctcatcgaccagtacctgtattacttgagcagaacaaacactccaagtggaaccaccacgcagtcaaggcttcagttttctcaggccggagcgagtgacattcgggaccagtctaggaactggcttcctggaccctgttaccgccagcagcgagtatcaaagacatctgcggataacaacaacagtgaatactcgtggactggagctaccaagtaccacctcaatggcagagactctctggtgaatccgggcccggccatggcaagccacaaggacgatgaagaaaagttttttcctcagagcggggttctcatctttgggaagcaaggctcagagaaaacaaatgtggacattgaaaaggtcatgattacagacgaagaggaaatcaggacaaccaatcccgtggctacggagcagtatggttctgtatctaccaacctccagagaggcaacagacaagcagctaccgcagatgtcaacacacaaggcgttcttccaggcatggtctggcaggacagagatgtgtaccttcaggggcccatctgggcaaagattccacacacggacggacattttcacccctctcccctcatgggtggattcggacttaaacaccctcctccacagattctcatcaagaacaccccggtacctgcgaatccttcgaccaccttcagtgcggcaaagtttgcttccttcatcacacagtactccacgggacaggtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaaacgctggaatcccgaaattcagtacacttccaactacaacaagtctgttaatgtggactttactgtggacactaatggcgtgtattcagagcctcgccccattggcaccagatacctgactcgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

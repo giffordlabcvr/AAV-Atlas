@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PB444378</GBSeq_locus>
+    <GBSeq_length>2504</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2024</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-2024</GBSeq_create-date>
+    <GBSeq_definition>JP 2020508659-A/4128: COMPOSITIONS AND METHODS FOR TREATMENT OF PROPROTEIN CONVERTASE SUBTILISIN/KEXIN TYPE 9 (PCSK9)-RELATED DISORDERS</GBSeq_definition>
+    <GBSeq_primary-accession>PB444378</GBSeq_primary-accession>
+    <GBSeq_accession-version>PB444378.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PB444378.1|</GBSeqid>
+      <GBSeqid>pat|JP|2020508659|4128</GBSeqid>
+      <GBSeqid>gi|2859272865</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2020508659-A/4128</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2504</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Aratyn,Y.S.</GBAuthor>
+          <GBAuthor>Lundberg,A.S.</GBAuthor>
+          <GBAuthor>Kulkarni,S.</GBAuthor>
+          <GBAuthor>Klein,L.</GBAuthor>
+          <GBAuthor>Padmanabhan,H.K.</GBAuthor>
+          <GBAuthor>Bogorad,R.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>COMPOSITIONS AND METHODS FOR TREATMENT OF PROPROTEIN CONVERTASE SUBTILISIN/KEXIN TYPE 9 (PCSK9)-RELATED DISORDERS</GBReference_title>
+        <GBReference_journal>JP2020508659-A 4128 26-MAR-2020 CRISPR THERAPEUTICS AG</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus~PN JP 2020508659-A/4128~PD 26-MAR-2020~PF 15-FEB-2018 JP 2019545242~PR 29-JUN-2017 US 62/526646 ,22-FEB-2017 US 62/461852~PA CRISPR THERAPEUTICS AG~PI yvonne sarah aratyn,ante sven lundberg,samarth~PI kulkarni,lawrence klein,~PI hari kumar padmanabhan,roman lvovitch bogorad~PT 'COMPOSITIONS AND METHODS FOR TREATMENT OF PROPROTEIN~PT CONVERTASE~PT SUBTILISIN/KEXIN TYPE 9 (PCSK9)-RELATED DISORDERS'~PS N4769~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2504</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2504</GBInterval_to>
+            <GBInterval_accession>PB444378.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaattcgccctttctacggctgcgtcaactggaccaatgagaactttcccttcaacgattgcgtcgacaagatggtgatctggtgggaggagggcaagatgacggccaaggtcgtggagtccgccaaggccattcatcatctgctggggcgggctcccgagattgcttgctcggcctgcgatctggtcaacgtggacctggatgactgtgtttctgagcaataaatgacttaaaccaggtatggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggacttgaaacctggagccccgaaacccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggagagccggtcaacgaggcagacgccgcggccctcgagcacgacaaggcctacgacaagcagctcgagcagggggacaacccgtacctcaagtacaaccacgccgacgccgagtttcaggagcgtcttcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagacccatagaatcccccgactcctccacgggcatcggcaagaaaggccagcagcccgctaaaaagaagctcaactttgggcagactggcgactcagagtcagtgcccgaccctcaaccaatcggagaaccccccgcaggcccctctggtctgggatctggtacaatggctgcaggcggtggcgctccaatggcagacaataacgaaggcgccgacggagtgggtaatgcctccggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgcacctgggccctgcccacctacaacaaccacctctacaagcagatatcaagtcagagcggggctaccaacgacaaccacttcttcggctacagcaccccctggggctattttgacttcaacagattccactgccacttctcatcacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcaacttcaagctcttcaacatccaggtcaaggaggtcacgcagaatgaaggcaccaagaccatcgccaataaccttaccagcacgattcaggtctttacggactcggaataccggctcccgtacgtcctcggctctgcgcaccagggctgcctgcctccgttcccggcggacgtcttcatgattcctcagtacgggtacctgactctgaacaacggcagtcaggccgtgggccgttcctccttctactgcctggagtactttccttctcaaatgctgagaacgggcaacaactttgagttcagctaccagtttgaggacgtgccttttcacagcagctacgcgcacagccaaagcctggaccggctgatgaaccccctcatcgaccagtacctgtactacctgtctcggactcagtccacgggaggtaccgcaggaactcagcagttgctattttctcaggccgggcctaataacatgtcggctcaggccaaaaactggctacccgggccctgctaccggcagcaacgcgtctccacgacactgtcgcaaaataacaacagcaactttgcttggaccggtgccaccaagtatcatctgaatggcagagactctctggtaaatcccggtgtcgctatggcaacgcacaaggacgacgaagagcgattttttccatccagcggagtcttgatgtttgggaaacagggagctggaaaagacaacgtggactatagcagcgttatgctaaccagtgaggaagaaatcaaaaccaccaacccagtggccacagaacagtacggcgtggtggccgataacctgcaacagcaaaacgccgctcctattgtaggggccgtcaacagtcaaggagccttacctggcatggtctggcagaaccgggacgtgtacctgcagggtcctatctgggccaagattcctcacacggacggcaactttcatccttcgccgctgatgggaggctttggactgaaacacccgcctcctcagatcctgattaagaatacacctgttcccgcggatcctccaactaccttcagtcaagccaagccggcgtcgttcatcacgcagtacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaagagaacagcaagcgctggaacccagagattcagtatacttccaactactacaaatctacaaatgtggactttgctgtcaatactgagggtacttattcagagcctcgccccattggcacccgttacctcacccgtaacctgtaattgcctgttaatcaataaaccggttaattcgtttcagttgaactttggtctctgcgaagggcgaattc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PA753124</GBSeq_locus>
+    <GBSeq_length>144</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>28-JUN-2024</GBSeq_update-date>
+    <GBSeq_create-date>28-JUN-2024</GBSeq_create-date>
+    <GBSeq_definition>JP 2022008560-A/2: CAPSID-FREE AAV VECTORS, COMPOSITIONS, AND METHODS FOR VECTOR PRODUCTION AND GENE DELIVERY</GBSeq_definition>
+    <GBSeq_primary-accession>PA753124</GBSeq_primary-accession>
+    <GBSeq_accession-version>PA753124.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PA753124.1|</GBSeqid>
+      <GBSeqid>pat|JP|2022008560|2</GBSeqid>
+      <GBSeqid>gi|2751675153</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2022008560-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..144</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Voit,T.</GBAuthor>
+          <GBAuthor>Li,L.</GBAuthor>
+          <GBAuthor>Garcia,L.</GBAuthor>
+          <GBAuthor>Beley,C.</GBAuthor>
+          <GBAuthor>Kotin,R.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>CAPSID-FREE AAV VECTORS, COMPOSITIONS, AND METHODS FOR VECTOR PRODUCTION AND GENE DELIVERY</GBReference_title>
+        <GBReference_journal>JP2022008560-A 2 13-JAN-2022 ASSOCIATION INSTITUT DE MYOLOGIE,SORBONNE UNIVERSITE, CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE, Institut National de la Sante et de la Recherche Medicale, US DEPARTMENT OF HEALTH AND HUMAN SERVICES NATIONAL INSTITUTES OF HEALTH</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS adeno-associated virus 2~PN JP 2022008560-A/2~PD 13-JAN-2022~PF 27-SEP-2021 JP 2021156646~PR 11-MAR-2011 US 61/452071 ,12-MAR-2011 EP 11157986.8~PA ASSOCIATION INSTITUT DE MYOLOGIE,SORBONNE UNIVERSITE,~PA CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE,~PA Institut National de la Sante et de la Recherche Medicale,~PA US DEPARTMENT OF HEALTH AND HUMAN SERVICES NATIONAL INSTITUTES~PA OF HEALTH~PI thomas voit,lina li,luis garcia,cyriaque beley,robert michael~PI kotin~PT 'CAPSID-FREE AAV VECTORS, COMPOSITIONS, AND METHODS FOR VECTOR~PT PRODUCTION~PT AND GENE DELIVERY'~PS N2~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..144</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>144</GBInterval_to>
+            <GBInterval_accession>PA753124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaa</GBSeq_sequence>
+  </GBSeq>

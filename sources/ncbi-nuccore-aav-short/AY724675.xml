@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY724675</GBSeq_locus>
+    <GBSeq_length>2209</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>30-SEP-2004</GBSeq_create-date>
+    <GBSeq_definition>Caprine adeno-associated virus 1 isolate AAV-Go.1 capsid protein (cap) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY724675</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY724675.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY724675.1|</GBSeqid>
+      <GBSeqid>gi|52630844</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus-Go.1</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus-Go.1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus mammalian1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2209</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Arbetman,A.E.</GBAuthor>
+          <GBAuthor>Lochrie,M.</GBAuthor>
+          <GBAuthor>Zhou,S.</GBAuthor>
+          <GBAuthor>Wellman,J.</GBAuthor>
+          <GBAuthor>Scallan,C.</GBAuthor>
+          <GBAuthor>Doroudchi,M.M.</GBAuthor>
+          <GBAuthor>Randlev,B.</GBAuthor>
+          <GBAuthor>Patarroyo-White,S.</GBAuthor>
+          <GBAuthor>Liu,T.</GBAuthor>
+          <GBAuthor>Smith,P.</GBAuthor>
+          <GBAuthor>Lehmkuhl,H.</GBAuthor>
+          <GBAuthor>Hobbs,L.A.</GBAuthor>
+          <GBAuthor>Pierce,G.F.</GBAuthor>
+          <GBAuthor>Colosi,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Novel caprine adeno-associated virus (AAV) capsid (AAV-Go.1) is closely related to the primate AAV-5 and has unique tropism and neutralization properties</GBReference_title>
+        <GBReference_journal>J. Virol. 79 (24), 15238-15245 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.79.24.15238-15245.2005</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>16306595</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2209</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Arbetman,A.E.</GBAuthor>
+          <GBAuthor>Lochrie,M.</GBAuthor>
+          <GBAuthor>Surosky,R.</GBAuthor>
+          <GBAuthor>Randlev,B.</GBAuthor>
+          <GBAuthor>Zhou,S.</GBAuthor>
+          <GBAuthor>Wellman,J.</GBAuthor>
+          <GBAuthor>Scallan,C.</GBAuthor>
+          <GBAuthor>Liu,T.</GBAuthor>
+          <GBAuthor>Lehmkuhl,H.</GBAuthor>
+          <GBAuthor>Hobbs,L.A.</GBAuthor>
+          <GBAuthor>Pierce,G.</GBAuthor>
+          <GBAuthor>Colosi,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-AUG-2004) Virology, Avigen, Inc, 1301 Harbor Bay Pkwy., Alameda, CA 94502, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2209</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2209</GBInterval_to>
+            <GBInterval_accession>AY724675.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus-Go.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>AAV-Go.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Capra hircus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:296148</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2181</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2181</GBInterval_to>
+            <GBInterval_accession>AY724675.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2181</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2181</GBInterval_to>
+            <GBInterval_accession>AY724675.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>cap</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAU84890.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSFVDHPPDWLEEVGEGLREFLGLEAGPPKPKPNQQHQDQARGLVLPGYNYLGPGNGLDRGEPVNRADEVAREHDISYNEQLEAGDNPYLKYNHADAEFQEKLADDTSFGGNLGKAVFQAKKRVLEPFGLVEEGAKTAPTGKRIDDHFPKRKKARTEEDSKPSTSSDAEAGPSGSQQLQIPAQPASSLGADTMSAGGGGPLGDNNQGADGVGNASGDWHCDSTWMGDRVVTKSTRTWVLPSYNNHQYREIKSGSVDGSNANAYFGYSTPWGYFDFNRFHSHWSPRDWQRLINNYWGFRPRSLRVKIFNIQVKEVTVQDSTTTIANNLTSTVQVFTDDDYQLPYVVGNGTEGCLPAFPPQVFTLPQYGYATLNRDNGDNPTERSSFFCLEYFPSKMLRTGNNFEFTYSFEEVPFHCSFAPSQNLFKLANPLVDQYLYRFVSTSATGAIQFQKNLAGRYANTYKNWFPGPMGRTQGWNTSSGSSTNRVSVNNFSVSNRMNLEGASYQVNPQPNGMTNTLQGSNRYALENTMIFNAQNATPGTTSVYPEDNLLLTSESETQPVNRVAYNTGGQMATNAQNATTAPTVGTYNLQEVLPGSVWMERDVYLQGPIWAKIPETGAHFHPSPAMGGFGLKHPPPMMLIKNTPVPGNITSFSDVPVSSFITQYSTGQVTVEMEWELKKENSKRWNPEIQYTNNYNDPQFVDFAPDGSGEYRTTRAIGTRYLTRPL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgtcttttgttgatcaccctccagattggttggaagaagttggtgaaggtcttcgcgagtttttgggccttgaagcgggcccaccgaaaccaaaacccaatcagcagcatcaagatcaagcccgtggtcttgtgctgcctggttataactatctcggacccggaaacggtctcgatcgaggagagcctgtcaacagggcagacgaggtcgcgcgagagcacgacatctcgtacaacgagcagcttgaggcgggagacaacccctacctcaagtacaaccacgcggacgccgagtttcaggagaagctcgccgacgacacatccttcgggggaaacctcggaaaggcagtctttcaggccaagaaaagggttctcgaaccttttggcctggttgaagagggtgctaagacggcccctaccggaaagcggatagacgaccactttccaaaaagaaagaaggctcggaccgaagaggactccaagccttccacctcgtcagacgccgaagctggacccagcggatcccagcagctgcaaatcccagcacaaccagcctcaagtttgggagctgatacaatgtctgcgggaggtggcggcccattgggcgacaataaccaaggtgccgatggagtgggcaatgcctcgggagattggcattgcgattccacgtggatgggggacagagtcgtcaccaagtccacccgcacctgggtgctgcccagctacaacaaccaccagtaccgagagatcaaaagcggctccgtcgacggaagcaacgccaacgcctactttggatacagcaccccctgggggtactttgactttaaccgcttccacagccactggagcccccgagactggcaaagactcatcaacaactattggggcttcagaccccggtctctcagagtcaaaatcttcaacatccaagtcaaagaggtcacggtgcaggactccaccaccaccatcgccaacaacctcacctccaccgtccaagtgtttacggacgacgactaccaactcccgtacgtcgtcggcaacgggaccgagggatgcctgccggccttccccccgcaggtctttacgctgccgcagtacggctacgcgacgctgaaccgagacaacggagacaacccgacagagcggagcagcttcttttgcctagagtactttcccagcaagatgctgaggacgggcaacaactttgagtttacctacagctttgaagaggtgcccttccactgcagcttcgccccgagccagaacctctttaagctggccaacccgctggtggaccagtacctgtaccgcttcgtgagcacctcggccacgggcgccatccagttccaaaagaacctggcgggcagatacgccaacacctacaaaaactggttcccggggcccatgggccgaacccagggctggaacacgagctctggcagcagcaccaacagagtcagcgtcaacaacttttccgtctcaaaccggatgaacctggagggggccagctaccaagtgaacccccagcccaacgggatgacaaacacgctccaaggcagcaaccgctacgcgctggaaaacaccatgatcttcaacgctcaaaacgccacgccgggaactacctcggtgtacccagaggacaatctactgctgaccagcgagagcgagactcagcccgtcaaccgggtggcttacaacacgggcggtcagatggccaccaacgcccagaacgccaccacggctcccacggtcgggacctacaacctccaggaagtgcttcctggcagcgtatggatggagagggacgtgtacctccaaggacccatctgggccaagatcccagagacgggggcgcactttcacccctctccggccatgggcggattcggactcaaacacccgccgcccatgatgctcatcaaaaacacgccggtgcccggcaacatcaccagcttctcggacgtgcccgtcagcagcttcatcacccagtacagcaccgggcaggtcaccgtggagatggaatgggagctcaaaaaggaaaactccaagaggtggaacccagagatccagtacaccaacaactacaacgacccccagtttgtggactttgctccagacggctccggcgaatacagaaccaccagagccatcggaacccgatacctcacccgacccctttaacccattcatgtcgcataccctcaataaa</GBSeq_sequence>
+  </GBSeq>

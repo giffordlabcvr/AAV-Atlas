@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT258729</GBSeq_locus>
+    <GBSeq_length>704</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PRI</GBSeq_division>
+    <GBSeq_update-date>29-JUL-2015</GBSeq_update-date>
+    <GBSeq_create-date>29-JUL-2015</GBSeq_create-date>
+    <GBSeq_definition>Homo sapiens isolate CHC1185T disrupted KMT2B gene, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KT258729</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT258729.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT258729.1|</GBSeqid>
+      <GBSeqid>gi|902946984</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Homo sapiens (human)</GBSeq_source>
+    <GBSeq_organism>Homo sapiens</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..704</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nault,J.-C.</GBAuthor>
+          <GBAuthor>Datta,S.</GBAuthor>
+          <GBAuthor>Imbeaud,S.</GBAuthor>
+          <GBAuthor>Franconi,A.</GBAuthor>
+          <GBAuthor>Mallet,M.</GBAuthor>
+          <GBAuthor>Couchy,G.</GBAuthor>
+          <GBAuthor>Letouze,E.</GBAuthor>
+          <GBAuthor>Pilati,C.</GBAuthor>
+          <GBAuthor>Verret,B.</GBAuthor>
+          <GBAuthor>Blanc,J.-F.</GBAuthor>
+          <GBAuthor>Balabaud,C.</GBAuthor>
+          <GBAuthor>Calderaro,J.</GBAuthor>
+          <GBAuthor>Laurent,A.</GBAuthor>
+          <GBAuthor>Letexier,M.</GBAuthor>
+          <GBAuthor>Bioulac-Sage,P.</GBAuthor>
+          <GBAuthor>Calvo,F.</GBAuthor>
+          <GBAuthor>Zucman-Rossi,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Recurrent adeno-associated virus 2-related insertional mutagenesis in human hepatocellular carcinomas</GBReference_title>
+        <GBReference_journal>Nat. Genet. (2015) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..704</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nault,J.-C.</GBAuthor>
+          <GBAuthor>Datta,S.</GBAuthor>
+          <GBAuthor>Imbeaud,S.</GBAuthor>
+          <GBAuthor>Franconi,A.</GBAuthor>
+          <GBAuthor>Mallet,M.</GBAuthor>
+          <GBAuthor>Couchy,G.</GBAuthor>
+          <GBAuthor>Letouze,E.</GBAuthor>
+          <GBAuthor>Pilati,C.</GBAuthor>
+          <GBAuthor>Verret,B.</GBAuthor>
+          <GBAuthor>Blanc,J.-F.</GBAuthor>
+          <GBAuthor>Balabaud,C.</GBAuthor>
+          <GBAuthor>Calderaro,J.</GBAuthor>
+          <GBAuthor>Laurent,A.</GBAuthor>
+          <GBAuthor>Letexier,M.</GBAuthor>
+          <GBAuthor>Bioulac-Sage,P.</GBAuthor>
+          <GBAuthor>Calvo,F.</GBAuthor>
+          <GBAuthor>Zucman-Rossi,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JUL-2015) Functional Genomics of Solid Tumors, INSERM U 1162, 27 Rue Juliette Dodu, Paris 75010, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Sequencher v. 5.1 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>order(1..197,584..704)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>197</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>584</GBInterval_from>
+            <GBInterval_to>704</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>order</GBFeature_operator>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CHC1185T</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>hepatocellular carcinoma</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>focus</GBQualifier_name>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>198..583</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>198</GBInterval_from>
+            <GBInterval_to>583</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;197</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>197</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>KMT2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>disrupted by viral insertion</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;197</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>197</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>KMT2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>number</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;584..&gt;704</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>584</GBInterval_from>
+            <GBInterval_to>704</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>KMT2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>disrupted by viral insertion</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>&lt;584..646</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>584</GBInterval_from>
+            <GBInterval_to>646</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>KMT2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>number</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>intron</GBFeature_key>
+        <GBFeature_location>647..&gt;704</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>647</GBInterval_from>
+            <GBInterval_to>704</GBInterval_to>
+            <GBInterval_accession>KT258729.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>KMT2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>number</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccacagacacaggctcagctactgcagcccctgcaggccttgcaaacccagctcctgccccaggcactaccgccaccacagccacagctgcagccaccgccgtcaccacagcagatgcctcccctggaaaaagcccggattgcgggcgtgggttccttgccgctgtctggggtagaggagaagatgttcagcctccaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagagagggagtggccaactccatcactaggggttccttagagttaatgattaaccctccatggtacttatctacgtagccatggaaactagataagaaagaagtacgcagagaccaaagttcaactgaaacgaattaaacggtttattgattaacaagcaattacagattacgagtcaggtatctggtgccaatggggcgaggctctgaatacacaccattagtgtccacagtaaagtccacattaacagatttgttgtagttggaagtgtactgaatttcgggattccagcgtttgctgttctccttctgcagctcccactcgagccaaagtgcagctattcaagatcgatcagcagcagcagcagaaggtggcagcttccatgccggtgagtgtggtccctgggcccagcggcacacccagccatccagcctccattctttgca</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MP240014</GBSeq_locus>
+    <GBSeq_length>2217</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>14-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>14-SEP-2019</GBSeq_create-date>
+    <GBSeq_definition>Sequence 13 from Patent WO2019144077</GBSeq_definition>
+    <GBSeq_primary-accession>MP240014</GBSeq_primary-accession>
+    <GBSeq_accession-version>MP240014.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|MP240014.1|</GBSeqid>
+      <GBSeqid>pat|WO|2019144077|13</GBSeqid>
+      <GBSeqid>gi|1741751230</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2217</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>SIEVING,P.A.</GBAuthor>
+          <GBAuthor>BUSH,R.A.</GBAuthor>
+          <GBAuthor>COLOSI,P.C.</GBAuthor>
+          <GBAuthor>ZENG,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS AND COMPOSITIONS FOR TREATING GENETICALLY LINKED DISEASES OF THE EYE</GBReference_title>
+        <GBReference_journal>WO2019144077-A1 13 25-JUL-2019 THE USA AS REPRESENTED BY THE SECRETARY DEPT OF HEALTH AND HUMAN SERVICES [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2217</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2217</GBInterval_to>
+            <GBInterval_accession>MP240014.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaacctctctgagggcattcgcgagtggtgggcgctgaaacctggagccccgaagcccaaagccaaccagcaaaagcaggacgacggccggggtctggtgcttcctggctacaagtacctcggacccttcaacggactcgacaagggggagcccgtcaacgcggcggacgcagcggccctcgagcacgacaaggcctacgaccagcagctgcaggcgggtgacaatccgtacctgcggtataaccacgccgacgccgagtttcaggagcgtctgcaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaagaagcgggttctcgaacctctcggtctggttgaggaaggcgctaagacggctcctggaaagaagagaccggtagagccatcaccccagcgttctccagactcctctacgggcatcggcaagaaaggccaacagcccgccagaaaaagactcaattttggtcagactggcgactcagagtcagttccagaccctcaacctctcggagaacctccagcagcgccctctggtgtgggacctaatacaatggctgcaggcggtggcgcaccaatggcagacaataacgaaggcgccgacggagtgggtagttcctcgggaaattggcattgcgattccacatggctgggcgacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaaccacctctacaagcaaatctccaacgggacatcgggaggagccaccaacgacaacacctacttcggctacagcaccccctgggggtattttgactttaacagattccactgccacttttcaccacgtgactggcagcgactcatcaacaacaactggggattccggcccaagagactcagcttcaagctcttcaacatccaggtcaaggaggtcacgcagaatgaaggcaccaagaccatcgccaataacctcaccagcaccatccaggtgtttacggactcggagtaccagctgccgtacgttctcggctctgcccaccagggctgcctgcctccgttcccggcggacgtgttcatgattccccagtacggctacctaacactcaacaacggtagtcaggccgtgggacgctcctccttctactgcctggaatactttccttcgcagatgctgagaaccggcaacaacttccagtttacttacaccttcgaggacgtgcctttccacagcagctacgcccacagccagagcttggaccggctgatgaatcctctgattgaccagtacctgtactacttgtctcggactcaaacaacaggaggcacggcaaatacgcagactctgggcttcagccaaggtgggcctaatacaatggccaatcaggcaaagaactggctgccaggaccctgttaccgccaacaacgcgtctcaacgacaaccgggcaaaacaacaatagcaactttgcctggactgctgggaccaaataccatctgaatggaagaaattcattggctaatcctggcatcgctatggcaacacacaaagacgacgaggagcgtttttttcccagtaacgggatcctgatttttggcaaacaaaatgctgccagagacaatgcggattacagcgatgtcatgctcaccagcgaggaagaaatcaaaaccactaaccctgtggctacagaggaatacggtatcgtggcagataacttgcagcagcaaaacacggctcctcaaattggaactgtcaacagccagggggccttacccggtatggtctggcagaaccgggacgtgtacctgcagggtcccatctgggccaagattcctcacacggacggcaacttccacccgtctccgctgatgggcggctttggcctgaaacatcctccgcctcagatcctgatcaagaacacgcctgtacctgcggatcctccgaccaccttcaaccagtcaaagctgaactctttcatcacgcaatacagcaccggacaggtcagcgtggaaattgaatgggagctgcagaaggaaaacagcaagcgctggaaccccgagatccagtacacctccaactactacaaatctacaagtgtggactttgctgttaatacagaaggcgtgtactctgaaccccgccccattggcacccgttacctcacccgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

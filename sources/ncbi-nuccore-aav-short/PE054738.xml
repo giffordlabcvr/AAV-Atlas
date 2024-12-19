@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PE054738</GBSeq_locus>
+    <GBSeq_length>2208</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-AUG-2023</GBSeq_update-date>
+    <GBSeq_create-date>04-AUG-2023</GBSeq_create-date>
+    <GBSeq_definition>KR 1020220098384-A/43: THERAPEUTIC ADENO-ASSOCIATED VIRUS COMPRISING LIVER-SPECIFIC PROMOTERS FOR TREATING POMPE DISEASE AND LYSOSOMAL DISORDERS</GBSeq_definition>
+    <GBSeq_primary-accession>PE054738</GBSeq_primary-accession>
+    <GBSeq_accession-version>PE054738.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PE054738.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020220098384|43</GBSeqid>
+      <GBSeqid>gi|2557764785</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020220098384-A/43</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 3B</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 3B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2208</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Roberts,M.</GBAuthor>
+          <GBAuthor>Iglesias,J.M.</GBAuthor>
+          <GBAuthor>Tretiakova,A.</GBAuthor>
+          <GBAuthor>Ocallaghan,M.W.</GBAuthor>
+          <GBAuthor>Francois,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>THERAPEUTIC ADENO-ASSOCIATED VIRUS COMPRISING LIVER-SPECIFIC PROMOTERS FOR TREATING POMPE DISEASE AND LYSOSOMAL DISORDERS</GBReference_title>
+        <GBReference_journal>KR1020220098384-A 43 12-JUL-2022 ASKLEPIOS BIOPHARMACEUTICAL, INC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020227020169-A/43~AN KR 1020227020169~AD 2022-06-14~PN KR 1020220098384~PD 2022-07-12~AT THERAPEUTIC ADENO-ASSOCIATED VIRUS COMPRISING LIVER-SPECIFIC~AT PROMOTERS FOR TREATING POMPE DISEASE AND LYSOSOMAL DISORDERS~AI Roberts, Michael|Iglesias, Juan Manuel|Tretiakova,~AI Anna|Ocallaghan, Michael W.|Francois, Achille~AA ASKLEPIOS BIOPHARMACEUTICAL, INC.~PR US 63/023,570=2020-05-12|US 62/937,583=2019-11-19|US~PR 62/937,556=2019-11-19~OS Adeno-associated virus 3B~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2208</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2208</GBInterval_to>
+            <GBInterval_accession>PE054738.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 3B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:68742</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgctgacggttatcttccagattggctcgaggacaacctttctgaaggcattcgtgagtggtgggctctgaaacctggagtccctcaacccaaagcgaaccaacaacaccaggacaaccgtcggggtcttgtgcttccgggttacaaatacctcggacccggtaacggactcgacaaaggagagccggtcaacgaggcggacgcggcagccctcgaacacgacaaagcttacgaccagcagctcaaggccggtgacaacccgtacctcaagtacaaccacgccgacgccgagtttcaggagcgtcttcaagaagatacgtcttttgggggcaaccttggcagagcagtcttccaggccaaaaagaggatccttgagcctcttggtctggttgaggaagcagctaaaacggctcctggaaagaagaggcctgtagatcagtctcctcaggaaccggactcatcatctggtgttggcaaatcgggcaaacagcctgccagaaaaagactaaatttcggtcagactggcgactcagagtcagtcccagaccctcaacctctcggagaaccaccagcagcccccacaagtttgggatctaatacaatggcttcaggcggtggcgcaccaatggcagacaataacgagggtgccgatggagtgggtaattcctcaggaaattggcattgcgattcccaatggctgggcgacagagtcatcaccaccagcaccagaacctgggccctgcccacttacaacaaccatctctacaagcaaatctccagccaatcaggagcttcaaacgacaaccactactttggctacagcaccccttgggggtattttgactttaacagattccactgccacttctcaccacgtgactggcagcgactcattaacaacaactggggattccggcccaagaaactcagcttcaagctcttcaacatccaagttaaagaggtcacgcagaacgatggcacgacgactattgccaataaccttaccagcacggttcaagtgtttacggactcggagtatcagctcccgtacgtgctcgggtcggcgcaccaaggctgtctcccgccgtttccagcggacgtcttcatggtccctcagtatggatacctcaccctgaacaacggaagtcaagcggtgggacgctcatccttttactgcctggagtacttcccttcgcagatgctaaggactggaaataacttccaattcagctataccttcgaggatgtaccttttcacagcagctacgctcacagccagagtttggatcgcttgatgaatcctcttattgatcagtatctgtactacctgaacagaacgcaaggaacaacctctggaacaaccaaccaatcacggctgctttttagccaggctgggcctcagtctatgtctttgcaggccagaaattggctacctgggccctgctaccggcaacagagactttcaaagactgctaacgacaacaacaacagtaactttccttggacagcggccagcaaatatcatctcaatggccgcgactcgctggtgaatccaggaccagctatggccagtcacaaggacgatgaagaaaaatttttccctatgcacggcaatctaatatttggcaaagaagggacaacggcaagtaacgcagaattagataatgtaatgattacggatgaagaagagattcgtaccaccaatcctgtggcaacagagcagtatggaactgtggcaaataacttgcagagctcaaatacagctcccacgactagaactgtcaatgatcagggggccttacctggcatggtgtggcaagatcgtgacgtgtaccttcaaggacctatctgggcaaagattcctcacacggatggacactttcatccttctcctctgatgggaggctttggactgaaacatccgcctcctcaaatcatgatcaaaaatactccggtaccggcaaatcctccgacgactttcagcccggccaagtttgcttcatttatcactcagtactccactggacaggtcagcgtggaaattgagtgggagctacagaaagaaaacagcaaacgttggaatccagagattcagtacacttccaactacaacaagtctgttaatgtggactttactgtagacactaatggtgtttatagtgaacctcgccctattggaacccggtatctcacacgaaacttg</GBSeq_sequence>
+  </GBSeq>

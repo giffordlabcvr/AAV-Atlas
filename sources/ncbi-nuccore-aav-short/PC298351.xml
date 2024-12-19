@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PC298351</GBSeq_locus>
+    <GBSeq_length>2208</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2024</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-2024</GBSeq_create-date>
+    <GBSeq_definition>JP 2021503945-A/4283: MATERIALS AND METHODS FOR TREATMENT OF AUTOSOMAL DOMINANT RETINITIS PIGMENTOSA</GBSeq_definition>
+    <GBSeq_primary-accession>PC298351</GBSeq_primary-accession>
+    <GBSeq_accession-version>PC298351.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PC298351.1|</GBSeqid>
+      <GBSeqid>pat|JP|2021503945|4283</GBSeqid>
+      <GBSeqid>gi|2858950948</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2021503945-A/4283</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 4</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2208</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takeuchi,R.</GBAuthor>
+          <GBAuthor>Scaria,A.</GBAuthor>
+          <GBAuthor>Noma,A.</GBAuthor>
+          <GBAuthor>Kantardzhieva,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>MATERIALS AND METHODS FOR TREATMENT OF AUTOSOMAL DOMINANT RETINITIS PIGMENTOSA</GBReference_title>
+        <GBReference_journal>JP2021503945-A 4283 15-FEB-2021 CRISPR THERAPEUTICS AG,BAYER HEALTHCARE LLC</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-associated virus 4~PN JP 2021503945-A/4283~PD 15-FEB-2021~PF 21-NOV-2018 JP 2020545012~PR 29-AUG-2018 US 62/724319 ,28-MAR-2018 US 62/649133~PR ,~PR 02-JUL-2018 US 62/693080 ,21-NOV-2017 US 62/589111~PA CRISPR THERAPEUTICS AG,BAYER HEALTHCARE LLC~PI ryo takeuchi,abraham scaria,akiko noma,albena kantardzhieva~PT 'MATERIALS AND METHODS FOR TREATMENT OF AUTOSOMAL DOMINANT~PT RETINITIS~PT PIGMENTOSA'~PS N5094~CC~FH Key Location/Qualifiers~FT modified_base (750)..(750)~FT /note='n is a, c, t or g'~FT misc_feature (750)..(750)~FT /note='n is a, c, g, or t'.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2208</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2208</GBInterval_to>
+            <GBInterval_accession>PC298351.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:57579</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgactgacggttaccttccagattggctagaggacaacctctctgaaggcgttcgagagtggtgggcgctgcaacctggagcccctaaacccaaggcaaatcaacaacatcaggacaacgctcggggtcttgtgcttccgggttacaaatacctcggacccggcaacggactcgacaagggggaacccgtcaacgcagcggacgcggcagccctcgagcacgacaaggcctacgaccagcagctcaaggccggtgacaacccctacctcaagtacaaccacgccgacgcggagttccagcagcggcttcagggcgacacatcgtttgggggcaacctcggcagagcagtcttccaggccaaaaagagggttcttgaacctcttggtctggttgagcaagcgggtgagacggctcctggaaagaagagaccgttgattgaatccccccagcagcccgactcctccacgggtatcggcaaaaaaggcaagcagccggctaaaaagaagctcgttttcgaagacgaaactggagcaggcgacggaccccctgagggatcaacttccggagccatgtctgatgacagtgagatgcgtgcagcagctggcggagctgcagtcgagggsggacaaggtgccgatggagtgggtaatgcctcgggtgattggcattgcgattccacctggtctgagggccacgtcacgaccaccagcaccagaacctgggtcttgcccacctacaacaaccacctntacaagcgactcggagagagcctgcagtccaacacctacaacggattctccaccccctggggatactttgacttcaaccgcttccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggcatgcgacccaaagccatgcgggtcaaaatcttcaacatccaggtcaaggaggtcacgacgtcgaacggcgagacaacggtggctaataaccttaccagcacggttcagatctttgcggactcgtcgtacgaactgccgtacgtgatggatgcgggtcaagagggcagcctgcctccttttcccaacgacgtctttatggtgccccagtacggctactgtggactggtgaccggcaacacttcgcagcaacagactgacagaaatgccttctactgcctggagtactttccttcgcagatgctgcggactggcaacaactttgaaattacgtacagttttgagaaggtgcctttccactcgatgtacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacctgtggggactgcaatcgaccaccaccggaaccaccctgaatgccgggactgccaccaccaactttaccaagctgcggcctaccaacttttccaactttaaaaagaactggctgcccgggccttcaatcaagcagcagggcttctcaaagactgccaatcaaaactacaagatccctgccaccgggtcagacagtctcatcaaatacgagacgcacagcactctggacggaagatggagtgccctgacccccggacctccaatggccacggctggacctgcggacagcaagttcagcaacagccagctcatctttgcggggcctaaacagaacggcaacacggccaccgtacccgggactctgatcttcacctctgaggaggagctggcagccaccaacgccaccgatacggacatgtggggcaacctacctggcggtgaccagagcaacagcaacctgccgaccgtggacagactgacagccttgggagccgtgcctggaatggtctggcaaaacagagacatttactaccagggtcccatttgggccaagattcctcataccgatggacactttcacccctcaccgctgattggtgggtttgggctgaaacacccgcctcctcaaatttttatcaagaacaccccggtacctgcgaatcctgcaacgaccttcagctctactccggtaaactccttcattactcagtacagcactggccaggtgtcggtgcagattgactgggagatccagaaggagcggtccaaacgctggaaccccgaggtccagtttacctccaactacggacagcaaaactctctgttgtgggctcccgatgcggctgggaaatacactgagcctagggctatcggtacccgctacctcacccaccacctgtaataa</GBSeq_sequence>
+  </GBSeq>

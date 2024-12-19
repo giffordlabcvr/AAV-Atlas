@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HV961296</GBSeq_locus>
+    <GBSeq_length>2211</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>13-NOV-2013</GBSeq_update-date>
+    <GBSeq_create-date>29-JAN-2013</GBSeq_create-date>
+    <GBSeq_definition>WO 2012144446-A/7: Drug delivery particle and production method thereof</GBSeq_definition>
+    <GBSeq_primary-accession>HV961296</GBSeq_primary-accession>
+    <GBSeq_accession-version>HV961296.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|HV961296.1|</GBSeqid>
+      <GBSeqid>pat|WO|2012144446|7</GBSeqid>
+      <GBSeqid>gi|444188748</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>WO 2012144446-A/7</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus 9</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus 9</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2211</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Okada,T.</GBAuthor>
+          <GBAuthor>Takeda,S.</GBAuthor>
+          <GBAuthor>Kino,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Drug delivery particle and production method thereof</GBReference_title>
+        <GBReference_journal>WO2012144446-A 7 26-OCT-2012 National Center of Neurology and Psychiatry</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Adeno-Associated Virus 9~PN WO 2012144446-A/7~PD 26-OCT-2012~PF 16-APR-2012 WO 2012JP060229~PR 18-APR-2011 JP 2011-092252~PA National Center of Neurology and Psychiatry~PI takashi okada,shinichi takeda,hiromi kino~PT 'Drug delivery particle and production method thereof' PS N7~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2211</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2211</GBInterval_to>
+            <GBInterval_accession>HV961296.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus 9</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:235455</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggctgccgatggttatcttccagattggctcgaggacaaccttagtgaaggaattcgcgagtggtgggctttgaaacctggagcccctcaacccaaggcaaatcaacaacatcaagacaacgctcgaggtcttgtgcttccgggttacaaataccttggacccggcaacggactcgacaagggggagccggtcaacgcagcagacgcggcggccctcgagcacgacaaggcctacgaccagcagctcaaggccggagacaacccgtacctcaagtacaaccacgccgacgccgagttccaggagcggctcaaagaagatacgtcttttgggggcaacctcgggcgagcagtcttccaggccaaaaagaggcttcttgaacctcttggtctggttgaggaagcggctaagacggctcctggaaagaagaggcctgtagagcagtctcctcaggaaccggactcctccgcgggtattggcaaatcgggtgcacagcccgctaaaaagagactcaatttcggtcagactggcgacacagagtcagtcccagaccctcaaccaatcggagaacctcccgcagccccctcaggtgtgggatctcttacaatggcttcaggtggtggcgcaccagtggcagacaataacgaaggtgccgatggagtgggtagttcctcgggaaattggcattgcgattcccaatggctgggggacagagtcatcaccaccagcacccgaacctgggccctgcccacctacaacaatcacctctacaagcaaatctccaacagcacatctggaggatcttcaaatgacaacgcctacttcggctacagcaccccctgggggtattttgacttcaacagattccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggattccggcctaagcgactcaacttcaagctcttcaacattcaggtcaaagaggttacggacaacaatggagtcaagaccatcgccaataaccttaccagcacggtccaggtcttcacggactcagactatcagctcccgtacgtgctcgggtcggctcacgagggctgcctcccgccgttcccagcggacgttttcatgattcctcagtacgggtatctgacgcttaatgatggaagccaggccgtgggtcgttcgtccttttactgcctggaatatttcccgtcgcaaatgctaagaacgggtaacaacttccagttcagctacgagtttgagaacgtacctttccatagcagctacgctcacagccaaagcctggaccgactaatgaatccactcatcgaccaatacttgtactatctctcaaagactattaacggttctggacagaatcaacaaacgctaaaattcagtgtggccggacccagcaacatggctgtccagggaagaaactacatacctggacccagctaccgacaacaacgtgtctcaaccactgtgactcaaaacaacaacagcgaatttgcttggcctggagcttcttcttgggctctcaatggacgtaatagcttgatgaatcctggacctgctatggccagccacaaagaaggagaggaccgtttctttcctttgtctggatctttaatttttggcaaacaaggaactggaagagacaacgtggatgcggacaaagtcatgataaccaacgaagaagaaattaaaactactaacccggtagcaacggagtcctatggacaagtggccacaaaccaccagagtgcccaagcacaggcgcagaccggctgggttcaaaaccaaggaatacttccgggtatggtttggcaggacagagatgtgtacctgcaaggacccatttgggccaaaattcctcacacggacggcaactttcacccttctccgctgatgggagggtttggaatgaagcacccgcctcctcagatcctcatcaaaaacacacctgtacctgcggatcctccaacggccttcaacaaggacaagctgaactctttcatcacccagtattctactggccaagtcagcgtggagatcgagtgggagctgcagaaggaaaacagcaagcgctggaacccggagatccagtacacttccaactattacaagtctaataatgttgaatttgctgttaatactgaaggtgtatatagtgaaccccgccccattggcaccagatacctgactcgtaatctgtaa</GBSeq_sequence>
+  </GBSeq>

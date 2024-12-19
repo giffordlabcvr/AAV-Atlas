@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AX355846</GBSeq_locus>
+    <GBSeq_length>378</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>06-FEB-2002</GBSeq_update-date>
+    <GBSeq_create-date>06-FEB-2002</GBSeq_create-date>
+    <GBSeq_definition>Sequence 1 from Patent WO0202788</GBSeq_definition>
+    <GBSeq_primary-accession>AX355846</GBSeq_primary-accession>
+    <GBSeq_accession-version>AX355846.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AX355846.1|</GBSeqid>
+      <GBSeqid>pat|WO|0202788|1</GBSeqid>
+      <GBSeqid>gi|18620507</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>adeno-associated virus 2</GBSeq_source>
+    <GBSeq_organism>adeno-associated virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..378</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Armentano,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods for helper-dependent adenoviral vector production</GBReference_title>
+        <GBReference_journal>WO0202788-A2 1 10-JAN-2002 GENZYME CORPORATION (US)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..378</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>378</GBInterval_to>
+            <GBInterval_accession>AX355846.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>adeno-associated virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:10804</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>catcatcataatataccttattttggattgaagccaatatgataatgagggggtggagtttgtgacgtggcgcggggcgtgggaacggggcgggtgacgtagtagtgtggcggaagtgtgatgttgcaagtgtggcggaacacatgtaagcgccggatgtggtaaaagtgacgtttttggtgtgcgccggtgtatacgggaagtgacaattttcgcgcggttttaggcggatgttgtagtaaatttgggcgtaaccaagtaatgtttggccattttcgcgggaaaactgaataagaggaagtgaaatctgaataattctgtgttactcatagcgcgtaatatttgtctagggccgcggggactttgaccgtttacgtg</GBSeq_sequence>
+  </GBSeq>

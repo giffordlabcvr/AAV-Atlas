@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY330755</GBSeq_locus>
+    <GBSeq_length>2205</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>14-OCT-2017</GBSeq_update-date>
+    <GBSeq_create-date>14-OCT-2017</GBSeq_create-date>
+    <GBSeq_definition>KR 1020160079891-A/4: METHODS AND COMPOSITIONS FOR TREATING AMYLOID DEPOSITS</GBSeq_definition>
+    <GBSeq_primary-accession>LY330755</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY330755.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY330755.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020160079891|4</GBSeqid>
+      <GBSeqid>gi|1257960101</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020160079891-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Adeno-associated virus - 4</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus - 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus primate1</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2205</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Davidson,B.L.</GBAuthor>
+          <GBAuthor>Hyman,B.T.</GBAuthor>
+          <GBAuthor>Hudry,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>METHODS AND COMPOSITIONS FOR TREATING AMYLOID DEPOSITS</GBReference_title>
+        <GBReference_journal>KR1020160079891-A 4 06-JUL-2016 University of Iowa Research Foundation|THE GENERAL HOSPITAL CORPORATION</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020167016073-A/4~AN KR 1020167016073~AD 2016-06-16~PN KR 1020160079891~PD 2016-07-06~AT METHODS AND COMPOSITIONS FOR TREATING AMYLOID DEPOSITS~AI Davidson, Beverly L.|Hyman, Bradley T.|Hudry, Eloise~AA University of Iowa Research Foundation|THE GENERAL HOSPITAL~AA CORPORATION~PR US 61/906,811=2013-11-20~OS Adeno-associated virus - 4~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2205</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2205</GBInterval_to>
+            <GBInterval_accession>LY330755.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus - 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:57579</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgactgacggttaccttccagattggctagaggacaacctctctgaaggcgttcgagagtggtgggcgctgcaacctggagcccctaaacccaaggcaaatcaacaacatcaggacaacgctcggggtcttgtgcttccgggttacaaatacctcggacccggcaacggactcgacaagggggaacccgtcaacgcagcggacgcggcagccctcgagcacgacaaggcctacgaccagcagctcaaggccggtgacaacccctacctcaagtacaaccacgccgacgcggagttccagcagcggcttcagggcgacacatcgtttgggggcaacctcggcagagcagtcttccaggccaaaaagagggttcttgaacctcttggtctggttgagcaagcgggtgagacggctcctggaaagaagagaccgttgattgaatccccccagcagcccgactcctccacgggtatcggcaaaaaaggcaagcagccggctaaaaagaagctcgttttcgaagacgaaactggagcaggcgacggaccccctgagggatcaacttccggagccatgtctgatgacagtgagatgcgtgcagcagctggcggagctgcagtcgagggcggacaaggtgccgatggagtgggtaatgcctcgggtgattggcattgcgattccacctggtctgagggccacgtcacgaccaccagcaccagaacctgggtcttgcccacctacaacaaccacctctacaagcgactcggagagagcctgcagtccaacacctacaacggattctccaccccctggggatactttgacttcaaccgcttccactgccacttctcaccacgtgactggcagcgactcatcaacaacaactggggcatgcgacccaaagccatgcgggtcaaaatcttcaacatccaggtcaaggaggtcacgacgtcgaacggcgagacaacggtggctaataaccttaccagcacggttcagatctttgcggactcgtcgtacgaactgccgtacgtgatggatgcgggtcaagagggcagcctgcctccttttcccaacgacgtctttatggtgccccagtacggctactgtggactggtgaccggcaacacttcgcagcaacagactgacagaaatgccttctactgcctggagtactttccttcgcagatgctgcggactggcaacaactttgaaattacgtacagttttgagaaggtgcctttccactcgatgtacgcgcacagccagagcctggaccggctgatgaaccctctcatcgaccagtacctgtggggactgcaatcgaccaccaccggaaccaccctgaatgccgggactgccaccaccaactttaccaagctgcggcctaccaacttttccaactttaaaaagaactggctgcccgggccttcaatcaagcagcagggcttctcaaagactgccaatcaaaactacaagatccctgccaccgggtcagacagtctcatcaaatacgagacgcacagcactctggacggaagatggagtgccctgacccccggacctccaatggccacggctggacctgcggacagcaagttcagcaacagccagctcatctttgcggggcctaaacagaacggcaacacggccaccgtacccgggactctgatcttcacctctgaggaggagctggcagccaccaacgccaccgatacggacatgtggggcaacctacctggcggtgaccagagcaacagcaacctgccgaccgtggacagactgacagccttgggagccgtgcctggaatggtctggcaaaacagagacatttactaccagggtcccatttgggccaagattcctcataccgatggacactttcacccctcaccgctgattggtgggtttgggctgaaacacccgcctcctcaaatttttatcaagaacaccccggtacctgcgaatcctgcaacgaccttcagctctactccggtaaactccttcattactcagtacagcactggccaggtgtcggtgcagattgactgggagatccagaaggagcggtccaaacgctggaaccccgaggtccagtttacctccaactacggacagcaaaactctctgttgtgggctcccgatgcggctgggaaatacactgagcctagggctatcggtacccgctacctcacccaccacctgtaa</GBSeq_sequence>
+  </GBSeq>

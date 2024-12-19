@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MQ081600</GBSeq_locus>
+    <GBSeq_length>141</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>22-JUN-2021</GBSeq_update-date>
+    <GBSeq_create-date>22-JUN-2021</GBSeq_create-date>
+    <GBSeq_definition>Sequence 9 from Patent WO2021111280</GBSeq_definition>
+    <GBSeq_primary-accession>MQ081600</GBSeq_primary-accession>
+    <GBSeq_accession-version>MQ081600.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|MQ081600.1|</GBSeqid>
+      <GBSeqid>pat|WO|2021111280|9</GBSeqid>
+      <GBSeqid>gi|2056098581</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Adeno-associated virus</GBSeq_source>
+    <GBSeq_organism>Adeno-associated virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..141</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>POLICE,S.R.</GBAuthor>
+          <GBAuthor>MAENG,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>REGULATABLE EXPRESSION SYSTEMS</GBReference_title>
+        <GBReference_journal>WO2021111280-A1 9 10-JUN-2021 CRISPR THERAPEUTICS AG [CH]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..141</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>141</GBInterval_to>
+            <GBInterval_accession>MQ081600.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Adeno-associated virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:272636</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggaacccctagtgatggagttggccactccctctctgcgcgctcgctcgctcactgaggccgggcgaccaaaggtcgcccgacgcccgggctttgcccgggcggcctcagtgagcgagcgagcgcgcagctgcctgcagg</GBSeq_sequence>
+  </GBSeq>
