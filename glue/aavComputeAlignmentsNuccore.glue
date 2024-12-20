@@ -14,4 +14,4 @@ compute alignment AL_AAV10 aavCompoundAligner
 compute alignment AL_AAV11 aavCompoundAligner
 compute alignment AL_AAV12 aavCompoundAligner
 
-compute alignment AL_DependoA aavCompoundAligner
+#compute alignment AL_DependoA aavCompoundAligner

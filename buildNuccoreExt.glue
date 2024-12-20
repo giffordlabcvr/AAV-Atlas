@@ -5,25 +5,13 @@ project aav
 
   # NCBI nuccore sequences
   import source sources/ncbi-nuccore-aav
+  import source sources/ncbi-nuccore-aav-short
 
-  # Extract data from GenBank for NCBI nuccore set
-  module aavGenbankXmlPopulator populate -w "source.name = 'ncbi-nuccore-aav'"
+  # Import metadata for nuccore sequences
+  run file glue/aavImportDataNuccore.glue
 
-  # Load side data
-  module aavSideDataImporterSpecies populate -f tabular/aav-nuccore.tsv
-
-  # Do segment 4 classification
-  #run script glue/aavClassifyNuccore.js
-
-  # Load patent data
-  create module -f modules/aavSideDataImporterPatent.xml
-  module aavSideDataImporterPatent populate -f tabular/aav-patent.tsv
-
-  # Add genotyped nuccore sequences to alignment tree
+  # Add nuccore sequences to alignment tree
   run file glue/aavAlignmentTreeNuccore.glue
-
-  # Align nuccore sequences
-  run file glue/aavComputeAlignmentsNuccore.glue
 
   # Align nuccore sequences
   run file glue/aavComputeAlignmentsNuccore.glue

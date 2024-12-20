@@ -1,284 +1,260 @@
+/**
+ * Main script for processing amino acid replacements in AAV sequences.
+ * This script identifies and catalogs amino acid replacements relative to reference sequences
+ * across alignments, while ensuring that only coding features are analyzed.
+ */
 
-var featuresList = glue.tableToObjects(
-		
-		glue.command(["list", "feature", "-w", "featureMetatags.name = 'CODES_AMINO_ACIDS' and featureMetatags.value = true", "name", "displayName", "parent.name"]));
-
-//glue.log("INFO", "ID RESULT WAS ", featuresList);
-
-var comparisonRefName = "REF_MASTER_AAV2";
-
-// get alignment set to process
+// Step 1: Retrieve the set of tip alignments to process
 var tipAlignments = {};
-getTipAlignments(tipAlignments);
+getTipAlignments(tipAlignments); // Fills tipAlignments with alignment-name-to-reference mapping
 
-// production
-var whereClause = "sequence.source.name = 'ncbi-nuccore-aav'";
+// Step 2: Retrieve all coding features in the project and map them for quick reference
+var codingFeaturesMap = {}; // Stores coding features by name for easy lookup
+var featuresList = glue.tableToObjects(
+    glue.command(["list", "feature", "-w", "featureMetatags.name = 'CODES_AMINO_ACIDS' and featureMetatags.value = true", "name", "displayName", "parent.name"])
+);
+_.each(featuresList, function(featureObj) {
+    codingFeaturesMap[featureObj.name] = true; // Mark this feature as coding
+});
 
-// Iterate through tip alignments
+// Step 3: Retrieve coding features specific to each reference
+var refFeaturesMap = {}; // Maps reference names to their associated coding features
+
+_.each(_.keys(tipAlignments), function(alignmentName) {
+    var refseqName = tipAlignments[alignmentName];
+    glue.inMode("reference/" + refseqName, function() {
+        var featureLocations = glue.tableToObjects(glue.command(["list", "feature-location"]));
+        refFeaturesMap[refseqName] = _.filter(featureLocations, function(featureLoc) {
+            return codingFeaturesMap[featureLoc["feature.name"]]; // Include only coding features
+        });
+    });
+});
+
+// Step 4: Iterate through alignments and process amino acid replacements
+var whereClause = "sequence.source.name like 'ncbi-nuccore-aav%'"; // Filters alignment members by source
 _.each(_.keys(tipAlignments), function(alignmentName) {
 
-	// log output
-    glue.log("INFO", "Processing alignment: ", alignmentName);
+    var refseqName = tipAlignments[alignmentName];
+    glue.logInfo("Processing: " + alignmentName + " constrained by reference: "+refseqName );
 
-	// production
-	var replacementsSet = {};
-	
-	_.each(featuresList, function(featureObj) {
 
-		var refAaObjsMap = {};
-		glue.inMode("reference/"+comparisonRefName+"/feature-location/"+featureObj.name, function() {
-	
-			var refAaObjs = glue.tableToObjects(glue.command(["amino-acid"]));
-		
-			_.each(refAaObjs, function(refAaObj) {
-				refAaObjsMap[refAaObj.codonLabel] = refAaObj;
-			});
-	
-		});
-	
-		glue.inMode("alignment/"+alignmentName, function() {
-	
-			var almtMemberObjs = glue.tableToObjects(glue.command(["list", "member", "-w", whereClause]));
-			var processed = 0;
+    // Initialize a container for amino acid replacements in the current alignment
+    var replacementsSet = {};
 
-			_.each(almtMemberObjs, function(almtMemberObj) {
-		
-				glue.inMode("member/"+almtMemberObj["sequence.source.name"]+"/"+almtMemberObj["sequence.sequenceID"], function() {
-			
-					var memberAaObjs = glue.tableToObjects(glue.command(["amino-acid", "-r", comparisonRefName, "-f", featureObj.name]));
-			   
-					_.each(memberAaObjs, function(memberAaObj) {
-				
-						// Require no Ns in the codonNts in order to generate a replacement,
-						// unless the replacement is unambiguously a single AA residue.
-						// This means we are interpreting N as 'unable to sequence' rather than
-						// 'equal proportion A, C, G, T'  
-						//glue.log("INFO", "Amino acid RESULT WAS ", memberAaObj);
+    _.each(refFeaturesMap[refseqName], function(featureLoc) {
+        var featureName = featureLoc["feature.name"];
+        var refAaObjsMap = {}; // Maps codon labels to reference amino acid objects for the feature
 
-					
-						if(memberAaObj.definiteAas != null && memberAaObj.definiteAas != "" &&
-						  (memberAaObj.definiteAas.length == 1 || memberAaObj.codonNts.indexOf('N') < 0)) {
-					  
-							refAaObj = refAaObjsMap[memberAaObj.codonLabel];
-						
-						
-							if(refAaObj != null && refAaObj.definiteAas != null && refAaObj.definiteAas != "" && 
-									refAaObj.definiteAas != memberAaObj.definiteAas) {
-							
-								var refAas = refAaObj.definiteAas.split('');
-							
-								var memberAas = memberAaObj.definiteAas.split('');
-							
-								_.each(refAas, function(refAa) {
-							
-									_.each(memberAas, function(memberAa) {
-								
-										if(refAa != memberAa) {
-									
-											//glue.log("INFO", "Replacement amino acid RESULT WAS ", memberAaObj);
-									
-											var replacementID = featureObj.name+":"+refAa+":"+memberAaObj.codonLabel+":"+memberAa;
+        // Retrieve amino acid information from the reference sequence for this feature
+        glue.inMode("reference/" + refseqName + "/feature-location/" + featureName, function() {
+            var refAaObjs = glue.tableToObjects(glue.command(["amino-acid"]));
+            _.each(refAaObjs, function(refAaObj) {
+                refAaObjsMap[refAaObj.codonLabel] = refAaObj; // Map codon label to amino acid object
+            });
+        });
+
+        // Process members of the alignment for this feature
+        glue.inMode("alignment/" + alignmentName, function() {
+            var almtMemberObjs = glue.tableToObjects(glue.command(["list", "member", "-w", whereClause]));
+            var processed = 0; // Counter for processed alignment members
+
+            _.each(almtMemberObjs, function(almtMemberObj) {
+                glue.inMode("member/" + almtMemberObj["sequence.source.name"] + "/" + almtMemberObj["sequence.sequenceID"], function() {
+                    var memberAaObjs = glue.tableToObjects(glue.command(["amino-acid", "-r", refseqName, "-f", featureName]));
+
+                    // Compare member amino acids to the reference
+                    _.each(memberAaObjs, function(memberAaObj) {
+                        if (memberAaObj.definiteAas && memberAaObj.definiteAas !== "" &&
+                            (memberAaObj.definiteAas.length === 1 || memberAaObj.codonNts.indexOf('N') < 0)) {
+
+                            var refAaObj = refAaObjsMap[memberAaObj.codonLabel];
+
+                            if (refAaObj && refAaObj.definiteAas && refAaObj.definiteAas !== "" &&
+                                refAaObj.definiteAas !== memberAaObj.definiteAas) {
+
+                                // Identify mismatched amino acids
+                                var refAas = refAaObj.definiteAas.split('');
+                                var memberAas = memberAaObj.definiteAas.split('');
+
+                                _.each(refAas, function(refAa) {
+                                    _.each(memberAas, function(memberAa) {
+                                        if (refAa !== memberAa) {
+
+											// Generate a unique ID for each replacement, including the reference sequence name
+											var replacementID = refseqName + ":" + featureName + ":" + refAa + ":" + memberAaObj.codonLabel + ":" + memberAa;
 											var replacementObj = replacementsSet[replacementID];
-										
-											if(replacementObj == null) {
-										
+
+											// Create a new replacement object if it doesn't already exist
+											if (!replacementObj) {
 												replacementObj = {
 													id: replacementID,
-													feature: featureObj.name,
-													parentFeature: featureObj["parent.name"],
+													feature: featureName,
+													parentFeature: featureLoc["parent.name"],
 													codonLabel: memberAaObj.codonLabel,
 													refNt: memberAaObj.relRefNt,
 													refAa: refAa,
 													replacementAa: memberAa,
 													memberSeqs: []
 												};
-												replacementsSet[replacementID] = replacementObj; // Make sure to add the new object to the set
-										
+												replacementsSet[replacementID] = replacementObj;
 											}
-										
-											replacementObj.memberSeqs.push(almtMemberObj);
-										}
-								
-									});
-							
-								});
-						
-							}
-					
-						}
-				
-					});
-					processed++;
-					if(processed % 500 == 0) {
-						glue.logInfo("Processed for replacements in "+featureObj.name+": "+processed+" sequences. ");
-						glue.command(["new-context"]);
-					}
-				});
-			
-			}); 
-		});
-	
-	});
 
-	//glue.log("INFO", "FINAL RESULT WAS ", replacementsSet);
+                                            // Add sequence to the replacement object
+                                            replacementObj.memberSeqs.push(almtMemberObj);
+                                        }
+                                    });
+                                });
+                            }
+                        }
+                    });
 
+                    // Increment and log progress for every 500 sequences processed
+                    processed++;
+                    if (processed % 500 === 0) {
+                        glue.logInfo("Processed for replacements in " + featureName + ": " + processed + " sequences.");
+                        glue.command(["new-context"]);
+                    }
+                });
+            });
+        });
+    });
 
-	processed = 0;
+    // Step 5: Commit replacements for this alignment
+    var processed = 0; // Counter for committed replacements
 
 
 	_.each(_.values(replacementsSet), function(replacementObj) {
-
-		//glue.log("INFO", "Creating replacement object", replacementObj);
-
-		var variationName = "aav_aa_rpl:"+replacementObj.id;
+		var variationName = "aav_aa_rpl:" + replacementObj.id;
 		var variationExists = false;
-	
-		glue.inMode("reference/REF_MASTER_AAV2/feature-location/"+replacementObj.feature, function() {
-			var existing = glue.tableToObjects(glue.command(["list", "variation", "-w", "name = '"+variationName+"'"]));
-			if(existing.length > 0) {
-				variationExists = true;
-			}
-			if(!variationExists) {
-		
-				glue.command(["create", "variation", variationName, 
-					"-t", "aminoAcidSimplePolymorphism", 
-					"--labeledCodon", replacementObj.codonLabel, replacementObj.codonLabel]);
-				
-				glue.inMode("variation/"+variationName, function() {
-			
+
+		// Check for existing variation; create if it doesn't exist
+		glue.inMode("reference/" + refseqName + "/feature-location/" + replacementObj.feature, function() {
+			var existing = glue.tableToObjects(glue.command(["list", "variation", "-w", "name = '" + variationName + "'"]));
+			variationExists = existing.length > 0;
+
+			if (!variationExists) {
+				glue.command(["create", "variation", variationName, "-t", "aminoAcidSimplePolymorphism", "--labeledCodon", replacementObj.codonLabel, replacementObj.codonLabel]);
+
+				glue.inMode("variation/" + variationName, function() {
 					glue.command(["set", "metatag", "SIMPLE_AA_PATTERN", replacementObj.replacementAa]);
 					glue.command(["set", "metatag", "MIN_COMBINED_TRIPLET_FRACTION", 0.25]);
-			
 				});
-			
 			}
 		});
 
-		if(!variationExists) {
-
-			var hanada_radical_I;
-			var hanada_radical_II;
-			var hanada_radical_III;
+		// If variation does not exist, calculate additional metrics and create custom table row
+		if (!variationExists) {
 			var grantham_distance_double;
 			var grantham_distance_int;
 			var miyata_distance;
 			var classifyReplacement = false;
-		
-			if(replacementObj.refAa != '*' && replacementObj.refAa != 'X'
-				 && replacementObj.replacementAa != '*' && replacementObj.replacementAa != 'X') {
+
+			// Check if classification metrics can be calculated
+			if (
+				replacementObj.refAa !== "*" &&
+				replacementObj.refAa !== "X" &&
+				replacementObj.replacementAa !== "*" &&
+				replacementObj.replacementAa !== "X"
+			) {
 				classifyReplacement = true;
-				glue.inMode("module/aavHanada2006ReplacementClassifier", function() {
-					var classifierResults = glue.tableToObjects(glue.command(["classify", "replacement", replacementObj.refAa, replacementObj.replacementAa]));
-					hanada_radical_I = classifierResults[0].radical;
-					hanada_radical_II = classifierResults[1].radical;
-					hanada_radical_III = classifierResults[2].radical;
-				});
+
+				// Calculate Grantham distance
 				glue.inMode("module/aavGrantham1974DistanceCalculator", function() {
 					var granthamResult = glue.command(["distance", replacementObj.refAa, replacementObj.replacementAa]).grantham1974DistanceResult;
 					grantham_distance_double = granthamResult.distanceDouble;
 					grantham_distance_int = granthamResult.distanceInt;
 				});
+
+				// Calculate Miyata distance
 				glue.inMode("module/aavMiyata1979DistanceCalculator", function() {
-					miyataDistance = glue.command(["distance", replacementObj.refAa, replacementObj.replacementAa]).miyata1979DistanceResult.distance;
+					miyata_distance = glue.command(["distance", replacementObj.refAa, replacementObj.replacementAa]).miyata1979DistanceResult.distance;
 				});
 			}
 
-			
+			// Create or update the custom table row for this replacement
 			glue.command(["create", "custom-table-row", "aav_replacement", replacementObj.id]);
-			glue.inMode("custom-table-row/aav_replacement/"+replacementObj.id, function() {
-
-				var displayName = replacementObj.refAa+replacementObj.codonLabel+replacementObj.replacementAa;
+			glue.inMode("custom-table-row/aav_replacement/" + replacementObj.id, function() {
+				var displayName = replacementObj.refAa + replacementObj.codonLabel + replacementObj.replacementAa;
 				glue.command(["set", "field", "display_name", displayName]);
-				glue.command(["set", "field", "codon_label", replacementObj.codonLabel]);		
-				glue.command(["set", "field", "codon_label_int", parseInt(replacementObj.codonLabel)]);		
+				glue.command(["set", "field", "refseq_name", refseqName]);
+				glue.command(["set", "field", "codon_label", replacementObj.codonLabel]);
+				glue.command(["set", "field", "codon_label_int", parseInt(replacementObj.codonLabel)]);
 				glue.command(["set", "field", "reference_nt", replacementObj.refNt]);
 				glue.command(["set", "field", "reference_aa", replacementObj.refAa]);
 				glue.command(["set", "field", "replacement_aa", replacementObj.replacementAa]);
-			
-				glue.command(["set", "link-target", "variation", 
-					"reference/REF_MASTER_AAV2/feature-location/"+replacementObj.feature+
-					"/variation/"+variationName]);
 
-				if(classifyReplacement) {
-					glue.command(["set", "field", "radical_hanada_category_i", hanada_radical_I]);
-					glue.command(["set", "field", "radical_hanada_category_ii", hanada_radical_II]);
-					glue.command(["set", "field", "radical_hanada_category_iii", hanada_radical_III]);
+				glue.command(["set", "link-target", "variation",
+					"reference/" + refseqName + "/feature-location/" + replacementObj.feature + "/variation/" + variationName]);
+
+				// Set classification metrics if calculated
+				if (classifyReplacement) {
 					glue.command(["set", "field", "grantham_distance_double", grantham_distance_double]);
 					glue.command(["set", "field", "grantham_distance_int", grantham_distance_int]);
-					glue.command(["set", "field", "miyata_distance", miyataDistance]);
+					glue.command(["set", "field", "miyata_distance", miyata_distance]);
 				}
-
 			});
-
 		}
-	
+
+		// Create links between aav_replacement_sequence and sequence
 		_.each(replacementObj.memberSeqs, function(memberObj) {
-	
 			var sourceName = memberObj["sequence.source.name"];
 			var sequenceID = memberObj["sequence.sequenceID"];
-			var linkObjId = replacementObj.id+":"+sourceName+":"+sequenceID;
+			var linkObjId = replacementObj.id + ":" + sourceName + ":" + sequenceID;
 			var variation_present = true;
-		
+
+			// Create a new row in the aav_replacement_sequence table
 			glue.command(["create", "custom-table-row", "aav_replacement_sequence", linkObjId]);
-		
-			glue.inMode("custom-table-row/aav_replacement_sequence/"+linkObjId, function() {
-				glue.command(["set", "link-target", "aav_replacement", "custom-table-row/aav_replacement/"+replacementObj.id]);
-				glue.command(["set", "link-target", "sequence", "sequence/"+sourceName+"/"+sequenceID]);
+
+			// Link the replacement sequence to the corresponding aav_replacement and sequence
+			glue.inMode("custom-table-row/aav_replacement_sequence/" + linkObjId, function() {
+				glue.command(["set", "link-target", "aav_replacement", "custom-table-row/aav_replacement/" + replacementObj.id]);
+				glue.command(["set", "link-target", "sequence", "sequence/" + sourceName + "/" + sequenceID]);
 			});
-		
-			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+
+			// Mark the sequence with variation presence
+			glue.inMode("sequence/" + sourceName + "/" + sequenceID, function() {
 				glue.command(["set", "field", "variation_present", variation_present]);
 			});
-		
 		});
-	
-	
+
+		// Increment and log progress for every 500 replacements
 		processed++;
-		if(processed % 500 == 0) {
-			glue.logInfo("Ensured creation / associated "+processed+" replacements. ");
+		if (processed % 500 === 0) {
+			glue.logInfo("Ensured creation/association of " + processed + " replacements.");
 			glue.command(["commit"]);
 			glue.command(["new-context"]);
 		}
-
 	});
 
-	glue.logInfo("Ensured creation / associated "+processed+" replacements. ");
+	// Final log and commit for this alignment
+	glue.logInfo("Ensured creation/association of " + processed + " replacements.");
 	glue.command(["commit"]);
 	glue.command(["new-context"]);
 
 
-		
 });
 
 
-// Get tip alignments
-function getTipAlignments (tipAlignments) {
+/**
+ * Retrieves the tip alignments (alignments without child alignments).
+ * Populates `tipAlignments` with alignment-name-to-reference mapping.
+ */
+function getTipAlignments(tipAlignments) {
+    var alignmentList = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name not like 'AL_UNC%'"]));
 
-	// List alignments
-	var alignmentList = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name not like 'AL_UNC%'"]));
-	//glue.log("INFO", "MSA RESULT WAS ", alignmentList);
+    var parentAlignments = {};
+    _.each(alignmentList, function(alignmentObj) {
+        var parentName = alignmentObj["parent.name"];
+        if (parentName) {
+            parentAlignments[parentName] = true;
+        }
+    });
 
-	// Get set that are parents
-	var parentAlignments = {};
-	_.each(alignmentList, function(alignmentObj) {
-	
-		var parentName = alignmentObj["parent.name"];
-		if (parentName) {
-			parentAlignments[parentName]= 1;
-		}
-	});
-	//glue.log("INFO", "PARENT RESULT WAS ", parentAlignments);
-	
-	// Iterate through whole list, capture all those that are not parents
-	_.each(alignmentList, function(alignmentObj) {
-	
-		var alignmentName = alignmentObj["name"];
-		
-		if (!parentAlignments[alignmentName]) {
-			tipAlignments[alignmentName]= 1;
-		}
-	});
-	//glue.log("INFO", "TIP RESULT WAS ", tipAlignments);
-
+    _.each(alignmentList, function(alignmentObj) {
+        var alignmentName = alignmentObj["name"];
+        var refseqName = alignmentObj["refSequence.name"];
+        if (!parentAlignments[alignmentName]) {
+            tipAlignments[alignmentName] = refseqName;
+        }
+    });
 }
-

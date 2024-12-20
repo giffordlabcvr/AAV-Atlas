@@ -63,13 +63,11 @@ schema-project aav
     create field display_name VARCHAR
     create field codon_label VARCHAR
     create field codon_label_int INTEGER
+    create field refseq_name VARCHAR
     create field reference_aa VARCHAR
     create field reference_nt INTEGER
     create field replacement_aa VARCHAR
     create field num_seqs INTEGER
-    create field radical_hanada_category_i BOOLEAN
-    create field radical_hanada_category_ii BOOLEAN
-    create field radical_hanada_category_iii BOOLEAN
     create field grantham_distance_double DOUBLE
     create field grantham_distance_int INTEGER
     create field miyata_distance DOUBLE
