@@ -24,6 +24,10 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/AAV-Atlas/wiki)**
 
 - **Rich Annotations**: Annotated reference sequences enable rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
 
+- **Automated Genotyping**: Includes functionality for assigning AAV sequences to groups and subgroups using maximum likelihood clade assignment (MLCA).
+
+- **Variant Mapping** Maps amino acid substitutions across all published AAV sequences, facilitating comparative analysis.
+
 
 * * * * *
 
