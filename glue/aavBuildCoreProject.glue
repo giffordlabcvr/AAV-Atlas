@@ -37,7 +37,7 @@ project aav
   run file glue/msa/aavDeriveConstrainedMsasInternal.glue
 
   # Import reference phylogenies
-  run file glue/phylogeny/aavImportPhylogeny.glue
+  run file glue/phylogeny/aavImportReferencePhylogeny.glue
 
   # Validate
   validate

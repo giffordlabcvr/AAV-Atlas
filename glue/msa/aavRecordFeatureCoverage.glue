@@ -1,0 +1,9 @@
+  delete module aavFeaturePresenceRecorder
+  create module -f modules/aavFeaturePresenceRecorder.xml
+
+  module aavFeaturePresenceRecorder 
+
+    record feature-presence AL_AAV_ROOT  --recursive --featureName whole_genome --descendentFeatures
+
+    exit
+

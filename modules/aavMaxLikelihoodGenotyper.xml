@@ -3,18 +3,18 @@
 	<useSingleReference>true</useSingleReference>
 
 	<cladeCategory>
-		<name>lineage</name>	
-		<displayName>Lineage</displayName>	
-		<whereClause>clade_category = 'Species'</whereClause>
+		<name>species</name>	
+		<displayName>Species</displayName>	
+		<whereClause>clade_category = 'species'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
 	    <distanceCutoff>0.4</distanceCutoff>
 		<finalCladeCutoff>75.0</finalCladeCutoff>		
 	</cladeCategory>
 
 	<cladeCategory>
-		<name>species</name>	
-		<displayName>species</displayName>	
-		<whereClause>clade_category = 'Serotype'</whereClause>
+		<name>serotype</name>	
+		<displayName>Serotype</displayName>	
+		<whereClause>clade_category = 'serotype'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
 	    <distanceCutoff>0.05</distanceCutoff>
 		<finalCladeCutoff>75.0</finalCladeCutoff>		

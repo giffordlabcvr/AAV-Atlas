@@ -1,3 +1,9 @@
+
+#~# Build reference phylogeny
+ 
+project aav
+
+
   # Clean-up
   
   # Delete modules
@@ -10,5 +16,7 @@
   module aavNucsRaxmlPhylogenyGenerator
     
     generate nucleotide phylogeny AL_UNC_TREE_AAV -a -o trees/aavReferencePhylogeny.tree NEWICK_BOOTSTRAPS
-      
     exit    
+
+  exit
+

@@ -17,6 +17,5 @@
 
     # AA replacement analysis modules
 	create module -f modules/aavMiyata1979DistanceCalculator.xml
-	create module -f modules/aavHanada2006ReplacementClassifier.xml
 	create module -f modules/aavGrantham1974DistanceCalculator.xml
 	

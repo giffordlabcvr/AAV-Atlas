@@ -15,7 +15,10 @@ project aav
 
   # Align nuccore sequences
   run file glue/msa/aavComputeAlignmentsNuccore.glue
-
+  
+  # Record feature coverage in alignments
+  run file glue/msa/aavRecordFeatureCoverage.glu
+  
   # Run script to calculate aa replacements
   run script glue/analysis/aavGenerateReplacements.js
 

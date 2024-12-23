@@ -1,0 +1,6 @@
+
+# Build core project (reference sequence only)
+run file glue/aavBuildCoreProject.glue
+
+# Build nuccore extension
+run file glue/aavBuildNuccoreExt.glue

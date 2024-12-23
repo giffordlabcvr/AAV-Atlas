@@ -1,5 +1,5 @@
   # Compute reference phylogenies
-  #run file glue/phylogeny/aavComputeRefPhylogeny.glue
+  run file glue/phylogeny/aavComputeRefPhylogeny.glue
 
   # Prepare reference phylogenies
   run file glue/phylogeny/aavPrepareRefPhylogeny.glue

@@ -10,8 +10,7 @@
   create module -f modules/core/dependoFigTreeAnnotationExporter.xml
   create module -f modules/core/alignmentColumnsSelectorAavVp1.xml
 
-
-    # Create the phylogenies
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_AAV_All -s alignmentColumnsSelectorAavVp1 \
@@ -19,7 +18,6 @@
       -o trees/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
-
 
   # Re-root phylogeny 
   module phyloUtility
