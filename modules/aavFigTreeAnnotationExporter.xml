@@ -6,13 +6,8 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>species</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.species')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>association</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.association')}</valueFreemarkerTemplate>
+		<annotationName>full_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.full_name')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
@@ -31,13 +26,13 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>lineage</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.lineage')}</valueFreemarkerTemplate>
+		<annotationName>species</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.species')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>full_name</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.full_name')}</valueFreemarkerTemplate>
+		<annotationName>serotype</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.serotype')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>

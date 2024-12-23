@@ -36,7 +36,6 @@ project aav
   # Derive constrained MSAs from unconstrained
   run file glue/msa/aavDeriveConstrainedMsasInternal.glue
 
-
   # Import reference phylogenies
   run file glue/phylogeny/aavImportPhylogeny.glue
 

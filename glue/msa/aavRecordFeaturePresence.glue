@@ -16,6 +16,5 @@
     record feature-presence AL_AAV11 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_AAV12 --recursive --featureName whole_genome --descendentFeatures
 
-
     exit
 

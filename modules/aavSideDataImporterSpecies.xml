@@ -16,8 +16,8 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>Lineage</header>
-        <property>lineage</property>
+        <header>Serotype</header>
+        <property>serotype</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>

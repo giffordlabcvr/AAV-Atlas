@@ -10,6 +10,7 @@ schema-project aav
 
   table sequence
 
+	# GenBank
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field full_name VARCHAR 100
@@ -17,16 +18,18 @@ schema-project aav
     create field gb_ref_journal VARCHAR 300
     create field gb_ref_title VARCHAR 500
     create field gb_ref_doi VARCHAR 60
+    create field length INTEGER
+    create field pubmed_id INTEGER
 
     # Industry or study ssociation
     create field association VARCHAR 100
 
+	# Taxonomy
     create field species VARCHAR 50
-    create field lineage VARCHAR 50
-    create field clade VARCHAR 50
+    create field serotype VARCHAR 50
 
+	# Isolate details
     create field isolate VARCHAR 100
-
     create field isolation_source VARCHAR 200
     create field sampled_host_sci_name VARCHAR 150
     create field country VARCHAR 100
@@ -35,9 +38,6 @@ schema-project aav
     create field collection_year INTEGER 
     create field collection_month VARCHAR
     create field collection_month_day INTEGER
-   
-    create field length INTEGER
-    create field pubmed_id INTEGER
         
     # true if variations are present in the sequence
     create field variation_present BOOLEAN
@@ -77,7 +77,6 @@ schema-project aav
     create field grantham_distance_int INTEGER
     create field miyata_distance DOUBLE
     create field parent_feature VARCHAR
-    create field parent_codon_label VARCHAR
     exit
 
 

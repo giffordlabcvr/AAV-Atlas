@@ -1,4 +1,4 @@
-  #~# Compute alignments
+  #~# Compute tip alignments
   
   compute alignment AL_AAV1  aavCompoundAligner
   compute alignment AL_AAV2  aavCompoundAligner
@@ -12,3 +12,6 @@
   compute alignment AL_AAV10 aavCompoundAligner
   compute alignment AL_AAV11 aavCompoundAligner
   compute alignment AL_AAV12 aavCompoundAligner
+
+  #~# Compute internal alignments
+  compute alignment AL_DependoA aavCompoundAligner

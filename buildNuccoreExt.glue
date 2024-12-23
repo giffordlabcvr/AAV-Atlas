@@ -17,10 +17,10 @@ project aav
   run file glue/msa/aavComputeAlignmentsNuccore.glue
 
   # Run script to calculate aa replacements
-  #run script glue/analysis/aavGenerateReplacements.js
+  run script glue/analysis/aavGenerateReplacements.js
 
   # Count the number of sequences in which variants occur
-  #run script glue/analysis/aavSetVariantNumSeqs.js
+  run script glue/analysis/aavSetVariantNumSeqs.js
 
   # Validate
   validate

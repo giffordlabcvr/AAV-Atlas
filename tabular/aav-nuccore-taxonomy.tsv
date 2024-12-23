@@ -1,4 +1,4 @@
-sequenceID	source.name	full_name	Lineage	Species
+sequenceID	source.name	full_name	Species	Serotype
 AF028705	ncbi-nuccore-aav	Adeno-associated virus 3B	DependoA	AAV3
 AF043303	ncbi-nuccore-aav	adeno-associated virus 2	DependoA	AAV2
 AF063497	ncbi-nuccore-aav	Adeno-associated virus - 1	DependoA	AAV1
