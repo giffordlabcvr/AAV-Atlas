@@ -1,0 +1,7 @@
+
+  # Extract data from GenBank for NCBI nuccore set
+  module aavGenbankXmlPopulator populate -w "source.name like 'ncbi-nuccore-aav%'"
+
+  # Load previously determined lineage and species/serotype data
+  module aavSideDataImporterSpecies populate -f tabular/aav-nuccore-taxonomy.tsv
+

@@ -16,7 +16,7 @@
 
     generate nucleotide phylogeny AL_AAV_All -s alignmentColumnsSelectorAavVp1 \
       -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genbank-extension/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -25,9 +25,9 @@
   module phyloUtility
   
 	reroot-phylogeny \
-      --inputFile trees/genbank-extension/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/aav-vp1.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genbank-extension/aav-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/aav-vp1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -37,7 +37,7 @@
   
     export figtree-annotation AL_AAV_All \
     -w "fLocNotes.featureLoc.feature.name = 'VP1' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    -f trees/genbank-extension/vp1FigtreeAnnotations.tsv
+    -f trees/vp1FigtreeAnnotations.tsv
         
   exit
 

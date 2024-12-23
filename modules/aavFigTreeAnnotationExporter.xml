@@ -16,6 +16,21 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
+		<annotationName>association</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.association')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>gb_ref_journal</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_ref_journal')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>gb_ref_title</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_ref_title')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
 		<annotationName>lineage</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.lineage')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>

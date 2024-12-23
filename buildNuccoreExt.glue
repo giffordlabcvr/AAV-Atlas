@@ -8,19 +8,19 @@ project aav
   import source sources/ncbi-nuccore-aav-short
 
   # Import metadata for nuccore sequences
-  run file glue/aavImportDataNuccore.glue
+  run file glue/metadata/aavImportDataNuccore.glue
 
   # Add nuccore sequences to alignment tree
-  run file glue/aavAlignmentTreeNuccore.glue
+  run file glue/msa/aavAlignmentTreeNuccore.glue
 
   # Align nuccore sequences
-  run file glue/aavComputeAlignmentsNuccore.glue
+  run file glue/msa/aavComputeAlignmentsNuccore.glue
 
   # Run script to calculate aa replacements
-  run script glue/aavGenerateReplacements.js
+  #run script glue/analysis/aavGenerateReplacements.js
 
   # Count the number of sequences in which variants occur
-  run script glue/aavSetVariantNumSeqs.js
+  #run script glue/analysis/aavSetVariantNumSeqs.js
 
   # Validate
   validate

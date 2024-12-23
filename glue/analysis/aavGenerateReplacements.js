@@ -80,7 +80,7 @@ _.each(_.keys(tipAlignments), function(alignmentName) {
                                     _.each(memberAas, function(memberAa) {
                                         if (refAa !== memberAa) {
 
-											// Generate a unique ID for each replacement, including the reference sequence name
+											// Generate a unique ID for each replacement
 											var replacementID = refseqName + ":" + featureName + ":" + refAa + ":" + memberAaObj.codonLabel + ":" + memberAa;
 											var replacementObj = replacementsSet[replacementID];
 
@@ -177,8 +177,8 @@ _.each(_.keys(tipAlignments), function(alignmentName) {
 				var displayName = replacementObj.refAa + replacementObj.codonLabel + replacementObj.replacementAa;
 				glue.command(["set", "field", "display_name", displayName]);
 				glue.command(["set", "field", "refseq_name", refseqName]);
+				glue.command(["set", "field", "parent_feature", replacementObj.feature]);
 				glue.command(["set", "field", "codon_label", replacementObj.codonLabel]);
-				glue.command(["set", "field", "codon_label_int", parseInt(replacementObj.codonLabel)]);
 				glue.command(["set", "field", "reference_nt", replacementObj.refNt]);
 				glue.command(["set", "field", "reference_aa", replacementObj.refAa]);
 				glue.command(["set", "field", "replacement_aa", replacementObj.replacementAa]);

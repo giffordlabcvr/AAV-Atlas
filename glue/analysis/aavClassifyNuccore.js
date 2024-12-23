@@ -1,7 +1,7 @@
 
 var ncbiCurated;
-var whereClause = "source.name = 'ncbi-nuccore-aav' and lineage = null";
-ncbiCurated = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "-w", whereClause]));
+var whereClause = "source.name like 'ncbi-nuccore-aav%' and species = null";
+ncbiCurated = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", whereClause]));
 //glue.log("INFO", "RESULT WAS ", ncbiCurated);
 
 var processed = 0;
@@ -9,7 +9,7 @@ var processed = 0;
 _.each(ncbiCurated, function(ncbiCurated) {
 
 	var sequenceID = ncbiCurated.sequenceID;
-	var sourceName ='ncbi-nuccore-aav';
+	var sourceName = ncbiCurated["source.name"]; // here can't use the dot notation (.) so use the bracket notation instead.
 
 	var whereClause = "sequenceID = '" + sequenceID + "'";
 	//glue.log("INFO", "ID RESULT WAS ", sequenceID);

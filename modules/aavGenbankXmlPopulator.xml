@@ -8,11 +8,35 @@
 	<gbLength>
 		<propertyPopulator property="length"/>
 	</gbLength>
+
+
+
+	<gbDivision>
+		<propertyPopulator property="patent_related">
+			<matchPattern>PAT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+
 	
 	<gbReference>
 		<gbRefPubmed>
 			<propertyPopulator property="pubmed_id"/>
 		</gbRefPubmed>
+
+		<gbRefJournal>
+			<propertyPopulator property="gb_ref_journal"/>
+		</gbRefJournal>
+
+		<gbRefDoi>
+			<propertyPopulator property="gb_ref_doi"/>
+		</gbRefDoi>
+
+		<!-- #### Exclude patent sequences etc-->	
+		<gbRefJournal>
+			<propertyPopulator property="gb_ref_title"/>
+		</gbRefJournal>
+
 	</gbReference>
 		
 	<gbCreateDate>
@@ -22,7 +46,6 @@
 	<gbUpdateDate>
 		<propertyPopulator property="gb_update_date"/>
 	</gbUpdateDate>
-
 
 	
 	<gbFeature key="source">

@@ -13,6 +13,12 @@ schema-project aav
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field full_name VARCHAR 100
+    create field patent_related BOOLEAN
+    create field gb_ref_journal VARCHAR 300
+    create field gb_ref_title VARCHAR 500
+    create field gb_ref_doi VARCHAR 60
+
+    # Industry or study ssociation
     create field association VARCHAR 100
 
     create field species VARCHAR 50
@@ -62,7 +68,6 @@ schema-project aav
   
     create field display_name VARCHAR
     create field codon_label VARCHAR
-    create field codon_label_int INTEGER
     create field refseq_name VARCHAR
     create field reference_aa VARCHAR
     create field reference_nt INTEGER

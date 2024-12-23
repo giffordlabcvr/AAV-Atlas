@@ -1,19 +1,19 @@
-taxon	sequenceID	species	association	lineage	full_name	isolate	sampled_host_sci_name	pubmed_id
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AF028704	AF028704	AAV6	-	DependoA	Adeno-associated virus - 6	-	-	9420229
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AX753250	AX753250	AAV9	-	DependoA	Adeno-associated virus 9	-	-	-
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AY631965	AY631965	AAV10	-	DependoA	adeno-associated virus 10	-	-	15567432
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AY631966	AY631966	AAV11	-	DependoA	Adeno-associated virus 11	-	-	15567432
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/DQ335246	DQ335246	CAAV	-	DependoB	Adeno-associated virus-Go.1	-	-	16926042
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/DQ813647	DQ813647	AAV12	-	DependoA	Adeno-associated virus 12	-	-	18045941
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/FJ688147	FJ688147	AAVpo1	-	DependoB	Adeno-associated virus - Po1	-	Sus domestica	19626054
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/MF416383	MF416383	MAAV	-	Rodent	Murine adeno-associated virus 1	MAAV1/NYC/Manhattan/poolF1	Mus musculus	-
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001401	NC_001401	AAV2	-	DependoA	adeno-associated virus 2	-	-	25127256
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001729	NC_001729	AAV3	-	DependoA	Adeno-associated virus - 3	-	-	8661429
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001829	NC_001829	AAV4	-	DependoA	Adeno-associated virus - 4	ATCC VR-646	-	9261407
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_002077	NC_002077	AAV1	-	DependoA	Adeno-associated virus - 1	-	-	10196295
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_005889	NC_005889	BAAV	-	DependoB	Bovine adeno-associated virus	-	-	15163744
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006152	NC_006152	AAV5	-	DependoB	adeno-associated virus 5	-	-	9882336
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006260	NC_006260	AAV7	-	DependoA	adeno-associated virus 7	-	Macaca mulatta	12192090
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006261	NC_006261	AAV8	-	DependoA	adeno-associated virus 8	-	Macaca mulatta	12192090
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_014468	NC_014468	BatAAV	-	Bat	Bat adeno-associated virus YNM	-	Myotis ricketti	20573859
-alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_038539	NC_038539	PinAAV	-	Carnivore	California sea lion adeno-associated virus 1	1187	Zalophus californianus (California sea lion)	21795334
+taxon	sequenceID	species	association	association	gb_ref_journal	gb_ref_title	lineage	full_name	isolate	sampled_host_sci_name	pubmed_id
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AF028704	AF028704	AAV6	Rutledge et al	Rutledge et al	J. Virol. 72 (1), 309-319 (1998)	J. Virol. 72 (1), 309-319 (1998)	DependoA	Adeno-associated virus - 6	-	-	9420229
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AX753250	AX753250	AAV9	UNIVERSITY OF PENNSYLVANIA	UNIVERSITY OF PENNSYLVANIA	EP1310571-A2 5 14-MAY-2003 The Trustees of The University of Pennsylvania (US)	EP1310571-A2 5 14-MAY-2003 The Trustees of The University of Pennsylvania (US)	DependoA	Adeno-associated virus 9	-	-	-
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AY631965	AY631965	AAV10	Mori et al	Mori et al	Virology 330 (2), 375-383 (2004)	Virology 330 (2), 375-383 (2004)	DependoA	adeno-associated virus 10	-	-	15567432
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/AY631966	AY631966	AAV11	Mori et al	Mori et al	Virology 330 (2), 375-383 (2004)	Virology 330 (2), 375-383 (2004)	DependoA	Adeno-associated virus 11	-	-	15567432
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/DQ335246	DQ335246	CAAV	-	-	Virology 356 (1-2), 208-216 (2006)	Virology 356 (1-2), 208-216 (2006)	DependoB	Adeno-associated virus-Go.1	-	-	16926042
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/DQ813647	DQ813647	AAV12	Schmidt et al	Schmidt et al	J. Virol. 82 (3), 1399-1406 (2008)	J. Virol. 82 (3), 1399-1406 (2008)	DependoA	Adeno-associated virus 12	-	-	18045941
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/FJ688147	FJ688147	AAVpo1	-	-	Gene Ther. 16 (11), 1320-1328 (2009)	Gene Ther. 16 (11), 1320-1328 (2009)	DependoB	Adeno-associated virus - Po1	-	Sus domestica	19626054
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/MF416383	MF416383	MAAV	-	-	MBio 9 (2), e01354-17 (2018)	MBio 9 (2), e01354-17 (2018)	Rodent	Murine adeno-associated virus 1	MAAV1/NYC/Manhattan/poolF1	Mus musculus	-
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001401	NC_001401	AAV2	Cao et al	Cao et al	PLoS ONE 9 (8), E104596 (2014)	PLoS ONE 9 (8), E104596 (2014)	DependoA	adeno-associated virus 2	-	-	25127256
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001729	NC_001729	AAV3	Muramatsu et al	Muramatsu et al	Virology 221 (1), 208-217 (1996)	Virology 221 (1), 208-217 (1996)	DependoA	Adeno-associated virus - 3	-	-	8661429
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_001829	NC_001829	AAV4	Chiorini et  al	Chiorini et  al	J. Virol. 71 (9), 6823-6833 (1997)	J. Virol. 71 (9), 6823-6833 (1997)	DependoA	Adeno-associated virus - 4	ATCC VR-646	-	9261407
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_002077	NC_002077	AAV1	Xiao et al	Xiao et al	J. Virol. 73 (5), 3994-4003 (1999)	J. Virol. 73 (5), 3994-4003 (1999)	DependoA	Adeno-associated virus - 1	-	-	10196295
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_005889	NC_005889	BAAV	-	-	J. Virol. 78 (12), 6509-6516 (2004)	J. Virol. 78 (12), 6509-6516 (2004)	DependoB	Bovine adeno-associated virus	-	-	15163744
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006152	NC_006152	AAV5	-	-	J. Virol. 73 (2), 1309-1319 (1999)	J. Virol. 73 (2), 1309-1319 (1999)	DependoB	adeno-associated virus 5	-	-	9882336
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006260	NC_006260	AAV7	Gao et al	Gao et al	Proc. Natl. Acad. Sci. U.S.A. 99 (18), 11854-11859 (2002)	Proc. Natl. Acad. Sci. U.S.A. 99 (18), 11854-11859 (2002)	DependoA	adeno-associated virus 7	-	Macaca mulatta	12192090
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_006261	NC_006261	AAV8	Gao et al	Gao et al	Proc. Natl. Acad. Sci. U.S.A. 99 (18), 11854-11859 (2002)	Proc. Natl. Acad. Sci. U.S.A. 99 (18), 11854-11859 (2002)	DependoA	adeno-associated virus 8	-	Macaca mulatta	12192090
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_014468	NC_014468	BatAAV	-	-	J. Gen. Virol. 91 (PT 10), 2601-2609 (2010)	J. Gen. Virol. 91 (PT 10), 2601-2609 (2010)	Bat	Bat adeno-associated virus YNM	-	Myotis ricketti	20573859
+alignment/AL_UNC_TREE_AAV/member/ncbi-refseqs-aav/NC_038539	NC_038539	PinAAV	-	-	J. Virol. 85 (19), 9909-9917 (2011)	J. Virol. 85 (19), 9909-9917 (2011)	Carnivore	California sea lion adeno-associated virus 1	1187	Zalophus californianus (California sea lion)	21795334

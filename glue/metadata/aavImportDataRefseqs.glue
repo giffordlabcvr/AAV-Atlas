@@ -1,0 +1,7 @@
+
+  # Load side data
+  module aavSideDataImporterSpecies populate -f tabular/aav-refseqs-taxonomy.tsv
+
+  # Extract data from GenBank XML
+  module aavGenbankXmlPopulator populate
+

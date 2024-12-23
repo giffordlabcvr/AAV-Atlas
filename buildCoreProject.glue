@@ -8,41 +8,37 @@ run file glue/aavSchemaExtensions.glue
  
 project aav
 
+  # Apply settings and declare modules
   run file glue/aavProjectSettings.glue
   run file glue/aavModules.glue
 
-  # Define aav virus features
-  run file glue/aavFeatures.glue
-
-  # Import sources
+  # Import reference sequences
   import source sources/ncbi-refseqs-aav
 
-  # Import reference sequence data
-  run file glue/aavImportData.glue
+  # AAV genome feature definitions
+  run file glue/reference/aavFeatures.glue
   
-  # Define references
-  run file glue/aavReferences.glue
+  # Declare reference sequences
+  run file glue/reference/aavReferences.glue
+
+  # Import reference sequence-associated metadata
+  run file glue/metadata/aavImportDataRefseqs.glue
 
   # Define feature locations on master reference
-  run file glue/aavFeatureLocations.glue
+  run file glue/reference/aavFeatureLocations.glue
 
   # Import unconstrained alignments
-  run file glue/aavImportUnconstrainedAlignments.glue
+  run file glue/msa/aavImportUnconstrainedAlignments.glue
 
   # Define alignment tree
-  run file glue/aavAlignmentTree.glue
+  run file glue/msa/aavAlignmentTree.glue
 
   # Derive constrained MSAs from unconstrained
-  run file glue/aavDeriveConstrainedMsas.glue
+  run file glue/msa/aavDeriveConstrainedMsasInternal.glue
 
-  # Compute reference phylogenies
-  #run file glue/aavComputeRefPhylogeny.glue
-
-  # Prepare reference phylogenies
-  run file glue/aavPrepareRefPhylogeny.glue
 
   # Import reference phylogenies
-  run file glue/aavImportPhylogeny.glue
+  run file glue/phylogeny/aavImportPhylogeny.glue
 
   # Validate
   validate
