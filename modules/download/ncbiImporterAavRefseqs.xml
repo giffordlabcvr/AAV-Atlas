@@ -30,6 +30,10 @@
 	<primaryAccession>MF416383</primaryAccession>  <!-- Murine AAV -->
 	<primaryAccession>NC_014468</primaryAccession> <!-- Bat AAV -->
 	<primaryAccession>NC_038539</primaryAccession> <!-- Sea lion AAV -->
+	<primaryAccession>MN242366</primaryAccession>  <!-- MgAAV1 -->
+	<primaryAccession>MN242367</primaryAccession>  <!-- MgAAV2 -->
+	<primaryAccession>PP098970</primaryAccession>  <!-- MCAAV -->
+	<primaryAccession>PP098971</primaryAccession>  <!-- MCAAV -->
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

@@ -3,4 +3,4 @@
 run file glue/aavBuildCoreProject.glue
 
 # Build nuccore extension
-run file glue/aavBuildNuccoreExt.glue
+#run file glue/aavBuildNuccoreExt.glue

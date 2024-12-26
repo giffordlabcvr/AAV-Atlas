@@ -22,3 +22,8 @@
   create reference REF_MAAV			ncbi-refseqs-aav MF416383
   create reference REF_BatAAV		ncbi-refseqs-aav NC_014468
   create reference REF_PinAAV		ncbi-refseqs-aav NC_038539
+
+  create reference REF_MgAAV1		ncbi-refseqs-aav MN242366
+  create reference REF_MgAAV2		ncbi-refseqs-aav MN242367
+  create reference REF_McAAV1		ncbi-refseqs-aav PP098970
+  create reference REF_McAAV2		ncbi-refseqs-aav PP098971
