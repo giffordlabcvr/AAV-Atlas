@@ -37,12 +37,19 @@
     demote member AL_CAAV             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'CAAV'" 
     exit
 
+
   alignment AL_DependoRodent1
 
+    demote member AL_McAAV1             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'McAAV1'"  
+    demote member AL_McAAV2             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'McAAV2'"  
+    exit
+
+  alignment AL_DependoRodent2
+
     demote member AL_MAAV             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'MAAV'"  
-    demote member AL_MgAAV1             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'AL_MgAAV1'"  
-    demote member AL_MgAAV2             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'AL_MgAAV2'"  
-   exit
+    demote member AL_MgAAV1             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'MgAAV1'"  
+    demote member AL_MgAAV2             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'MgAAV2'"  
+    exit
 
   alignment AL_DependoBat
 
