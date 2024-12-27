@@ -11,12 +11,12 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>Species</header>
+        <header>species</header>
         <property>species</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>Serotype</header>
+        <header>serotype</header>
         <property>serotype</property>
     </textFileColumn>
 
