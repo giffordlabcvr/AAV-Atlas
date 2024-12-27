@@ -6,7 +6,7 @@
   alignment AL_AAV_ROOT
 
     set field displayName "Non-autonomous dependoparvovirus"
-    set field clade_category "Subgenus" 
+    set field clade_category "subgenus" 
   
     extract child AL_DependoA         --refName REF_MASTER_AAV2
     demote member AL_DependoA         --whereClause "sequence.species = 'DependoA'" 
@@ -14,14 +14,17 @@
     extract child AL_DependoB         --refName REF_AAV5
     demote member AL_DependoB         --whereClause "sequence.species = 'DependoB'" 
 
-    extract child AL_DependoRodent        --refName REF_MAAV
-    demote member AL_DependoRodent        --whereClause "sequence.species = 'Rodent'" 
+    extract child AL_DependoRodent1   --refName REF_McAAV1
+    demote member AL_DependoRodent1   --whereClause "sequence.species = 'Rodent1'" 
 
-    extract child AL_DependoBat           --refName REF_BatAAV
-    demote member AL_DependoBat           --whereClause "sequence.species = 'Bat'" 
+    extract child AL_DependoRodent2   --refName REF_MAAV
+    demote member AL_DependoRodent2   --whereClause "sequence.species = 'Rodent2'" 
 
-    extract child AL_DependoCarnivore     --refName REF_PinAAV
-    demote member AL_DependoCarnivore     --whereClause "sequence.species = 'Carnivore'" 
+    extract child AL_DependoBat       --refName REF_BatAAV
+    demote member AL_DependoBat       --whereClause "sequence.species = 'Bat'" 
+
+    extract child AL_DependoCarnivore --refName REF_PinAAV
+    demote member AL_DependoCarnivore --whereClause "sequence.species = 'Carnivore'" 
 
     exit
 
@@ -31,7 +34,7 @@
   alignment AL_DependoA
 
     set field displayName "Dependoparvovirus A"
-    set field clade_category "Species" 
+    set field clade_category "species" 
   
     extract child AL_AAV1              --refName REF_AAV1
     demote member AL_AAV1              --whereClause "sequence.serotype = 'AAV1'" 
@@ -70,9 +73,9 @@
   alignment AL_DependoB
 
     set field displayName "Dependoparvovirus B"
-    set field clade_category "Species" 
+    set field clade_category "species" 
   
-    extract child AL_AAV5     --refName REF_AAV5
+    extract child AL_AAV5              --refName REF_AAV5
     demote member AL_AAV5              --whereClause "sequence.serotype = 'AAV5'" 
 
     extract child AL_BAAV              --refName REF_BAAV
@@ -86,20 +89,39 @@
 
     exit
 
-  alignment AL_DependoRodent
+  alignment AL_DependoRodent1
 
-    set field displayName "Dependoparvovirus Rodent"
-    set field clade_category "Species" 
+    set field displayName "Dependoparvovirus Rodent1"
+    set field clade_category "species" 
+
+    extract child AL_McAAV1       --refName REF_McAAV1
+    demote member AL_McAAV1       --whereClause "sequence.serotype = 'McAAV1'" 
+
+    extract child AL_McAAV2       --refName REF_McAAV2
+    demote member AL_McAAV2       --whereClause "sequence.serotype = 'McAAV2'" 
+ 
+    exit
+    
+  alignment AL_DependoRodent2
+
+    set field displayName "Dependoparvovirus Rodent2"
+    set field clade_category "species" 
 
     extract child AL_MAAV       --refName REF_MAAV
-    demote member AL_MAAV        --whereClause "sequence.serotype = 'MAAV'" 
- 
+    demote member AL_MAAV       --whereClause "sequence.serotype = 'MAAV'" 
+
+    extract child AL_MgAAV1     --refName REF_MgAAV1
+    demote member AL_MgAAV1     --whereClause "sequence.serotype = 'MgAAV1'" 
+
+    extract child AL_MgAAV2     --refName REF_MgAAV2
+    demote member AL_MgAAV2     --whereClause "sequence.serotype = 'MgAAV2'" 
+     
     exit
 
   alignment AL_DependoBat
 
     set field displayName "Dependoparvovirus Bat"
-    set field clade_category "Species" 
+    set field clade_category "species" 
 
     extract child AL_BatAAV    --refName REF_BatAAV
     demote member AL_BatAAV    --whereClause "sequence.serotype = 'BatAAV'" 
@@ -109,7 +131,7 @@
   alignment AL_DependoCarnivore
 
     set field displayName "Dependoparvovirus Carnivore"
-    set field clade_category "Species" 
+    set field clade_category "species" 
 
     extract child AL_PinAAV     --refName REF_PinAAV
     demote member AL_PinAAV     --whereClause "sequence.serotype = 'PinAAV'" 
@@ -119,97 +141,112 @@
 
   alignment AL_PinAAV
     set field displayName "Sea lion AAV"
-    set field clade_category "Serotype"  
+    set field clade_category "serotype"  
     exit
 
   alignment AL_BatAAV
     set field displayName "Bat AAV"
-    set field clade_category "Serotype" 
-    exit
-
-  alignment AL_MAAV
-    set field displayName "Bat AAV"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_CAAV
     set field displayName "Caprine AAV"
-    set field clade_category "Serotype"  
+    set field clade_category "serotype"  
     exit
 
   alignment AL_MAAV
-    set field displayName "Bat AAV"
-    set field clade_category "Serotype"  
+    set field displayName "Murine AAV"
+    set field clade_category "serotype"  
+    exit
+
+  alignment AL_MgAAV1
+    set field displayName "Myodes AAV1"
+    set field clade_category "serotype" 
+    exit
+
+  alignment AL_MgAAV2
+    set field displayName "Myodes AAV2"
+    set field clade_category "serotype" 
+    exit
+
+  alignment AL_McAAV1
+    set field displayName "Marmota AAV1"
+    set field clade_category "serotype" 
+    exit
+
+  alignment AL_McAAV2
+    set field displayName "Marmota AAV2"
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAVpo1
     set field displayName "Porcine AAV"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_BAAV
     set field displayName "Bovine AAV"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV5
     set field displayName "AAV5"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV1
     set field displayName "AAV1"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV2
     set field displayName "AAV2"
-    set field clade_category "Species" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV3
     set field displayName "AAV3"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV4
     set field displayName "AAV4"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV6
     set field displayName "AAV6"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV7
     set field displayName "AAV7"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV8
     set field displayName "AAV8"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV9
     set field displayName "AAV9"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV10
     set field displayName "AAV10"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV11
     set field displayName "AAV11"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
   alignment AL_AAV12
     set field displayName "AAV12"
-    set field clade_category "Serotype" 
+    set field clade_category "serotype" 
     exit
 
 

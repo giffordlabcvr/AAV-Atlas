@@ -1,6 +1,6 @@
 
 var ncbiCurated;
-var whereClause = "source.name like 'ncbi-nuccore-aav%' and species = null";
+var whereClause = "source.name like 'ncbi-nuccore-aav%' and serotype = null";
 ncbiCurated = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", whereClause]));
 //glue.log("INFO", "RESULT WAS ", ncbiCurated);
 
@@ -21,26 +21,26 @@ _.each(ncbiCurated, function(ncbiCurated) {
 	});
 
 	var genotypeRows = genotypeResults.genotypeCommandResult.row;
-	var lineageRow = genotypeRows[0].value;
-	var lineageResult = lineageRow[1]
-	var speciesResult = lineageRow[2]
-	//glue.log("INFO", "lineageRow RESULT WAS ", lineageRow);			
-	//glue.log("INFO", "lineageResult RESULT WAS ", lineageResult);			
+	var speciesRow = genotypeRows[0].value;
+	var speciesResult = speciesRow[1]
+	var serotypeResult = speciesRow[2]
+	//glue.log("INFO", "speciesRow RESULT WAS ", speciesRow);			
 	//glue.log("INFO", "speciesResult RESULT WAS ", speciesResult);			
+	//glue.log("INFO", "serotypeResult RESULT WAS ", serotypeResult);			
 
-	if (lineageResult) {
-
-		var lineage = lineageResult.replace("AL_", "");
-		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {		
-			glue.command(["set", "field", "lineage", lineage]);
-		});
-	
-	}
 	if (speciesResult) {
 
 		var species = speciesResult.replace("AL_", "");
-		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {		
 			glue.command(["set", "field", "species", species]);
+		});
+	
+	}
+	if (serotypeResult) {
+
+		var serotype = serotypeResult.replace("AL_", "");
+		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+			glue.command(["set", "field", "serotype", serotype]);
 		});
 	
 	}
@@ -48,7 +48,7 @@ _.each(ncbiCurated, function(ncbiCurated) {
 	processed++;
 
 	if(processed % 10 == 0) {
-		glue.logInfo("Genotyped "+processed+" sequences. ");
+		glue.logInfo("Typed "+processed+" AAV sequences. ");
 		glue.command(["commit"]);
 		glue.command(["new-context"]);
 	}

@@ -6,7 +6,8 @@
   
     demote member AL_DependoA         --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'DependoA'" 
     demote member AL_DependoB         --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'DependoB'" 
-    demote member AL_DependoRodent    --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Rodent'" 
+    demote member AL_DependoRodent1    --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Rodent1'" 
+    demote member AL_DependoRodent2    --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Rodent2'" 
     demote member AL_DependoBat       --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Bat'" 
     demote member AL_DependoCarnivore --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Carnivore'" 
     exit
@@ -36,10 +37,12 @@
     demote member AL_CAAV             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'CAAV'" 
     exit
 
-  alignment AL_DependoRodent
+  alignment AL_DependoRodent1
 
     demote member AL_MAAV             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'MAAV'"  
-    exit
+    demote member AL_MgAAV1             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'AL_MgAAV1'"  
+    demote member AL_MgAAV2             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'AL_MgAAV2'"  
+   exit
 
   alignment AL_DependoBat
 
