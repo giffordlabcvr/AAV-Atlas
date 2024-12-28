@@ -1,6 +1,6 @@
 # AAV-Atlas
 
-<img src="md/aav-atlas-logo.png" align="right" alt="" width="600" />
+<img src="md/aav-atlas-logo.png" align="right" alt="" width="1000" />
 
 
 Welcome to the GitHub repository for **AAV-Atlas**, an atlas of AAV genetic variants!
