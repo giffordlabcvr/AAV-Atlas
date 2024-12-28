@@ -3,6 +3,8 @@
 
 Welcome to the GitHub repository for **AAV-Atlas**, an atlas of AAV genetic variants!
 
+<img src="md/aav-atlas-logo.png" align="right" alt="" width="400" />
+
 **AAV-Atlas** is a sequence-oriented resource for comparative genomic analysis of adeno-associated viruses (AAVs), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
 
 **AAVs** are small, non-pathogenic DNA viruses widely used in gene therapy due to their tissue-specific targeting, long-term gene expression, and mild immunogenicity. They have enabled groundbreaking treatments for genetic diseases, such as *Luxturna* for inherited retinal disorders, *Zolgensma* for spinal muscular atrophy, and therapies for hemophilia. Despite challenges like limited packaging capacity and immune responses, ongoing advancements in capsid engineering and production methods are enhancing their therapeutic potential.
