@@ -3,7 +3,7 @@
 
 Welcome to the GitHub repository for **AAV-Atlas**, an atlas of AAV genetic variants!
 
-<img src="md/aav-atlas-logo.png" align="right" alt="" width="400" />
+<img src="md/aav-atlas-logo.png" align="right" alt="" width="200" />
 
 **AAV-Atlas** is a sequence-oriented resource for comparative genomic analysis of adeno-associated viruses (AAVs), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
 
