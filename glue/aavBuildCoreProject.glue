@@ -24,11 +24,14 @@ project aav
   # Import reference sequence-associated metadata
   run file glue/metadata/aavImportDataRefseqs.glue
 
-  # Define feature locations on master reference
-  run file glue/reference/aavFeatureLocations.glue
-
   # Import unconstrained alignments
   run file glue/msa/aavImportUnconstrainedAlignments.glue
+
+  # Define feature locations - most only on master reference
+  run file glue/reference/aavFeatureLocations.glue
+
+  # Inherit features to non-master references
+  run file glue/reference/aavInheritFeatureLocations.glue
 
   # Define alignment tree
   run file glue/msa/aavAlignmentTree.glue

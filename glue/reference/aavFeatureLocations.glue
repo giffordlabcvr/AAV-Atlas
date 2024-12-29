@@ -13,31 +13,6 @@
 		  add segment 1 320
 		  exit
 
-		add feature-location 5UTR_ITRA'
-		feature-location 5UTR_ITRA'
-		  add segment 1 41
-		  exit
-
-		add feature-location 5UTR_ITRB
-		feature-location 5UTR_ITRB
-		  add segment 42 50
-		  exit
-
-		add feature-location 5UTR_TerminalLoop
-		feature-location 5UTR_TerminalLoop
-		  add segment 51 53
-		  exit
-
-		add feature-location 5UTR_ITRB'
-		feature-location 5UTR_ITRB'
-		  add segment 54 53
-		  exit
-
-		add feature-location 5UTR_ITRA
-		feature-location 5UTR_ITRA
-		  add segment 85 145
-		  exit
-
 		add feature-location Rep78
 		feature-location Rep78
 		  add segment 321 2186
@@ -172,6 +147,11 @@
 		add feature-location Rep78
 		feature-location Rep78
 		  add segment 335 2206
+		  exit
+
+		add feature-location Rep40
+		feature-location Rep40
+		  add segment 1007 2272
 		  exit
 
 		add feature-location VP1
