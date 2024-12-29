@@ -116,3 +116,114 @@
   feature PLA2 set metatag CODES_AMINO_ACIDS true
 
 
+  ### Capsid subdomains
+
+  create feature Beta-B -p VP1 "Beta sheet B"
+  feature Beta-B set field displayName "Beta sheet-B"
+  feature Beta-B set metatag OWN_CODON_NUMBERING true
+  feature Beta-B set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-B set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_I -p VP1 "Variable loop I"
+  feature VL_I set field displayName "VL I"
+  feature VL_I set metatag OWN_CODON_NUMBERING true
+  feature VL_I set metatag INCLUDE_IN_SUMMARY true
+  feature VL_I set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-C -p VP1 "Beta sheet C"
+  feature Beta-C set field displayName "Beta sheet-C"
+  feature Beta-C set metatag OWN_CODON_NUMBERING true
+  feature Beta-C set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-C set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_alpha-1 -p VP1 "Variable loop alpha 1"
+  feature VL_alpha-1 set field displayName "Beta sheet-B"
+  feature VL_alpha-1 set metatag OWN_CODON_NUMBERING true
+  feature VL_alpha-1 set metatag INCLUDE_IN_SUMMARY true
+  feature VL_alpha-1 set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-D -p VP1 "Beta sheet D"
+  feature Beta-D set field displayName "Beta sheet-D"
+  feature Beta-D set metatag OWN_CODON_NUMBERING true
+  feature Beta-D set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-D set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_II -p VP1 "Variable loop II"
+  feature VL_II set field displayName "VL II"
+  feature VL_II set metatag OWN_CODON_NUMBERING true
+  feature VL_II set metatag INCLUDE_IN_SUMMARY true
+  feature VL_II set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-E -p VP1 "Beta sheet E"
+  feature Beta-E set field displayName "Beta sheet-E"
+  feature Beta-E set metatag OWN_CODON_NUMBERING true
+  feature Beta-E set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-E set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_III -p VP1 "Variable loop III"
+  feature VL_III set field displayName "VL III"
+  feature VL_III set metatag OWN_CODON_NUMBERING true
+  feature VL_III set metatag INCLUDE_IN_SUMMARY true
+  feature VL_III set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-F -p VP1 "Beta sheet F"
+  feature Beta-F set field displayName "Beta sheet-F"
+  feature Beta-F set metatag OWN_CODON_NUMBERING true
+  feature Beta-F set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-F set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-G -p VP1 "Beta sheet G"
+  feature Beta-G set field displayName "Beta sheet-G"
+  feature Beta-G set metatag OWN_CODON_NUMBERING true
+  feature Beta-G set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-G set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_IV -p VP1 "Variable loop IV"
+  feature VL_IV set field displayName "VL IV"
+  feature VL_IV set metatag OWN_CODON_NUMBERING true
+  feature VL_IV set metatag INCLUDE_IN_SUMMARY true
+  feature VL_IV set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_V -p VP1 "Variable loop V"
+  feature VL_V set field displayName "VL V"
+  feature VL_V set metatag OWN_CODON_NUMBERING true
+  feature VL_V set metatag INCLUDE_IN_SUMMARY true
+  feature VL_V set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_VI -p VP1 "Variable loop VI"
+  feature VL_VI set field displayName "VL VI"
+  feature VL_VI set metatag OWN_CODON_NUMBERING true
+  feature VL_VI set metatag INCLUDE_IN_SUMMARY true
+  feature VL_VI set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_VII -p VP1 "Variable loop VII"
+  feature VL_VII set field displayName "VL VII"
+  feature VL_VII set metatag OWN_CODON_NUMBERING true
+  feature VL_VII set metatag INCLUDE_IN_SUMMARY true
+  feature VL_VII set metatag CODES_AMINO_ACIDS true
+
+  create feature VL_VIII -p VP1 "Variable loop VIII"
+  feature VL_VIII set field displayName "VL VIII"
+  feature VL_VIII set metatag OWN_CODON_NUMBERING true
+  feature VL_VIII set metatag INCLUDE_IN_SUMMARY true
+  feature VL_VIII set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-H -p VP1 "Beta sheet H"
+  feature Beta-H set field displayName "Beta sheet-H"
+  feature Beta-H set metatag OWN_CODON_NUMBERING true
+  feature Beta-H set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-H set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-I -p VP1 "Beta sheet I"
+  feature Beta-I set field displayName "Beta sheet-I"
+  feature Beta-I set metatag OWN_CODON_NUMBERING true
+  feature Beta-I set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-I set metatag CODES_AMINO_ACIDS true
+
+  create feature Beta-IX -p VP1 "Beta sheet IX"
+  feature Beta-IX set field displayName "Beta sheet-IX"
+  feature Beta-IX set metatag OWN_CODON_NUMBERING true
+  feature Beta-IX set metatag INCLUDE_IN_SUMMARY true
+  feature Beta-IX set metatag CODES_AMINO_ACIDS true
+
+
