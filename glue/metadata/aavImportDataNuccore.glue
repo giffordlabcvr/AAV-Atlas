@@ -1,4 +1,7 @@
 
+  # Delete non-AAV sequences 
+  run script glue/metadata/aavDeleteNonAavSequences.js
+  
   # Extract data from GenBank for NCBI nuccore set
   module aavGenbankXmlPopulator populate -w "source.name like 'ncbi-nuccore-aav%'"
 
