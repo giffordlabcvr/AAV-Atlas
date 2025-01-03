@@ -1,6 +1,6 @@
 
 var ncbiCurated;
-var whereClause = "source.name like 'ncbi-nuccore-aav%' and serotype = null";
+var whereClause = "source.name like 'ncbi-nuccore-aav%'";
 ncbiCurated = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "source.name", "-w", whereClause]));
 //glue.log("INFO", "RESULT WAS ", ncbiCurated);
 
