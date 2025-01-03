@@ -32,10 +32,9 @@
 			<propertyPopulator property="gb_ref_doi"/>
 		</gbRefDoi>
 
-		<!-- #### Exclude patent sequences etc-->	
-		<gbRefJournal>
+		<gbRefTitle>
 			<propertyPopulator property="gb_ref_title"/>
-		</gbRefJournal>
+		</gbRefTitle>
 
 	</gbReference>
 		

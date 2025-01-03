@@ -9,7 +9,7 @@ var processed = 0;
 _.each(ncbiCurated, function(ncbiCurated) {
 
 	var sequenceID = ncbiCurated.sequenceID;
-	var sourceName = ncbiCurated["source.name"]; // here can't use the dot notation (.) so use the bracket notation instead.
+	var sourceName = ncbiCurated["source.name"]; // note: here can't use the dot notation (.) so use the bracket notation instead.
 
 	var whereClause = "sequenceID = '" + sequenceID + "'";
 	//glue.log("INFO", "ID RESULT WAS ", sequenceID);

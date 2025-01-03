@@ -1,35 +1,36 @@
 <!-- Parvoviridae reference sequences from NCBI -->
 <ncbiImporter>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
-  <sourceName>ncbi-refseqs</sourceName>
+  <sourceName>ncbi-refseqs-aav</sourceName>
   <specificPrimaryAccessions>
 
 	<!-- Dependoparvovirus Primate1 Reference Sequences-->
 		
-	<primaryAccession>NC_002077</primaryAccession> <!-- AAV-1 -->
-	<primaryAccession>NC_001401</primaryAccession> <!-- AAV-2 -->
-	<primaryAccession>NC_001729</primaryAccession> <!-- AAV-3 -->
-	<primaryAccession>NC_001829</primaryAccession> <!-- AAV-4 -->
+	<primaryAccession>AF063497</primaryAccession>  <!-- AAV-1 -->
+	<primaryAccession>AF043303</primaryAccession>  <!-- AAV-2 -->
+	<primaryAccession>U48704</primaryAccession>    <!-- AAV-3 -->
+	<primaryAccession>U89790</primaryAccession>    <!-- AAV-4 -->
 	<primaryAccession>AF028704</primaryAccession>  <!-- AAV-6 -->   
-	<primaryAccession>NC_006260</primaryAccession> <!-- AAV-7 -->
-	<primaryAccession>NC_006261</primaryAccession> <!-- AAV-8 -->
+	<primaryAccession>AF513851</primaryAccession>  <!-- AAV-7 -->
+	<primaryAccession>AF513852</primaryAccession>  <!-- AAV-8 -->
 	<primaryAccession>AX753250</primaryAccession>  <!-- AAV-9 -->
 	<primaryAccession>AY631965</primaryAccession>  <!-- AAV-10 -->
 	<primaryAccession>AY631966</primaryAccession>  <!-- AAV-11 -->
 	<primaryAccession>DQ813647</primaryAccession>  <!-- AAV-12 -->
 
-	<!-- Dependoparvovirus Ungulate1 Reference Sequences-->
+	<!-- Dependoparvovirus Mammalian1 Reference Sequences-->
 
-	<primaryAccession>NC_006152</primaryAccession> <!-- AAV-5 -->
+	<primaryAccession>AF085716</primaryAccession>  <!-- AAV-5 -->
 	<primaryAccession>DQ335246</primaryAccession>  <!-- CAAV -->
-	<primaryAccession>NC_005889</primaryAccession> <!-- BAAV -->
+	<primaryAccession>AY388617</primaryAccession>  <!-- BAAV -->
 	<primaryAccession>FJ688147</primaryAccession>  <!-- AAVpo1 -->
 
 	<!-- Other AAV Reference Sequences-->
 
 	<primaryAccession>MF416383</primaryAccession>  <!-- Murine AAV -->
-	<primaryAccession>NC_014468</primaryAccession> <!-- Bat AAV -->
-	<primaryAccession>NC_038539</primaryAccession> <!-- Sea lion AAV -->
+	<primaryAccession>GU226971</primaryAccession>  <!-- Bat AAV YNM -->
+	<primaryAccession>MG745677</primaryAccession>  <!-- Bat AAV YNM -->
+	<primaryAccession>JN420372</primaryAccession>  <!-- Sea lion AAV -->
 	<primaryAccession>MN242366</primaryAccession>  <!-- MgAAV1 -->
 	<primaryAccession>MN242367</primaryAccession>  <!-- MgAAV2 -->
 	<primaryAccession>PP098970</primaryAccession>  <!-- MCAAV -->

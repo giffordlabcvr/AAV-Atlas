@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
 
-    <GBSeq_locus>NC_014468</GBSeq_locus>
+    <GBSeq_locus>GU226971</GBSeq_locus>
     <GBSeq_length>4286</GBSeq_length>
     <GBSeq_strandedness>double</GBSeq_strandedness>
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
-    <GBSeq_create-date>24-AUG-2010</GBSeq_create-date>
-    <GBSeq_definition>Bat adeno-associated virus YNM, complete genome</GBSeq_definition>
-    <GBSeq_primary-accession>NC_014468</GBSeq_primary-accession>
-    <GBSeq_accession-version>NC_014468.1</GBSeq_accession-version>
+    <GBSeq_update-date>20-SEP-2010</GBSeq_update-date>
+    <GBSeq_create-date>23-AUG-2010</GBSeq_create-date>
+    <GBSeq_definition>Bat adeno-associated virus YNM, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>GU226971</GBSeq_primary-accession>
+    <GBSeq_accession-version>GU226971.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
-      <GBSeqid>ref|NC_014468.1|</GBSeqid>
-      <GBSeqid>gnl|NCBI_GENOMES|26439</GBSeqid>
-      <GBSeqid>gi|304422916</GBSeqid>
+      <GBSeqid>gb|GU226971.1|</GBSeqid>
+      <GBSeqid>gi|289719008</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA485481</GBSeq_project>
-    <GBSeq_keywords>
-      <GBKeyword>RefSeq</GBKeyword>
-    </GBSeq_keywords>
     <GBSeq_source>Bat adeno-associated virus YNM (BtAAV)</GBSeq_source>
     <GBSeq_organism>Bat adeno-associated virus YNM</GBSeq_organism>
     <GBSeq_taxonomy>Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes; Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus; Dependoparvovirus chiropteran1</GBSeq_taxonomy>
@@ -52,13 +47,6 @@
       <GBReference>
         <GBReference_reference>2</GBReference_reference>
         <GBReference_position>1..4286</GBReference_position>
-        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (24-AUG-2010) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
-      </GBReference>
-      <GBReference>
-        <GBReference_reference>3</GBReference_reference>
-        <GBReference_position>1..4286</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Li,Y.</GBAuthor>
           <GBAuthor>Ge,X.</GBAuthor>
@@ -68,7 +56,6 @@
         <GBReference_journal>Submitted (23-NOV-2009) Wuhan Institute of Virology, Chinese Academy of Sciences, 44 Xiao Hong Shan, Wuhan, Hubei 430071, China</GBReference_journal>
       </GBReference>
     </GBSeq_references>
-    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to GU226971.; COMPLETENESS: full length.</GBSeq_comment>
     <GBSeq_feature-table>
       <GBFeature>
         <GBFeature_key>source</GBFeature_key>
@@ -77,7 +64,7 @@
           <GBInterval>
             <GBInterval_from>1</GBInterval_from>
             <GBInterval_to>4286</GBInterval_to>
-            <GBInterval_accession>NC_014468.1</GBInterval_accession>
+            <GBInterval_accession>GU226971.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -110,8 +97,8 @@
             <GBQualifier_value>2008</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
-            <GBQualifier_name>acronym</GBQualifier_name>
-            <GBQualifier_value>BtAAV</GBQualifier_value>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>acronym: BtAAV</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
@@ -122,7 +109,7 @@
           <GBInterval>
             <GBInterval_from>200</GBInterval_from>
             <GBInterval_to>2041</GBInterval_to>
-            <GBInterval_accession>NC_014468.1</GBInterval_accession>
+            <GBInterval_accession>GU226971.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -134,10 +121,6 @@
             <GBQualifier_name>locus_tag</GBQualifier_name>
             <GBQualifier_value>BtAAVgp1</GBQualifier_value>
           </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:9714218</GBQualifier_value>
-          </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
       <GBFeature>
@@ -147,7 +130,7 @@
           <GBInterval>
             <GBInterval_from>200</GBInterval_from>
             <GBInterval_to>2041</GBInterval_to>
-            <GBInterval_accession>NC_014468.1</GBInterval_accession>
+            <GBInterval_accession>GU226971.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -177,11 +160,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>YP_003858571.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:9714218</GBQualifier_value>
+            <GBQualifier_value>ADD17085.1</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
@@ -196,7 +175,7 @@
           <GBInterval>
             <GBInterval_from>2059</GBInterval_from>
             <GBInterval_to>4233</GBInterval_to>
-            <GBInterval_accession>NC_014468.1</GBInterval_accession>
+            <GBInterval_accession>GU226971.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -208,10 +187,6 @@
             <GBQualifier_name>locus_tag</GBQualifier_name>
             <GBQualifier_value>BtAAVgp2</GBQualifier_value>
           </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:9714217</GBQualifier_value>
-          </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
       <GBFeature>
@@ -221,7 +196,7 @@
           <GBInterval>
             <GBInterval_from>2059</GBInterval_from>
             <GBInterval_to>4233</GBInterval_to>
-            <GBInterval_accession>NC_014468.1</GBInterval_accession>
+            <GBInterval_accession>GU226971.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -247,11 +222,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>YP_003858572.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:9714217</GBQualifier_value>
+            <GBQualifier_value>ADD17086.1</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
@@ -261,10 +232,4 @@
       </GBFeature>
     </GBSeq_feature-table>
     <GBSeq_sequence>aagaaacctctaatcatcatctgtactttgtgagggtgtggtcgtgagaacgggcatgcccgggcatgtcctgttaatcattaaccagaatggactttggacttaataagttacgtattaatgggtgtgtatataagtaagtgtatttccggactcactcattcgacttccggcggtcgaggagcgaagacgcgaagccatggagttctacagcatcgttctccgcctgcccggcgactttgactcggaggtgccgggcctgcaggacagcttctacaagtggatatccgggccccggcgggagctgccggagtggtcggacctggacccgggtcagatcgagtcggcgtatcagattctcgccgacaagctggtccgcgagtttgcgcagaagtgggccgccttcagcgaggacccgagggcgccgtactttgcgcagctcgagaagggccgggagaacttccacgtgcacgtgctcgcctcctccaagaaggtcgggtcgttcgtggtcggccgctacgtcaggaagatgcgccagcacctcgtcgacgtcgtcttccggaagtgcgagcccgtcgacgccgattggctgcaggtgcaaaagagcgggaaccacaagtccaacgagatcaaggacgagggctttatccccgcctacctgctgccgaagcgccaatcggagctgcagtgggcgtggacgaacatagaaaagtacgagcgcgccacgctgagcgtcgcagagcgcgccagactcgtcgaggagtggaagcggagcctcgccgccgaggaatctgaccccgcggaacccgaacgccgtccgcgaaagtcgaccaaatccgcgtcagaatacatggcgctcgtcaggtggctcgtggacaacggcatcgcgaccgagcgcgagtggatgcgcgaggactcggacgggtacctgagctacaacgccacgggcgccacgcgcgcccagatcaaggccgcgctcgacaacgcggcccgcatcatggtcaacacgaagacggccgccgactacctggtcggcaggaacccgcccctcgacgtggaggacaacaggatctaccggctgtttcgcatgaacggctacgaccccgcctacgcgggcagcgtgctgctcggctggtgccgcaccggcttcggcaagcgcaacaccgtctggctcttcgggccggccacgaccggcaagacgaacctcgccgaggccatcagccactcggtgcccttctacggctgcgtcaactggaccaacgagaacttccccttcaacgactgcgtggacaagatgatcatctggtgggaggagggcaagatgacgtccaaggtcgtcgagagcgccaaggccatcctcggcggcagcaaggtgcgcgtcgaccagaagtgcaagaactcgcagcagatcgagcccacgcccgtcatcatcaccagcaacaccaacatgtgcgaggtcgtcgacgggaactcgaccacgttcgagcaccggcagccgctcgaggacaggatgttcaagttcgagctcaccgtcaggctgcagcccaccttcggcaagatcaccaagcaggaggtgcgcgagttctttaagtgggcggagctcaacgccgtcgacgtggagtacgactttctcgtgcgcaagatcaaccaatcggacactgggggcggggttaagcgcggggcagagcctacaaaggacgagcctcccgcgaagcgcgtgttcttctacggcgcgacttcggagggagaggacgtccgcgagggagccccgggggaatctgactccgtgaacttcgccgagaggtacgtgtcaaaatgctcgaagcacctgtcctggtcaaatatgcgctatccctgccgcgcctgcgagcgcatgaacgcggacgtgaacgtctgcaccccccacggatgcagagactgtcccgagtgctttccccgccccgcccccgtcccgatagccgagcacgacctgtgcctggccccgatcgaggactctgacttttacgtcggctgtatcgacgacgtcaataaagagcaataaaatgatttacagcagtcatgtcgtttgtcgatcaccccccagactggctcgaggagatcggagaggggctctccgagttcatcggactagaggcgggaccgccgaagcctaagccgggctaccaggaccgcgcgcgcggcctcgtcgtccccggctacaagtacctcgggcccttcaacggactcgacaggggcgagcccgtcaacgcggccgacgcggcggccaagaagcacgacgaggagtacgaccggctcctcaaggcgggggacaacccgtacctcgcctacaaccacgcggacgccgagttccagaaggacctcagcggcgactccagcctagccggcaacgccgcgaacgcgctcttccaggccaagaagagggtcctcgagcccttcggactggtcgagggagagccggagcccaagaagacgccttccgtcaagaggccgcacgcatcgccggactcgtcgagcggcgtcgggaagaagggcgaccagcccgcgcggaagaggctcgactttgggacggagcccgcgggtcaagacggagcgggacgagcggcccaggcagccggagatatggcatctgctgaggtggctgcgggtggtggcggaccagtgggcgacgatgcacaaggtgccgatggagtgggtaatgcctcaggaaattggcattacgattccgtttggatggacggcgctgtcatcaccaagtccacccgaacctggagcctgcccgcctacaacaaccacctctaccgccagatccagtccagcggcaccggagacggcacgtactttggttacagcacgccttggggatacttcgatttcaatcgattccactgccacttttctcccagggactggcagcggctcatcaacaaccactggggcatccgccccaagcggctccactttaagctcttcaacatccaggtcaaggaggtcacgacgaccgacggcaccacgaccatcgccaacaacctcaccagcaccatacaggtctttgcggacacggagtaccagctcccgtacgtgctcggcaacgcccacgagggctgcctgccgccgttcccggcggacgtcttcatgctgccgcagtacgcgtacctgacgctcaacgccaaccccacgaaccagggcgcggccgcgctcagcctgccgcagagcgccttctactgcctggagtactttccgagccagatgctgaggaccgggaacaacttctcgttcagctacgagttcgagaagctgcccttccactcgatgttcatgcacagccagagcctggaccggctcatgaacccgctcatcgaccagtacctctggtacctcaacgccacgaccggcaacaacctctccttcaacaaggccggcgccaagaacttccccgagtacttccgcaactggctgcccgggcccggccagcgcgtgcagcagtggagcacgatcggaacccagaacaacgcgcagaccggcacgtgggccagcgccaacaagtggatcctcatgggcaggtccagcaagatggcccccgggctggcccagccggtcaggaacgcccagaccgtcaccaacggctcgcagctcatcttcaacaacgagaccatcaagggctccaccgcgacggcctccaccgtacactcggggctgctcgtcaccaacgagtcggagaccgccccgaccaaccccaactcggcgacaaagtggggcgtcatgacggacaaccagcagaccacctccactacgccgaccgtcagcgacgacctcgaggcgcacgtcttcccgggcatggtctggcaggaccgcgacatctacctgcagggcccgatatgggccaagatcccggagacggacggccacttccacccgtccccgctcatgggcggcttcgggctcaagaacccgccgccgcagatcctcgtcaagaacacgcccgtgcccgccgtgccgcccacgaccttcacaccgcagaaggtcaactccttcatcacgcagtactccaccggccaggtcaccgtcgagatcgagtgggagctgcgcaaggagaagagcaagcgctggaaccccgagatccagtacacctccaacttcgagaactcggccaacgtacagttctccgtcaacggcgacggcgcgtacatcgagccgcgaccgatcggaacccggtacctcacccacaacctgtaaataaatcccccaataaaccgtgtattcgtttcagttgaactttggtctctgcg</GBSeq_sequence>
-    <GBSeq_xrefs>
-      <GBXref>
-        <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA485481</GBXref_id>
-      </GBXref>
-    </GBSeq_xrefs>
   </GBSeq>

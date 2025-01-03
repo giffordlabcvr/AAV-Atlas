@@ -5,35 +5,38 @@
 
   alignment AL_AAV_ROOT
 
-    set field displayName "Non-autonomous dependoparvovirus"
+    set field displayName "Non-autonomous dependoparvoviruses"
     set field clade_category "subgenus" 
   
-    extract child AL_DependoA         --refName REF_MASTER_AAV2
-    demote member AL_DependoA         --whereClause "sequence.species = 'DependoA'" 
+    extract child AL_Primate1          --refName REF_MASTER_AAV2
+    demote member AL_Primate1          --whereClause "sequence.species = 'Primate1'" 
 
-    extract child AL_DependoB         --refName REF_AAV5
-    demote member AL_DependoB         --whereClause "sequence.species = 'DependoB'" 
+    extract child AL_Mammalian1        --refName REF_AAV5
+    demote member AL_Mammalian1        --whereClause "sequence.species = 'Mammalian1'" 
 
-    extract child AL_DependoRodent1   --refName REF_McAAV1
-    demote member AL_DependoRodent1   --whereClause "sequence.species = 'Rodent1'" 
+    extract child AL_Rodent1           --refName REF_McAAV1
+    demote member AL_Rodent1           --whereClause "sequence.species = 'Rodent1'" 
+ 
+    extract child AL_Rodent2           --refName REF_MAAV
+    demote member AL_Rodent2           --whereClause "sequence.species = 'Rodent2'" 
 
-    extract child AL_DependoRodent2   --refName REF_MAAV
-    demote member AL_DependoRodent2   --whereClause "sequence.species = 'Rodent2'" 
+    extract child AL_Chiropteran1      --refName REF_BatAAV
+    demote member AL_Chiropteran1      --whereClause "sequence.species = 'Chiropteran1'" 
 
-    extract child AL_DependoBat       --refName REF_BatAAV
-    demote member AL_DependoBat       --whereClause "sequence.species = 'Bat'" 
+    extract child AL_Chiropteran2      --refName REF_DrAAV
+    demote member AL_Chiropteran2      --whereClause "sequence.species = 'Chiropteran2'" 
 
-    extract child AL_DependoCarnivore --refName REF_PinAAV
-    demote member AL_DependoCarnivore --whereClause "sequence.species = 'Carnivore'" 
+    extract child AL_Carnivore1        --refName REF_PinAAV
+    demote member AL_Carnivore1        --whereClause "sequence.species = 'Carnivore1'" 
 
     exit
 
 
-
   #~# Tip alignments (virus species level)  
-  alignment AL_DependoA
 
-    set field displayName "Dependoparvovirus A"
+  alignment AL_Primate1
+
+    set field displayName "Dependoparvovirus primate1"
     set field clade_category "species" 
   
     extract child AL_AAV1              --refName REF_AAV1
@@ -70,9 +73,9 @@
     demote member AL_AAV12             --whereClause "sequence.serotype = 'AAV12'" 
     exit
 
-  alignment AL_DependoB
+  alignment AL_Mammalian1
 
-    set field displayName "Dependoparvovirus B"
+    set field displayName "Dependoparvovirus mammalian1"
     set field clade_category "species" 
   
     extract child AL_AAV5              --refName REF_AAV5
@@ -89,63 +92,80 @@
 
     exit
 
-  alignment AL_DependoRodent1
+  alignment AL_Rodent1
 
     set field displayName "Dependoparvovirus Rodent1"
     set field clade_category "species" 
 
-    extract child AL_McAAV1       --refName REF_McAAV1
-    demote member AL_McAAV1       --whereClause "sequence.serotype = 'McAAV1'" 
+    extract child AL_McAAV1           --refName REF_McAAV1
+    demote member AL_McAAV1           --whereClause "sequence.serotype = 'McAAV1'" 
 
-    extract child AL_McAAV2       --refName REF_McAAV2
-    demote member AL_McAAV2       --whereClause "sequence.serotype = 'McAAV2'" 
+    extract child AL_McAAV2           --refName REF_McAAV2
+    demote member AL_McAAV2           --whereClause "sequence.serotype = 'McAAV2'" 
  
     exit
     
-  alignment AL_DependoRodent2
+  alignment AL_Rodent2
 
     set field displayName "Dependoparvovirus Rodent2"
     set field clade_category "species" 
 
-    extract child AL_MAAV       --refName REF_MAAV
-    demote member AL_MAAV       --whereClause "sequence.serotype = 'MAAV'" 
+    extract child AL_MAAV            --refName REF_MAAV
+    demote member AL_MAAV            --whereClause "sequence.serotype = 'MAAV'" 
 
-    extract child AL_MgAAV1     --refName REF_MgAAV1
-    demote member AL_MgAAV1     --whereClause "sequence.serotype = 'MgAAV1'" 
+    extract child AL_MgAAV1          --refName REF_MgAAV1
+    demote member AL_MgAAV1          --whereClause "sequence.serotype = 'MgAAV1'" 
 
-    extract child AL_MgAAV2     --refName REF_MgAAV2
-    demote member AL_MgAAV2     --whereClause "sequence.serotype = 'MgAAV2'" 
+    extract child AL_MgAAV2          --refName REF_MgAAV2
+    demote member AL_MgAAV2          --whereClause "sequence.serotype = 'MgAAV2'" 
      
     exit
 
-  alignment AL_DependoBat
+  alignment AL_Chiropteran1
 
-    set field displayName "Dependoparvovirus Bat"
+    set field displayName "Dependoparvovirus Chiropteran1"
     set field clade_category "species" 
 
-    extract child AL_BatAAV    --refName REF_BatAAV
-    demote member AL_BatAAV    --whereClause "sequence.serotype = 'BatAAV'" 
+    extract child AL_BatAAV_ynm      --refName REF_BatAAV
+    demote member AL_BatAAV_ynm      --whereClause "sequence.serotype = 'BatAAV'" 
   
     exit
 
-  alignment AL_DependoCarnivore
 
-    set field displayName "Dependoparvovirus Carnivore"
+  alignment AL_Chiropteran2
+
+    set field displayName "Dependoparvovirus Chiropteran2"
     set field clade_category "species" 
 
-    extract child AL_PinAAV     --refName REF_PinAAV
-    demote member AL_PinAAV     --whereClause "sequence.serotype = 'PinAAV'" 
+    extract child AL_DrAAV          --refName REF_DrAAV
+    demote member AL_DrAAV          --whereClause "sequence.serotype = 'DrAAV'" 
+  
+    exit
+
+
+  alignment AL_Carnivore1
+
+    set field displayName "Dependoparvovirus Carnivore1"
+    set field clade_category "species" 
+
+    extract child AL_PinAAV        --refName REF_PinAAV
+    demote member AL_PinAAV        --whereClause "sequence.serotype = 'PinAAV'" 
  
     exit
 
 
   alignment AL_PinAAV
-    set field displayName "Sea lion AAV"
+    set field displayName "Pinniped AAV"
     set field clade_category "serotype"  
     exit
 
-  alignment AL_BatAAV
-    set field displayName "Bat AAV"
+  alignment AL_BatAAV_ynm
+    set field displayName "Bat AAV YNM"
+    set field clade_category "serotype" 
+    exit
+
+  alignment AL_DrAAV
+    set field displayName "Desmodus rotundus dependoparvovirus"
     set field clade_category "serotype" 
     exit
 

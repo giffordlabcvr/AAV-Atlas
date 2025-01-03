@@ -6,11 +6,11 @@
 	derive segments AL_UNC_TREE_AAV --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_DependoA
-	derive segments AL_UNC_DependoA --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
+  alignment AL_Primate1
+	derive segments AL_UNC_Primate1 --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
 	exit
 
-  alignment AL_DependoB
-	derive segments AL_UNC_DependoB --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
+  alignment AL_Mammalian1
+	derive segments AL_UNC_Mammalian1 --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
 	exit
 

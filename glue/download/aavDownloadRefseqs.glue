@@ -1,0 +1,5 @@
+# Download AAV reference sequences from NCBI GenBank  
+
+create module -f modules/download/ncbiImporterAavRefseqs.xml
+
+module ncbiImporterAavRefseqs import

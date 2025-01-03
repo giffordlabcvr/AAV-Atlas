@@ -124,6 +124,7 @@ _.each(_.keys(tipAlignments), function(alignmentName) {
 
 
 	_.each(_.values(replacementsSet), function(replacementObj) {
+
 		var variationName = "aav_aa_rpl:" + replacementObj.id;
 		var variationExists = false;
 
