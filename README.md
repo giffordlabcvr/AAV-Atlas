@@ -78,4 +78,7 @@ The project is licensed under the [GNU Affero General Public License v. 3.0](htt
 
 For questions, issues, or feedback, please open an issue on the [GitHub repository](https://github.com/giffordlabcvr/AAV-Atlas/issues).
 
+If you're interested in collaborating or have inquiries regarding AAV-Atlas, feel free to reach out via email at [robjgiff@gmail.com](mailto:robjgiff@gmail.com).
+
+
 * * * * *
