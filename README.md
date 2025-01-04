@@ -56,7 +56,7 @@ For detailed instructions on how to use AAV-Atlas for your comparative genomic a
 
 ## Data Sources
 
-AAV-Atlas is constructed using sequence data obtained from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
+AAV-Atlas is constructed using public data obtained from the [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) database.
 
 * * * * *
 
