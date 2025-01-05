@@ -11,11 +11,6 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>association</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.association')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
 		<annotationName>gb_ref_journal</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_ref_journal')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
