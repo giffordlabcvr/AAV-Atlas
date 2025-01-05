@@ -27,7 +27,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/AAV-Atlas/wiki)**
 
 - **Automated Genotyping**: Includes functionality for assigning AAV sequences to groups and subgroups using maximum likelihood clade assignment (MLCA).
 
-- **Variant Mapping** Maps amino acid substitutions across all published AAV sequences, facilitating comparative analysis.
+- **Variant Mapping**: Maps amino acid substitutions across all published AAV sequences, facilitating comparative analysis.
 
 
 * * * * *
