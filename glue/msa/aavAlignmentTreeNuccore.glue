@@ -14,7 +14,8 @@
     exit
 
 
-  #~# Tip alignments (virus species level)  
+  #~# Virus species level
+
   alignment AL_Primate1
   
     demote member AL_AAV1             --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'AAV1'" 
