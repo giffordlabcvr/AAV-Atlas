@@ -1,0 +1,26 @@
+  
+  # NS
+  create reference REF_AF043303_AAV2_NS			ns-ref-fasta AF043303_AAV2
+  create reference REF_DQ813647_AAV12_NS		ns-ref-fasta DQ813647_AAV12
+  create reference REF_GU226971_BatYNM_NS		ns-ref-fasta GU226971_BatYNM
+  create reference REF_MN242367_MgAAV2_NS		ns-ref-fasta MF416383_MAAV1
+  create reference REF_JN420372_PinAAV_NS		ns-ref-fasta JN420372_PinAAV 
+  create reference REF_AF085716_AAV5_NS			ns-ref-fasta AF085716_AAV5 
+  create reference REF_AY186198_AvAAV_NS		ns-ref-fasta AY186198_AvAAV 
+  create reference REF_AY349010_Snake_NS		ns-ref-fasta AY349010_Snake 
+  create reference REF_U22967_MPDV_NS			ns-ref-fasta U22967_MPDV 
+  create reference REF_MN794870_FelineDpv_NS	ns-ref-fasta MN794870_FelineDpv 
+  create reference REF_MG745677_DrAAV_NS		ns-ref-fasta MG745677_DrAAV
+  
+  # VP
+  create reference REF_AF043303_AAV2_VP			vp-ref-fasta AF043303_AAV2
+  create reference REF_DQ813647_AAV12_VP		vp-ref-fasta DQ813647_AAV12
+  create reference REF_GU226971_BatYNM_VP		vp-ref-fasta GU226971_BatYNM
+  create reference REF_MN242367_MgAAV2_VP		vp-ref-fasta MF416383_MAAV1
+  create reference REF_JN420372_PinAAV_VP		vp-ref-fasta JN420372_PinAAV 
+  create reference REF_AF085716_AAV5_VP			vp-ref-fasta AF085716_AAV5 
+  create reference REF_AY186198_AvAAV_VP		vp-ref-fasta AY186198_AvAAV 
+  create reference REF_AY349010_Snake_VP		vp-ref-fasta AY349010_Snake 
+  create reference REF_U22967_MPDV_VP			vp-ref-fasta U22967_MPDV 
+  create reference REF_MN794870_FelineDpv_VP	vp-ref-fasta MN794870_FelineDpv 
+  create reference REF_MG745677_DrAAV_VP		vp-ref-fasta MG745677_DrAAV 

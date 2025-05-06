@@ -1,10 +1,8 @@
 
-  # Master references
-  import source sources/ncbi-master-refseqs
+  # Master references (genome length)
+  import source sources/ncbi-refseqs-aav
 
-  # Yale genotype references
-  import source sources/fasta-refseqs-yale-denv1
-  import source sources/fasta-refseqs-yale-denv2
-  import source sources/fasta-refseqs-yale-denv3
-  import source sources/fasta-refseqs-yale-denv4
-  #import source sources/fasta-refseqs-outgroups
+  # NS & VP references for BLAST-based gene recogniser
+  import source sources/ns-ref-fasta
+  import source sources/vp-ref-fasta
+
