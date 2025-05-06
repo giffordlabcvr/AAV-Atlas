@@ -12,8 +12,8 @@ project aav
   run file glue/aavProjectSettings.glue
   run file glue/aavModules.glue
 
-  # Import reference sequences
-  import source sources/ncbi-refseqs-aav
+  # Import sources
+  run file glue/aavImportSources.glue
 
   # AAV genome feature definitions
   run file glue/reference/aavFeatures.glue
