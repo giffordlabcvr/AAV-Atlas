@@ -1,0 +1,169 @@
+<blastSequenceRecogniser>
+
+	<blastRunner>
+	<generalSearch>
+	  <word_size>8</word_size>
+	</generalSearch>
+	<restrictSearchOrResults>
+	</restrictSearchOrResults>
+	</blastRunner>
+
+	<!-- Non structural gene references -->
+	<referenceSequence>REF_AF043303_AAV2_NS</referenceSequence>
+	<referenceSequence>REF_DQ813647_AAV12_NS</referenceSequence>
+	<referenceSequence>REF_GU226971_BatYNM_NS</referenceSequence>
+	<referenceSequence>REF_MN242367_MgAAV2_NS</referenceSequence>
+	<referenceSequence>REF_JN420372_PinAAV_NS</referenceSequence>
+	<referenceSequence>REF_AF085716_AAV5_NS</referenceSequence>
+	<referenceSequence>REF_AY186198_AvAAV_NS</referenceSequence>
+	<referenceSequence>REF_AY349010_Snake_NS</referenceSequence>
+	<referenceSequence>REF_U22967_MPDV_NS</referenceSequence>
+	<referenceSequence>REF_MN794870_FelineDpv_NS</referenceSequence>
+	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+
+	<!-- Capsid gene references -->
+	<referenceSequence>REF_AF043303_AAV2_VP</referenceSequence>
+	<referenceSequence>REF_DQ813647_AAV12_VP</referenceSequence>
+	<referenceSequence>REF_GU226971_BatYNM_VP</referenceSequence>
+	<referenceSequence>REF_MN242367_MgAAV2_VP</referenceSequence>
+	<referenceSequence>REF_JN420372_PinAAV_VP</referenceSequence>
+	<referenceSequence>REF_AF085716_AAV5_VP</referenceSequence>
+	<referenceSequence>REF_AY186198_AvAAV_VP</referenceSequence>
+	<referenceSequence>REF_AY349010_Snake_VP</referenceSequence>
+	<referenceSequence>REF_U22967_MPDV_VP</referenceSequence>
+	<referenceSequence>REF_MN794870_FelineDpv_VP</referenceSequence>
+	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AF043303_AAV2_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_DQ813647_AAV12_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_GU226971_BatYNM_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MN242367_MgAAV2_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_JN420372_PinAAV_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AF085716_AAV5_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AY186198_AvAAV_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AY349010_Snake_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_U22967_MPDV_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MN794870_FelineDpv_NS</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>NS</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AF043303_AAV2_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_DQ813647_AAV12_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_GU226971_BatYNM_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MN242367_MgAAV2_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_JN420372_PinAAV_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AF085716_AAV5_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AY186198_AvAAV_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_AY349010_Snake_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_U22967_MPDV_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MN794870_FelineDpv_VP</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+	<id>VP</id>
+	<minimumBitScore>50</minimumBitScore>
+	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+	</recognitionCategory>
+
+</blastSequenceRecogniser>

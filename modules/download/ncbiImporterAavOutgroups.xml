@@ -1,0 +1,29 @@
+<!-- AAV outgroup dependoparvovirus reference sequences from NCBI -->
+<ncbiImporter>
+
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs-outgroups</sourceName>
+  
+  <specificPrimaryAccessions>
+
+	<!-- avian -->
+	<primaryAccession>AY186198</primaryAccession>   <!-- AvAAV-ATCC-VR-865 -->
+	<primaryAccession>AY629583</primaryAccession>   <!-- AvAAV-DA-1 -->
+	
+	<!-- reptile -->
+	<primaryAccession>NC_027429</primaryAccession>	<!--- BdrPV -->
+	<primaryAccession>NC_006148</primaryAccession>	<!--- SnakePV -->
+	
+	<!-- autonomous avian -->
+	<primaryAccession>NC_001701</primaryAccession>	<!--- GPV -->
+	<primaryAccession>NC_006147</primaryAccession>	<!--- MDPV -->
+  
+	<!-- mammalian dependoparvovirus 2 -->
+	<primaryAccession>MG745677</primaryAccession>	<!--- DrDPV -->
+	<primaryAccession>MN794870</primaryAccession>	<!--- FeDPV -->
+
+  </specificPrimaryAccessions>
+  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

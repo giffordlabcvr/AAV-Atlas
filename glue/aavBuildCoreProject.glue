@@ -20,6 +20,7 @@ project aav
   
   # Declare reference sequences
   run file glue/reference/aavReferences.glue
+  run file glue/reference/geneRecognitionReferences.glue
 
   # Import reference sequence-associated metadata
   run file glue/metadata/aavImportDataRefseqs.glue
