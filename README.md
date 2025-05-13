@@ -59,7 +59,6 @@ For detailed instructions on how to use AAV-Atlas for your comparative genomic a
 The AAV-Atlas project is organized as follows:
 
 ```
-aavPhyloUtility.xml                 # Tree partition utility definitions
 aav_atlas.sql.gz                    # Compressed SQL database dump (GLUE project)
 alignments/                         # Saved alignment files
 buildAavAtlas.glue                  # Master script for building AAV-Atlas from source
@@ -78,7 +77,7 @@ modules/                            # GLUE module configuration XMLs
   ├── ...                           # Additional utility and analysis modules
 README.md                           # Main project description and usage instructions
 sources/                            # Raw input sequence data (e.g. GenBank FASTA)
-tabular/                            # Processed tabular data for metadata and side-data
+tabular/                            # Tabular metadata / side-data
 trees/                              # Stored phylogenetic tree files
 ```
 
