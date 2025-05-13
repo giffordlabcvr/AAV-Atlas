@@ -54,6 +54,36 @@ For detailed instructions on how to use AAV-Atlas for your comparative genomic a
 
 * * * * *
 
+## Directory Structure
+
+The AAV-Atlas project is organized as follows:
+
+```
+aavPhyloUtility.xml                 # Tree partition utility definitions
+aav_atlas.sql.gz                    # Compressed SQL database dump (GLUE project)
+alignments/                         # Saved alignment files
+buildAavAtlas.glue                  # Master script for building AAV-Atlas from source
+example/                            # Example input/output files
+glue/                               # Core project scripts and source data
+  ├── aavBuildCoreProject.glue      # Script: Initialize core schema and data
+  ├── aavBuildNuccoreExt.glue       # Script: Import NCBI nuccore sequences
+  ├── aavImportSources.glue         # Script: Handle import of sequence sources
+  ├── aavModules.glue               # Script: Register module definitions
+  ├── aavProjectSettings.glue       # Script: Set general project config
+  ├── aavSchemaExtensions.glue      # Script: Define schema extensions
+  └── ...                           # Subdirectories contain inputs and logic for specific domains
+md/                                 # Markdown documentation files
+modules/                            # GLUE module configuration XMLs
+  ├── aavMaxLikelihoodGenotyper.xml # MLCA genotyping module config
+  ├── ...                           # Additional utility and analysis modules
+README.md                           # Main project description and usage instructions
+sources/                            # Raw input sequence data (e.g. GenBank FASTA)
+tabular/                            # Processed tabular data for metadata and side-data
+trees/                              # Stored phylogenetic tree files
+```
+
+* * * * *
+
 ## Data Sources
 
 AAV-Atlas is constructed using public data obtained from the [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) database.
