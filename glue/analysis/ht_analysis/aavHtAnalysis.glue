@@ -1,28 +1,31 @@
-  #~# Investigate horizontal transmission of capsids among distinct AAV Rep lineages
-
-  # Load additional sequence sources (outgroups and endogenous viral elements)
-  import source sources/fasta-eve-aav/
-  import source sources/ncbi-refseqs-outgroups/
+  #~# Investigate horizontal transmission (HT) of capsid genes among distinct AAV Rep lineages
 
   # Create modules for this analysis 
   run file glue/analysis/ht_analysis/aavHtAnalysisSelectorModules.glue
   run file glue/analysis/ht_analysis/aavHtAnalysisModules.glue
 
-  # Load the associated taxonomic data for these sequences
+  # Import additional sequence sources (outgroups and endogenous viral elements)
+  import source sources/fasta-eve-aav/
+  import source sources/ncbi-refseqs-outgroups/
+
+  # Import the associated taxonomic data for these sequences
   module aavSideDataImporterRefseqs populate -f tabular/aav-outgroups-taxonomy.tsv
   module aavSideDataImporterRefseqs populate -f tabular/aav-eves-taxonomy.tsv
 
   # Extract data from GenBank XML source(s)
   module aavGenbankXmlPopulator populate -w "source.name = 'ncbi-refseqs-outgroups'"
 
-  # Import the full-genome alignment with AAV references, AAV EVEs, and outgroup seqs
+  # Import the full-genome alignment for HT analysis, with AAV references, AAV EVEs, and outgroup seqs
   module unconstrainedAlignmentImporter
     import AL_UNC_AAV_HT_ANALYSIS -f alignments/root/aav-ht-analysis.aln.fna
     exit
-  
+
+  # Compose constrained MSAs for analysis
+  run file glue/analysis/ht_analysis/aavHtAnalysisComposeMsas.glue
+
   # Reconstruct phylogenies for the Rep and Capsid genes
-  run file glue/analysis/computeHtAnalysisPhylogenies.glue
+  run file glue/analysis/ht_analysis/aavHtAnalysisComputePhylogenies.glue
 
   # Reroot the phylogenies and export the alignment-specific annotation files
-  run file glue/phylogeny/aavPrepareHtPhylogenies.glue
+  run file glue/analysis/ht_analysis/aavHtAnalysisPreparePhylogenies.glue
 

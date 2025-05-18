@@ -21,12 +21,16 @@ schema-project aav
     create field length INTEGER
     create field pubmed_id INTEGER
 
-    # Industry or study ssociation
+    # Industry or study association
     create field association VARCHAR 100
 
 	# Taxonomy
     create field species VARCHAR 50
     create field serotype VARCHAR 50
+    create field contains_rep BOOLEAN
+    create field contains_cap BOOLEAN
+    create field rep_lineage VARCHAR 50
+    create field cap_lineage VARCHAR 50
 
 	# Isolate details
     create field isolate VARCHAR 100

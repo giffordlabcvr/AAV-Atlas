@@ -1,0 +1,67 @@
+#~# Build nucleotide trees (Rep78)
+
+module aavRaxmlPhylogenyGeneratorNucs
+
+  # Mammals-only dataset
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Rep78_00045_Nuc \
+    -a -o analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  # Avian outgroup dataset
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Rep78_00045_Nuc \
+    -a -o analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+exit
+
+
+#~# Build nucleotide trees (VP1)
+
+module aavRaxmlPhylogenyGeneratorNucs
+
+  # Mammals-only dataset
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1234567_Nuc \
+    -a -o analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  # Avian outgroup dataset
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1234567_Nuc \
+    -a -o analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+exit
+
+
+#~# Build amino acid trees (Rep78)
+
+module aavRaxmlPhylogenyGeneratorAAs
+
+
+  # Mammals-only dataset
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Rep78_00045_AA \
+    -a -o analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  # Avian outgroup dataset
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Rep78_00045_AA \
+    -a -o analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+exit
+
+
+#~# Build amino acid trees (VP1)
+
+module aavRaxmlPhylogenyGeneratorAAs
+
+  # Mammals-only dataset
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp \
+     -s aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA \
+     -a -o analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  # Avian outgroup dataset
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp \
+     -s aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA \
+     -a -o analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+exit

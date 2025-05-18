@@ -1,0 +1,70 @@
+  delete module aavPhyloUtility
+  delete module aavFigTreeAnnotationExporter
+  
+  create module -f modules/aavPhyloUtility.xml
+  create module -f modules/aavFigTreeAnnotationExporter.xml
+  
+  #~# Midpoint rooting
+  
+  module aavPhyloUtility
+  
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_noOutgrp.tree NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_noOutgrp.tree NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+  
+  #~# Outgroup rooting
+
+  module aavPhyloUtility
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/rep78_00045_amino_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_1234567_amino_highCapCoverage_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/rep78_00045_nucs_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_1234567_nucs_highCapCoverage_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+   
+  #~#  Export annotations
+   
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesAllTaxaNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesAllTaxaAvAavOutgrp.annotations.tsv
+
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighRepCoverageNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighRepCoverageAvAavOutgrp.annotations.tsv
+
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighCapCoverageNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighCapCoverageAvAavOutgrp.annotations.tsv
+
+

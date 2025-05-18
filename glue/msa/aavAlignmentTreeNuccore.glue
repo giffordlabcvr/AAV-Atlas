@@ -9,7 +9,6 @@
     demote member AL_Rodent1          --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Rodent1'" 
     demote member AL_Rodent2          --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Rodent2'" 
     demote member AL_Chiropteran1     --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Chiropteran1'" 
-    demote member AL_Chiropteran2     --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Chiropteran2'" 
     demote member AL_Carnivore1       --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.species = 'Carnivore1'" 
     exit
 
@@ -57,13 +56,6 @@
 
     demote member AL_BatAAV_ynm       --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'BatAAV'"   
     exit
-
-
-  alignment AL_Chiropteran2
-
-    demote member AL_DrAAV            --whereClause "sequence.source.name like 'ncbi-nuccore-aav%' and sequence.serotype = 'DrAAV'"   
-    exit
-
 
   alignment AL_Carnivore1
 
