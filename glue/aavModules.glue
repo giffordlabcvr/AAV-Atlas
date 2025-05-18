@@ -9,7 +9,8 @@
 	# Import modules
 	create module --fileName modules/unconstrainedAlignmentImporter.xml
 	create module --fileName modules/aavGenbankXmlPopulator.xml
-	create module --fileName modules/aavSideDataImporterSpecies.xml
+	create module --fileName modules/aavSideDataImporterRefseqs.xml
+	create module --fileName modules/aavSideDataImporterNuccore.xml
 
 	# Create genotyping modules
 	create module -f modules/aavMaxLikelihoodGenotyper.xml

@@ -1,0 +1,72 @@
+
+	#~# Delete all alignment column selector modules (clean-up)
+
+	# Rep78 nucleotide
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00005_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00045_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00345_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_02345_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_12345_Nuc
+
+	# VP1 nucleotide
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_0000060_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_0000067_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_1000000_Nuc
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_1234567_Nuc
+
+	# Rep+VP1 nucleotide
+	delete module aavAlignmentColumnsHtAnalysis-Rep78+VP1_all_Nuc
+
+	# Rep78 amino acid
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00005_AA
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00045_AA
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_00345_AA
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_02345_AA
+	delete module aavAlignmentColumnsHtAnalysis-Rep78_12345_AA
+
+	# VP1 amino acid
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_0000060_AA
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_0000067_AA
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA
+	delete module aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA
+
+	# Rep+VP1 amino acid
+	delete module aavAlignmentColumnsHtAnalysis-Rep78+VP1_12345_AA
+
+
+	#~# Instantiate all alignment column selector modules (nucs)
+
+	# Rep nucleotide partition selector modules
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/nucs/aavAlignmentColumnsHtAnalysis-Rep78_00005_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/nucs/aavAlignmentColumnsHtAnalysis-Rep78_00045_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/nucs/aavAlignmentColumnsHtAnalysis-Rep78_00345_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/nucs/aavAlignmentColumnsHtAnalysis-Rep78_02345_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/nucs/aavAlignmentColumnsHtAnalysis-Rep78_12345_Nuc.xml
+
+	# VP1 nucleotide partition selector modules
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/nucs/aavAlignmentColumnsHtAnalysis-Vp1_0000060_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/nucs/aavAlignmentColumnsHtAnalysis-Vp1_0000067_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/nucs/aavAlignmentColumnsHtAnalysis-Vp1_1000000_Nuc.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/nucs/aavAlignmentColumnsHtAnalysis-Vp1_1234567_Nuc.xml
+
+	# Rep+VP1 nucleotide partition selector module
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78+vp1/nucs/aavAlignmentColumnsHtAnalysis-Rep78+VP1_all_Nuc.xml
+
+
+	#~# Instantiate all alignment column selector modules (aas)
+
+	# Rep amino acid partition selector modules
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/aa/aavAlignmentColumnsHtAnalysis-Rep78_00005_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/aa/aavAlignmentColumnsHtAnalysis-Rep78_00045_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/aa/aavAlignmentColumnsHtAnalysis-Rep78_00345_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/aa/aavAlignmentColumnsHtAnalysis-Rep78_02345_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78/aa/aavAlignmentColumnsHtAnalysis-Rep78_12345_AA.xml
+
+	# VP1 amino acid partition selector modules
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/aa/aavAlignmentColumnsHtAnalysis-Vp1_0000060_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/aa/aavAlignmentColumnsHtAnalysis-Vp1_0000067_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/aa/aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA.xml
+	create module -f modules/msaColumnSelectors/ht_analysis/vp1/aa/aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA.xml
+
+	# Rep+VP1 amino acid partition selector module
+	create module -f modules/msaColumnSelectors/ht_analysis/rep78+vp1/aa/aavAlignmentColumnsHtAnalysis-Rep78+VP1_12345_AA.xml

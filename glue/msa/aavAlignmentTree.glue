@@ -23,9 +23,6 @@
     extract child AL_Chiropteran1      --refName REF_BatAAV
     demote member AL_Chiropteran1      --whereClause "sequence.species = 'Chiropteran1'" 
 
-    extract child AL_Chiropteran2      --refName REF_DrAAV
-    demote member AL_Chiropteran2      --whereClause "sequence.species = 'Chiropteran2'" 
-
     extract child AL_Carnivore1        --refName REF_PinAAV
     demote member AL_Carnivore1        --whereClause "sequence.species = 'Carnivore1'" 
 
@@ -131,18 +128,6 @@
   
     exit
 
-
-  alignment AL_Chiropteran2
-
-    set field displayName "Dependoparvovirus Chiropteran2"
-    set field clade_category "species" 
-
-    extract child AL_DrAAV          --refName REF_DrAAV
-    demote member AL_DrAAV          --whereClause "sequence.serotype = 'DrAAV'" 
-  
-    exit
-
-
   alignment AL_Carnivore1
 
     set field displayName "Dependoparvovirus Carnivore1"
@@ -161,11 +146,6 @@
 
   alignment AL_BatAAV_ynm
     set field displayName "Bat AAV YNM"
-    set field clade_category "serotype" 
-    exit
-
-  alignment AL_DrAAV
-    set field displayName "Desmodus rotundus dependoparvovirus"
     set field clade_category "serotype" 
     exit
 

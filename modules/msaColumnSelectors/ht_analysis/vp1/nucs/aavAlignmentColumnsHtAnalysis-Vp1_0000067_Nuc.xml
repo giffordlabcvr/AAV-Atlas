@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+
+    <!-- Partition 6 (main conserved section)-->
+    <nucleotideRegionSelector>
+        <featureName>whole_genome</featureName>
+        <startNt>3880</startNt>
+        <endNt>4314</endNt>
+    </nucleotideRegionSelector>
+
+    <!-- Partition 7 (main conserved section)-->
+    <nucleotideRegionSelector>
+        <featureName>whole_genome</featureName>
+        <startNt>4336</startNt>
+        <endNt>4395</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>
+

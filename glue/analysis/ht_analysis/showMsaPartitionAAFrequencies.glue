@@ -1,0 +1,15 @@
+# Rep78 frequencies
+
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Rep78_00005_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Rep78_00045_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Rep78_00345_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Rep78_02345_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Rep78_12345_AA
+
+# VP1 frequencies
+
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Vp1_0000060_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Vp1_0000067_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -a aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA
+

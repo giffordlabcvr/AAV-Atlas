@@ -1,0 +1,9 @@
+	#~# Delete HT analysis modules (clean-up)
+
+	delete module aavRaxmlPhylogenyGeneratorNucs
+	delete module aavRaxmlPhylogenyGeneratorAas
+
+	#~# Create all HT analysis modules
+
+	create module -f modules/aavRaxmlPhylogenyGeneratorNucs.xml
+	create module -f modules/aavRaxmlPhylogenyGeneratorAas.xml

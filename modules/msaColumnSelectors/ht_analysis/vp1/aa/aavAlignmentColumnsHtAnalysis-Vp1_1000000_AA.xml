@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+ 
+    <!-- Partition 1 -->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>44</startCodon>
+        <endCodon>133</endCodon>
+    </aminoAcidRegionSelector>
+
+</alignmentColumnsSelector>
+

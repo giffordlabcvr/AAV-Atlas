@@ -1,0 +1,9 @@
+sequenceID	GenBank Refseq	species	serotype	full name
+KP733794	NC_027429	Reptile1	BdPV	Bearded dragon parvovirus strain 2014
+AY349010	NC_006148	Reptile2	SnPv	Snake parvovirus 1
+AY186198		GalliformeAAV	AvAAV-ATCC-VR-865	Avian adeno-associated virus ATCC VR-865
+AY629583		GalliformeAAV	AvAAV-DA-1	Avian adeno-associated virus strain DA-1
+U22967	NC_006147	Anseriforme	GPV	Goose parvovirus
+U25749	NC_001701	Anseriforme	MPDV	Muscovy duck parvovirus
+MN794870		FelineDPV	FdPV	Feline dependoparvovirus
+MG745677		DesmodusDPV	DrPV	Desmodus rotundus dependoparvovirus

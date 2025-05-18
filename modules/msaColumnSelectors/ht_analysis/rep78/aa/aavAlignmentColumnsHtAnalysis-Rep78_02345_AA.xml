@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+ 
+    <!-- Partition 2 -->
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>78</startCodon>
+        <endCodon>137</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 3 -->
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>145</startCodon>
+        <endCodon>185</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 4 -->
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>224</startCodon>
+        <endCodon>286</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 5 (main conserved section)-->
+    <aminoAcidRegionSelector>
+        <featureName>Rep78</featureName>
+        <startCodon>296</startCodon>
+        <endCodon>472</endCodon>
+    </aminoAcidRegionSelector>
+
+</alignmentColumnsSelector>
+

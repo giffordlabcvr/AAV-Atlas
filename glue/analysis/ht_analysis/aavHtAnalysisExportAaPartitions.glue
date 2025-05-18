@@ -1,0 +1,20 @@
+# Export the alignment partition sets as amino acid sequences
+
+# Rep78 (replication-associated protein) 
+
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78_00005_AA -a -o aav-ht-rep78-aa-partitions-00005.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78_00045_AA -a -o aav-ht-rep78-aa-partitions-00045.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78_00345_AA -a -o aav-ht-rep78-aa-partitions-00345.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78_02345_AA -a -o aav-ht-rep78-aa-partitions-02345.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78_12345_AA -a -o aav-ht-rep78-aa-partitions-12345.aln.faa
+
+# VP1 (capsid) 
+
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Vp1_0000060_AA -a -o aav-ht-vp1-aa-partitions-0000060.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Vp1_0000067_AA -a -o aav-ht-vp1-aa-partitions-0000067.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA -a -o aav-ht-vp1-aa-partitions-1000000.aln.faa
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Vp1_1234567_AA -a -o aav-ht-vp1-aa-partitions-1234567.aln.faa
+
+# Rep78 + VP1 
+
+module fastaProteinAlignmentExporter export AL_AAV_HT_ANALYSIS_AvAavOutgrp -s aavAlignmentColumnsHtAnalysis-Rep78+VP1_12345_AA -a -o aav-ht-rep78vp1-aa-partitions-12345.aln.faa

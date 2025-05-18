@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<textFilePopulator>
+
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>sequenceID</header>
+        <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>species</header>
+        <property>species</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>serotype</header>
+        <property>serotype</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>full name</header>
+        <property>full_name</property>
+    </textFileColumn>
+
+    <skipMissing>true</skipMissing>
+
+</textFilePopulator>

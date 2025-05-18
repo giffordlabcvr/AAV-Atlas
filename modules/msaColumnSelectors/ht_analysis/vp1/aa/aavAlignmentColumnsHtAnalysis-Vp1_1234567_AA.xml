@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_AAV2</relRefName>
+ 
+    <!-- Partition 1 -->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>44</startCodon>
+        <endCodon>133</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 2 -->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>211</startCodon>
+        <endCodon>257</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 3 -->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>272</startCodon>
+        <endCodon>380</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 4 -->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>392</startCodon>
+        <endCodon>448</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 5 (main conserved section)-->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>462</startCodon>
+        <endCodon>481</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 6 (main conserved section)-->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>560</startCodon>
+        <endCodon>704</endCodon>
+    </aminoAcidRegionSelector>
+
+    <!-- Partition 7 (main conserved section)-->
+    <aminoAcidRegionSelector>
+        <featureName>VP1</featureName>
+        <startCodon>712</startCodon>
+        <endCodon>731</endCodon>
+    </aminoAcidRegionSelector>
+
+</alignmentColumnsSelector>
+
