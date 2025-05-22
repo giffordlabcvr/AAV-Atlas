@@ -58,7 +58,7 @@ After the script completes, rerooted trees and annotations will be available und
 analyses/ht_analysis/trees/
 ```
 
-You can open the resulting trees in **FigTree** or any other Newick-compatible viewer. To enrich your tree with contextual metadata (e.g., taxon, group, host), use **FigTree's `Import Annotations`** feature.
+You can open the resulting trees in **[FigTree](https://github.com/rambaut/figtree/)** or any other Newick-compatible viewer. To enrich your tree with contextual metadata (e.g., taxon, group, host), use **FigTree's `Import Annotations`** feature.
 
 > 🔎 Make sure to import the **annotation file that matches the alignment** used to construct the tree.\
 > For example, for trees built from the `AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp` alignment, use:\
