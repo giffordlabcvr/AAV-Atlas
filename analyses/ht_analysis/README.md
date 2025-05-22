@@ -7,9 +7,9 @@ Background and Rationale
 ------------------------
 
 The *rep* and *cap* genes of AAVs show incongruent phylogenetic relationships.
-This observation, supported by historical and experimental context, suggests that recombination events have mediated horizontal transfer of capsid genes between otherwise divergent lineages.
+This observation suggests that recombination events have mediated horizontal transfer of capsid genes between otherwise divergent lineages.
 
-This analysis builds on these observations by:
+The analysis described below builds on these observations by:
 
 -   Integrating both reference sequences and endogenous viral elements (EVEs) from mammalian genomes.
 
