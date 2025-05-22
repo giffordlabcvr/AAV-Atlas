@@ -1,5 +1,9 @@
 ### Running the Horizontal Transfer (HT) Analysis Workflow in Docker
 
+> 💡 **Before you begin:**\
+> Ensure you've installed AAV-Atlas using Docker by following the [main Docker installation guide](https://github.com/giffordlabcvr/AAV-Atlas/wiki/Docker-Installation).\
+> This sets up the required `gluetools-mysql` container and installs the `aav` project database.
+
 The HT analysis in AAV-Atlas investigates recombination-driven horizontal transfer of *cap* genes across divergent *rep* lineages. The analysis is defined entirely within the GLUE project and executed by running a single script, provided the project files are accessible inside the Docker container.
 
 #### Step 1: Mount the AAV-Atlas directory when starting the GLUE container
