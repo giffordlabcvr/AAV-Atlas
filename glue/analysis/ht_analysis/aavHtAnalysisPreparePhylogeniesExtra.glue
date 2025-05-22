@@ -1,0 +1,55 @@
+  delete module aavPhyloUtility
+  create module -f modules/aavPhyloUtility.xml
+
+  #~# Midpoint rooting
+
+  module aavPhyloUtility
+
+    reroot-phylogeny \
+	  --inputFile analyses/ht_analysis/trees/vp1_0000067_amino_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+	  --midpoint \
+	  --outputFile analyses/ht_analysis/trees/vp1_0000067_amino_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+  	  --inputFile analyses/ht_analysis/trees/vp1_0000067_nucs_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+	  --midpoint \
+	  --outputFile analyses/ht_analysis/trees/vp1_0000067_nucs_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+	  --inputFile analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+	  --midpoint \
+	  --outputFile analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+	  --inputFile analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS \
+	  --midpoint \
+	  --outputFile analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_noOutgrp_MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+  exit
+
+
+  #~# Outgroup rooting
+
+  module aavPhyloUtility
+
+    reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_0000067_amino_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_0000067_amino_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_0000067_nucs_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_0000067_nucs_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+    reroot-phylogeny \
+      --inputFile analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS \
+      --outgroup alignment/AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp/member/ncbi-refseqs-outgroups/AY186198 \
+      --outputFile analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_avianOutgrp_OutGrpRerooted.tree NEWICK_BOOTSTRAPS
+
+  exit

@@ -1,0 +1,49 @@
+# Remove taxa that dont span partition 1
+alignment AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp
+  remove member -w "sequence.sequenceID = 'dependo.46-gliridae'"
+  remove member -w "sequence.sequenceID = 'AF513852'"
+
+exit
+
+alignment AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp
+  remove member -w "sequence.sequenceID = 'dependo.46-gliridae'"
+  remove member -w "sequence.sequenceID = 'AF513852'"
+
+exit
+
+#~# Build nucleotide trees (VP1) for partial coverage sequences
+
+
+module aavRaxmlPhylogenyGeneratorNucs
+
+  #~# For epv-dependo.13 (covers 5' end of vp1 gene) 
+
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1000000_Nuc \
+    -a -o analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  generate nucleotide phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1000000_Nuc \
+    -a -o analyses/ht_analysis/trees/vp1_1000000_nucs_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+exit
+
+
+
+#~# Build amino acid trees (VP1)
+
+module aavRaxmlPhylogenyGeneratorAAs
+
+  #~# For epv-dependo.13 (covers 5' end of vp1 gene) 
+
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA \
+    -a -o analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_noOutgrp.tree NEWICK_BOOTSTRAPS
+
+  generate amino-acid phylogeny AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp \
+    -s aavAlignmentColumnsHtAnalysis-Vp1_1000000_AA \
+    -a -o analyses/ht_analysis/trees/vp1_1000000_amino_allTaxa_avianOutgrp.tree NEWICK_BOOTSTRAPS
+
+
+exit
+

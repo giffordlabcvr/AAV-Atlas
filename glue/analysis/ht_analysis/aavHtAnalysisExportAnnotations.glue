@@ -1,0 +1,16 @@
+
+  delete module aavFigTreeAnnotationExporter
+  create module -f modules/aavFigTreeAnnotationExporter.xml
+   
+  #~#  Export annotations
+   
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_AllTaxa_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesAllTaxaNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_AllTaxa_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesAllTaxaAvAavOutgrp.annotations.tsv
+
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighRepCoverageNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighRepCoverageAvAavOutgrp.annotations.tsv
+
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighCapCoverageNoOutgrp.annotations.tsv
+  module aavFigTreeAnnotationExporter export figtree-annotation AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp -f analyses/ht_analysis/trees/aavHtPhylogeniesHighCapCoverageAvAavOutgrp.annotations.tsv
+
+

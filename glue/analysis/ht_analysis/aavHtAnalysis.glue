@@ -29,3 +29,7 @@
   # Reroot the phylogenies and export the alignment-specific annotation files
   run file glue/analysis/ht_analysis/aavHtAnalysisPreparePhylogenies.glue
 
+  # Export annotations for phylogenies
+  run file glue/analysis/ht_analysis/aavHtAnalysisExportAnnotations.glue
+  
+  
