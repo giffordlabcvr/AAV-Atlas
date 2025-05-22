@@ -6,7 +6,8 @@ This section of AAV-Atlas documents a reproducible analytical workflow investiga
 Background and Rationale
 ------------------------
 
-AAVs are small, non-enveloped DNA viruses whose *rep* and *cap* genes often show incongruent phylogenetic relationships. This observation, supported by historical and experimental context, suggests that recombination events have mediated horizontal transfer of capsid genes between otherwise divergent lineages.
+The *rep* and *cap* genes of AAVs show incongruent phylogenetic relationships.
+This observation, supported by historical and experimental context, suggests that recombination events have mediated horizontal transfer of capsid genes between otherwise divergent lineages.
 
 This analysis builds on these observations by:
 
@@ -16,10 +17,83 @@ This analysis builds on these observations by:
 
 -   Exploring congruence and incongruence in tree topologies across taxa, partitions, and rooting strategies.
 
-Overview of the Reproducible Workflow
--------------------------------------
 
-The complete analysis can be reproduced from within a GLUE project environment by executing a series of scripted steps. Each step is fully modular and tracked within the repository structure.
+Directory Contents
+------------------
+
+### `glue/analysis/ht_analysis/`
+
+GLUE script files for setting up and executing the analysis:
+
+-   `aavHtAnalysisSelectorModules.glue`: Defines alignment column selector modules for conserved Rep and VP1 partitions.
+
+-   `aavHtAnalysisModules.glue`: Creates modules for tree generation, rerooting, and annotation export.
+
+-   `aavHtAnalysisComposeMsas.glue`: Composes the different taxa-based alignments used in tree construction.
+
+-   `aavHtAnalysisComputePhylogenies.glue`: Computes ML phylogenies for selected nucleotide and amino acid partitions.
+
+-   `aavHtAnalysisPreparePhylogenies.glue`: Applies midpoint or outgroup rooting strategies.
+
+-   `aavHtAnalysisExportAnnotations.glue`: Exports alignment member metadata for tip annotation in FigTree or similar tools.
+
+### `analyses/ht_analysis/export-scripts/`
+
+-   `aavHtAnalysisExportAaPartitions.glue`: Exports amino acid alignments for downstream analysis and visualization.
+
+### `analyses/ht_analysis/orthogonal/`
+
+Supporting recombination and network-based analyses:
+
+-   `GARD/`: Includes output logs from the GARD recombination analysis (`GARD log.txt`).
+
+-   `splits-tree/`: Input and results from SplitsTree analysis of conserved concatenated partitions.
+
+    -   `aav-mintax-maxcoverage.fna`: Concatenated alignment used for network inference.
+
+    -   `aav-mintax-maxcoverage.stree6`: SplitsTree network file.
+
+    -   `splits-tree-result.pdf`, `splits-tree-result.png`: Visual output of the resulting split decomposition network.
+
+### `analyses/ht_analysis/summary-tables/`
+
+-   `rep78+vp1_conserved_partitions.docx`: Table of conserved Rep78 and VP1 partitions used for tree construction.
+
+-   `extended-isolation+assoc.docx`: Metadata summary of taxa included in the analysis, including host information and known associations.
+
+### `analyses/ht_analysis/trees/`
+
+Phylogenetic trees and annotation files:
+
+-   Files follow a consistent naming scheme:
+
+    -   Prefixes: `rep78_`, `vp1_`, etc. denote which gene the tree corresponds to.
+
+    -   Suffixes like `_nucs` or `_amino` specify nucleotide vs. amino acid partition.
+
+    -   Alignment set (e.g., `allTaxa`, `highCapCoverage`) and rooting method (`noOutgrp`, `avianOutgrp`, `MidpointRerooted`, `OutGrpRerooted`) are embedded.
+
+-   `aavHtPhylogenies*.annotations.tsv`: Annotation files providing alignment member metadata for visualizing trees.
+
+-   `*.tree`: Unrooted phylogenies.
+
+-   `*_MidpointRerooted.tree`: Phylogenies rooted using midpoint strategy.
+
+-   `*_OutGrpRerooted.tree`: Phylogenies rooted using an avian AAV outgroup (`AY186198`).
+
+* * * * *
+
+### Running the Analysis
+
+Once AAV-Atlas is installed (either built natively or imported using the `.sql.gz` snapshot provided at the repository root), the complete analysis can be reproduced from within a GLUE project environment by entering a single command:
+
+```
+Mode path: /
+GLUE> project aav run file glue/analysis/ht_analysis/aavHtAnalysis.glue
+```
+
+This will execute all analysis steps, including alignment composition, phylogeny generation, rerooting, and annotation export, as described below.
+
 
 ### 1\. Setup and Data Import
 
@@ -108,17 +182,6 @@ The trees produced by this workflow support key findings reported in the associa
 -   The inclusion of EVEs enables rooting and lineage tracing beyond currently circulating strains.
 
 Different partitions and rooting strategies provide consistent support for these conclusions, while selective alignment composition avoids artefactual placements of short or divergent sequences.
-
-Extensibility
--------------
-
-This analysis framework can be extended by:
-
--   Adding new taxa or EVEs
-
--   Modifying selector modules to explore alternative conserved regions
-
--   Applying additional recombination or network-based methods (e.g., GARD, SplitsTree)
 
 * * * * *
 
