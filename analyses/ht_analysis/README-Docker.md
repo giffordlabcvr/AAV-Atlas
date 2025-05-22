@@ -11,12 +11,12 @@ The HT analysis in AAV-Atlas investigates recombination-driven horizontal transf
 If your local clone of the AAV-Atlas repository is in `/home/fred/AAV-Atlas`, run:
 
 ```
-docker run --rm -it \\
-  --name gluetools \\
-  --volume /home/fred/AAV-Atlas:/opt/aav \\
-  --workdir /opt/aav \\
-  --link gluetools-mysql \\
-  cvrbioinformatics/gluetools:latest
+docker run --rm -it \
+  --name gluetools \
+  --volume /home/fred/AAV-Atlas:/opt/aav \
+  --workdir /opt/aav \
+  --link gluetools-mysql \
+  cvrbioinformatics/gluetools:latest
 ```
 
 This mounts the local `AAV-Atlas` directory into the container as `/opt/aav`, allowing the analysis files to be accessed and executed.
