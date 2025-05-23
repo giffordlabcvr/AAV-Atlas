@@ -160,14 +160,52 @@ Key components of the workflow are organized as follows:
 
 ```
 glue/analysis/ht_analysis/
-├── aavHtAnalysisSelectorModules.glue      # Defines alignment column selectors
+├── aavHtAnalysisSelectorModules.glue      # Loads alignment column selector modules
 ├── aavHtAnalysisModules.glue              # Defines phylogeny/utility modules
 ├── aavHtAnalysisComposeMsas.glue          # Composes constrained alignments
 ├── aavHtAnalysisComputePhylogenies.glue   # Builds nucleotide and AA trees
 ├── aavHtAnalysisPreparePhylogenies.glue   # Reroots trees
 ├── aavHtAnalysisExportAnnotations.glue    # Exports FigTree-compatible annotations
-├── partition-definitions/                 # Selector module XML files
-└── trees/                                 # Tree output directory
+
+modules/msaColumnSelectors/ht_analysis/    # Alignment column selector definitions
+├── rep78/
+│   ├── aa/                                # Rep78 amino acid selector XMLs
+│   └── nucs/                              # Rep78 nucleotide selector XMLs
+├── vp1/
+│   ├── aa/                                # VP1 amino acid selector XMLs
+│   └── nucs/                              # VP1 nucleotide selector XMLs
+└── rep78+vp1/
+    ├── aa/                                # Combined Rep78+VP1 amino acid selector
+    └── nucs/                              # Combined Rep78+VP1 nucleotide selector
+
+analyses/ht_analysis/
+├── README.md                                # Main documentation for the HT analysis
+├── README-Docker.md                         # Instructions for running in Docker
+│
+├── trees/                                   # Phylogenetic tree outputs
+│   ├── ancillary/                           # Trees for alternate taxon/partition sets
+│   └── *.tree                               # Primary trees from main alignments
+│
+├── utility-scripts/                         # Utility scripts for exports and QA
+│   ├── aavHtAnalysisExportAaPartitions.glue
+│   ├── aavHtAnalysisExportNucPartitions.glue
+│   └── aavHtAnalysisShowAaConservation.glue
+│
+├── additional-material/
+│   ├── orthogonal/                          # SplitsTree and GARD recombination analyses
+│   │   ├── GARD/
+│   │   └── splits-tree/
+│   │
+│   ├── rep-codivergence/
+│   │   └── AAV Rep-Host Codivergence.pdf    # Rooted Rep phylogeny figure with EVE support
+│   │
+│   └── summary-tables/                      # Partition definitions and host metadata
+│       ├── table s1+s2 partitions.docx
+│       ├── table s3 extended-isolation+assoc.docx
+│       ├── rep78-coverage.tsv
+│       ├── vp1-coverage.tsv
+│       ├── rep-coverage.xlsx
+│       └── vp-coverage.xlsx
 ```
 
 Interpreting the Trees
@@ -185,4 +223,3 @@ Different partitions and rooting strategies provide consistent support for these
 
 * * * * *
 
-For a quick start, follow the `README.md` in the `ht_analysis` directory, which includes command-by-command instructions for running the complete workflow.
