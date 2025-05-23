@@ -223,4 +223,3 @@ Different partitions and rooting strategies provide consistent support for these
 
 * * * * *
 
-For a quick start, follow the `README.md` in the `ht_analysis` directory, which includes command-by-command instructions for running the complete workflow.
