@@ -1,0 +1,68 @@
+	#~# Compose base alignments
+
+	# HighRepCoverage (no outgroup)
+	create alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp -r REF_MASTER_AAV2
+
+	# HighCapCoverage (no outgroup)
+	create alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp -r REF_MASTER_AAV2
+
+	# HighRepCoverage (with avian outgroup)
+	create alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp -r REF_MASTER_AAV2
+
+	# HighCapCoverage (with avian outgroup)
+	create alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp -r REF_MASTER_AAV2
+
+	#~# Add members to alignments
+
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp
+	  add member -w "source.name = 'ncbi-refseqs-aav'"
+	  add member -w "source.name = 'fasta-eve-aav'"
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp
+	  add member -w "source.name = 'ncbi-refseqs-aav'"
+	  add member -w "source.name = 'fasta-eve-aav'"
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp
+	  add member -w "source.name = 'ncbi-refseqs-aav'"
+	  add member -w "source.name = 'fasta-eve-aav'"
+	  add member -w "sequenceID = 'AY186198'"  # Avian AAV outgroup
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp
+	  add member -w "source.name = 'ncbi-refseqs-aav'"
+	  add member -w "source.name = 'fasta-eve-aav'"
+	  add member -w "sequenceID = 'AY186198'"  # Avian AAV outgroup
+	exit
+
+	#~# Remove low-coverage taxa from HighCoverage alignments
+
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp
+	  remove member -w "sequence.sequenceID = 'FJ688147'"  # Porcine AAV
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp
+	  remove member -w "sequence.sequenceID = 'FJ688147'"  # Porcine AAV
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp
+	  remove member -w "sequence.sequenceID = 'dependo.13-cercopithecidae'"
+	  remove member -w "sequence.sequenceID = 'dependo.46-gliridae'"
+	exit
+
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp
+	  remove member -w "sequence.sequenceID = 'dependo.13-cercopithecidae'"
+	  remove member -w "sequence.sequenceID = 'dependo.46-gliridae'"
+	exit
+
+
+	#~# Derive segments from the unconstrained master alignment
+
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_NoOutgrp derive segments AL_UNC_AAV_HT_ANALYSIS -e -a
+	alignment AL_AAV_HT_ANALYSIS_HighRepCoverage_AvAavOutgrp derive segments AL_UNC_AAV_HT_ANALYSIS -e -a
+
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_NoOutgrp derive segments AL_UNC_AAV_HT_ANALYSIS -e -a
+	alignment AL_AAV_HT_ANALYSIS_HighCapCoverage_AvAavOutgrp derive segments AL_UNC_AAV_HT_ANALYSIS -e -a
+
+

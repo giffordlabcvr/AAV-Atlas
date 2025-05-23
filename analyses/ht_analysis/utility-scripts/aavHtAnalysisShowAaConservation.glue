@@ -1,0 +1,13 @@
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f Rep78 -l 1 21
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f Rep78 -l 78 137
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f Rep78 -l 145 185
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f Rep78 -l 224 286
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f Rep78 -l 296 472
+
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 44 133
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 211 257
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 272 380
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 392 448
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 462 481
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 560 704
+alignment AL_AAV_HT_ANALYSIS_AvAavOutgrp amino-acid frequency -r REF_MASTER_AAV2 -f VP1 -l 712 731

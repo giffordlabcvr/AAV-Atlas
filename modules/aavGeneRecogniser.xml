@@ -19,7 +19,7 @@
 	<referenceSequence>REF_AY349010_Snake_NS</referenceSequence>
 	<referenceSequence>REF_U22967_MPDV_NS</referenceSequence>
 	<referenceSequence>REF_MN794870_FelineDpv_NS</referenceSequence>
-	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+	<referenceSequence>REF_MG745677_DrAAV_NS</referenceSequence>
 
 	<!-- Capsid gene references -->
 	<referenceSequence>REF_AF043303_AAV2_VP</referenceSequence>
@@ -97,7 +97,7 @@
 	<recognitionCategory>
 	<id>NS</id>
 	<minimumBitScore>50</minimumBitScore>
-	<referenceSequence>REF_MG745677_DrAAV_VP</referenceSequence>
+	<referenceSequence>REF_MG745677_DrAAV_NS</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>

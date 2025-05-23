@@ -12,6 +12,9 @@
 	create module --fileName modules/aavSideDataImporterRefseqs.xml
 	create module --fileName modules/aavSideDataImporterNuccore.xml
 
+    # Gene recogniser
+    create module -f modules/aavGeneRecogniser.xml
+
 	# Create genotyping modules
 	create module -f modules/aavMaxLikelihoodGenotyper.xml
 	create module -f modules/aavMaxLikelihoodPlacer.xml

@@ -1,0 +1,30 @@
+member.sequence.sequenceID	member.sequence.full_name	featureLoc.feature.name	member.alignment.name	member.sequence.source.name	ref_nt_coverage_pct
+AF043303	Adeno-associated virus 2	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	100.0
+U48704	Adeno-associated virus 3	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	100.0
+U89790	Adeno-associated virus 4	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	100.0
+AF028704	Adeno-associated virus 6	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AF063497	Adeno-associated virus 1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AF513851	Adeno-associated virus 7	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AF513852	Adeno-associated virus 8	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AX753250	Adeno-associated virus 9	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AY631965	Adeno-associated virus 10	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+AY631966	Adeno-associated virus 11	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+DQ813647	Adeno-associated virus 12	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	99.67845659163987
+dependo.13-cercopithecidae	dependo.13-cercopithecidae	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	fasta-eve-aav	98.87459807073955
+AY629583	Avian adeno-associated virus strain DA-1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-outgroups	97.7491961414791
+AY186198	Avian adeno-associated virus ATCC VR-865	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-outgroups	97.58842443729904
+GU226971	Bat adeno-associated virus	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	95.9807073954984
+JN420372	California sea lion adeno-associated virus 1 isolate 1187	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	94.37299035369774
+AF085716	Adeno-associated virus 5	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	93.72990353697749
+AY388617	Bovine adeno-associated virus	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	93.72990353697749
+DQ335246	Adeno-associated virus-Go.1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	93.72990353697749
+MN242366	Adeno-associated virus isolate MgAAV1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	93.72990353697749
+MN242367	Adeno-associated virus isolate MgAAV2	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	93.67631296891747
+MF416383	Murine adeno-associated virus 1 isolate MAAV1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	88.90675241157557
+dependo.60-gymnobelideus	dependo.60-gymnobelideus	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	fasta-eve-aav	85.53054662379421
+dependo.0-macropus	dependo.0-macropus	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	fasta-eve-aav	84.29796355841371
+PP098970	Adeno-associated virus isolate MCAAV1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	83.65487674169346
+dependo.174-pipistrellus	dependo.174-pipistrellus	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	fasta-eve-aav	78.29581993569131
+PP098971	Adeno-associated virus isolate MCAAV2	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	69.18542336548768
+dependo.46-gliridae	dependo.46-gliridae	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	fasta-eve-aav	56.59163987138264
+FJ688147	Adeno-associated virus - Po1	Rep78	AL_AAV_HT_ANALYSIS_AvAavOutgrp	ncbi-refseqs-aav	38.10289389067524
