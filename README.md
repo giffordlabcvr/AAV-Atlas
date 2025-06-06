@@ -65,8 +65,9 @@ The directory contains:
 -   Re-rooting strategies and visualisation metadata
 -   Orthogonal support from tools like GARD and SplitsTree
 
-For details, see the `ht_analysis/README.md`.
+For details, see the [`ht_analysis/README.md`](https://github.com/giffordlabcvr/AAV-Atlas/tree/main/analyses/ht_analysis).
 
+* * * * *
 
 ## Directory Structure
 
