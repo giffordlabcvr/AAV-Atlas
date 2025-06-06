@@ -76,6 +76,8 @@ The AAV-Atlas project is organized as follows:
 ```
 aav_atlas.sql.gz                    # Compressed SQL database dump (GLUE project)
 alignments/                         # Saved alignment files
+analyses/                           # Reproducible comparative analyses (e.g., HT analysis)
+  └── ht_analysis/                  # Horizontal transfer analysis workflow, trees, metadata
 buildAavAtlas.glue                  # Master script for building AAV-Atlas from source
 example/                            # Example input/output files
 glue/                               # Core project scripts and source data
