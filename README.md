@@ -54,6 +54,20 @@ For detailed instructions on how to use AAV-Atlas for your comparative genomic a
 
 * * * * *
 
+##  Reproducible Horizontal Transfer (HT) Analysis
+
+AAV-Atlas includes a fully reproducible analysis pipeline used to investigating horizontal transfer of AAV capsid genes among *rep* lineages. This analysis is located in `analyses/ht_analysis/`
+
+The directory contains:
+
+-   Phylogenetic trees based on different taxon and partition sets
+-   Imported EVEs and outgroups
+-   Re-rooting strategies and visualisation metadata
+-   Orthogonal support from tools like GARD and SplitsTree
+
+For details, see the `ht_analysis/README.md`.
+
+
 ## Directory Structure
 
 The AAV-Atlas project is organized as follows:
