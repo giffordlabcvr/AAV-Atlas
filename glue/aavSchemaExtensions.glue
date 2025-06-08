@@ -27,8 +27,7 @@ schema-project aav
 	# Taxonomy
     create field species VARCHAR 50
     create field serotype VARCHAR 50
-    create field contains_rep BOOLEAN
-    create field contains_cap BOOLEAN
+    create field coverage_category VARCHAR 50
     create field rep_lineage VARCHAR 50
     create field cap_lineage VARCHAR 50
 
