@@ -211,7 +211,7 @@ analyses/ht_analysis/
 Interpreting the Trees
 ----------------------
 
-The trees produced by this workflow support key findings reported in the associated manuscript:
+The trees produced by this workflow support key findings reported in the **[https://www.biorxiv.org/content/10.1101/2025.03.15.643461v4](associated manuscript)**:
 
 -   Capsid phylogenies differ markedly from replicase phylogenies.
 
