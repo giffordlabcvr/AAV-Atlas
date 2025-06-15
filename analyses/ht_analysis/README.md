@@ -1,7 +1,7 @@
 Horizontal Transfer Analysis in AAV-Atlas
 =========================================
 
-This section of AAV-Atlas documents a reproducible analytical workflow investigating the horizontal transmission (HT) of *cap* genes between divergent *rep* lineages in Adeno-Associated Viruses (AAVs). The workflow combines curated multiple sequence alignments, phylogenetic reconstruction, and tree rooting strategies, leveraging the GLUE framework to ensure transparency, flexibility, and reproducibility. For details on running this workflow in a containerized environment, see README-Docker.md)[README-Docker.md, which describes how Docker can be used to simplify installation and support reproducible execution across different systems.
+This section of AAV-Atlas documents a reproducible analytical workflow investigating the horizontal transmission (HT) of *cap* genes between divergent *rep* lineages in Adeno-Associated Viruses (AAVs). The workflow combines curated multiple sequence alignments, phylogenetic reconstruction, and tree rooting strategies, leveraging the GLUE framework to ensure transparency, flexibility, and reproducibility. For details on running this workflow in a containerized environment, see README-Docker.md, which describes how Docker can be used to simplify installation and support reproducible execution across different systems.
 
 Background and Rationale
 ------------------------
